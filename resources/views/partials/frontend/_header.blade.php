@@ -209,7 +209,7 @@
                         <li><a href="#" class="custom-font-1 disabled-link">DEAN MARC</a></li>
                         <li><a href="#" class="custom-font-1 disabled-link">GRANT MARC</a></li>
                         <li><a href="#" class="custom-font-1 disabled-link">WILL MARC</a></li>
-                        <li><a href="#" class="custom-font-1 disabled-link">OLENN MARC</a></li>
+                        <li><a href="#" class="custom-font-1 disabled-link">GLENN MARC</a></li>
                     </ul>
                 </li>
 
