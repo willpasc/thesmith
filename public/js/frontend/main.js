@@ -26,7 +26,7 @@
         });
     } catch(er) {console.log(er);}
 
-    
+
     /*==================================================================
     [ Back to top ]*/
     try {
@@ -58,38 +58,38 @@
     [ Header ]*/
     /*------------------------------------------------------------------
     [ Fixed Header ]*/
-    try {
-        var headerDesktop = $('.container-header-desktop');
-        var wrapMenu = $('.wrap-menu-desktop');
-        
-        if($('.top-bar').length > 0) {
-            var posWrapHeader = $('.top-bar').height();
-        }
-        else {
-            var posWrapHeader = 0;
-        }
+    // try {
+    //     var headerDesktop = $('.container-header-desktop');
+    //     var wrapMenu = $('.wrap-menu-desktop');
+    //
+    //     if($('.top-bar').length > 0) {
+    //         var posWrapHeader = $('.top-bar').height();
+    //     }
+    //     else {
+    //         var posWrapHeader = 0;
+    //     }
+    //
+    //     if($(window).scrollTop() > posWrapHeader) {
+    //         $(headerDesktop).addClass('fix-menu-desktop');
+    //         $(wrapMenu).css('top',0);
+    //     }
+    //     else {
+    //         $(headerDesktop).removeClass('fix-menu-desktop');
+    //         $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop());
+    //     }
+    //
+    //     $(window).on('scroll',function(){
+    //         if($(this).scrollTop() > posWrapHeader) {
+    //             $(headerDesktop).addClass('fix-menu-desktop');
+    //             $(wrapMenu).css('top',0);
+    //         }
+    //         else {
+    //             $(headerDesktop).removeClass('fix-menu-desktop');
+    //             $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop());
+    //         }
+    //     });
+    // } catch(er) {console.log(er);}
 
-        if($(window).scrollTop() > posWrapHeader) {
-            $(headerDesktop).addClass('fix-menu-desktop');
-            $(wrapMenu).css('top',0); 
-        }  
-        else {
-            $(headerDesktop).removeClass('fix-menu-desktop');
-            $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop()); 
-        }
-
-        $(window).on('scroll',function(){
-            if($(this).scrollTop() > posWrapHeader) {
-                $(headerDesktop).addClass('fix-menu-desktop');
-                $(wrapMenu).css('top',0); 
-            }  
-            else {
-                $(headerDesktop).removeClass('fix-menu-desktop');
-                $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop()); 
-            } 
-        });
-    } catch(er) {console.log(er);}
-        
 
 
     /*------------------------------------------------------------------
@@ -98,7 +98,7 @@
         var getMenu = $('.menu-desktop .main-menu').clone();
         $(getMenu).removeClass();
         $(getMenu).addClass('main-menu');
-            
+
         if($('.menu-mobile .main-menu').length === 0) {
             $('.menu-mobile').append(getMenu);
         }
@@ -136,7 +136,7 @@
                         $(arrowMainMenu).removeClass('active');
                     }
                 });
-                    
+
             }
         });
     } catch(er) {console.log(er);}
@@ -180,7 +180,7 @@
                     }
                 }
 
-                if(posRight >= $(window).width()) { 
+                if(posRight >= $(window).width()) {
                     var move = posRight - $(window).width();
                     obj.children('.sub-menu').css('left', '-' + move + 'px');
                 }
@@ -188,7 +188,7 @@
                     obj.children('.sub-menu').css('left', '0');
                 }
 
-                if(posRightSub >= $(window).width()) { 
+                if(posRightSub >= $(window).width()) {
                     obj.children('.sub-menu').find('.sub-menu').css({'left':'auto','right':'calc(100% + 1px)'});
                 }
                 else {
@@ -209,7 +209,7 @@
             });
         })
     } catch(er) {console.log(er);}
-    
+
     /*==================================================================
     [ Parallax100 ]*/
     try {
@@ -260,8 +260,8 @@
                 var inner = $(this).children('.progress-inner');
                 var per = $(inner).data('percent');
 
-                if($(window).scrollTop() + $(window).height() > $(this).offset().top && per != '0') { 
-                    $(inner).data('percent','0'); 
+                if($(window).scrollTop() + $(window).height() > $(this).offset().top && per != '0') {
+                    $(inner).data('percent','0');
                     inner.animate({width: per},1500);
                 }
             });
@@ -281,7 +281,7 @@
                 var filterValue = $(this).attr('data-filter');
                 $topeContainer.isotope({filter: filterValue});
             });
-            
+
         });
 
         // init Isotope
@@ -332,14 +332,14 @@
                 $(inputNum).val(numProduct + 1);
             });
         });
-            
+
     } catch(er) {console.log(er);}
 
 
     /*==================================================================
     [ Sweetalert ]*/
     try {
-        
+
         $('.js-addcart1').each(function(){
             var nameProduct = $(this).parent().find('.js-name1').html();
             $(this).on('click', function(e){
@@ -350,7 +350,7 @@
 
 
     } catch(er) {console.log(er);}
-        
+
 
     /*//////////////////////////////////////////////////////////////////
     [ Kit ]*/
@@ -373,7 +373,7 @@
             else {
                 $('.kit-pos2').css('height', 'auto');
             }
-            
+
         }
     } catch(er) {console.log(er);}
 

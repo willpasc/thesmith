@@ -11,7 +11,7 @@
 
 @section('content')
 
-    <section>
+    <section style="margin-top:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center pb-3">
@@ -73,24 +73,24 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-4">
-                    <img src="{{ asset('images/thescott/facilities/facilities-1.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/facilities/fac-1.jpg') }}" alt="img" class="w-100">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('images/thescott/facilities/facilities-2.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/facilities/fac-2.jpg') }}" alt="img" class="w-100">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('images/thescott/facilities/facilities-3.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/facilities/fac-3.jpg') }}" alt="img" class="w-100">
                 </div>
             </div>
             <div class="row no-gutters">
                 <div class="col-4">
-                    <img src="{{ asset('images/thescott/facilities/facilities-4.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/facilities/fac-4.jpg') }}" alt="img" class="w-100">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('images/thescott/facilities/facilities-5.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/facilities/fac-5.jpg') }}" alt="img" class="w-100">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('images/thescott/facilities/facilities-6.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/facilities/fac-6.jpg') }}" alt="img" class="w-100">
                 </div>
             </div>
         </div>

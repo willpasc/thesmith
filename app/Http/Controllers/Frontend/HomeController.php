@@ -77,6 +77,14 @@ class HomeController extends Controller
         return view('frontend.facilities');
     }
 
+    public function idea(){
+        return view('frontend.idea');
+    }
+
+    public function gallery(){
+        return view('frontend.gallery');
+    }
+
     public function planMaster(){
         return view('frontend.plan-master');
     }

@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend-v2')
 
 @section('head_and_title')
     <meta name="description" content="Home Page">

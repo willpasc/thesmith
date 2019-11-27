@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend-v2')
 
 @section('head_and_title')
     <meta name="description" content="Developer">
@@ -44,7 +44,7 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
+                    <p class="pb-5 header-project font-librecaslon font-italic">
                         Brooklyn<br/>
                         SOHO & Apartment
                     </p>
@@ -67,7 +67,7 @@
                     <img src="{{ asset('images/thescott/developer/img-yukata.png') }}" alt="img" class="img-project">
                 </div>
                 <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
+                    <p class="pb-5 header-project font-librecaslon font-italic">
                         Yukata Suites
                     </p>
                     <p class="txt-body font-montserrat">
@@ -85,7 +85,7 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
+                    <p class="pb-5 header-project font-librecaslon font-italic">
                         Springwood Residence
                     </p>
                     <p class="txt-body font-montserrat">
@@ -108,7 +108,7 @@
                     <img src="{{ asset('images/thescott/developer/img-smith.png') }}" alt="img" class="img-project">
                 </div>
                 <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
+                    <p class="pb-5 header-project font-librecaslon font-italic">
                         The Smith
                     </p>
                     <p class="txt-body font-montserrat">

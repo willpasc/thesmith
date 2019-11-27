@@ -41,6 +41,8 @@ Route::get('/slow', 'Frontend\HomeController@slow')->name('frontend.slow');
 Route::get('/less', 'Frontend\HomeController@less')->name('frontend.less');
 Route::get('/units', 'Frontend\HomeController@units')->name('frontend.units');
 Route::get('/facilities', 'Frontend\HomeController@facilities')->name('frontend.facilities');
+Route::get('/idea', 'Frontend\HomeController@idea')->name('frontend.idea');
+Route::get('/gallery', 'Frontend\HomeController@gallery')->name('frontend.gallery');
 Route::get('/master-plan', 'Frontend\HomeController@planMaster')->name('frontend.plan.master');
 Route::get('/partners', 'Frontend\HomeController@partners')->name('frontend.partners');
 Route::get('/floor-plan', 'Frontend\HomeController@planFloor')->name('frontend.plan.floor');

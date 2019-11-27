@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend-v2')
 
 @section('head_and_title')
     <meta name="description" content="Developer">
@@ -69,7 +69,7 @@
                     <img src="{{ asset('images/thescott/units/bedroom-image.png') }}" alt="img" class="w-100">
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="{{ asset('images/thescott/units/bedroom-denah.png') }}" alt="img" class="">
+                    <img src="{{ asset('images/thescott/units/bedroom-denah-2.png') }}" alt="img" class="bedroom-denah">
                 </div>
             </div>
             <div class="row pb-3 mb-5">
@@ -88,10 +88,10 @@
             </div>
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img src="{{ asset('images/thescott/units/2bedroom-denah.PNG') }}" alt="img" class="img-2bedroom-denah">
+                    <img src="{{ asset('images/thescott/units/2bedroom-denah-2.png') }}" alt="img" class="img-2bedroom-denah">
                 </div>
                 <div class="col-md-8">
-                    <img src="{{ asset('images/thescott/units/2bedroom-image.PNG') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/units/2bedroom-image.png') }}" alt="img" class="w-100">
                 </div>
             </div>
             <div class="row pb-3 mb-5">
@@ -118,8 +118,8 @@
             </div>
             <div class="row pb-3 mb-5">
                 <div class="col-md-12">
-                    <p class="text-dark header-units">3 Bedroom</p>
-                    <div class="row">
+                    <p class="text-dark header-units font-librecaslon">3 Bedroom</p>
+                    <div class="row font-montserrat">
                         <div class="col-md-2">
                             <p>Semi Gross : 64 Sqm</p>
                         </div>
@@ -132,10 +132,10 @@
             </div>
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img src="{{ asset('images/thescott/units/3bedroom-denah.PNG') }}" alt="img" class="img-3bedroom-denah">
+                    <img src="{{ asset('images/thescott/units/3bedroom-denah.png') }}" alt="img" class="img-3bedroom-denah">
                 </div>
                 <div class="col-md-8">
-                    <img src="{{ asset('images/thescott/units/3bedroom-image.PNG') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/units/3bedroom-image.png') }}" alt="img" class="w-100">
                 </div>
             </div>
         </div>
@@ -196,6 +196,9 @@
 
 @section('styles')
     <style type="text/css">
+        .bedroom-denah{
+            width: 254px;
+        }
         .header-spesifications{
             padding-top:10%;
             font-size: 26px;
@@ -207,7 +210,7 @@
             width:400px;
         }
         .img-2bedroom-denah{
-            width:265px;
+            width:285px;
         }
         .img-grandstudio-denah{
             width:400px;
