@@ -5,643 +5,126 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>MARCS BOULEVARD</title>
+    <title>THE SCOTT</title>
 @endsection
 
 @section('content')
 
-    <!-- Banner -->
-
-    <section class="slider">
-        <div class="rev_slider_wrapper fullwidthbanner-container">
-            <div id="rev_slider_1" class="rev_slider fullwidthabanner" data-version="5.4.5" style="display:none">
-                <ul>
-                    <!-- Slide 1 -->
-                    <li data-transition="slidingoverlayhorizontal">
-                        <img src="images/marc/home/home-1.jpg" alt="IMG-SLIDE" class="rev-slidebg">
-
-                        <h2 class="tp-caption tp-resizeme caption-1 text-uppercase" 
-                        data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-visibility="['on', 'on', 'on', 'on']"
- 
-                        data-fontsize="['48', '48', '48', '38']" 
-                        data-lineheight="['58', '58', '58', '58']"
-                        data-color="['#FFF']" 
-                        data-textAlign="['center', 'center', 'center', 'center']"
-                     
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['-83', '-83', '-83', '-93']" 
-                     
-                        data-width="['1200','992','768','480']"
-                        data-height="['auto', 'auto', 'auto', 'auto']" 
-                        data-whitespace="['normal']" 
-                     
-                        data-paddingtop="[0, 0, 0, 0]"
-                        data-paddingright="[15, 15, 15, 15]"
-                        data-paddingbottom="[0, 0, 0, 0]"
-                        data-paddingleft="[15, 15, 15, 15]"
-
-                        data-basealign="slide" 
-                        data-responsive_offset="off"
-                        >BEGIN YOUR CHAPTER</h2>
-
-                        <p class="tp-caption tp-resizeme caption-2" 
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:right;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-visibility="['on', 'on', 'on', 'on']"
- 
-                        data-fontsize="['30', '30', '30', '25']" 
-                        data-lineheight="['39', '39', '39', '39']"
-                        data-color="['#FFF']" 
-                        data-textAlign="['center', 'center', 'center', 'center']"
-                     
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['-13', '-13', '-13', '-13']" 
-                     
-                        data-width="['1200','992','768','480']"
-                        data-height="['auto', 'auto', 'auto', 'auto']" 
-                        data-whitespace="['normal']" 
-                     
-                        data-paddingtop="[0, 0, 0, 0]"
-                        data-paddingright="[15, 15, 15, 15]"
-                        data-paddingbottom="[0, 0, 0, 0]"
-                        data-paddingleft="[15, 15, 15, 15]"
-
-                        data-basealign="slide" 
-                        data-responsive_offset="off"
-                        >
-                        <Span>This is not only a home. This Home is a witness to</span>
-                        <span>those who live their story.<span>
-                        </p>
-
-                        {{-- <div class="tp-caption tp-resizeme caption-3 flex-wr-c-c d-flex"
-                        data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['88', '88', '88', '88']" 
-                     
-                        data-width="['1200','992','768','480']"
-                        data-height="['auto']" 
-                     
-                        data-paddingtop="[0, 0, 0, 0]"
-                        data-paddingright="[10, 10, 10, 10]"
-                        data-paddingbottom="[0, 0, 0, 0]"
-                        data-paddingleft="[10, 10, 10, 10]"
-
-                        data-basealign="slide" 
-                        data-responsive_offset="off"
-                        >
-                            <a href="projects-grid.html" class="btn1 flex-c-c">
-                                Our project
-                            </a>
-
-                            <a href="about.html" class="btn2 flex-c-c">
-                                Learn more
-                            </a>
-                        </div> --}}
-                    </li>
-
-                    <!-- Slide 2 -->
-                    {{--<li data-transition="slidingoverlayvertical">--}}
-                        {{--<img src="images/marc/home/home-2.jpg" alt="IMG-SLIDE" class="rev-slidebg">--}}
-
-                        {{--<h2 class="tp-caption tp-resizeme caption-1 text-uppercase" --}}
-                        {{--data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'--}}
-                        {{--data-visibility="['on', 'on', 'on', 'on']"--}}
- {{----}}
-                        {{--data-fontsize="['48', '48', '48', '38']" --}}
-                        {{--data-lineheight="['58', '58', '58', '58']"--}}
-                        {{--data-color="['#FFF']" --}}
-                        {{--data-textAlign="['center', 'center', 'center', 'center']"--}}
-                     {{----}}
-                        {{--data-x="['center']" --}}
-                        {{--data-y="['center']" --}}
-                        {{--data-hoffset="['0', '0', '0', '0']" --}}
-                        {{--data-voffset="['-83', '-83', '-83', '-93']" --}}
-                     {{----}}
-                        {{--data-width="['1200','992','768','480']"--}}
-                        {{--data-height="['auto', 'auto', 'auto', 'auto']" --}}
-                        {{--data-whitespace="['normal']" --}}
-                     {{----}}
-                        {{--data-paddingtop="[0, 0, 0, 0]"--}}
-                        {{--data-paddingright="[15, 15, 15, 15]"--}}
-                        {{--data-paddingbottom="[0, 0, 0, 0]"--}}
-                        {{--data-paddingleft="[15, 15, 15, 15]"--}}
-
-                        {{--data-basealign="slide" --}}
-                        {{--data-responsive_offset="off"--}}
-                        {{-->BEGIN YOUR CHAPTER</h2>--}}
-
-                        {{--<p class="tp-caption tp-resizeme caption-2" --}}
-                        {{--data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'--}}
-                        {{--data-visibility="['on', 'on', 'on', 'on']"--}}
- {{----}}
-                        {{--data-fontsize="['30', '30', '30', '25']" --}}
-                        {{--data-lineheight="['39', '39', '39', '39']"--}}
-                        {{--data-color="['#FFF']" --}}
-                        {{--data-textAlign="['center', 'center', 'center', 'center']"--}}
-                     {{----}}
-                        {{--data-x="['center']" --}}
-                        {{--data-y="['center']" --}}
-                        {{--data-hoffset="['0', '0', '0', '0']" --}}
-                        {{--data-voffset="['-13', '-13', '-13', '-13']" --}}
-                     {{----}}
-                        {{--data-width="['1200','992','768','480']"--}}
-                        {{--data-height="['auto', 'auto', 'auto', 'auto']" --}}
-                        {{--data-whitespace="['normal']" --}}
-                     {{----}}
-                        {{--data-paddingtop="[0, 0, 0, 0]"--}}
-                        {{--data-paddingright="[15, 15, 15, 15]"--}}
-                        {{--data-paddingbottom="[0, 0, 0, 0]"--}}
-                        {{--data-paddingleft="[15, 15, 15, 15]"--}}
-
-                        {{--data-basealign="slide" --}}
-                        {{--data-responsive_offset="off"--}}
-                        {{-->--}}
-                        {{--This is not only a home. This Home is a witness to--}}
-                        {{--those who live their story.--}}
-                        {{--</p>--}}
-
-                        {{-- <div class="tp-caption tp-resizeme caption-3 flex-wr-c-c d-flex"
-                        data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['88', '88', '88', '88']" 
-                     
-                        data-width="['1200','992','768','480']"
-                        data-height="['auto']" 
-                     
-                        data-paddingtop="[0, 0, 0, 0]"
-                        data-paddingright="[10, 10, 10, 10]"
-                        data-paddingbottom="[0, 0, 0, 0]"
-                        data-paddingleft="[10, 10, 10, 10]"
-
-                        data-basealign="slide" 
-                        data-responsive_offset="off"
-                        >
-                            <a href="projects-grid.html" class="btn1 flex-c-c">
-                                Our project
-                            </a>
-
-                            <a href="about.html" class="btn2 flex-c-c">
-                                Learn more
-                            </a>
-                        </div> --}}
-                    </li>
-
-                    <!-- Slide 3 -->
-                    {{--<li data-transition="boxslide">--}}
-                        {{--<img src="images/marc/home/home-4.jpg" alt="IMG-SLIDE" class="rev-slidebg">--}}
-
-                        {{--<h2 class="tp-caption tp-resizeme caption-1 text-uppercase" --}}
-                        {{--data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:-500px;skX:85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'--}}
-                        {{--data-visibility="['on', 'on', 'on', 'on']"--}}
- {{----}}
-                        {{--data-fontsize="['48', '48', '48', '38']" --}}
-                        {{--data-lineheight="['58', '58', '58', '58']"--}}
-                        {{--data-color="['#FFF']" --}}
-                        {{--data-textAlign="['center', 'center', 'center', 'center']"--}}
-                     {{----}}
-                        {{--data-x="['center']" --}}
-                        {{--data-y="['center']" --}}
-                        {{--data-hoffset="['0', '0', '0', '0']" --}}
-                        {{--data-voffset="['-83', '-83', '-83', '-93']" --}}
-                     {{----}}
-                        {{--data-width="['1200','992','768','480']"--}}
-                        {{--data-height="['auto', 'auto', 'auto', 'auto']" --}}
-                        {{--data-whitespace="['normal']" --}}
-                     {{----}}
-                        {{--data-paddingtop="[0, 0, 0, 0]"--}}
-                        {{--data-paddingright="[15, 15, 15, 15]"--}}
-                        {{--data-paddingbottom="[0, 0, 0, 0]"--}}
-                        {{--data-paddingleft="[15, 15, 15, 15]"--}}
-
-                        {{--data-basealign="slide" --}}
-                        {{--data-responsive_offset="off"--}}
-                        {{-->BEGIN YOUR CHAPTER</h2>--}}
-
-                        {{--<p class="tp-caption tp-resizeme caption-2" --}}
-                        {{--data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:500px;skX:-85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'--}}
-                        {{--data-visibility="['on', 'on', 'on', 'on']"--}}
- {{----}}
-                        {{--data-fontsize="['30', '30', '30', '25']" --}}
-                        {{--data-lineheight="['39', '39', '39', '39']"--}}
-                        {{--data-color="['#FFF']" --}}
-                        {{--data-textAlign="['center', 'center', 'center', 'center']"--}}
-                     {{----}}
-                        {{--data-x="['center']" --}}
-                        {{--data-y="['center']" --}}
-                        {{--data-hoffset="['0', '0', '0', '0']" --}}
-                        {{--data-voffset="['-13', '-13', '-13', '-13']" --}}
-                     {{----}}
-                        {{--data-width="['1200','992','768','480']"--}}
-                        {{--data-height="['auto', 'auto', 'auto', 'auto']" --}}
-                        {{--data-whitespace="['normal']" --}}
-                     {{----}}
-                        {{--data-paddingtop="[0, 0, 0, 0]"--}}
-                        {{--data-paddingright="[15, 15, 15, 15]"--}}
-                        {{--data-paddingbottom="[0, 0, 0, 0]"--}}
-                        {{--data-paddingleft="[15, 15, 15, 15]"--}}
-
-                        {{--data-basealign="slide" --}}
-                        {{--data-responsive_offset="off"--}}
-                        {{-->--}}
-                        {{--This is not only a home. This Home is a witness to--}}
-                        {{--those who live their story.--}}
-                        {{--</p>--}}
-
-                        {{-- <div class="tp-caption tp-resizeme caption-3 flex-wr-c-c d-flex"
-                        data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"y:bottom;rZ:90deg;sX:2;sY:2;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['88', '88', '88', '88']" 
-                     
-                        data-width="['1200','992','768','480']"
-                        data-height="['auto']" 
-                     
-                        data-paddingtop="[0, 0, 0, 0]"
-                        data-paddingright="[10, 10, 10, 10]"
-                        data-paddingbottom="[0, 0, 0, 0]"
-                        data-paddingleft="[10, 10, 10, 10]"
-
-                        data-basealign="slide" 
-                        data-responsive_offset="off"
-                        >
-                            <a href="projects-grid.html" class="btn1 flex-c-c">
-                                Our project
-                            </a>
-
-                            <a href="about.html" class="btn2 flex-c-c">
-                                Learn more
-                            </a>
-                        </div> --}}
-                    </li>
-                </ul>				
-            </div>
-        </div>
-    </section>
-    {{-- <section class="m-b-50">
-
-        <div class="container-fluid px-0">
-            <!--  -->
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/marc/home/home-1.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <div class="d-none d-md-block">
-                                <h1 class="t1-b-1 white custom-font-2">BEGIN YOUR CHAPTER</h1>
-                                <br/>
-                                <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;"/>
-                                <br/>
-                                <span class="t1-m-1 white custom-font-2">"This is not only a home. This Home is a witness to</span><b4/>
-                                <span class="t1-m-1 white custom-font-2">those who live their story."</span>
-                            </div>
-                            <div class="d-block d-md-none p-3">
-                                <h1 class="t1-b-1 white custom-font-2">BEGIN</h1>
-                                <h1 class="t1-b-1 white custom-font-2">YOUR</h1>
-                                <h1 class="t1-b-1 white custom-font-2">CHAPTER</h1>
-                                <br/>
-                                <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;"/>
-                                <br/>
-                                <span class="t1-m-1 white custom-font-2">"This is not only a home. This Home is a witness to</span><b4/>
-                                <span class="t1-m-1 white custom-font-2">those who live their story."</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    <!-- Paul Marc Desktop -->
-    <section class="m-b-50 d-none d-md-block">
-        <div class="container">
-            <!--  -->
-            <div class="row">
-                <div class="col-md-6 col-12 mb-md-0 mb-3">
-                    <div class="w-100 img-house-responsive" style="background-image: url('{{ asset('images/marc/home/home-6.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;">
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="row mb-md-5 mb-3 mt-md-5">
-                        <div class="col-12 text-center">
-                            <h1 class="t1-b-1 custom-font-1 text-dark">INTRODUCING</h1>
-                        </div>
-                    </div>
-                    <div class="row mb-md-5 mb-3">
-                        <div class="col-12 text-center">
-                            <img class="img-paulmarc-responsive" src="{{ asset('images/marc/home/home-3.png') }}">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-center btn-paulmarc-more">
-                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-25 p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;">MORE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Paul Marc Mobile -->
-    <section class="d-block d-md-none">
-        <div class="container-fluid px-0">
-            <!--  -->
-            <div class="row no-gutters">
-                <div class="col-12 mb-5">
-                    <div class="row no-gutters mb-5">
-                        <div class="col-12 text-center">
-                            <h1 class="t1-m-1 custom-font-1 text-dark font-weight-bold pt-4">INTRODUCING</h1>
-                        </div>
-                    </div>
-                    <div class="row no-gutters mb-5">
-                        <div class="col-12 text-center">
-                            <img src="{{ asset('images/marc/home/home-3.png') }}" height="130">
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-12 text-center btn-paulmarc-more">
-                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark p-2 t1-s-1 font-weight-bold bg-custom-dark" style="border-radius: 30px; width: 150px;">MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="w-100 img-house-responsive" style="background-image: url('{{ asset('images/marc/home/home-2.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Within Marc's Boulevard DESKTOP -->
-    <section class="mb-md-0 mb-4 d-none d-md-block">
-        <div class="container-fluid py-md-5 py-3 bg-1">
-            <!--  -->
-            <div class="row justify-content-center mb-4">
-                <div class="col-12 text-center">
-                    <h1 class="t1-m-1 custom-font-1" style="color: #fff;">WITHIN MARC'S BOULEVARD</h1>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-1"></div>
-                <div class="col-md-2 col-6 px-md-1 mb-md-0 mb-3">
-                    <a href="{{ route('frontend.paul.introduction') }}">
-                        <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                background-size: cover;
-                                height: 480px;">
-                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                                <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="130" class="m-auto">
-                            </div>
-                        </div>
+<section class="bg-home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="{{ asset('images/thescott/home/web-cekot-preview 3-17.png') }}" alt="img" class="img-cekot-home">
+                <p class="essentialy font-montserrat">LIVE ESSENTIALY</p>
+                <div>
+                    <a href="http://scotthomestudio.com/img/Ecatalogue_the_scott.pdf">
+                        <img src="{{ asset('images/thescott/home/web-cekot-preview 3-18.png') }}" alt="img" class="img-btn-donlod">
+                        <p class="font-montserrat text-white txt-download">DOWNLOAD</p>
                     </a>
                 </div>
-                <div class="col-md-2 col-6 mb-md-0 mb-3">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white custom-font-2">Dean Marc</span>
-                            <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-6 mb-md-0 mb-3">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-3.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white custom-font-2">Grant Marc</span>
-                            <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-6 mb-md-0 mb-3">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-4.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white custom-font-2">Will Marc</span>
-                            <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-6">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white custom-font-2">Glenn Marc</span>
-                            <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
             </div>
         </div>
-    </section>
-
-    <!-- Within Marc's Boulevard MOBILE -->
-    <section class="d-block d-md-none">
-        <div class="container-fluid px-0 bg-1">
-            <!--  -->
-            <div class="row no-gutters">
-                <div class="col-12 text-center">
-                    <h1 class="t1-s-1 custom-font-1 font-weight-bold py-4" style="color: #fff;">WITHIN MARC'S BOULEVARD</h1>
+    </div>
+</section>
+<section class="pt-5">
+    <div class="container">
+        <div class="row no-gutters px-5">
+            <div class="col-md-6">
+                <a href="{{ route('frontend.slow') }}">
+                <div class="img-home-2 txt-spacing text-white">
+                    <p class="txt-spacing-header font-librecaslon">SLOW LIVING</p>
+                    <p class="readmore font-montserrat">Read More</p>
                 </div>
+                </a>
             </div>
-            <div class="row no-gutters">
-                <div class="col-12 px-4 mb-4">
-                    <div class="slider-within mx-2">
-                        <div class="px-1">
-                            <a href="{{ route('frontend.paul.introduction') }}">
-                                <div style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
-                                        background-repeat: no-repeat;
-                                        background-position: center;
-                                        background-size: cover;
-                                        height: 300px;">
-                                    <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                        <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="100" class="m-auto">
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="px-1">
-                            <div style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: cover;
-                                    height: 300px;">
-                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                    <span class="t1-s-1 text-white custom-font-2">Dean Marc</span>
-                                    <hr class="w-25 mx-auto border-white"/>
-                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="px-1">
-                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-3.jpg') }}');
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: cover;
-                                    height: 300px;">
-                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                    <span class="t1-s-1 text-white custom-font-2">Grant Marc</span>
-                                    <hr class="w-25 mx-auto border-white"/>
-                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="px-1">
-                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-4.jpg') }}');
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: cover;
-                                    height: 300px;">
-                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                    <span class="t1-s-1 text-white custom-font-2">Will Marc</span>
-                                    <hr class="w-25 mx-auto border-white"/>
-                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="px-1">
-                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: cover;
-                                    height: 300px;">
-                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                    <span class="t1-s-1 text-white custom-font-2">Glenn Marc</span>
-                                    <hr class="w-25 mx-auto border-white"/>
-                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-md-6">
+                <a href="{{ route('frontend.less') }}">
+                <div class="img-home-3">
+                    <div class="img-home-3 txt-spacing text-white">
+                        <p class="txt-spacing-header font-librecaslon">LESS IS MORE</p>
+                        <p class="readmore font-montserrat">Read More</p>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
-    </section>
-
-    {{-- <section class="bg-0 p-t-0 p-b-20">
-            <div class="container">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center text-dark px-5">
+                <p class="txt-header-body py-5 font-librecaslon">LIVE ESSENTIALLY</p>
                 <div class="row">
-                    <div class="col-12">
-                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                        <img class="w-100" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-01.jpg') }}" height="300"/>
-                                </div>
-                                <div class="carousel-item">
-                                        <img class="w-100" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-02.jpg') }}" height="400"/>
-                                </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                                </a>
-                            </div>
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                <p class="txt-live pb-4 font-montserrat">For recent decades, the simplicity of decision making seemed to fade. Hundreds of choices are stretched widely, beginning from the attire we pick, lunch menu up to
+                    Netflix programs. Complexity has clouded decisionmakingprocesses, igniting bias energy that could compromise productivity. This is where Essentialism sets its place, offeringperfect
+                    lifestyle choices in this tireless modern world.</p>
+                <p class="txt-live font-montserrat">Essentialism is a focused lifestyle that highlights essential needs that shares a strong impact in one’s life, eliminating unproductive tasks in the process.
+                    An Essentialist believes in an affluent lifestyle, attained in a minimalist manner. Triniti Land stimulates the need of reflecting
+                    The Essentialism concept within the newly built apartment, The Scott Residence.</p>
                     </div>
-                </div> --}}
-                {{-- <div class="flex-col-c-c p-b-10">
-                    <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
-                </div> --}}
+                    <div class="col-1"></div>
+                </div>
+                <img src="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" alt="img" class="py-5 img-cekotlogo2">
             </div>
-        </section>
-
-    <section class="m-b-50">
-
-        <div class="container-fluid px-0">
-            <!--  -->
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <div class="w-100 img-house-responsive" style="background-image: url('{{ asset('images/marc/home/home-4.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;">
-                    </div>
+        </div>
+    </div>
+</section>
+    <section>
+        <div class="row no-gutters">
+            <div class="col-12">
+                <img src="{{ asset('images/thescott/home/web-cekot-preview-3-16.jpg') }}" alt="img" style="width:100%">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12 text-center text-dark">
+                    <p class="txt-header-body font-librecaslon">WHAT SOUTH TANGERANG HAS TO OFFER</p>
+                </div>
+            </div>
+            <div class="row text-center pb-5">
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-23.png') }}" alt="img" style="width:200px">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-22.png') }}" alt="img" style="width:200px">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-21.png') }}" alt="img" style="width:200px">
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Finely Crafted -->
-    <section class="m-b-50">
+    <section class="pb-5">
         <div class="container">
-            <!--  -->
-            <div class="row mb-5 mb-md-4">
-                <div class="col-md-6 col-12 mb-2 mb-md-0 text-center text-md-right">
-                    <span class="text-dark custom-font-1 text-finely-crafted">FINELY CRAFTED BY</span>
+            <div class="row px-2">
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-13.jpg') }}" alt="img" class="text-center" style="width:380px">
+                    <p class="txt-header-body py-3 text-dark font-librecaslon">ADAPTABLE SPACE</p>
+                    <p class="txt-body pr-3 font-montserrat">Initiating a minimalist home where functions matters most,
+                        each unit at The Scott is installed with multi-purpose
+                        interiors that adapts to your demands effortlessly. Whether
+                        you seek for a cozy night sleep or a daylight working space,
+                        let the room transform seamlessly, without compromising
+                        any comfort.</p>
                 </div>
-                <div class="col-md-6 col-12 text-center text-md-left">
-                    <a href="https://trinitiland.com" target="_blank">
-                        <img class="img-trinity-responsive" src="{{ asset('images/marc/home/home-5.png') }}">
-                    </a>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-14.jpg') }}" alt="img" class="text-center" style="width:380px">
+                    <p class="txt-header-body py-3 text-dark font-librecaslon">ROOM FOR CREATORS</p>
+                    <p class="txt-body pr-3 font-montserrat">Built thoughtfully for creators, every room is designed
+                        perfectly for productive pursuits, elegantly incorporating
+                        coziness as the creative mind invents its best.</p>
                 </div>
-            </div>
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <div class="d-none d-md-block">
-                        <span class="t1-b-1 text-dark custom-font-2">CRAFTING NEW </span>
-                        <span class="t1-b-1 gold custom-font-2">HORIZON</span>
-                    </div>
-                    <div class="d-block d-md-none">
-                        <span class="t1-b-1 text-dark custom-font-2">CRAFTING</span><br/>
-                        <span class="t1-b-1 text-dark custom-font-2">NEW </span>
-                        <span class="t1-b-1 gold custom-font-2"> HORIZON</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-12 text-center text-md-left">
-                    <p>Initiated in 2009, PT Perintis Triniti Properti (Triniti Property Group) commenced its
-                        journey with its first 5-hectare land development project, Ubud Village, by the golden
-                        hands of the Founders, Septian Starlin, Matius Jusuf, Bong Chandra, and Yohanes L.
-                        Andayaprana. Developments of iconic projects began since 2014 untill 2017,
-                        introducing thoughtful lands namely Brooklyn, Springwood Residence, Yukata Suites,
-                        The Smith, and Collins Boulevard. Four of its five properties were booked up to 90%,</p>
-                    <br/>
-                </div>
-                <div class="col-md-6 col-12 text-center text-md-left">
-                    <p>gaining more than hundreds million US$ revenue in no time. The success brought Triniti
-                        Property Group emerged with a new face named Triniti Land, while launching its Rp 5
-                        trillion worth Superblock Project, Collins Boulevard, in 2018. Reaching its 9th year of
-                        building and innovating, Triniti Land plans to commence an Initial Public Offering (Go
-                        Public) and create masterplans of building Township Development scale projects in
-                        Jakarta, Tangerang, and Batam.</p>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-15.jpg') }}" alt="img" class="text-center" style="width:380px">
+                    <p class="txt-header-body py-3 text-dark font-librecaslon">THE 1<sup>ST</sup> IOT RESIDENCE</p>
+                    <p class="txt-body pr-4 font-montserrat">Renowned as a pioneer for an innovative residence at
+                        Serpong, The Scott proudly delivers an in-built
+                        IOT technology that integrates to your needs flawlessly,
+                        defining a perfect home for those seeking an ultimate
+                        contentment.</p>
                 </div>
             </div>
         </div>
@@ -653,6 +136,77 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style>
+        .txt-download{
+            letter-spacing: 0.3rem;
+            margin-top: -30px;
+        }
+        .img-btn-donlod{
+            width: 160px;
+            padding-top:100px;
+        }
+        .img-cekotlogo2{
+            width:50px;
+        }
+        sup {
+            vertical-align: super;
+            font-size: 13px;
+            top:-1.5px;
+
+        }
+        .txt-live{
+            line-height: 1.5em;
+        }
+        .txt-header-body{
+            font-size:26px;
+        }
+        .readmore{
+            font-size: 13px;
+        }
+        .txt-spacing-header{
+            letter-spacing: 0.5rem;
+            font-size:26px;
+            padding-bottom: 5px;
+        }
+        .txt-spacing{
+            padding-left: 50px;
+            padding-top: 45%;
+        }
+        .img-home-2{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: auto;
+            height: 348px;
+            margin-right: 5px;
+        }
+        .img-home-3{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: auto;
+            height: 348px;
+            margin-left: 5px;
+        }
+        .essentialy{
+            color: #cec6af;
+            font-size: 18px;
+            letter-spacing: 0.5rem;
+            padding-top: 10px;
+        }
+        .img-cekot-home{
+            padding-top: 15%;
+            width: 400px;
+        }
+        .bg-home{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-10.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 755px;
+        }
 
         /* .carousel-control-prev {
             filter: invert(100%);

@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 Project: Arges
 Version: 1.0
-Last change:  
+Last change:
 Assigned to:  Le Xuan Bach
 Primary use:  Company
 -------------------------------------------------------------------*/
@@ -21,7 +21,7 @@ Primary use:  Company
 
 # Text Color      :  #333, #555, #666
 # Primary Color 01:  #05233a
-# Primary Color 02:  #16a086 
+# Primary Color 02:  #16a086
 
 ------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -225,7 +225,7 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 [ Header Desktop ]*/
 .container-header-desktop {
-  height: 150px;
+  height: 70px;
   width: 100%;
   position: relative;
   -webkit-transition: all 0.3s;
@@ -252,10 +252,11 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
 .wrap-menu-desktop {
   position: fixed;
   z-index: 1100;
-  background-color: #fff;
+  /*background-color: rgba(0,0,0, 0.1);*/
+    background-color: black;
   width: 100%;
   height: 100px;
-  top: 50px;
+  /*top: 50px;*/
   left: 0px;
 
   -webkit-transition: height 0.3s, background-color 0.3s;
@@ -2530,7 +2531,7 @@ input.num-product::-webkit-inner-spin-button {
 
 
 /*==================================================================
- KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT  
+ KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT
 ==================================================================*/
 
 .kit-overlay2,
@@ -2885,7 +2886,7 @@ input.num-product::-webkit-inner-spin-button {
 
 
 /*==================================================================
-   OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER 
+   OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER
 ==================================================================*/
 .txt-line-through {text-decoration: line-through;}
 

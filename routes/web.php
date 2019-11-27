@@ -37,6 +37,10 @@ Route::get('/masterplan', 'Frontend\HomeController@masterplan')->name('frontend.
 Route::get('/introduction', 'Frontend\HomeController@introduction')->name('frontend.introduction');
 Route::get('/location', 'Frontend\HomeController@location')->name('frontend.location');
 Route::get('/developer', 'Frontend\HomeController@developer')->name('frontend.developer');
+Route::get('/slow', 'Frontend\HomeController@slow')->name('frontend.slow');
+Route::get('/less', 'Frontend\HomeController@less')->name('frontend.less');
+Route::get('/units', 'Frontend\HomeController@units')->name('frontend.units');
+Route::get('/facilities', 'Frontend\HomeController@facilities')->name('frontend.facilities');
 Route::get('/master-plan', 'Frontend\HomeController@planMaster')->name('frontend.plan.master');
 Route::get('/partners', 'Frontend\HomeController@partners')->name('frontend.partners');
 Route::get('/floor-plan', 'Frontend\HomeController@planFloor')->name('frontend.plan.floor');

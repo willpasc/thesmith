@@ -1,3 +1,24 @@
+/*font*/
+
+.font-librecaslon {
+    font-family: 'libre_caslon_textregular', sans-serif !important;
+}
+
+.font-montserrat {
+    font-family: 'montserratregular', sans-serif !important;
+}
+
+
+
+.header-footer{
+    font-size:18px;
+    font-weight:bold;
+}
+.txt-body{
+    font-size: 13px;
+    line-height: 1.8em;
+}
+
 .gold{
     color: #d1ac60 !important;
 }
@@ -129,6 +150,32 @@
     font-family: 'chapazaregular';
     src: url('../../fonts/chapaza-webfont.woff2') format('woff2'),
     url('../../fonts/chapaza-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'libre_caslon_textregular';
+    /*src: url('../../fonts/librecaslon/librecaslontext-regular-webfont.eot');*/
+    src: url('../../fonts/librecaslon/librecaslontext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.woff2') format('woff2'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.woff') format('woff'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.ttf') format('truetype'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.svg#libre_caslon_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    /*src: url('../../fonts/montserrat/montserrat-regular-webfont.eot');*/
+    src: url('../../fonts/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.woff') format('woff'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
     font-weight: normal;
     font-style: normal;
 

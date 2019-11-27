@@ -61,6 +61,22 @@ class HomeController extends Controller
         return view('frontend.developer');
     }
 
+    public function slow(){
+        return view('frontend.slow');
+    }
+
+    public function less(){
+        return view('frontend.less');
+    }
+
+    public function units(){
+        return view('frontend.units');
+    }
+
+    public function facilities(){
+        return view('frontend.facilities');
+    }
+
     public function planMaster(){
         return view('frontend.plan-master');
     }

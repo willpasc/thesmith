@@ -1,0 +1,69 @@
+.custom-font-avenir-black {
+    font-family: 'avenir-black', sans-serif !important;
+}
+
+.custom-font-avenir-medium {
+    font-family: 'avenir-medium', sans-serif !important;
+    line-height: 1.8em;
+}
+
+.custom-font-avenir-light {
+    font-family: 'avenir-light', sans-serif !important;
+}
+
+.custom-font-angleciapro-regular {
+    font-family: 'anglecia_pro_dspregular', sans-serif !important;
+}
+
+.custom-font-ubuntu-regular {
+    font-family: 'ubunturegular', sans-serif !important;
+}
+
+.custom-font-ubuntu-lightregular {
+    font-family: 'ubuntu_lightregular', sans-serif !important;
+}
+
+.font-librecaslon {
+    font-family: 'libre_caslon_textregular', sans-serif !important;
+}
+
+.font-montserrat {
+    font-family: 'montserratregular', sans-serif !important;
+}
+
+
+@font-face {
+    font-family: 'avenir-black';
+    src: url('../../fonts/avenir/Avenir-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/avenir/Avenir-Black.woff') format('woff'),
+        url('../../fonts/avenir/Avenir-Black.ttf') format('truetype'),
+        url('../../fonts/avenir/Avenir-Black.svg#Avenir-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_caslon_textregular';
+    /*src: url('../../fonts/librecaslon/librecaslontext-regular-webfont.eot');*/
+    src: url('../../fonts/librecaslon/librecaslontext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.woff2') format('woff2'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.woff') format('woff'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.ttf') format('truetype'),
+    url('../../fonts/librecaslon/librecaslontext-regular-webfont.svg#libre_caslon_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    /*src: url('../../fonts/montserrat/montserrat-regular-webfont.eot');*/
+    src: url('../../fonts/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.woff') format('woff'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+    url('../../fonts/montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
