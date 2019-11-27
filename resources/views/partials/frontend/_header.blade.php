@@ -277,7 +277,7 @@
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="#" class="text-white font-montserrat">FACILITIES</a>
+                            <a href="{{route('frontend.facilities')}}" class="text-white font-montserrat">FACILITIES</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="news-grid.html">News Grid</a></li>--}}
 {{--                                <li><a href="news-list.html">News List</a></li>--}}

@@ -12,91 +12,85 @@
 @section('content')
 
     <section>
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-12 text-center">
-                    <div class="border-developer py-5">
-                        <img src="{{ asset('images/thescott/facilities/keyfeatures.png') }}" alt="logo" class="img-ourproject">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center pb-3">
+                    <div class="border-developer pt-5">
+                        <img src="{{ asset('images/thescott/facilities/keyfeatures.png') }}" alt="img" class="img-ourproject">
                     </div>
                 </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
-                        Brooklyn<br/>
-                        SOHO & Apartment
-                    </p>
-                    <p class="txt-body font-montserrat">
-                        New York inspired, Brooklyn stands<br/>
-                        gracefully in 2 towers & 900 units<br/>
-                        developed by Waskita Karya & Triniti Group.<br/>
-                        A masterpiece and the first mixed-use building in<br/>
-                        Alam Sutera built in 2014 and finished in 2016.<br/>
-                        More information are available at<br/>
-                        www.brooklynalamsutera.com
-                    </p>
+            <div class="row" style="margin-top: -50px;">
+                <div class="col-6 border-key">
+                    <img src="{{ asset('images/thescott/facilities/timeless.png') }}" alt="img" class="w-100 pb-5">
+                    <p class="txt-timeless font-librecaslon text-dark text-center pb-3">TIMELESS DESIGN</p>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                    <p class="txt-body text-center font-montserrat">Relish the beauty of timeless design and colors within
+                        the interiors of your home, carefully selected for your
+                        eternal comfort.</p>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
                 </div>
-                <div class="col-md-7">
-                    <img src="{{ asset('images/thescott/developer/img-brooklyn.png') }}" alt="img" class="img-project">
+                <div class="col-3">
+                    <div class="pb-4">
+                        <img src="{{ asset('images/thescott/facilities/key1.png') }}" alt="img" class="img-key">
+                        <p class="text-body font-librecaslon pt-2">SPACE SAVER INSTALLATION</p>
+                    </div>
+                    <div class="pb-4">
+                        <img src="{{ asset('images/thescott/facilities/key3.png') }}" alt="img" class="img-key">
+                        <p class="text-body font-librecaslon pt-2">DEEP APPROACHED FACILITIES</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div style="padding-bottom:2rem;">
+                        <img src="{{ asset('images/thescott/facilities/key2.png') }}" alt="img" class="img-key">
+                        <p class="text-body font-librecaslon pt-2">ENERGY SAVER</p>
+                    </div>
+                    <div class="pb-4">
+                        <img src="{{ asset('images/thescott/facilities/key4.png') }}" alt="img" class="img-key">
+                        <p class="text-body font-librecaslon pt-2">DRIVE LESS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="">
+        <div class="container-fluid bg-facilities">
+            <div class="row no-gutters">
+                <div class="col-2"></div>
+                <div class="col-8 text-center text-white">
+                    <p class="txt-facilities font-librecaslon pb-4">FACILITIES</p>
+                    <p class="txt-body font-montserrat">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobo
+                        rtis ni unvalor unum et quisapre ompre de impel down.</p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/facilities/facilities-1.png') }}" alt="img" class="w-100">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/facilities/facilities-2.png') }}" alt="img" class="w-100">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/facilities/facilities-3.png') }}" alt="img" class="w-100">
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-md-7">
-                    <img src="{{ asset('images/thescott/developer/img-yukata.png') }}" alt="img" class="img-project">
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/facilities/facilities-4.png') }}" alt="img" class="w-100">
                 </div>
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
-                        Yukata Suites
-                    </p>
-                    <p class="txt-body font-montserrat">
-                        Yukata Suites is the first Japanese Resort<br/>
-                        Condominium in Alam Sutera presented by Waskita<br/>
-                        Karya & Triniti Group. The premium facilities it offers<br/>
-                        surely blow the mind; from Japanese hot spring (onsen),<br/>
-                        smart home system, private lift and Zen Garden. Yukata<br/>
-                        Suites has elected to be the best Apartment in Serpong<br/>
-                        2015 according to Consumer Choice Award.<br/>
-                        More information are available at<br/>
-                        www.yukatasuites.com
-                    </p>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/facilities/facilities-5.png') }}" alt="img" class="w-100">
                 </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
-                        Springwood Residence
-                    </p>
-                    <p class="txt-body font-montserrat">
-                        When it comes to prestige,<br/>
-                        Springwood Residence is the first<br/>
-                        prestigious apartment in Jl Raya Serpong.<br/>
-                        Consist of 1,400 units within only 1 minute from exit toll<br/>
-                        Serpong, Mall Alam Sutera and Binus University,<br/>
-                        Springwood Residence finish the construction in<br/>
-                        2017. More information are available at<br/>
-                        www.springwoodresidence.com
-                    </p>
-                </div>
-                <div class="col-md-7">
-                    <img src="{{ asset('images/thescott/developer/img-springwood.png') }}" alt="img" class="img-project">
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-md-7">
-                    <img src="{{ asset('images/thescott/developer/img-smith.png') }}" alt="img" class="img-project">
-                </div>
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon">
-                        The Smith
-                    </p>
-                    <p class="txt-body font-montserrat">
-                        The Smith is considered as the Silicon Valley of<br/>
-                        Alam Sutera. Featuring the first<br/>
-                        3.0 Small Office Home Office (SOHO) and the<br/>
-                        most advance smart office with<br/>
-                        Sillicon Valley facility. More information are<br/>
-                        available at www.thesmith.co.id
-                    </p>
+                <div class="col-4">
+                    <img src="{{ asset('images/thescott/facilities/facilities-6.png') }}" alt="img" class="w-100">
                 </div>
             </div>
         </div>
@@ -105,6 +99,29 @@
 
 @section('styles')
     <style type="text/css">
+        .txt-facilities{
+            font-size: 26px;
+            padding-top:35%;
+        }
+        .bg-facilities{
+            background-image: url('{{ asset('images/thescott/facilities/bg-facilities.png') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: auto;
+            height: 756px;
+
+        }
+        .img-key{
+            width:244px;
+        }
+        .txt-timeless{
+            font-size: 26px;
+        }
+        .border-key{
+            border-right: 1px solid black;
+            height:545px;
+        }
         .project-padds-1{
             padding-left: 6rem !important;
             padding-top: 5rem;
@@ -125,9 +142,9 @@
         }
         .border-developer{
             border-top: 1px solid black;
-            width: 85%;
+            width: 100%;
             margin-top: 70px;
-            margin-left: 120px;
+            margin-left: 0px;
         }
         .header-developer{
             font-size: 26px;

@@ -37,7 +37,7 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 text-center">
-                    <div class="border-developer py-5">
+                    <div class="border-developer pt-5">
                         <img src="{{ asset('images/thescott/developer/ourproject.png') }}" alt="logo" class="img-ourproject">
                     </div>
                 </div>
