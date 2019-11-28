@@ -11,7 +11,7 @@
 
 @section('content')
 
-    <section style="margin-top:100px;">
+    <section class='desktop-top'>
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center pb-3">
@@ -91,6 +91,9 @@
             height: 756px;
 
         }
+        .text-body{
+            color: black;
+        }
         .img-gallery-short{
             width:244px;
         }
@@ -161,6 +164,9 @@
         }
 
         @media (min-width: 1200px) {
+            .desktop-top{
+                margin-top:100px;
+            }
             .header-img{
                 min-height: 400px;
                 width: 100%;

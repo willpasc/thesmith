@@ -327,115 +327,29 @@
         </div>
 
         <div class="menu-mobile">
-            <ul class="top-bar-m p-l-20 p-tb-8">
+            <ul class="main-menu" style="background-color: black;">
                 <li>
-                    <div class="t1-s-1 cl-5 p-tb-3">
-							<span class="fs-16 m-r-6">
-								<i class="fa fa-home" aria-hidden="true"></i>
-							</span>
-                        <span>379 5Th Ave New York, Nyc 10018</span>
-                    </div>
+                    <a href="{{ route('home') }}" class="text-white font-montserrat">HOME</a>
                 </li>
 
                 <li>
-                    <div class="t1-s-1 cl-5 p-tb-3">
-							<span class="fs-16 m-r-6">
-								<i class="fa fa-phone" aria-hidden="true"></i>
-							</span>
-                        <span>(+1) 96 716 6879</span>
-                    </div>
+                    <a href="#" class="text-white font-montserrat">THE IDEA</a>
                 </li>
 
                 <li>
-                    <div class="t1-s-1 cl-5 p-tb-3">
-							<span class="fs-16 m-r-6">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-							</span>
-                        <span>Mon-Sat 09:00 am - 17:00 pm/Sunday CLOSE</span>
-                    </div>
+                    <a href="{{ route('frontend.gallery' )}}" class="text-white font-montserrat">GALLERY</a>
                 </li>
 
                 <li>
-                    <div>
-                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
-                            <i class="fa fa-facebook-official"></i>
-                        </a>
-
-                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-
-                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-
-                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-
-                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="main-menu">
-                <li>
-                    <a href="index.html">Home</a>
-                    <ul class="sub-menu">
-                        <li><a href="index.html">Homepage v1</a></li>
-                        <li><a href="home-02.html">Homepage v2</a></li>
-                        <li><a href="home-03.html">Homepage v3</a></li>
-                    </ul>
+                    <a href="{{route('frontend.facilities')}}" class="text-white font-montserrat">FACILITIES</a>
                 </li>
 
                 <li>
-                    <a href="about.html">About Us</a>
+                    <a href="{{ route('frontend.developer')}}" class="text-white font-montserrat">DEVELOPER</a>
                 </li>
 
                 <li>
-                    <a href="services-list.html">Services</a>
-                    <ul class="sub-menu">
-                        <li><a href="services-list.html">Services List</a></li>
-                        <li>
-                            <a href="#">Services Detail</a>
-
-                            <ul class="sub-menu">
-                                <li><a href="services-detail-01.html">Services Detail v1</a></li>
-                                <li><a href="services-detail-02.html">Services Detail v2</a></li>
-                                <li><a href="services-detail-03.html">Services Detail v3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="news-grid.html">News</a>
-                    <ul class="sub-menu">
-                        <li><a href="news-grid.html">News Grid</a></li>
-                        <li><a href="news-list.html">News List</a></li>
-                        <li><a href="news-detail.html">News Detail</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="projects-grid.html">Projects</a>
-                    <ul class="sub-menu">
-                        <li><a href="projects-grid.html">Projects Grid</a></li>
-                        <li>
-                            <a href="#">Projects Detail</a>
-
-                            <ul class="sub-menu">
-                                <li><a href="projects-detail-01.html">Projects Detail v1</a></li>
-                                <li><a href="projects-detail-02.html">Projects Detail v2</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="contact.html">Contact us</a>
+                    <a href="#" class="text-white font-montserrat">CONTACT</a>
                 </li>
             </ul>
         </div>
