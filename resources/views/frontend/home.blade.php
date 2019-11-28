@@ -29,7 +29,7 @@
 <section class="pt-5">
     <div class="container">
         <div class="row no-gutters px-5">
-            <div class="col-md-6">
+            <div class="col-md-6 col-12">
                 <a href="{{ route('frontend.slow') }}">
                 <div class="img-home-2 txt-spacing text-white">
                     <p class="txt-spacing-header font-librecaslon">SLOW LIVING</p>
@@ -39,11 +39,9 @@
             </div>
             <div class="col-md-6">
                 <a href="{{ route('frontend.less') }}">
-                <div class="img-home-3">
-                    <div class="img-home-3 txt-spacing text-white">
-                        <p class="txt-spacing-header font-librecaslon">LESS IS MORE</p>
-                        <p class="readmore font-montserrat">Read More</p>
-                    </div>
+                <div class="img-home-3 txt-spacing text-white">
+                    <p class="txt-spacing-header font-librecaslon">LESS IS MORE</p>
+                    <p class="readmore font-montserrat">Read More</p>
                 </div>
                 </a>
             </div>
@@ -81,18 +79,18 @@
         <div class="container">
             <div class="row py-5">
                 <div class="col-12 text-center text-dark">
-                    <p class="txt-header-body font-librecaslon">WHAT SOUTH TANGERANG HAS TO OFFER</p>
+                    <p class="txt-header-body txt-what font-librecaslon">WHAT SOUTH TANGERANG HAS TO OFFER</p>
                 </div>
             </div>
             <div class="row text-center pb-5">
-                <div class="col-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-23.png') }}" alt="img" style="width:200px">
+                <div class="col-md-4 col-12">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-23.png') }}" alt="img" class="pb-5" style="width:200px">
                 </div>
-                <div class="col-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-22.png') }}" alt="img" style="width:200px">
+                <div class="col-md-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-22.png') }}" alt="img" class="pb-5" style="width:200px">
                 </div>
-                <div class="col-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-21.png') }}" alt="img" style="width:200px">
+                <div class="col-md-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-21.png') }}" alt="img" class="pb-5" style="width:200px">
                 </div>
             </div>
         </div>
@@ -100,8 +98,8 @@
     <section class="pb-5">
         <div class="container">
             <div class="row px-2">
-                <div class="col-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-13.jpg') }}" alt="img" class="text-center" style="width:380px">
+                <div class="col-md-4 pb-5">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-13.jpg') }}" alt="img" class="text-center w-100" >
                     <p class="txt-header-body py-3 text-dark font-librecaslon">ADAPTABLE SPACE</p>
                     <p class="txt-body pr-3 font-montserrat">Initiating a minimalist home where functions matters most,
                         each unit at The Scott is installed with multi-purpose
@@ -110,15 +108,15 @@
                         let the room transform seamlessly, without compromising
                         any comfort.</p>
                 </div>
-                <div class="col-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-14.jpg') }}" alt="img" class="text-center" style="width:380px">
+                <div class="col-md-4 pb-5">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-14.jpg') }}" alt="img" class="text-center w-100" >
                     <p class="txt-header-body py-3 text-dark font-librecaslon">ROOM FOR CREATORS</p>
                     <p class="txt-body pr-3 font-montserrat">Built thoughtfully for creators, every room is designed
                         perfectly for productive pursuits, elegantly incorporating
                         coziness as the creative mind invents its best.</p>
                 </div>
-                <div class="col-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-15.jpg') }}" alt="img" class="text-center" style="width:380px">
+                <div class="col-md-4">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-15.jpg') }}" alt="img" class="text-center w-100" >
                     <p class="txt-header-body py-3 text-dark font-librecaslon">THE 1<sup>ST</sup> IOT RESIDENCE</p>
                     <p class="txt-body pr-4 font-montserrat">Renowned as a pioneer for an innovative residence at
                         Serpong, The Scott proudly delivers an in-built
@@ -142,7 +140,7 @@
         }
         .img-btn-donlod{
             width: 160px;
-            padding-top:100px;
+            padding-top:60px;
         }
         .img-cekotlogo2{
             width:50px;
@@ -155,30 +153,31 @@
         }
         .txt-live{
             line-height: 1.5em;
+            font-size: 13px;
         }
         .txt-header-body{
-            font-size:26px;
+            font-size:20px;
         }
         .readmore{
             font-size: 13px;
         }
         .txt-spacing-header{
             letter-spacing: 0.5rem;
-            font-size:26px;
+            font-size:16px;
             padding-bottom: 5px;
         }
         .txt-spacing{
-            padding-left: 50px;
-            padding-top: 45%;
+            padding-left: 35px;
+            padding-top: 38%;
         }
         .img-home-2{
             background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
-            background-size: contain;
+            background-size: cover;
             width: auto;
-            height: 348px;
-            margin-right: 5px;
+            height: 155px;
+            margin-bottom:40px;
         }
         .img-home-3{
             background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
@@ -186,8 +185,7 @@
             background-position: center;
             background-size: contain;
             width: auto;
-            height: 348px;
-            margin-left: 5px;
+            height: 155px;
         }
         .essentialy{
             color: #cec6af;
@@ -196,8 +194,8 @@
             padding-top: 10px;
         }
         .img-cekot-home{
-            padding-top: 15%;
-            width: 400px;
+            padding-top: 23%;
+            width: 262px;
         }
         .bg-home{
             background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-10.jpg') }}');
@@ -205,7 +203,7 @@
             background-position: center;
             background-size: cover;
             width:100%;
-            height: 755px;
+            height: 420px;
         }
 
         /* .carousel-control-prev {
@@ -257,6 +255,58 @@
         /*}*/
 
         @media (min-width: 576px) {
+
+            .txt-header-body{
+                font-size:26px;
+            }
+
+            .txt-spacing{
+                padding-left: 50px;
+                padding-top: 45%;
+            }
+
+            .txt-spacing-header{
+                letter-spacing: 0.5rem;
+                font-size:26px;
+                padding-bottom: 5px;
+            }
+
+            .img-home-3{
+                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                width: auto;
+                height: 348px;
+                margin-left: 5px;
+            }
+
+            .img-home-2{
+                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                width: auto;
+                height: 348px;
+                margin-right: 5px;
+            }
+
+            .img-cekot-home{
+                padding-top: 15%;
+                width: 400px;
+            }
+            .bg-home {
+                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-10.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 755px !important;
+            }
+            .img-btn-donlod{
+                width: 160px;
+                padding-top:100px;
+            }
 
         }
 
