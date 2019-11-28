@@ -8,13 +8,29 @@
                         <img class="mb-4" src="{{ asset('images/thescott/web cekot preview 3-17.png') }}" width="180">
                     </a>
                 </div class="font-montserrat">
-                <div class="col-md-3 pb-md-0 pb-5">
-                    <p class="header-footer text-white">Lorem</p>
-                    <p class="txt-body" style="color:darkgrey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad adipisci alias corporis cupiditate debitis, eos est, facere impedit labore quod rem, vel voluptates voluptatibus!</p>
+                <div class="col-md-3 pb-md-0 pb-3">
+                    <p class="header-footer text-white pb-2">Triniti Headquarters</p>
+                    <p class="txt-body font-montserrat" style="color:darkgrey;">
+                        Brooklyn Premium Office<br/>
+                        Jl Sutera Boulevard<br/>
+                        Kavling 22-26
+                    </p>
+                </div>
+                <div class="col-md-3 pb-md-0 pb-4">
+                    <p class="header-footer text-white pb-2">&nbsp</p>
+                    <p class="txt-body font-montserrat" style="color:darkgrey;">
+                        Premium Office No.1-3<br/>
+                        Alam Sutera, Tangerang<br/>
+                        Indonesia
+                    </p>
                 </div>
                 <div class="col-md-3">
-                    <p class="header-footer text-white">Lorem</p>
-                    <p class="txt-body" style="color:darkgrey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nostrum placeat quisquam vero voluptatum! Aperiam aspernatur beatae cupiditate, ipsa maiores quae qui quis similique tenetur!</p>
+                    <p class="header-footer text-white pb-2">Contact</p>
+                    <p class="txt-body font-montserrat" style="color:darkgrey;">
+                        Head Office : (+62) 300 666 88<br/>
+                        Info@trinitiland.com<br/>
+                        www.trinitiland.com
+                    </p>
                 </div>
             </div>
         </div>

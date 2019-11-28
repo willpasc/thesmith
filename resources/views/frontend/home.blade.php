@@ -71,7 +71,11 @@
     <section>
         <div class="row no-gutters">
             <div class="col-12">
-                <img src="{{ asset('images/thescott/home/web-cekot-preview-3-16.jpg') }}" alt="img" style="width:100%">
+                <div class="map-home text-center">
+                    <a href="https://goo.gl/maps/JLFySt6tLtJvBvaW8">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-18.png') }}" alt="img" class="click-img">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -134,6 +138,18 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style>
+        .click-img{
+            width: 150px;
+            padding-top: 23%;
+        }
+        .map-home{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            width: auto;
+            height: 280px;
+        }
         .txt-download{
             letter-spacing: 0.3rem;
             margin-top: -30px;
@@ -255,6 +271,20 @@
         /*}*/
 
         @media (min-width: 576px) {
+
+            .click-img{
+                width: 150px;
+                padding-top: 23%;
+            }
+
+            .map-home{
+                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center top;
+                background-size: cover;
+                width: auto;
+                height: 635px;
+            }
 
             .txt-header-body{
                 font-size:26px;
