@@ -85,6 +85,10 @@ class HomeController extends Controller
         return view('frontend.gallery');
     }
 
+    public function galleryDetail($type){
+        return view('frontend.gallery-detail', compact('type'));
+    }
+
     public function planMaster(){
         return view('frontend.plan-master');
     }

@@ -252,7 +252,7 @@
                         </li>
 
                         <li>
-                            <a href="#" class="text-dark font-montserrat">GALLERY</a>
+                            <a href="{{ route('frontend.gallery')}}" class="text-dark font-montserrat">GALLERY</a>
                         </li>
 
                         <li>
