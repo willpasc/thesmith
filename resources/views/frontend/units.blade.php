@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center py-3">
-                    <div class="col-12 text-center ">
+                    <div class="col-12 text-center pb-5">
                         <div class="border-spec pt-5">
                             <img src="{{ asset('images/thescott/units/floor.png') }}" alt="img" class="img-spec">
                         </div>
@@ -65,10 +65,10 @@
                     <img src="{{ asset('images/thescott/units/web cekot preview 3-21.jpg') }}" alt="img" class="w-100">
                 </div>
             </div>
-            <div class="row pb-3 mb-5">
+            <div class="row pb-0 mb-0 mb-md-5 pb-md-5">
                 <div class="col-12">
                     <p class="text-dark header-units border-units font-librecaslon">Grand Studio</p>
-                    <div class="row font-montserrat txt-body">
+                    <div class="row font-montserrat txt-body pb-3">
                         <div class="col-md-2 col-12">
                             <div class="d-block d-md-none">
                                 <p>Semi Gross : 36.28 Sqm<span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 Bathroom</span></p>
@@ -86,10 +86,11 @@
             </div>
             <div class="row">
                 <div class="col-md-8">
-                    <img src="{{ asset('images/thescott/units/web cekot preview 3-22.jpg') }}" alt="img" class="w-100 bedroom-1">
+                    <img src="{{ asset('images/thescott/units/web cekot preview 3-22.jpg') }}" alt="img" class="w-100 bedroom-1 d-none d-md-block">
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="{{ asset('images/thescott/units/grandstudio-denah-2.png') }}" alt="img" class="bedroom-denah">
+                    <img src="{{ asset('images/thescott/units/web cekot preview 3-22.jpg') }}" alt="img" class="w-100 bedroom-1 d-md-none d-block">
                 </div>
             </div>
             <div class="row pb-3 mb-5">
@@ -180,7 +181,7 @@
             <div class="row">
                     <div class="col-12 text-center py-3">
                         <div class="border-spec py-5">
-                            <p class="header-spesifications font-librecaslon">SPESIFICATION</p>
+                            <p class="header-spesifications font-librecaslon">SPECIFICATION</p>
                         </div>
                     </div>
             </div>
@@ -306,7 +307,7 @@
             padding-bottom: 61px;
         }
         .bedroom-1{
-            margin-top:-50px;
+            margin-top:0px;
         }
         .bedroomcorner{
             margin-top:-50px;
@@ -382,9 +383,9 @@
 
             .border-finish-1{
                 border-top: 1px solid black;
-                width: 42%;
+                width: 73%;
                 margin-top: -57px;
-                margin-left: 193px;
+                margin-left: 303px;
             }
 
             .border-finish{
