@@ -168,10 +168,12 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <p class="header-spesifications text-center pb-5 font-librecaslon">SPECIFICATIONS</p>
+                    <div class="col-12 text-center py-3">
+                        <div class="border-spec pt-5">
+                            <img src="{{ asset('images/thescott/units/spesification.png') }}" alt="img" class="img-spec">
+                        </div>
+                    </div>
                     <p class=" pb-4 font-librecaslon"style="font-style: italic;">Finishing & Material Specifications</p>
-                </div>
             </div>
             <div class="row pb-4 font-montserrat txt-body">
                 <div class="col-md-3 col-5" style="font-weight: bold;">
@@ -221,6 +223,16 @@
 
 @section('styles')
     <style type="text/css">
+        .img-spec{
+            margin-top: -114px;
+            width:200px;
+        }
+        .border-spec{
+            border-top: 1px solid black;
+            width: 100%;
+            margin-top: 70px;
+            margin-left: 0px;
+        }
         .kitchen-padds{
             padding-bottom:63px;
         }

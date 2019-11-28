@@ -163,7 +163,7 @@
         }
         .txt-spacing-header{
             letter-spacing: 0.5rem;
-            font-size:16px;
+            font-size:14px;
             padding-bottom: 5px;
         }
         .txt-spacing{
