@@ -71,7 +71,7 @@
         }
 
         .bg-header-less {
-            background-image: url('{{ asset('images/thescott/home/banner-less.png') }}');
+            background-image: url('{{ asset('images/thescott/home/banner-less-1.png') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
