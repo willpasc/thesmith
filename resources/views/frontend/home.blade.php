@@ -307,6 +307,9 @@
                 width: 160px;
                 padding-top:100px;
             }
+            .img-cekot{
+                margin-top: 0px;
+            }
 
         }
 
