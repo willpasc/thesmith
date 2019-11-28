@@ -21,15 +21,19 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8 text-center pb-5">
-                    <p class="header-developer  text-dark pt-5 pb-3 font-librecaslon">SLOW LIVING</p>
-                    <p class="txt-body px-3 text-dark font-montserrat">As life evolves quickly, The Scott Residence infuses the root of Slow Living for its residents by eliminating the non - essential
+                <div class="col-md-2"></div>
+                <div class="col-md-8 col-12 text-center pb-5">
+                    <p class="header-developer  text-dark pt-5 pb-3 font-librecaslon">
+                        SLOW LIVING
+                    </p>
+                    <p class="txt-body px-md-0 px-4 text-dark font-montserrat">
+                        As life evolves quickly, The Scott Residence infuses the root of Slow Living for its residents by eliminating the non - essential
                         errands of the demanding world. Every element is carefully planned, crafted perfectly to create amore balanced, meaningful and
                         affirmed lifestyle. None is more precious than the beauty of contentment, while engaging deeply on activities close to your heart,
-                        consciously absorbing a composed lifestyle through sensory profusion, elegantly stepping away from endless chaotic affairs.</p>
+                        consciously absorbing a composed lifestyle through sensory profusion, elegantly stepping away from endless chaotic affairs.
+                    </p>
                 </div>
-                <div class="col-2"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
@@ -78,6 +82,14 @@
         @media (max-width: 576px) {
             .header-img{
                 min-height: 150px;
+            }
+            .bg-header-slow{
+                background-image: url('{{ asset('images/thescott/home/banner-slow.png') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width:100%;
+                height: 180px;
             }
         }
 

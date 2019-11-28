@@ -243,18 +243,16 @@
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="#" class="text-white font-montserrat">THE IDEA</a>
+                            <a href="{{ route('frontend.less') }}" class="text-white font-montserrat">THE IDEA</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="index.html">Homepage v1</a></li>--}}
 {{--                                <li><a href="home-02.html">Homepage v2</a></li>--}}
 {{--                                <li><a href="home-03.html">Homepage v3</a></li>--}}
 {{--                            </ul>--}}
                         </li>
-
                         <li>
                             <a href="{{ route('frontend.gallery' )}}" class="text-white font-montserrat">GALLERY</a>
                         </li>
-
                         <li>
                             <a href="{{ route('frontend.units')}}" class="text-white font-montserrat">UNITS</a>
 {{--                            <ul class="sub-menu">--}}
@@ -333,11 +331,15 @@
                 </li>
 
                 <li>
-                    <a href="#" class="text-white font-montserrat">THE IDEA</a>
+                    <a href="{{ route('frontend.less') }}" class="text-white font-montserrat">THE IDEA</a>
                 </li>
 
                 <li>
                     <a href="{{ route('frontend.gallery' )}}" class="text-white font-montserrat">GALLERY</a>
+                </li>
+
+                <li>
+                    <a href="{{ route('frontend.units' )}}" class="text-white font-montserrat">UNITS</a>
                 </li>
 
                 <li>

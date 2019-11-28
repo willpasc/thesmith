@@ -17,7 +17,7 @@
                 <img src="{{ asset('images/thescott/home/web-cekot-preview 3-17.png') }}" alt="img" class="img-cekot-home">
                 <p class="essentialy font-montserrat">LIVE ESSENTIALY</p>
                 <div>
-                    <a href="http://scotthomestudio.com/img/Ecatalogue_the_scott.pdf">
+                    <a href="http://download.scotthomestudio.com/img/Ecatalogue_the_scott.pdf">
                         <img src="{{ asset('images/thescott/home/web-cekot-preview 3-18.png') }}" alt="img" class="img-btn-donlod">
                         <p class="font-montserrat text-white txt-download">DOWNLOAD</p>
                     </a>
@@ -26,6 +26,7 @@
         </div>
     </div>
 </section>
+
 <section class="pt-5">
     <div class="container">
         <div class="row no-gutters px-5">
@@ -72,8 +73,8 @@
         <div class="row no-gutters">
             <div class="col-12">
                 <div class="map-home text-center">
-                    <a href="https://goo.gl/maps/JLFySt6tLtJvBvaW8">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-18.png') }}" alt="img" class="click-img">
+                    <a data-toggle="modal" data-target="#first_modal">>
+                        <img src="{{ asset('images/thescott/home/web-cekot-preview-3-18.png') }}" alt="img" class="click-img">
                     </a>
                 </div>
             </div>
@@ -132,6 +133,25 @@
         </div>
     </section>
 
+
+<div class="modal" id="first_modal">
+    <div class="modal-dialog">
+        <div class="modal-content bg_popup">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+
+            <!-- Modal body -->
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
 @endsection
 
 @section('styles')
@@ -139,13 +159,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style>
         .click-img{
-            width: 150px;
+            width: 100px;
             padding-top: 23%;
         }
         .map-home{
             background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
             background-repeat: no-repeat;
-            background-position: center top;
+            background-position: center center;
             background-size: cover;
             width: auto;
             height: 280px;
@@ -221,32 +241,34 @@
             width:100%;
             height: 420px;
         }
+/*
+pop up css
+*/
+        .modal-open .modal {
+              display: flex!important;
+              align-items: center!important;
+              z-index: 99999999;
+          }
 
-        /* .carousel-control-prev {
-            filter: invert(100%);
-        }
-        .carousel-control-next {
-            filter: invert(100%);
-        } */
-
-        .img-banner-responsive{
-            height: 500px;
-        }
-
-        .img-house-responsive{
-            height: 400px;
-        }
-
-        .img-paulmarc-responsive{
-            height: 100px;
-            width: auto;
+        .modal-dialog {
+            display: flex!important;
+            align-items: center!important;
+            flex-grow: 1;
+            width: 100% !important;
+            height: auto;
         }
 
-        .img-trinity-responsive{
-            margin-top: 0;
-            height: 30px;
-            width: auto;
+        .modal-header{
+            border-bottom: 0 !important;
+        }
 
+        .bg_popup{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 265px;
+            width: 355px;
         }
 
         .btn-paulmarc-more .w-25{
@@ -274,15 +296,17 @@
 
             .click-img{
                 width: 150px;
-                padding-top: 23%;
+                padding-top: 20%;
+            }
+            .modal-dialog{
+                max-width: 960px !important;
+            }
+            .bg_popup{
+                height: 600px;
+                width: 960px;
             }
 
             .map-home{
-                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center top;
-                background-size: cover;
-                width: auto;
                 height: 635px;
             }
 
@@ -379,7 +403,11 @@
         @media (min-width: 992px) {
         }
 
-        @media (min-width: 1200px) {
+        @media (min-width: 1369px) {
+            .click-img{
+                width: 150px;
+                padding-top: 12%;
+            }
         }
     </style>
 @endsection

@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend-v2')
 
 @section('head_and_title')
     <meta name="description" content="Developer">
@@ -21,15 +21,19 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8 text-center pb-5">
-                    <p class="header-developer  text-dark pt-5 pb-3 font-librecaslon">LESS IS MORE</p>
-                    <p class="txt-body px-3 text-dark font-montserrat">Serenity has become a luxury within this fast-paced world. The Scott Residence adopts a minimalist life style that lays a foundation
+                <div class="col-md-2"></div>
+                <div class="col-md-8 col-12 text-center pb-5">
+                    <p class="header-developer  text-dark pt-5 pb-3 font-librecaslon">
+                        LESS IS MORE
+                    </p>
+                    <p class="txt-body px-md-0 px-4 text-dark font-montserrat">
+                        Serenity has become a luxury within this fast-paced world. The Scott Residence adopts a minimalist life style that lays a foundation
                         of Less is More, offering values leading to a stress-free life. Without compromising on quality of life, declutter your self from
                         additional possessions and meaningless activities as you focus on life essentials. Beginning from home, cherish the wonders of
-                        simplicity, while crafting meaningful tasks that adds a value of timeliness.</p>
+                        simplicity, while crafting meaningful tasks that adds a value of timeliness
+                    </p>
                 </div>
-                <div class="col-2"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
@@ -78,6 +82,14 @@
         @media (max-width: 576px) {
             .header-img{
                 min-height: 150px;
+            }
+            .bg-header-less{
+                background-image: url('{{ asset('images/thescott/home/banner-less.png') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width:100%;
+                height: 180px;
             }
         }
 

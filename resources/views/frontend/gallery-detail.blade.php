@@ -58,7 +58,7 @@
                 </div>
             @elseif($type==3)
                 <div class="row no-gutters">
-                    <div class="col-md-7 col-12">
+                    <div class="col-md-6 col-12">
                         <img src="{{ asset('images/thescott/gallery/gallery-detail-1.png') }}" alt="img" class="img-project">
                     </div>
                     <div class="col-md-6 col-12 project-padds-1">
@@ -80,7 +80,7 @@
                 </div>
             @elseif($type==4)
                 <div class="row no-gutters">
-                    <div class="col-md-7 col-12">
+                    <div class="col-md-6 col-12">
                         <img src="{{ asset('images/thescott/gallery/gallery-detail-1.png') }}" alt="img" class="img-project">
                     </div>
                     <div class="col-md-6 col-12 project-padds-1">
@@ -102,7 +102,7 @@
                 </div>
             @elseif($type==5)
                 <div class="row no-gutters">
-                    <div class="col-md-7 col-12">
+                    <div class="col-md-6 col-12">
                         <img src="{{ asset('images/thescott/gallery/gallery-detail-1.png') }}" alt="img" class="img-project">
                     </div>
                     <div class="col-md-6 col-12 project-padds-1">
@@ -124,7 +124,7 @@
                 </div>
             @elseif($type==6)
                 <div class="row no-gutters">
-                    <div class="col-md-7 col-12">
+                    <div class="col-md-6 col-12">
                         <img src="{{ asset('images/thescott/gallery/gallery-detail-1.png') }}" alt="img" class="img-project">
                     </div>
                     <div class="col-md-6 col-12 project-padds-1">

@@ -73,46 +73,71 @@
         <div class="container-fluid d-none d-md-block">
             <div class="row no-gutters">
                 <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/facilities/fac-1.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-1.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/facilities/fac-2.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-2.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/facilities/fac-3.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-3.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
             </div>
             <div class="row no-gutters">
                 <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/facilities/fac-4.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-4.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/facilities/fac-5.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-5.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/facilities/fac-6.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-6.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
             </div>
         </div>
+
         <div class="container-fluid d-block d-md-none">
             <div class="row no-gutters">
                 <div class="col-6">
-                    <img src="{{ asset('images/thescott/facilities/fac-1.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-1.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-6">
-                    <img src="{{ asset('images/thescott/facilities/fac-2.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-2.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-6">
-                    <img src="{{ asset('images/thescott/facilities/fac-3.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-3.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-6">
-                    <img src="{{ asset('images/thescott/facilities/fac-4.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-4.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-6">
-                    <img src="{{ asset('images/thescott/facilities/fac-5.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-5.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
                 <div class="col-6">
-                    <img src="{{ asset('images/thescott/facilities/fac-6.jpg') }}" alt="img" class="w-100">
+                    <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
+                        <img src="{{ asset('images/thescott/facilities/fac-6.jpg') }}" alt="img" class="w-100">
+                    </a>
                 </div>
             </div>
         </div>
