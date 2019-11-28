@@ -11,7 +11,7 @@
 
 @section('content')
 
-    <section style="margin-top:100px;">
+    <section class="facsecmarg" >
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center pb-3">
@@ -21,37 +21,37 @@
                 </div>
             </div>
             <div class="row" style="margin-top: -50px;">
-                <div class="col-6 border-key">
+                <div class="col-md-6 col-12 border-key pb-5">
                     <img src="{{ asset('images/thescott/facilities/timeless.png') }}" alt="img" class="w-100 pb-5">
                     <p class="txt-timeless font-librecaslon text-dark text-center pb-3">TIMELESS DESIGN</p>
                     <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-8">
+                        <div class="col-md-2 col-12"></div>
+                        <div class="col-md-8">
                     <p class="txt-body text-center font-montserrat">Relish the beauty of timeless design and colors within
                         the interiors of your home, carefully selected for your
                         eternal comfort.</p>
                         </div>
-                        <div class="col-2"></div>
+                        <div class="col-md-2"></div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-6">
                     <div class="pb-4">
                         <img src="{{ asset('images/thescott/facilities/key1.png') }}" alt="img" class="img-key">
-                        <p class="text-body font-librecaslon pt-2">SPACE SAVER INSTALLATION</p>
+                        <p class="text-body txt-space font-librecaslon pt-2">SPACE SAVER INSTALLATION</p>
                     </div>
                     <div class="pb-4">
                         <img src="{{ asset('images/thescott/facilities/key3.png') }}" alt="img" class="img-key">
-                        <p class="text-body font-librecaslon pt-2">DEEP APPROACHED FACILITIES</p>
+                        <p class="text-body txt-space font-librecaslon pt-2">DEEP APPROACHED FACILITIES</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-6">
                     <div style="padding-bottom:2rem;">
                         <img src="{{ asset('images/thescott/facilities/key2.png') }}" alt="img" class="img-key">
-                        <p class="text-body font-librecaslon pt-2">ENERGY SAVER</p>
+                        <p class="text-body txt-space font-librecaslon pt-2">ENERGY SAVER</p>
                     </div>
                     <div class="pb-4">
                         <img src="{{ asset('images/thescott/facilities/key4.png') }}" alt="img" class="img-key">
-                        <p class="text-body font-librecaslon pt-2">DRIVE LESS</p>
+                        <p class="text-body  txt-space font-librecaslon pt-2">DRIVE LESS</p>
                     </div>
                 </div>
             </div>
@@ -60,36 +60,58 @@
     <section class="">
         <div class="container-fluid bg-facilities">
             <div class="row no-gutters">
-                <div class="col-2"></div>
-                <div class="col-8 text-center text-white">
+                <div class="col-md-2 col-12"></div>
+                <div class="col-md-8 text-center text-white px-md-0 px-4">
                     <p class="txt-facilities font-librecaslon pb-4">FACILITIES</p>
                     <p class="txt-body font-montserrat">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                         magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobo
                         rtis ni unvalor unum et quisapre ompre de impel down.</p>
                 </div>
-                <div class="col-2"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid d-none d-md-block">
             <div class="row no-gutters">
-                <div class="col-4">
+                <div class="col-md-4">
                     <img src="{{ asset('images/thescott/facilities/fac-1.jpg') }}" alt="img" class="w-100">
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <img src="{{ asset('images/thescott/facilities/fac-2.jpg') }}" alt="img" class="w-100">
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <img src="{{ asset('images/thescott/facilities/fac-3.jpg') }}" alt="img" class="w-100">
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-4">
+                <div class="col-md-4">
                     <img src="{{ asset('images/thescott/facilities/fac-4.jpg') }}" alt="img" class="w-100">
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <img src="{{ asset('images/thescott/facilities/fac-5.jpg') }}" alt="img" class="w-100">
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
+                    <img src="{{ asset('images/thescott/facilities/fac-6.jpg') }}" alt="img" class="w-100">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-block d-md-none">
+            <div class="row no-gutters">
+                <div class="col-6">
+                    <img src="{{ asset('images/thescott/facilities/fac-1.jpg') }}" alt="img" class="w-100">
+                </div>
+                <div class="col-6">
+                    <img src="{{ asset('images/thescott/facilities/fac-2.jpg') }}" alt="img" class="w-100">
+                </div>
+                <div class="col-6">
+                    <img src="{{ asset('images/thescott/facilities/fac-3.jpg') }}" alt="img" class="w-100">
+                </div>
+                <div class="col-6">
+                    <img src="{{ asset('images/thescott/facilities/fac-4.jpg') }}" alt="img" class="w-100">
+                </div>
+                <div class="col-6">
+                    <img src="{{ asset('images/thescott/facilities/fac-5.jpg') }}" alt="img" class="w-100">
+                </div>
+                <div class="col-6">
                     <img src="{{ asset('images/thescott/facilities/fac-6.jpg') }}" alt="img" class="w-100">
                 </div>
             </div>
@@ -99,9 +121,15 @@
 
 @section('styles')
     <style type="text/css">
+        .txt-space{
+            font-size:9px;
+        }
+        .facsecmarg{
+            margin-top:0px;
+        }
         .txt-facilities{
-            font-size: 26px;
-            padding-top:35%;
+            font-size: 20px;
+            padding-top:25%;
         }
         .bg-facilities{
             background-image: url('{{ asset('images/thescott/facilities/bg-facilities.png') }}');
@@ -109,19 +137,15 @@
             background-position: center;
             background-size: cover;
             width: auto;
-            height: 756px;
-
+            height: 400px;
         }
         .img-key{
-            width:244px;
+            width:160px;
         }
         .txt-timeless{
-            font-size: 26px;
+            font-size: 16px;
         }
-        .border-key{
-            border-right: 1px solid black;
-            height:545px;
-        }
+
         .project-padds-1{
             padding-left: 6rem !important;
             padding-top: 5rem;
@@ -143,7 +167,7 @@
         .border-developer{
             border-top: 1px solid black;
             width: 100%;
-            margin-top: 70px;
+            margin-top: 20px;
             margin-left: 0px;
         }
         .header-developer{
@@ -161,6 +185,43 @@
         @media (max-width: 576px) {
             .header-img{
                 min-height: 150px;
+            }
+        }
+
+        @media (min-width: 576px) {
+            .txt-space{
+                font-size:13px;
+            }
+            .img-key{
+                width:244px;
+            }
+            .border-key{
+                border-right: 1px solid black;
+                height:545px;
+            }
+            .bg-facilities{
+                background-image: url('{{ asset('images/thescott/facilities/bg-facilities.png') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: auto;
+                height: 756px;
+            }
+            .txt-facilities{
+                font-size: 26px;
+                padding-top:35%;
+            }
+            .txt-timeless {
+                font-size: 26px;
+            }
+            .facsecmarg{
+                margin-top:100px;
+            }
+            .border-developer{
+                border-top: 1px solid black;
+                width: 100%;
+                margin-top: 70px;
+                margin-left: 0px;
             }
         }
 

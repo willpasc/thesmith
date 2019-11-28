@@ -29,13 +29,18 @@
     <section>
         <div class="container">
             <div class="row pb-3 mb-5">
-                <div class="col-md-12">
+                <div class="col-12">
                     <p class="text-dark header-units border-units font-librecaslon">Grand Studio</p>
                     <div class="row font-montserrat txt-body">
-                        <div class="col-md-2">
-                            <p>Semi Gross : 32.93 Sqm</p>
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-12">
+                            <div class="d-block d-md-none">
+                            <p>Semi Gross : 32.93 Sqm<span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 Bathroom</span></p>
+                            </div>
+                            </div>
+                            <div class="d-none d-md-block marlefmin">
+                                <p>Semi Gross : 32.93 Sqm</p>
+                            </div>
+                        <div class="col-md-2 d-none d-md-block">
                             <p class="text-dark text-center">1 Bathroom</p>
                         </div>
                         <div class="col-md-8"></div>
@@ -51,13 +56,18 @@
                 </div>
             </div>
             <div class="row pb-3 mb-5">
-                <div class="col-md-12">
-                    <p class="text-dark header-units font-librecaslon">1 Bedroom</p>
+                <div class="col-12">
+                    <p class="text-dark header-units border-units font-librecaslon">1 Bedroom</p>
                     <div class="row font-montserrat txt-body">
-                        <div class="col-md-2">
-                            <p>Semi Gross : 36.28 Sqm</p>
+                        <div class="col-md-2 col-12">
+                            <div class="d-block d-md-none">
+                                <p>Semi Gross : 32.93 Sqm<span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 Bathroom</span></p>
+                            </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="d-none d-md-block marlefmin">
+                            <p>Semi Gross : 32.93 Sqm</p>
+                        </div>
+                        <div class="col-md-2 d-none d-md-block">
                             <p class="text-dark text-center">1 Bathroom</p>
                         </div>
                         <div class="col-md-8"></div>
@@ -66,20 +76,25 @@
             </div>
             <div class="row">
                 <div class="col-md-8">
-                    <img src="{{ asset('images/thescott/units/bedroom-image.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/units/bedroom-image.png') }}" alt="img" class="w-100 bedroom-1">
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="{{ asset('images/thescott/units/bedroom-denah-2.png') }}" alt="img" class="bedroom-denah">
                 </div>
             </div>
             <div class="row pb-3 mb-5">
-                <div class="col-md-12">
+                <div class="col-12">
                     <p class="text-dark header-units border-units font-librecaslon">2 Bedroom</p>
                     <div class="row font-montserrat txt-body">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-12">
+                            <div class="d-block d-md-none">
+                                <p>Semi Gross : 54.88 Sqm<span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 Bathroom</span></p>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block marlefmin">
                             <p>Semi Gross : 54.88 Sqm</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 d-none d-md-block">
                             <p class="text-dark text-center">2 Bathroom</p>
                         </div>
                         <div class="col-md-8"></div>
@@ -95,13 +110,18 @@
                 </div>
             </div>
             <div class="row pb-3 mb-5">
-                <div class="col-md-12">
-                    <p class="text-dark header-units font-librecaslon">2 Bedroom Corner</p>
+                <div class="col-12">
+                    <p class="text-dark header-units border-units font-librecaslon">2 Bedroom Corner</p>
                     <div class="row font-montserrat txt-body">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-12">
+                            <div class="d-block d-md-none">
+                                <p>Semi Gross : 36.28 Sqm<span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 Bathroom</span></p>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block marlefmin">
                             <p>Semi Gross : 36.28 Sqm</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 d-none d-md-block">
                             <p class="text-dark text-center">2 Bathroom</p>
                         </div>
                         <div class="col-md-8"></div>
@@ -110,20 +130,25 @@
             </div>
             <div class="row">
                 <div class="col-md-8">
-                    <img src="{{ asset('images/thescott/units/2bedroomcorner-image.png') }}" alt="img" class="w-100">
+                    <img src="{{ asset('images/thescott/units/2bedroomcorner-image.png') }}" alt="img" class="w-100 bedroomcorner">
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="{{ asset('images/thescott/units/2bedroomcorner-denah.png') }}" alt="img" class="img-2bedroomcorner-denah">
                 </div>
             </div>
             <div class="row pb-3 mb-5">
-                <div class="col-md-12">
-                    <p class="text-dark header-units font-librecaslon">3 Bedroom</p>
-                    <div class="row font-montserrat">
-                        <div class="col-md-2">
+                <div class="col-12">
+                    <p class="text-dark header-units border-units font-librecaslon">3 Bedroom</p>
+                    <div class="row font-montserrat txt-body">
+                        <div class="col-md-2 col-12">
+                            <div class="d-block d-md-none">
+                                <p>Semi Gross : 64 Sqm<span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 Bathroom</span></p>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block marlefmin">
                             <p>Semi Gross : 64 Sqm</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 d-none d-md-block">
                             <p class="text-dark text-center">2 Bathroom</p>
                         </div>
                         <div class="col-md-8"></div>
@@ -145,46 +170,46 @@
             <div class="row">
                 <div class="col-12">
                     <p class="header-spesifications text-center pb-5 font-librecaslon">SPECIFICATIONS</p>
-                    <p class=" pb-3 font-librecaslon"style="font-style: italic;">Finishing & Material Specifications</p>
+                    <p class=" pb-4 font-librecaslon"style="font-style: italic;">Finishing & Material Specifications</p>
                 </div>
             </div>
             <div class="row pb-4 font-montserrat txt-body">
-                <div class="col-3" style="font-weight: bold;">
-                    <p class="pb-2">Living Room & Dining Room</p>
-                    <p class="pb-2">Master Room</p>
-                    <p class="pb-2">Bed Room</p>
-                    <p class="pb-2">Bathroom</p>
+                <div class="col-md-3 col-5" style="font-weight: bold;">
+                    <p class="pb-md-2 livingroom-padds">Living Room & Dining Room</p>
+                    <p class="pb-md-2 masterroom-padds">Master Room</p>
+                    <p class="pb-md-2 bedroom-padds">Bed Room</p>
+                    <p class="pb-md-2 bathroom-padds">Bathroom</p>
                 </div>
-                <div class="col-6">
-                    <p class="pb-2">Homogenous tile floor, plaster paint wall, painted gypsum board ceilling</p>
-                    <p class="pb-2">Laminate Parquet flooring, plaster paint wall, painted gypsum board ceilling</p>
-                    <p class="pb-2">Homogenous tile floor, plaster paint wall, painted gypsum board ceilling</p>
-                    <p class="pb-2">Homogenous tile floor, Homogenous tile wall, painted gypsum board ceilling</p>
+                <div class="col-md-9 col-7">
+                    <p class="pb-md-2 txt-livingroom">Homogenous tile floor, plaster paint wall, painted gypsum board ceilling</p>
+                    <p class="pb-md-2 txt-livingroom">Laminate Parquet flooring, plaster paint wall, painted gypsum board ceilling</p>
+                    <p class="pb-md-2 txt-livingroom">Homogenous tile floor, plaster paint wall, painted gypsum board ceilling</p>
+                    <p class="pb-md-2 txt-livingroom">Homogenous tile floor, Homogenous tile wall, painted gypsum board ceilling</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 font-librecaslon">
-                <p class=" pb-3"style="font-style: italic;">General Spesifications</p>
+                <p class=" pb-4"style="font-style: italic;">General Spesifications</p>
                 </div>
             </div>
             <div class="row pb-4 font-montserrat txt-body">
-                <div class="col-3" style="font-weight: bold;">
-                    <p class="pb-2">Power</p>
-                    <p class="pb-2">Internet, Telephone & Cable</p>
-                    <p class="pb-2">Air Conditioning</p>
-                    <p class="pb-2">Water Heater</p>
-                    <p class="pb-2">Sanitary Ware</p>
-                    <p class="pb-2">Kitchen</p>
-                    <p class="pb-2">Door & Windows</p>
+                <div class="col-md-3 col-5" style="font-weight: bold;">
+                    <p class="pb-md-2 power-padds">Power</p>
+                    <p class="pb-md-2 internet-padds">Internet, Telephone & Cable</p>
+                    <p class="pb-md-2 air-padds">Air Conditioning</p>
+                    <p class="pb-md-2 water-padds">Water Heater</p>
+                    <p class="pb-md-2 sanitary-padds">Sanitary Ware</p>
+                    <p class="pb-md-2 kitchen-padds">Kitchen</p>
+                    <p class="pb-md-2 door-padds">Door & Windows</p>
                 </div>
-                <div class="col-6">
-                    <p class="pb-2">3500 VA (STUDIO) ; 4.400 VA (1 BR) ; 5.500 VA (2 BR) ; 7.700 VA (3 BR)</p>
-                    <p class="pb-2">Installation only 1 line (studio & 1 BR); for other type in living and master bedroom</p>
-                    <p class="pb-2">Refrigerant Pipe, drain pipe & power</p>
-                    <p class="pb-2">Water and electrical point only</p>
-                    <p class="pb-2">BATHROOM (ex TOTO or equivalent)</p>
-                    <p class="pb-2">Single bowl - stainless steel sink, engineered marble table top</p>
-                    <p>Main Door : Solid frame, engineered wooden door<br/>
+                <div class="col-md-9 col-7">
+                    <p class="pb-md-2 txt-power">3500 VA (STUDIO) ; 4.400 VA (1 BR) ; 5.500 VA (2 BR) ; 7.700 VA (3 BR)</p>
+                    <p class="pb-md-2 txt-power">Installation only 1 line (studio & 1 BR); for other type in living and master bedroom</p>
+                    <p class="pb-md-2 txt-power">Refrigerant Pipe, drain pipe & power</p>
+                    <p class="pb-md-2 txt-power">Water and electrical point only</p>
+                    <p class="pb-md-2 txt-power">BATHROOM (ex TOTO or equivalent)</p>
+                    <p class="pb-md-2 txt-power">Single bowl - stainless steel sink, engineered marble table top</p>
+                    <p class="pb-md-2 txt-power">Main Door : Solid frame, engineered wooden door<br/>
                         Bedroom Door : Solid frame, honeycomb wooden door<br/>
                         Windows : Powder coated alumunium frame with tinted glass</p>
                 </div>
@@ -196,24 +221,65 @@
 
 @section('styles')
     <style type="text/css">
+        .kitchen-padds{
+            padding-bottom:63px;
+        }
+        .sanitary-padds{
+            padding-bottom:45px;
+        }
+        .water-padds{
+            padding-bottom:45px;
+        }
+        .air-padds{
+            padding-bottom:45px;
+        }
+        .internet-padds{
+            padding-bottom:41px;
+        }
+        .power-padds{
+            padding-bottom:68px;
+        }
+        .txt-power{
+            padding-bottom:20px;
+        }
+        .txt-livingroom{
+            padding-bottom:15px;
+        }
+        .livingroom-padds{
+            padding-bottom:38px;
+        }
+        .masterroom-padds{
+            padding-bottom:63px;
+        }
+        .bedroom-padds{
+            padding-bottom: 61px;
+        }
+        .bedroom-1{
+            margin-top:-50px;
+        }
+        .bedroomcorner{
+            margin-top:-50px;
+        }
         .bedroom-denah{
-            width: 254px;
+            width: 50%;
         }
         .header-spesifications{
             padding-top:10%;
-            font-size: 26px;
+            font-size: 20px;
         }
         .img-3bedroom-denah{
-            width: 350px;
+            width: 70%;
         }
         .img-2bedroomcorner-denah{
-            width:400px;
+            width:70%;
         }
         .img-2bedroom-denah{
-            width:285px;
+            width:63%;
+            margin-top: -50px;
         }
         .img-grandstudio-denah{
-            width:400px;
+            width:100%;
+            margin-top: -50px;
         }
         .border-units{
             border-bottom: 1px solid black;
@@ -245,11 +311,11 @@
             margin-left: 120px;
         }
         .header-developer{
-            padding-top:20%;
-            font-size: 26px;
+            padding-top:13%;
+            font-size: 20px;
         }
         .header-units{
-            font-size: 26px;
+            font-size: 20px;
             padding-top:100px;
         }
 
@@ -259,8 +325,60 @@
             background-position: center;
             background-size: cover;
             width: auto;
-            height: 532px;
+            height: 350px;
+        }
+        @media (min-width: 576px) {
 
+            .header-spesifications{
+                padding-top:10%;
+                font-size: 26px;
+            }
+
+            bedroom-1{
+                margin-top:0px;
+            }
+
+            .marlefmin{
+                margin-left: -180px;
+            }
+
+            .bg-header-units {
+                background-image: url('{{ asset('images/thescott/units/bg-units.png') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: auto;
+                height: 532px;
+            }
+            .header-developer{
+                padding-top:20%;
+                font-size: 26px;
+            }
+            .header-units{
+                font-size: 26px;
+                padding-top:100px;
+            }
+            .img-grandstudio-denah{
+                width:400px;
+                margin-top:0px;
+            }
+            .bedroom-denah{
+                width: 226px;
+                margin-top:0px;
+            }
+            .img-2bedroom-denah{
+                width:285px;
+                margin-top:0px;
+            }
+            .bedroomcorner{
+                margin-top:0px;
+            }
+            .img-2bedroomcorner-denah{
+                width:400px;
+            }
+            .img-3bedroom-denah{
+                width: 350px;
+            }
         }
 
         @media (max-width: 576px) {

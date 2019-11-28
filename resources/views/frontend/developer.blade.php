@@ -42,13 +42,16 @@
                     </div>
                 </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon font-italic">
+            <div class="row no-gutters pb-md-0 pb-5">
+                <div class="col-12 d-block d-md-none">
+                    <img src="{{ asset('images/thescott/developer/img-brooklyn.png') }}" alt="img" class="img-project">
+                </div>
+                <div class="col-md-5 col-12 project-padds-1 text-md-left text-center">
+                    <p class="pb-md-5 pb-3 header-project font-librecaslon font-italic">
                         Brooklyn<br/>
                         SOHO & Apartment
                     </p>
-                    <p class="txt-body font-montserrat">
+                    <p class="txt-body font-montserrat d-none d-md-block">
                         New York inspired, Brooklyn stands<br/>
                         gracefully in 2 towers & 900 units<br/>
                         developed by Waskita Karya & Triniti Group.<br/>
@@ -57,20 +60,29 @@
                         More information are available at<br/>
                         www.brooklynalamsutera.com
                     </p>
+                    <p class="txt-body font-montserrat d-block d-md-none px-4">
+                        New York inspired, Brooklyn stands
+                        gracefully in 2 towers & 900 units
+                        developed by Waskita Karya & Triniti Group.
+                        A masterpiece and the first mixed-use building in
+                        Alam Sutera built in 2014 and finished in 2016.
+                        More information are available at
+                        www.brooklynalamsutera.com
+                    </p>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 d-none d-md-block">
                     <img src="{{ asset('images/thescott/developer/img-brooklyn.png') }}" alt="img" class="img-project">
                 </div>
             </div>
-            <div class="row no-gutters">
+            <div class="row no-gutters pb-md-0 pb-5">
                 <div class="col-md-7">
                     <img src="{{ asset('images/thescott/developer/img-yukata.png') }}" alt="img" class="img-project">
                 </div>
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon font-italic">
+                <div class="col-md-5 project-padds-1 text-md-left text-center">
+                    <p class="pb-md-5 pb-3 header-project font-librecaslon font-italic">
                         Yukata Suites
                     </p>
-                    <p class="txt-body font-montserrat">
+                    <p class="txt-body font-montserrat d-none d-md-block">
                         Yukata Suites is the first Japanese Resort<br/>
                         Condominium in Alam Sutera presented by Waskita<br/>
                         Karya & Triniti Group. The premium facilities it offers<br/>
@@ -81,14 +93,28 @@
                         More information are available at<br/>
                         www.yukatasuites.com
                     </p>
+                    <p class="txt-body font-montserrat d-block d-md-none px-4">
+                        Yukata Suites is the first Japanese Resort
+                        Condominium in Alam Sutera presented by Waskita
+                        Karya & Triniti Group. The premium facilities it offers
+                        surely blow the mind; from Japanese hot spring (onsen),
+                        smart home system, private lift and Zen Garden. Yukata
+                        Suites has elected to be the best Apartment in Serpong
+                        2015 according to Consumer Choice Award.
+                        More information are available at
+                        www.yukatasuites.com
+                    </p>
                 </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon font-italic">
+            <div class="row no-gutters pb-md-0 pb-5">
+                <div class="col-md-7 d-block d-md-none">
+                    <img src="{{ asset('images/thescott/developer/img-springwood.png') }}" alt="img" class="img-project">
+                </div>
+                <div class="col-md-5 project-padds-1 text-md-left text-center">
+                    <p class="pb-md-5 pb-3 header-project font-librecaslon font-italic">
                         Springwood Residence
                     </p>
-                    <p class="txt-body font-montserrat">
+                    <p class="txt-body font-montserrat d-none d-md-block">
                         When it comes to prestige,<br/>
                         Springwood Residence is the first<br/>
                         prestigious apartment in Jl Raya Serpong.<br/>
@@ -98,25 +124,43 @@
                         2017. More information are available at<br/>
                         www.springwoodresidence.com
                     </p>
+                    <p class="txt-body font-montserrat d-block d-md-none px-4">
+                        When it comes to prestige,
+                        Springwood Residence is the first
+                        prestigious apartment in Jl Raya Serpong.
+                        Consist of 1,400 units within only 1 minute from exit toll
+                        Serpong, Mall Alam Sutera and Binus University,
+                        Springwood Residence finish the construction in
+                        2017. More information are available at
+                        www.springwoodresidence.com
+                    </p>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 d-none d-md-block">
                     <img src="{{ asset('images/thescott/developer/img-springwood.png') }}" alt="img" class="img-project">
                 </div>
             </div>
-            <div class="row no-gutters">
+            <div class="row no-gutters pb-md-0 pb-5">
                 <div class="col-md-7">
                     <img src="{{ asset('images/thescott/developer/img-smith.png') }}" alt="img" class="img-project">
                 </div>
-                <div class="col-md-5 project-padds-1">
-                    <p class="pb-5 header-project font-librecaslon font-italic">
+                <div class="col-md-5 project-padds-1 text-md-left text-center">
+                    <p class="pb-md-5 pb-3 header-project font-librecaslon font-italic">
                         The Smith
                     </p>
-                    <p class="txt-body font-montserrat">
+                    <p class="txt-body font-montserrat d-none d-md-block">
                         The Smith is considered as the Silicon Valley of<br/>
                         Alam Sutera. Featuring the first<br/>
                         3.0 Small Office Home Office (SOHO) and the<br/>
                         most advance smart office with<br/>
                         Sillicon Valley facility. More information are<br/>
+                        available at www.thesmith.co.id
+                    </p>
+                    <p class="txt-body font-montserrat d-block d-md-none px-4">
+                        The Smith is considered as the Silicon Valley of
+                        Alam Sutera. Featuring the first
+                        3.0 Small Office Home Office (SOHO) and the
+                        most advance smart office with
+                        Sillicon Valley facility. More information are
                         available at www.thesmith.co.id
                     </p>
                 </div>
@@ -127,10 +171,15 @@
 
 @section('styles')
     <style type="text/css">
+        .logo-developer{
+            width:150px;
+            margin-top: -30px;
+            margin-bottom:-30px;
+        }
         .project-padds-1{
-            padding-left: 6rem !important;
-            padding-top: 5rem;
-            padding-right: 5rem !important;
+
+            padding-top: 1rem;
+
         }
         .container-fluid{
             padding:0px;
@@ -149,23 +198,51 @@
             border-top: 1px solid black;
             width: 85%;
             margin-top: 70px;
-            margin-left: 120px;
+            margin-left: 27px;
         }
         .header-developer{
             font-size: 26px;
             color: grey;
-            padding-top: 100px;
+            padding-top: 40px;
         }
 
         .bg-header-developer{
             background-color: #000000;
-            height: 600px;
+            height: 700px;
             width: auto;
         }
 
         @media (max-width: 576px) {
             .header-img{
                 min-height: 150px;
+            }
+        }
+
+        @media (min-width: 576px) {
+            .project-padds-1{
+                padding-left: 6rem !important;
+                padding-top: 5rem;
+                padding-right: 5rem !important;
+            }
+            .border-developer{
+                border-top: 1px solid black;
+                width: 85%;
+                margin-top: 70px;
+                margin-left: 120px;
+            }
+            .bg-header-developer{
+                background-color: #000000;
+                height: 600px;
+                width: auto;
+            }
+            .logo-developer{
+                width:inherit;
+                margin-top: 0px;
+            }
+            .header-developer{
+                font-size: 26px;
+                color: grey;
+                padding-top: 100px;
             }
         }
 
