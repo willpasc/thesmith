@@ -251,7 +251,7 @@
 {{--                            </ul>--}}
                         </li>
                         <li>
-                            <a href="#" onclick="navigateSection('tangerang')" class="text-white font-montserrat">Map</a>
+                            <a href="{{ route('home')}}#tangerang"  class="text-white font-montserrat">Map</a>
                         </li>
                         <li>
                             <a href="{{ route('frontend.units')}}" class="text-white font-montserrat">Units</a>
@@ -339,7 +339,7 @@
                 </li>
 
                 <li>
-                    <a href="#tangerang" class="text-white font-montserrat">Map</a>
+                    <a href="{{ route('home')}}#tangerang" class="text-white font-montserrat">Map</a>
                 </li>
 
                 <li>

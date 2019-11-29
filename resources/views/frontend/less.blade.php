@@ -132,5 +132,6 @@
             variableWidth: true,
             arrows: true
         });
+        
     </script>
 @endsection
