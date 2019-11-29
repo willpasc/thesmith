@@ -73,7 +73,7 @@
         <div class="row no-gutters">
             <div class="col-12">
                 <div class="map-home text-center">
-                    <a data-toggle="modal" data-target="#first_modal">>
+                    <a data-toggle="modal" data-target="#first_modal">
                         <img src="{{ asset('images/thescott/home/web-cekot-preview-3-18.png') }}" alt="img" class="click-img">
                     </a>
                 </div>
