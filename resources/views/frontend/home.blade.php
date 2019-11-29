@@ -80,7 +80,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="tangerang">
         <div class="container">
             <div class="row py-5">
                 <div class="col-12 text-center text-dark">
@@ -423,5 +423,17 @@ pop up css
             variableWidth: true,
             arrows: true
         });
+
+        function navigateSection(section){
+            var offsetTop = $('#' + section).offset().top;
+
+            if (offsetTop) {
+                $('html,body').animate({
+                    scrollTop: offsetTop
+                }, 1000);
+
+                return false;
+            }
+        }
     </script>
 @endsection
