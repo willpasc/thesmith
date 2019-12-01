@@ -104,7 +104,7 @@
         <div class="container">
             <div class="row px-2">
                 <div class="col-md-4 pb-5">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-13.jpg') }}" alt="img" class="text-center w-100" >
+                    <img src="{{ asset('images/thescott/home/foto baru-27.jpg') }}" alt="img" class="text-center w-100" >
                     <p class="txt-header-body py-3 text-dark font-librecaslon">ADAPTABLE SPACE</p>
                     <p class="txt-body pr-3 font-montserrat">Initiating a minimalist home where functions matters most,
                         each unit at The Scott is installed with multi-purpose
@@ -114,14 +114,14 @@
                         any comfort.</p>
                 </div>
                 <div class="col-md-4 pb-5">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-14.jpg') }}" alt="img" class="text-center w-100" >
+                    <img src="{{ asset('images/thescott/home/foto baru-28.jpg') }}" alt="img" class="text-center w-100" >
                     <p class="txt-header-body py-3 text-dark font-librecaslon">ROOM FOR CREATORS</p>
                     <p class="txt-body pr-3 font-montserrat">Built thoughtfully for creators, every room is designed
                         perfectly for productive pursuits, elegantly incorporating
                         coziness as the creative mind invents its best.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-15.jpg') }}" alt="img" class="text-center w-100" >
+                    <img src="{{ asset('images/thescott/home/foto baru-29.jpg') }}" alt="img" class="text-center w-100" >
                     <p class="txt-header-body py-3 text-dark font-librecaslon">THE 1<sup>ST</sup> IOT RESIDENCE</p>
                     <p class="txt-body pr-4 font-montserrat">Renowned as a pioneer for an innovative residence at
                         Serpong, The Scott proudly delivers an in-built

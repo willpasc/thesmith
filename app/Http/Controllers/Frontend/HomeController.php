@@ -120,7 +120,7 @@ class HomeController extends Controller
         ]);
 
         Session::flash('success', 'Thank you for Contacting us!');
-        return redirect()->route('contact_us');
+        return redirect()->route('frontend.contact_us');
     }
 
     public function downloadCatalogue(){

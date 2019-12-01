@@ -7,8 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" href="{{ asset('img/basic/favicon.ico') }}" type="image/x-icon">
+    <title>THE SCOTT</title>
+    <link rel="icon" href="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" type="image/x-icon">
 
 
     <!-- Styles -->
@@ -87,8 +87,8 @@
 
             </div>
             <div class="col-md-6 white">
-                <div class="p-5 mt-5">
-                    <img src="{{ asset('images/frontend/logo-transparent.png') }}" alt=""/>
+                <div class="pl-5 pt-5 mt-5">
+                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" alt=""/>
                 </div>
                 <div class="p-5">
                     @yield('content')

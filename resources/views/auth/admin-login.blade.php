@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h3>MARC BOULEVARD</h3>
+    <h3>THE SCOTT</h3>
     <p>Admin Login</p>
 
     <form method="POST" action="{{ route('admin.login.submit') }}">
@@ -12,7 +12,8 @@
                 <strong style="color: #ff3d00;"> {{ $error }} </strong>
             </span>
         @endforeach
-        <div class="form-group has-icon"><i class="icon-envelope-o"></i>
+        <div class="form-group has-icon">
+{{--            <i class="icon-envelope-o"></i>--}}
             <input type="email" id="email" name="email" value="{{ old('email') }}" class="form-control form-control-lg {{ $errors->has('email') ? ' is-invalid' : '' }}"
                    placeholder="Email Address">
             @if ($errors->has('email'))
@@ -21,7 +22,8 @@
                 </span>
             @endif
         </div>
-        <div class="form-group has-icon"><i class="icon-user-secret"></i>
+        <div class="form-group has-icon">
+{{--            <i class="icon-user-secret"></i>--}}
             <input type="password" id="password" name="password" class="form-control form-control-lg {{ $errors->has('password') ? ' is-invalid' : '' }}"
                    placeholder="Password">
             @if ($errors->has('password'))

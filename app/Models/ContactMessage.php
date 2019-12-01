@@ -11,7 +11,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
  * Class ContactMessage
- * 
+ *
  * @property int $id
  * @property string $name
  * @property string $email
@@ -31,4 +31,6 @@ class ContactMessage extends Eloquent
 		'message',
 		'created_at'
 	];
+    public $timestamps = false;
+
 }

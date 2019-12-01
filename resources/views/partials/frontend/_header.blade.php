@@ -303,7 +303,7 @@
                         </li>
 
                         <li>
-                            <a href="#" class="text-dark font-montserrat">Contact Us</a>
+                            <a href="{{ route('frontend.contact_us')}}" class="text-dark font-montserrat">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -317,7 +317,7 @@
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
             <div class="logo-mobile">
-                <a href="{{ route('home') }}"><img src="{{ asset('images/thescott/home/web-cekot-preview-3-17.png') }}" alt="LOGO"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" alt="LOGO"></a>
             </div>
 
 
@@ -360,7 +360,7 @@
                 </li>
 
                 <li>
-                    <a href="#" class="text-white font-montserrat">Contact Us</a>
+                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">Contact Us</a>
                 </li>
             </ul>
         </div>
