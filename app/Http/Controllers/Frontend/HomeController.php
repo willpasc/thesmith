@@ -7,6 +7,7 @@ use App\Models\ContactMessage;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -111,6 +112,17 @@ class HomeController extends Controller
 
     public function saveContactUs(Request $request){
 //        dd(Carbon::now('Asia/Jakarta')->toDateTimeString());
+
+        $validator = Validator::make($request->all(), [
+            'name'    => 'required',
+            'email'     => 'required|regex:/^\S*$/u|email',
+            'subject'          => 'required',
+            'message'          => 'required',
+        ]);
+
+        if ($validator->fails())
+            return redirect()->back()->withErrors($validator->errors())->withInput($request->all());
+
         $data = ContactMessage::create([
             'name'          => $request->input('name'),
             'email'         => $request->input('email'),
