@@ -39,14 +39,24 @@
                             </div>
                         </div>
                     @endif
+
+                    @foreach($errors->all() as $error)
+                        <ul>
+                            <li>
+                                <span class="help-block">
+                                    <strong style="color: #ff3d00;"> {{ $error }} </strong>
+                                </span>
+                            </li>
+                        </ul>
+                    @endforeach
                     {{ Form::open(['route'=>['frontend.contact_us.save'],'method' => 'post','id' => 'contact-form', 'class'=>'validate-form']) }}
                         <div class="row">
                             <div class="col-md-4 col-12">
                                 <div><p class="txt-body">
                                         Name
                                     </p>
-                                <div class="m-b-15 validate-input" data-validate = "Name is required">
-                                    <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="name" placeholder="Your Name">
+                                <div class="m-b-15 validate-input" data-validate="Name is required">
+                                    <input class="size-a-3 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="name" placeholder="Your Name" value="{{old('name')}}">
                                 </div>
                                 </div>
                             </div>
@@ -54,8 +64,8 @@
                                 <div><p class="txt-body">
                                         Email
                                     </p>
-                                <div class="m-b-15 validate-input" data-validate = "Valid email is: ex@abc.xyz">
-                                    <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="email" placeholder="Your Email">
+                                <div class="m-b-15 validate-input" data-validate="Valid email is: ex@abc.xyz">
+                                    <input class="size-a-3 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="email" placeholder="Your Email" value="{{old('email')}}">
                                 </div>
                                 </div>
                             </div>
@@ -63,8 +73,8 @@
                                 <div><p class="txt-body">
                                         Subject
                                     </p>
-                                <div class="m-b-15 validate-input" data-validate = "Subject is required">
-                                    <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="subject" placeholder="Subject">
+                                <div class="m-b-15 validate-input" data-validate="Subject is required">
+                                    <input class="size-a-3 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="subject" placeholder="Subject" value="{{old('subject')}}">
                                 </div>
                                 </div>
                             </div>
@@ -74,7 +84,7 @@
                                         Message
                                     </p>
                                 <div class="m-b-30 validate-input" data-validate = "Message is required">
-                                    <textarea class="size-a-14 t1-m-2 plh-6 cl-6 p-rl-20 p-tb-13 bo-1-rad-4 bcl-12 focus-in1" name="msg" placeholder="Your Message"></textarea>
+                                    <textarea class="size-a-14 plh-6 cl-6 p-rl-20 p-tb-13 bo-1-rad-4 bcl-12 focus-in1" name="message" placeholder="Your Message">{{old('message')}}</textarea>
                                 </div>
                                 </div>
 
