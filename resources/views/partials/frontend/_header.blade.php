@@ -243,7 +243,7 @@
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="{{ route('frontend.less') }}" class="text-dark font-montserrat">The Idea</a>
+                            <a href="{{ route('frontend.less') }}" class="text-dark font-montserrat">THE IDEA</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="index.html">Homepage v1</a></li>--}}
 {{--                                <li><a href="home-02.html">Homepage v2</a></li>--}}
@@ -251,10 +251,10 @@
 {{--                            </ul>--}}
                         </li>
                         <li>
-                            <a href="{{ route('home')}}#tangerang" onclick="navigateSection('tangerang')" class="text-dark font-montserrat">Map</a>
+                            <a href="{{ route('home')}}#tangerang" onclick="navigateSection('tangerang')" class="text-dark font-montserrat">MAP</a>
                         </li>
                         <li>
-                            <a href="{{ route('frontend.units')}}" class="text-dark font-montserrat">Units</a>
+                            <a href="{{ route('frontend.units')}}" class="text-dark font-montserrat">UNITS</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="services-list.html">Services List</a></li>--}}
 {{--                                <li>--}}
@@ -275,7 +275,7 @@
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="{{route('frontend.facilities')}}" class="text-dark font-montserrat">Facilities</a>
+                            <a href="{{route('frontend.facilities')}}" class="text-dark font-montserrat">FACILITIES</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="news-grid.html">News Grid</a></li>--}}
 {{--                                <li><a href="news-list.html">News List</a></li>--}}
@@ -284,11 +284,11 @@
                         </li>
 
                         <li>
-                            <a href="{{ route('frontend.gallery') }}" class="text-dark font-montserrat">Gallery</a>
+                            <a href="{{ route('frontend.gallery') }}" class="text-dark font-montserrat">GALLERY</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('frontend.developer')}}" class="text-dark font-montserrat">Developer</a>
+                            <a href="{{ route('frontend.developer')}}" class="text-dark font-montserrat">DEVELOPER</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="projects-grid.html">Projects Grid</a></li>--}}
 {{--                                <li>--}}

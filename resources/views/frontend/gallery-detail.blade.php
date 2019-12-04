@@ -5,7 +5,7 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>THE SCOTT - DEVELOPER</title>
+    <title>THE SCOTT - GALLERY DETAILS</title>
 @endsection
 
 
