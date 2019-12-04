@@ -82,7 +82,7 @@
     </section>
     <section id="tangerang">
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-5 mt-4">
                 <div class="col-12 text-center text-dark">
                     <p class="txt-header-body txt-what font-librecaslon">WHAT SOUTH TANGERANG HAS TO OFFER</p>
                 </div>
@@ -159,8 +159,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style>
         .click-img{
-            width: 100px;
-            padding-top: 23%;
+            width: 80px;
+            padding-top: 30%;
         }
         .map-home{
             background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
@@ -168,7 +168,7 @@
             background-position: center center;
             background-size: cover;
             width: auto;
-            height: 280px;
+            height: 273px;
         }
         .txt-download{
             letter-spacing: 0.3rem;
@@ -294,10 +294,20 @@ pop up css
 
         @media (min-width: 576px) {
 
-            .click-img{
-                width: 150px;
-                padding-top: 20%;
+            .map-home{
+                background-image: url('{{ asset('images/thescott/home/map and phone icons-38.png') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 390px;
             }
+
+            .click-img{
+                width: 110px;
+                padding-top: 11%;
+            }
+
             .modal-dialog{
                 max-width: 960px !important;
             }
@@ -306,9 +316,9 @@ pop up css
                 width: 960px;
             }
 
-            .map-home{
-                height: 635px;
-            }
+            /*.map-home{*/
+            /*    height: 390px;*/
+            /*}*/
 
             .txt-header-body{
                 font-size:26px;
@@ -406,7 +416,7 @@ pop up css
         @media (min-width: 1369px) {
             .click-img{
                 width: 150px;
-                padding-top: 12%;
+                padding-top: 6%;
             }
         }
     </style>

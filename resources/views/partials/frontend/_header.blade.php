@@ -303,7 +303,9 @@
                         </li>
 
                         <li>
-                            <a href="{{ route('frontend.contact_us')}}" class="text-dark font-montserrat">Contact Us</a>
+                            <a href="{{ route('frontend.contact_us')}}" class="text-dark font-montserrat">
+                                <img src="{{ asset('images/thescott/phone icon-37.png') }}" alt="LOGO">
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -360,7 +362,9 @@
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">Contact Us</a>
+                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">
+{{--                        <img src="{{ asset('images/thescott/phone icon-36.png') }}" alt="LOGO">--}}
+                    </a>
                 </li>
             </ul>
         </div>

@@ -74,34 +74,71 @@
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-1 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 1</p>
+                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">--}}
+
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-2 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 2</p>
+                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-3 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 3</p>
+                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
             </div>
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-4 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 4</p>
+                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-5 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 5</p>
+                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-6 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 6</p>
+                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
             </div>
@@ -111,32 +148,68 @@
             <div class="row no-gutters">
                 <div class="col-6">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-1 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 1</p>
+                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-6">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-2 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 2</p>
+                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-6">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-3 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 3</p>
+                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-6">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-4 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 4</p>
+                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-6">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-5 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 5</p>
+                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
                 <div class="col-6">
                     <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
-                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">
+                        <div class="fac-6 text-white">
+                            <div class="fac-space">
+                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 6</p>
+                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                            </div>
+                        </div>
+{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">--}}
                     </a>
                 </div>
             </div>
@@ -146,6 +219,68 @@
 
 @section('styles')
     <style type="text/css">
+
+        .txt-body-1 {
+            font-size: 12px;
+        }
+
+        .fac-space{
+            padding-top:100px;
+            padding-left:20px;
+        }
+        .fac-1{
+            background-image: url('{{ asset('images/thescott/facilities/foto baru-30.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 100%;
+            height: 158px;
+        }
+        .fac-2{
+            background-image: url('{{ asset('images/thescott/facilities/foto baru-31.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 158px;
+        }
+        .fac-3{
+            background-image: url('{{ asset('images/thescott/facilities/foto baru-32.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 158px;
+        }
+        .fac-4{
+            background-image: url('{{ asset('images/thescott/facilities/foto baru-33.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 158px;
+        }
+        .fac-5{
+            background-image: url('{{ asset('images/thescott/facilities/foto baru-34.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 158px;
+        }
+        .fac-6{
+            background-image: url('{{ asset('images/thescott/facilities/foto baru-35.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 158px;
+        }
+        .txt-spacing-header{
+            font-style: italic;
+            font-size:14px;
+            padding-bottom: 5px;
+        }
         .txt-space{
             font-size:9px;
         }
@@ -214,6 +349,64 @@
         }
 
         @media (min-width: 576px) {
+            .fac-1{
+                background-image: url('{{ asset('images/thescott/facilities/foto baru-30.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 100%;
+                height: 380px;
+            }
+            .fac-2{
+                background-image: url('{{ asset('images/thescott/facilities/foto baru-31.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 380px;
+            }
+            .fac-3{
+                background-image: url('{{ asset('images/thescott/facilities/foto baru-32.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 380px;
+            }
+            .fac-4{
+                background-image: url('{{ asset('images/thescott/facilities/foto baru-33.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 380px;
+            }
+            .fac-5{
+                background-image: url('{{ asset('images/thescott/facilities/foto baru-34.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 380px;
+            }
+            .fac-6{
+                background-image: url('{{ asset('images/thescott/facilities/foto baru-35.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 380px;
+            }
+            .fac-space{
+                padding-top: 300px;
+                padding-left: 40px;
+            }
+            }
+            .txt-spacing-header{
+                font-style: italic;
+                font-size:16px;
+                padding-bottom: 5px;
+            }
             .txt-space{
                 font-size:13px;
             }
