@@ -71,7 +71,7 @@
         }
 
         .bg-header-slow{
-            background-image: url('{{ asset('images/thescott/home/banner-slow.png') }}');
+            background-image: url('{{ asset('images/thescott/home/foto slow living.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -84,7 +84,7 @@
                 min-height: 150px;
             }
             .bg-header-slow{
-                background-image: url('{{ asset('images/thescott/home/banner-slow.png') }}');
+                background-image: url('{{ asset('images/thescott/home/foto slow living.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;

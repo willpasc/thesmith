@@ -292,7 +292,7 @@
             padding-top:25%;
         }
         .bg-facilities{
-            background-image: url('{{ asset('images/thescott/facilities/bg-facilities.png') }}');
+            background-image: url('{{ asset('images/thescott/facilities/foto facilities.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -401,7 +401,7 @@
                 padding-top: 300px;
                 padding-left: 40px;
             }
-            }
+
             .txt-spacing-header{
                 font-style: italic;
                 font-size:16px;
@@ -418,7 +418,7 @@
                 height:545px;
             }
             .bg-facilities{
-                background-image: url('{{ asset('images/thescott/facilities/bg-facilities.png') }}');
+                background-image: url('{{ asset('images/thescott/facilities/foto facilities.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
