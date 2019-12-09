@@ -283,9 +283,9 @@
 {{--                            </ul>--}}
                         </li>
 
-                        <li>
-                            <a href="{{ route('frontend.gallery') }}" class="text-dark font-montserrat">GALLERY</a>
-                        </li>
+{{--                        <li>--}}
+{{--                            <a href="{{ route('frontend.gallery') }}" class="text-dark font-montserrat">GALLERY</a>--}}
+{{--                        </li>--}}
 
                         <li>
                             <a href="{{ route('frontend.developer')}}" class="text-dark font-montserrat">DEVELOPER</a>
@@ -303,8 +303,8 @@
                         </li>
 
                         <li>
-                            <a href="{{ route('frontend.contact_us')}}" class="text-dark font-montserrat">
-                                <img src="{{ asset('images/thescott/phone icon-37.png') }}" alt="LOGO">
+                            <a href="{{ route('frontend.contact_us')}}" class="text-dark font-montserrat">CONTACT US
+{{--                                <img src="{{ asset('images/thescott/phone icon-37.png') }}" alt="LOGO">--}}
                             </a>
                         </li>
                     </ul>
@@ -353,16 +353,16 @@
                     <a href="{{route('frontend.facilities')}}" class="text-white font-montserrat">Facilities</a>
                 </li>
 
-                <li>
-                    <a href="{{route('frontend.gallery')}}" class="text-white font-montserrat">Gallery</a>
-                </li>
+{{--                <li>--}}
+{{--                    <a href="{{route('frontend.gallery')}}" class="text-white font-montserrat">Gallery</a>--}}
+{{--                </li>--}}
 
                 <li>
                     <a href="{{ route('frontend.developer')}}" class="text-white font-montserrat">Developer</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">
+                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">Contact Us
 {{--                        <img src="{{ asset('images/thescott/phone icon-36.png') }}" alt="LOGO">--}}
                     </a>
                 </li>
