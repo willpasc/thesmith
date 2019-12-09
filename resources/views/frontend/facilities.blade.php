@@ -76,8 +76,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
                         <div class="fac-1 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 1</p>
-                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Pool</p>
+                                <p class="txt-body-1 font-montserrat">Relax your mind as you step into the rejuvenating pool.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">--}}
@@ -88,8 +88,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
                         <div class="fac-2 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 2</p>
-                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">GYM</p>
+                                <p class="txt-body-1 font-montserrat">Healthy body, better ideas.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">--}}
@@ -99,8 +99,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
                         <div class="fac-3 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 3</p>
-                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Playground</p>
+                                <p class="txt-body-1 font-montserrat">A place for the little loved ones to explore their imagination.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">--}}
@@ -112,8 +112,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
                         <div class="fac-4 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 4</p>
-                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Multipurpose</p>
+                                <p class="txt-body-1 font-montserrat">Be at ease by knowing there's a space to commodify all of your ideas.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">--}}
@@ -123,8 +123,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
                         <div class="fac-5 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 5</p>
-                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Yoga Deck</p>
+                                <p class="txt-body-1 font-montserrat">Master your breath, let the self be in bliss.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">--}}
@@ -150,8 +150,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
                         <div class="fac-1 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 1</p>
-                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Pool</p>
+                                <p class="txt-body-1 font-montserrat">Relax your mind as you step into the rejuvenating pool.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">--}}
@@ -161,8 +161,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
                         <div class="fac-2 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 2</p>
-                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">GYM</p>
+                                <p class="txt-body-1 font-montserrat">Healthy body, better ideas</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">--}}
@@ -172,8 +172,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
                         <div class="fac-3 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 3</p>
-                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Playground</p>
+                                <p class="txt-body-1 font-montserrat">A place for the little loved ones to explore their imagination.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">--}}
@@ -183,8 +183,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
                         <div class="fac-4 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 4</p>
-                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Multipurpose</p>
+                                <p class="txt-body-1 font-montserrat">Be at ease by knowing there's a space to commodify all of your ideas</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">--}}
@@ -194,8 +194,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
                         <div class="fac-5 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 5</p>
-                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Yoga Deck</p>
+                                <p class="txt-body-1 font-montserrat">Master your breath, let the self be in bliss.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">--}}
@@ -225,11 +225,11 @@
         }
 
         .fac-space{
-            padding-top:100px;
+            padding-top:75px;
             padding-left:20px;
         }
         .fac-1{
-            background-image: url('{{ asset('images/thescott/facilities/foto baru-30.jpg') }}');
+            background-image: url('{{ asset('images/thescott/facilities/lorem 1 - pool.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -237,7 +237,7 @@
             height: 158px;
         }
         .fac-2{
-            background-image: url('{{ asset('images/thescott/facilities/foto baru-31.jpg') }}');
+            background-image: url('{{ asset('images/thescott/facilities/lorem 2 - gym.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -245,7 +245,7 @@
             height: 158px;
         }
         .fac-3{
-            background-image: url('{{ asset('images/thescott/facilities/foto baru-32.jpg') }}');
+            background-image: url('{{ asset('images/thescott/facilities/lorem 3 - playground.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -253,7 +253,7 @@
             height: 158px;
         }
         .fac-4{
-            background-image: url('{{ asset('images/thescott/facilities/foto baru-33.jpg') }}');
+            background-image: url('{{ asset('images/thescott/facilities/lorem 4 - multipurpose.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -261,7 +261,7 @@
             height: 158px;
         }
         .fac-5{
-            background-image: url('{{ asset('images/thescott/facilities/foto baru-34.jpg') }}');
+            background-image: url('{{ asset('images/thescott/facilities/lorem 5 - yoga deck.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -350,7 +350,7 @@
 
         @media (min-width: 576px) {
             .fac-1{
-                background-image: url('{{ asset('images/thescott/facilities/foto baru-30.jpg') }}');
+                background-image: url('{{ asset('images/thescott/facilities/lorem 1 - pool.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -358,7 +358,7 @@
                 height: 380px;
             }
             .fac-2{
-                background-image: url('{{ asset('images/thescott/facilities/foto baru-31.jpg') }}');
+                background-image: url('{{ asset('images/thescott/facilities/lorem 2 - gym.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -366,7 +366,7 @@
                 height: 380px;
             }
             .fac-3{
-                background-image: url('{{ asset('images/thescott/facilities/foto baru-32.jpg') }}');
+                background-image: url('{{ asset('images/thescott/facilities/lorem 3 - playground.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -374,7 +374,7 @@
                 height: 380px;
             }
             .fac-4{
-                background-image: url('{{ asset('images/thescott/facilities/foto baru-33.jpg') }}');
+                background-image: url('{{ asset('images/thescott/facilities/lorem 4 - multipurpose.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -382,7 +382,7 @@
                 height: 380px;
             }
             .fac-5{
-                background-image: url('{{ asset('images/thescott/facilities/foto baru-34.jpg') }}');
+                background-image: url('{{ asset('images/thescott/facilities/lorem 5 - yoga deck.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
