@@ -63,9 +63,10 @@
                 <div class="col-md-2 col-12"></div>
                 <div class="col-md-8 text-center text-white px-md-0 px-4">
                     <p class="txt-facilities font-librecaslon pb-4">FACILITIES</p>
-                    <p class="txt-body font-montserrat">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobo
-                        rtis ni unvalor unum et quisapre ompre de impel down.</p>
+                    <p class="txt-body font-montserrat">
+                        “Quality over Quantity”, one exact way to describe the deep approach which The Scott embrace when it comes to facility. Having the best of facility rather than a lot of less valuable versions, to
+                        provide above standard convenience to all it’s resident.
+                    </p>
                 </div>
                 <div class="col-md-2"></div>
             </div>

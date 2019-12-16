@@ -24,9 +24,23 @@
                         <div class="col-md-2"></div>
                         <div class="col-md-8 col-12">
                             <p class="text-white txt-body font-montserrat px-md-0 px-4">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-                                enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
-                                hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero e.
+                                PT. Perintis Triniti Properti was initiated in 2009,
+                                with it’s first kick-starting project named Ubud
+                                Village, a 5-hectares land development. Since
+                                2014 until 2017, PT. PTP or also known as Triniti
+                                Property Group began introducing it’s iconic
+                                projects – Brooklyn, Springwood Residences,
+                                Yukata Suites, The Smith with total revenue 4
+                                trillion Rupiah.
+                                In 2018, Triniti Property Group launched it’s new
+                                face with a name TRINITI LAND, together by
+                                introducing a Superblock Project worth 4 trillion
+                                rupiah named Collins Boulevard.
+                                Reaching it’s 9th year of building and innovating,
+                                Triniti Land plans to commence an initial Public
+                                Offering (Go Public) and create masterplans of
+                                building Township Development scale projects in
+                                Jabodetabek also outside Java.
                             </p>
                         </div>
                         <div class="col-md-2"></div>
@@ -210,7 +224,7 @@
 
         .bg-header-developer{
             background-color: #000000;
-            height: 700px;
+            height: 800px;
             width: auto;
         }
 
@@ -234,7 +248,7 @@
             }
             .bg-header-developer{
                 background-color: #000000;
-                height: 600px;
+                height: 700px;
                 width: auto;
             }
             .logo-developer{
