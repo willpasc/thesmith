@@ -206,7 +206,7 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
                         <div class="fac-6 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon"><Lounge></Lounge></p>
+                                <p class="txt-spacing-header font-librecaslon">Lounge</p>
                                 <p class="txt-body-1 font-montserrat">In the Mezzanine.</p>
                             </div>
                         </div>
