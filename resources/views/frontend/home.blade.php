@@ -115,7 +115,7 @@
                 </div>
                 <div class="col-md-4 pb-5">
                     <img src="{{ asset('images/thescott/home/foto baru-28.jpg') }}" alt="img" class="text-center w-100" >
-                    <p class="txt-header-body py-3 text-dark font-librecaslon">ROOM FOR CREATORS</p>
+                    <p class="txt-header-body py-3 text-dark font-librecaslon">HOME OF CREATORS</p>
                     <p class="txt-body pr-3 font-montserrat">Built thoughtfully for creators, every room is designed
                         perfectly for productive pursuits, elegantly incorporating
                         coziness as the creative mind invents its best.</p>

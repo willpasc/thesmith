@@ -135,8 +135,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
                         <div class="fac-6 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 6</p>
-                                <p class="txt-body font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon">Lounge</p>
+                                <p class="txt-body font-montserrat">In the Mezzanine.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">--}}
@@ -206,8 +206,8 @@
                     <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
                         <div class="fac-6 text-white">
                             <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lorem Ipsum 6</p>
-                                <p class="txt-body-1 font-montserrat">Dolor sit amet un valor.</p>
+                                <p class="txt-spacing-header font-librecaslon"><Lounge></Lounge></p>
+                                <p class="txt-body-1 font-montserrat">In the Mezzanine.</p>
                             </div>
                         </div>
 {{--                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">--}}
@@ -270,7 +270,7 @@
             height: 158px;
         }
         .fac-6{
-            background-image: url('{{ asset('images/thescott/facilities/foto baru-35.jpg') }}');
+            background-image: url('{{ asset('images/thescott/facilities/lorem 6 - lounge.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -391,7 +391,7 @@
                 height: 380px;
             }
             .fac-6{
-                background-image: url('{{ asset('images/thescott/facilities/foto baru-35.jpg') }}');
+                background-image: url('{{ asset('images/thescott/facilities/lorem 6 - lounge.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;

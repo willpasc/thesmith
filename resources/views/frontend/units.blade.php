@@ -18,7 +18,10 @@
                     <div class="row">
                         <div class="col-2"></div>
                         <div class="col-8">
-                        <P class="txt-body font-montserrat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ea et eum, excepturi, harum ipsum laborum magni non perspiciatis, quisquam quo soluta sunt vitae? Aliquam architecto assumenda eaque exercitationem incidunt maiores nobis rem veritatis. Vel?</P>
+                        <p class="txt-body font-montserrat">Serenity has become a luxury within this fast-paced world.
+                            The Scott Home Studio adopts minimalist lifestyle that lays
+                            a foundation of Less is More, offering values leading to a
+                            stress-free life.</p>
                         </div>
                         <div class="col-2"></div>
                     </div>
