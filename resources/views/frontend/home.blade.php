@@ -150,13 +150,13 @@
                     <a href="#residence" data-toggle="collapse" data-parent="accordion">
                                 <span class="txt-hemat-catatan font-lato text-dark">Description
                                     &nbsp; <img
-                                        src="{{ asset('images/thesmith/ny.h-web-catatan-dropdown-icon_1.0.png') }}"
+                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                     </a>
                     <div id="residence" class="collapse"
-                         style="background-color: rgba(0,0,0,0);">
-                        <div class="panel-body">
+                         style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
+                        <div class="panel-body" style="z-index:9999999 !important;">
                             <div class="row">
                                 <div class="col-12">
                                     <!-- Swiper -->
@@ -197,8 +197,8 @@
                                         <!-- Add Pagination -->
                                         <div class="swiper-pagination"></div>
                                         <!-- Add Arrows -->
-                                        <div class="swiper-button-next"></div>
-                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next swiper-button-black"></div>
+                                        <div class="swiper-button-prev swiper-button-black"></div>
                                     </div>
                                 </div>
                             </div>
