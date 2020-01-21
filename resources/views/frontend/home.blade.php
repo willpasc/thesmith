@@ -5,21 +5,32 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>THE SCOTT</title>
+    <title>THE SMITH</title>
 @endsection
 
 @section('content')
 
 <section class="bg-home">
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container">
+        <div class="row no-gutters padd-top50">
             <div class="col-12 text-center">
-                <img src="{{ asset('images/thescott/home/web-cekot-preview 3-17.png') }}" alt="img" class="img-cekot-home">
-                <p class="essentialy font-montserrat">LIVE ESSENTIALY</p>
-                <div>
-                    <a href="http://download.scotthomestudio.com/img/Ecatalogue_the_scott.pdf">
-                        <img src="{{ asset('images/thescott/home/web-cekot-preview 3-18.png') }}" alt="img" class="img-btn-donlod">
-                        <p class="font-montserrat text-white txt-download">DOWNLOAD</p>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6 text-left text-white">
+                        <div class="border-banner-home"></div>
+                        <p class="pb-3 txt-silicon-header txt-header-body font-metropolis d-none d-md-block">SILICON VALLEY EXPERIENCE</p>
+                        <p class="txt-body font-lato d-none d-md-block">The Smith stands as a home for millennials who seek limitless<br/>
+                            opportunities at the prosperous land of Alam Sutera. Relish an<br/>
+                            elegant home that smartly incorporates luxury and comfort,<br/>
+                            encircled with complete SOHO amenities that boosts a<br/>
+                            balanced lifestyle experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="banner-scroll">
+                    <a href="#" onclick="navigateSection('concept')">
+                    <p class="text-white txt-body font-lato">SCROLL</p>
+                    <img src="{{ asset('images/thesmith/home/thesmith-web-scroll-arrow_1.0.png') }}" alt="img" class="">
                     </a>
                 </div>
             </div>
@@ -27,137 +38,339 @@
     </div>
 </section>
 
-<section class="pt-5">
-    <div class="container">
-        <div class="row no-gutters px-5">
-            <div class="col-md-6 col-12">
-                <a href="{{ route('frontend.slow') }}">
-                <div class="img-home-2 txt-spacing text-white">
-                    <p class="txt-spacing-header font-librecaslon">SLOW LIVING</p>
-                    <p class="readmore font-montserrat">Read More</p>
-                </div>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a href="{{ route('frontend.less') }}">
-                <div class="img-home-3 txt-spacing text-white">
-                    <p class="txt-spacing-header font-librecaslon">LESS IS MORE</p>
-                    <p class="readmore font-montserrat">Read More</p>
-                </div>
-                </a>
-            </div>
-        </div>
-    </div>
+<section class="concept-bg" id="concept">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center text-dark px-5">
-                <p class="txt-header-body py-5 font-librecaslon">LIVE ESSENTIALLY</p>
-                <div class="row">
-                    <div class="col-1"></div>
-                    <div class="col-10">
-                <p class="txt-live pb-4 font-montserrat">For recent decades, the simplicity of decision making seemed to fade. Hundreds of choices are stretched widely, beginning from the attire we pick, lunch menu up to
-                    Netflix programs. Complexity has clouded decisionmakingprocesses, igniting bias energy that could compromise productivity. This is where Essentialism sets its place, offeringperfect
-                    lifestyle choices in this tireless modern world.</p>
-                <p class="txt-live font-montserrat">Essentialism is a focused lifestyle that highlights essential needs that shares a strong impact in one’s life, eliminating unproductive tasks in the process.
-                    An Essentialist believes in an affluent lifestyle, attained in a minimalist manner. Triniti Land stimulates the need of reflecting
-                    The Essentialism concept within the newly built apartment, The Scott Residence.</p>
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-white text-center py-cust">
+                <p class="txt-header-body font-metropolis">CONCEPT</p>
+                <p class="txt-body font-lato">The foundational ideas of The Smith</p>
+                <div class="border-concept-custom"></div>
+                <div class="row pt-5">
+                    <div class="col-md-4 col-12 pb-5">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_1.1.jpg') }}" alt="img" class="img-concept">
+                        <div class="">
+                        <p class="py-md-4 py-3 txt-subheader">LIVE, HUSTLE, CREATE.</p>
+                        <p class="txt-body px-4 font-lato">Elegantly incorporates comfort and
+                            well-being, all within steps from home.</p>
+                        </div>
                     </div>
-                    <div class="col-1"></div>
+                    <div class="col-md-4 pb-5">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_2.1.jpg') }}" alt="img" class="img-concept">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">CURRATED COMMUNITY.</p>
+                            <p class="txt-body px-4 font-lato">Equipped with facilities designed
+                                for collaborative communities.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_3.1.jpg') }}" alt="img" class="img-concept">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">HOME OF UNICORNS</p>
+                            <p class="txt-body px-4 font-lato">1300 m2 of Co-Working Space,
+                                managed by <span style="font-weight: bold">Go Work</span>.</p>
+                        </div>
+                    </div>
                 </div>
-                <img src="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" alt="img" class="py-5 img-cekotlogo2">
             </div>
+            <div class="col-md-2"></div>
         </div>
     </div>
 </section>
-    <section>
+<section class="gowork-bg">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 col-12 text-center">
+                <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-logo_1.0.png') }}" alt="img" class="gowork-logo">
+                <p class="text-white py-5 txt-body px-5 font-lato">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
+                    Starting from Pacific Place, Plaza Indonesia, Senayan City, including Bali.
+                    Currently Go Work serves more than 12.000 members.</p>
+                <p class="text-white txt-body pb-3 font-lato">Go Work Partners include:</p>
+                <div class="row px-5">
+                    <div class="col-md-3 col-6 pb-3">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-gojek-logo_1.0.png') }}" alt="img" class="gojek-logo">
+                    </div>
+                    <div class="col-md-3 col-6 pb-3">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-zomato-logo_1.0.png') }}" alt="img" class="zomato-logo">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-kopikenangan-logo_1.0.png') }}" alt="img" class="kopikenangan-logo">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-fore-logo_1.0.png') }}" alt="img" class="kopikenangan-logo">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</section>
+<section class="concept-bg" id="towerplan">
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 text-white text-center py-cust">
+                <p class="txt-header-body font-metropolis">TOWER PLANS</p>
+                <p class="txt-body font-lato">A home and an office, all only a few steps away</p>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs pt-5" role="tablist">
+                    <li class="nav-item col-md-4 col-12 p-0 tab-nav">
+                        <a class="nav-link active text-white" data-toggle="tab" href="#residence" role="tab">RESIDENCE UNIT</a>
+                    </li>
+
+                    <li class="nav-item col-md-4 p-0 tab-nav">
+                        <a class="nav-link text-white" data-toggle="tab" href="#soho" role="tab" id="tabFloor">SOHO UNITS</a>
+                    </li>
+
+                    <li class="nav-item col-md-4 p-0 tab-nav">
+                        <a class="nav-link text-white" data-toggle="tab" href="#office" role="tab" id="tabUnit">OFFICE UNITS</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="map-home text-center">
-                    <a data-toggle="modal" data-target="#first_modal">
-                        <img src="{{ asset('images/thescott/home/web-cekot-preview-3-18.png') }}" alt="img" class="click-img">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="tangerang">
-        <div class="container">
-            <div class="row py-5 mt-4">
-                <div class="col-12 text-center text-dark">
-                    <p class="txt-header-body txt-what font-librecaslon">WHAT SOUTH TANGERANG HAS TO OFFER</p>
-                </div>
-            </div>
-            <div class="row text-center pb-5">
-                <div class="col-md-4 col-12">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-23.png') }}" alt="img" class="pb-5" style="width:200px">
-                </div>
-                <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-22.png') }}" alt="img" class="pb-5" style="width:200px">
-                </div>
-                <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/home/web-cekot-preview-3-21.png') }}" alt="img" class="pb-5" style="width:200px">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pb-5">
-        <div class="container">
-            <div class="row px-2">
-                <div class="col-md-4 pb-5">
-                    <img src="{{ asset('images/thescott/home/foto baru-27.jpg') }}" alt="img" class="text-center w-100" >
-                    <p class="txt-header-body py-3 text-dark font-librecaslon">ADAPTABLE SPACE</p>
-                    <p class="txt-body pr-3 font-montserrat">Initiating a minimalist home where functions matters most,
-                        each unit at The Scott is installed with multi-purpose
-                        interiors that adapts to your demands effortlessly. Whether
-                        you seek for a cozy night sleep or a daylight working space,
-                        let the room transform seamlessly, without compromising
-                        any comfort.</p>
-                </div>
-                <div class="col-md-4 pb-5">
-                    <img src="{{ asset('images/thescott/home/foto baru-28.jpg') }}" alt="img" class="text-center w-100" >
-                    <p class="txt-header-body py-3 text-dark font-librecaslon">HOME OF CREATORS</p>
-                    <p class="txt-body pr-3 font-montserrat">Built thoughtfully for creators, every room is designed
-                        perfectly for productive pursuits, elegantly incorporating
-                        coziness as the creative mind invents its best.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="{{ asset('images/thescott/home/foto baru-29.jpg') }}" alt="img" class="text-center w-100" >
-                    <p class="txt-header-body py-3 text-dark font-librecaslon">THE 1<sup>ST</sup> IOT RESIDENCE</p>
-                    <p class="txt-body pr-4 font-montserrat">Renowned as a pioneer for an innovative residence at
-                        Serpong, The Scott proudly delivers an in-built
-                        IOT technology that integrates to your needs flawlessly,
-                        defining a perfect home for those seeking an ultimate
-                        contentment.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<div class="modal" id="first_modal">
-    <div class="modal-dialog">
-        <div class="modal-content bg_popup">
-
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-
-
-            <!-- Modal body -->
-            <div class="modal-body">
+                <div class="bg-tower"></div>
             </div>
         </div>
     </div>
-</div>
+</section>
+<section style="background-color: black">
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="text-center" style="position: relative; z-index: 999999;background-color: white; height:50px;top:-25px;">
+                    <a href="#residence" data-toggle="collapse" data-parent="accordion">
+                                <span class="txt-hemat-catatan font-lato text-dark">Description
+                                    &nbsp; <img
+                                        src="{{ asset('images/thesmith/ny.h-web-catatan-dropdown-icon_1.0.png') }}"
+                                        alt="IMG" style="width:20px;" class="img-fluid">
+                                </span>
+                    </a>
+                    <div id="residence" class="collapse"
+                         style="background-color: rgba(0,0,0,0);">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <!-- Swiper -->
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper py-3">
+                                            <div class="swiper-slide">
+                                                <div class="row">
+                                                    <div class="col-12 text-dark text-center">
+                                                        <p class="txt-header-body">ONE BEDROOM - A</p>
+                                                        <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                        <div class="border-swiper-custom"></div>
+                                                        <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                            with interiors installed smartly, together with ample ventilations that shines every room.<br/>
+                                                            Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                            directly to the safety officers, ensuring needs are attended promptly.
+                                                        </p>
+                                                            <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="btn-full details pt-3">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="row">
+                                                    <div class="col-12 text-dark text-center">
+                                                        <p class="txt-header-body">ONE BEDROOM - B</p>
+                                                        <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                        <div class="border-swiper-custom"></div>
+                                                        <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                            with interiors installed smartly, together with ample ventilations that shines every room.<br/>
+                                                            Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                            directly to the safety officers, ensuring needs are attended promptly.
+                                                        </p>
+                                                        <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="btn-full details pt-3">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                        <!-- Add Arrows -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</section>
+<section id="location" style="background-color: black">
+    <div class="container py-cust">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-white text-center">
+                <p class="txt-header-body">LOCATION</p>
+                <p class="txt-body font-lato pb-3">Located strategically, neighboring to world-class amenities</p>
+                <div class="border-concept-custom"></div>
+                <div class="row py-5 px-md-0 px-5">
+                    <div class="col-md-4 col-12 pb-5">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">1 MINUTE AWAY</p>
+                            <p class="txt-body px-4 font-lato">From Alam Sutera Toll Gate</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-5">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="txt-body px-4 font-lato">From IKEA Alam Sutera</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_3.1.jpg') }}" alt="img" class="img-location">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="txt-body px-4 font-lato">From BINUS University</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-md-0 px-5">
+                    <div class="col-md-4 col-12 pb-5">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_4.1.jpg') }}" alt="img" class="img-location">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">5 MINUTE AWAY</p>
+                            <p class="txt-body px-4 font-lato">From Living World</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-5">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_5.1.jpg') }}" alt="img" class="img-location">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="txt-body px-4 font-lato">From Mall at Alam Sutera</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_6.1.jpg') }}" alt="img" class="img-location">
+                        <div class="">
+                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="txt-body px-4 font-lato">From OMNI Hospital</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="border-location-custom"></div>
+                    <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-map_1.0.png') }}" alt="img" class="img-map pt-5">
+
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p class="txt-body pt-5 font-lato d-none d-md-block">
+                            The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,<br/>
+                            namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.<br/>
+                            An ease of multi-city commuting is also highlighted as it stands a minute away<br/>
+                            from the Toll Gate of Alam Sutera.
+                        </p>
+
+                        <p class="txt-body pt-5 font-lato d-block d-md-none px-5">
+                            The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
+                            namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.
+                            An ease of multi-city commuting is also highlighted as it stands a minute away
+                            from the Toll Gate of Alam Sutera.
+                        </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+</section>
 
 
 @endsection
 
 @section('styles')
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+{{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
+        .container-fluid{
+            padding:0;
+        }
+        .bg-tower{
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 150px;
+        }
+        .nav-tabs .nav-link.active {
+            color: #495057;
+            background-color: #414042;
+            border-color: #fff #fff #fff;
+        }
+        .tab-nav{
+            border: 1px solid #fff;
+        }
+        .border-location-custom{
+            border-bottom: 1px solid white;
+            width: 100%;
+            margin-left: 0;
+            padding-top:50px;
+
+        }
+
+        .img-location{
+            width:100%;
+        }
+        .img-map{
+            width:100%;
+        }
+
+        .gowork-bg{
+            background-color: #1c1a1a;
+        }
+        .py-cust{
+            padding-top:70px;
+            padding-bottom:70px;
+        }
+        .img-concept{
+            width:80%;
+        }
+        .border-concept-custom{
+            border-bottom: 1px solid white;
+            width:100%;
+        }
+        .border-swiper-custom{
+            border-bottom: 1px solid black;
+            width:100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .concept-bg{
+            background-color: black;
+        }
+        .banner-scroll{
+            padding-top:100px;
+        }
+        .txt-silicon-header{
+            /*letter-spacing: 10px;*/
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+        .padd-top50{
+            padding-top: 10%;
+        }
+
         .click-img{
             width: 80px;
             padding-top: 30%;
@@ -234,12 +447,12 @@
             width: 262px;
         }
         .bg-home{
-            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-10.jpg') }}');
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-img_1.0.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             width:100%;
-            height: 420px;
+            height: 184px;
         }
 /*
 pop up css
@@ -292,7 +505,62 @@ pop up css
             /*color: #fff !important;*/
         /*}*/
 
+        /*swiper*/
+        .swiper-container {
+            width: 100%;
+            height: 330px;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
         @media (min-width: 576px) {
+
+            .banner-scroll{
+                padding-top:190px;
+            }
+
+            .border-banner-home{
+                border-bottom: 1px solid white;
+                width: 100px;
+                margin-left: -50px;
+            }
+
+            .border-location-custom{
+                border-bottom: 1px solid white;
+                width: 350px;
+                margin-left: 32%;
+                padding-top:50px;
+
+            }
+
+            .bg-tower{
+                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 540px;
+            }
+
+            .img-concept{
+                width:100%;
+            }
 
             .map-home{
                 background-image: url('{{ asset('images/thescott/home/map and phone icons-38.png') }}');
@@ -360,12 +628,14 @@ pop up css
                 width: 400px;
             }
             .bg-home {
-                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-10.jpg') }}');
+                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-img_1.0.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
                 width: 100%;
-                height: 755px !important;
+                height: 663px !important;
+                position: relative;
+                padding-top:100px;
             }
             .img-btn-donlod{
                 width: 160px;
@@ -423,16 +693,8 @@ pop up css
 @endsection
 
 @section('scripts')
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+{{--    <script type="text/javascript" src="{{ asset('js/frontend/swiper.min.js') }}"></script>--}}
     <script>
-        $('.slider-within').slick({
-            dots: false,
-            infinite: false,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            variableWidth: true,
-            arrows: true
-        });
 
         function navigateSection(section){
             var offsetTop = $('#' + section).offset().top;
@@ -444,6 +706,35 @@ pop up css
 
                 return false;
             }
-        }
+        };
+
+        $('#residence').on('shown.bs.collapse', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+        $('#soho').on('shown.bs.collapse', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+
+
     </script>
 @endsection

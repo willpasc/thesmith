@@ -35,6 +35,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/main.css') }}">
     <!--===============================================================================================-->
     <link href="{{ asset('css/frontend/custom.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/frontend/swiper.css')}}" rel="stylesheet">
 
     @yield('styles')
 
@@ -84,6 +85,7 @@
     <script src="{{ asset('vendor/MagnificPopup/jquery.magnific-popup.min.js') }}"></script>
     <!--===============================================================================================-->
     <script src="{{ asset('js/frontend/main.js') }}"></script>
+    <script src="{{ asset('js/frontend/swiper.min.js') }}"></script>
 
     <script>
         $(window).on('load', function(){

@@ -243,7 +243,7 @@
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="{{ route('frontend.less') }}" class="text-white font-montserrat">THE IDEA</a>
+                            <a href="#" onclick="navigateSection('location')" class="text-white font-montserrat">LOCATION</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="index.html">Homepage v1</a></li>--}}
 {{--                                <li><a href="home-02.html">Homepage v2</a></li>--}}
@@ -251,10 +251,7 @@
 {{--                            </ul>--}}
                         </li>
                         <li>
-                            <a href="{{ route('home')}}#tangerang"  class="text-white font-montserrat">MAP</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('frontend.units')}}" class="text-white font-montserrat">UNITS</a>
+                            <a href="{{ route('frontend.units')}}" @if(Route::currentRouteName() == 'frontend.units') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-montserrat">TOWER PLANS</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="services-list.html">Services List</a></li>--}}
 {{--                                <li>--}}
@@ -271,7 +268,7 @@
                     </ul>
 
                     <!-- Logo desktop -->
-                    <a class="logo-v2" href="{{ route('home') }}"><img src="{{ asset('images/thescott/home/web-cekot-preview-3-17.png') }}" alt="LOGO"></a>
+                    <a class="logo-v2" href="{{ route('home') }}"><img src="{{ asset('images/thesmith/thesmith-web-menu-logo_1.0.png') }}" alt="LOGO"></a>
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
@@ -288,7 +285,7 @@
 {{--                        </li>--}}
 
                         <li>
-                            <a href="{{ route('frontend.developer')}}" class="text-white font-montserrat">DEVELOPER</a>
+                            <a href="{{ route('frontend.developer')}}" @if(Route::currentRouteName() == 'frontend.developer') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-montserrat">DEVELOPERS</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="projects-grid.html">Projects Grid</a></li>--}}
 {{--                                <li>--}}
@@ -301,12 +298,6 @@
 {{--                                </li>--}}
 {{--                            </ul>--}}
                         </li>
-
-                        <li>
-                            <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">CONTACT US
-{{--                                <img src="{{ asset('images/thescott/phone icon-36.png') }}" alt="LOGO">--}}
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -318,7 +309,7 @@
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
             <div class="logo-mobile">
-                <a href="{{ route('home') }}"><img src="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" alt="LOGO"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('images/thesmith/thesmith-web-menu-logo_1.0.png') }}" alt="LOGO"></a>
             </div>
 
 

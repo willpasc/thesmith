@@ -8,7 +8,34 @@
     font-family: 'montserratregular', sans-serif !important;
 }
 
+.font-lato {
+     font-family: 'lato', sans-serif; !important;
+}
 
+.font-metropolis {
+    font-family: 'metropolisregular', sans-serif !important;
+}
+
+
+.pl-5-c{
+    padding-left: 7rem !important;
+}
+.disclaimer{
+    color:gray;
+    font-size:11px;
+    padding-right:35px;
+    line-height: 1.8em;
+}
+.disclaimer-1{
+    color:gray;
+    font-size:11px;
+    /*padding-right:35px;*/
+    line-height: 1.8em;
+}
+.space-foot{
+    margin-left: 60px;
+    margin-top: 30px;
+}
 
 .header-footer{
     font-size:15px;
@@ -17,6 +44,9 @@
 .txt-body{
     font-size: 13px;
     line-height: 1.8em;
+}
+.txt-subheader{
+    font-size:16px;
 }
 
 .gold{
@@ -36,7 +66,7 @@
 }
 
 .wrap-header-mobile{
-    background-color: #fff !important;
+    background-color: black !important;
 }
 
 .bottom-line-white{
