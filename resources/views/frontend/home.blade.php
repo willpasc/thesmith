@@ -5,6 +5,7 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
+
     <title>THE SMITH</title>
 @endsection
 
@@ -50,7 +51,7 @@
                     <div class="col-md-4 col-12 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_1.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                        <p class="py-md-4 py-3 txt-subheader">LIVE, HUSTLE, CREATE.</p>
+                        <p class="py-md-4 py-3 txt-subheader font-metropolis">LIVE, HUSTLE, CREATE.</p>
                         <p class="txt-body px-4 font-lato">Elegantly incorporates comfort and
                             well-being, all within steps from home.</p>
                         </div>
@@ -58,7 +59,7 @@
                     <div class="col-md-4 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_2.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">CURRATED COMMUNITY.</p>
+                            <p class="py-md-4 py-3 txt-subheader font-metropolis">CURRATED COMMUNITY.</p>
                             <p class="txt-body px-4 font-lato">Equipped with facilities designed
                                 for collaborative communities.</p>
                         </div>
@@ -66,7 +67,7 @@
                     <div class="col-md-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_3.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">HOME OF UNICORNS</p>
+                            <p class="py-md-4 py-3 txt-subheader font-metropolis">HOME OF UNICORNS</p>
                             <p class="txt-body px-4 font-lato">1300 m2 of Co-Working Space,
                                 managed by <span style="font-weight: bold">Go Work</span>.</p>
                         </div>
@@ -116,15 +117,15 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs pt-5" role="tablist">
                     <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                        <a class="nav-link active text-white" data-toggle="tab" href="#residence" role="tab">RESIDENCE UNIT</a>
+                        <a class="nav-link active text-white font-metropolis" data-toggle="tab" href="#residence" role="tab">RESIDENCE UNIT</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white" data-toggle="tab" href="#soho" role="tab" id="tabFloor">SOHO UNITS</a>
+                        <a class="nav-link text-white font-metropolis" data-toggle="tab" href="#soho" role="tab" id="tabFloor">SOHO UNITS</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white" data-toggle="tab" href="#office" role="tab" id="tabUnit">OFFICE UNITS</a>
+                        <a class="nav-link text-white font-metropolis" data-toggle="tab" href="#office" role="tab" id="tabUnit">OFFICE UNITS</a>
                     </li>
                 </ul>
             </div>
@@ -363,7 +364,7 @@
             padding-top:100px;
         }
         .txt-silicon-header{
-            /*letter-spacing: 10px;*/
+            letter-spacing: 5px;
             padding-top: 10px;
             padding-bottom: 5px;
         }

@@ -36,6 +36,7 @@
     <!--===============================================================================================-->
     <link href="{{ asset('css/frontend/custom.css')}}" rel="stylesheet">
     <link href="{{ asset('css/frontend/swiper.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/frontend/font.css')}}" rel="stylesheet">
 
     @yield('styles')
 
