@@ -70,8 +70,8 @@ class HomeController extends Controller
         return view('frontend.less');
     }
 
-    public function units(){
-        return view('frontend.units');
+    public function towerplans(){
+        return view('frontend.towerplans');
     }
 
     public function facilities(){

@@ -44,31 +44,31 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-white text-center py-cust">
-                <p class="txt-header-body font-metropolis">CONCEPT</p>
-                <p class="txt-body font-lato">The foundational ideas of The Smith</p>
+                <p class="txt-header-body font-metropolis" style="letter-spacing: 5px;">CONCEPT</p>
+                <p class="txt-body font-lato pb-3">The foundational ideas of The Smith</p>
                 <div class="border-concept-custom"></div>
                 <div class="row pt-5">
                     <div class="col-md-4 col-12 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_1.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                        <p class="py-md-4 py-3 txt-subheader font-metropolis">LIVE, HUSTLE, CREATE.</p>
-                        <p class="txt-body px-4 font-lato">Elegantly incorporates comfort and
+                        <p class="py-md-4 py-3 txt-subheader font-lato">LIVE, HUSTLE, CREATE.</p>
+                        <p class="txt-body px-4 font-metropolis">Elegantly incorporates comfort and
                             well-being, all within steps from home.</p>
                         </div>
                     </div>
                     <div class="col-md-4 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_2.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader font-metropolis">CURRATED COMMUNITY.</p>
-                            <p class="txt-body px-4 font-lato">Equipped with facilities designed
+                            <p class="py-md-4 py-3 txt-subheader font-lato">CURRATED COMMUNITY.</p>
+                            <p class="txt-body px-4 font-metropolis">Equipped with facilities designed
                                 for collaborative communities.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_3.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader font-metropolis">HOME OF UNICORNS</p>
-                            <p class="txt-body px-4 font-lato">1300 m2 of Co-Working Space,
+                            <p class="py-md-4 py-3 txt-subheader font-lato">HOME OF UNICORNS</p>
+                            <p class="txt-body px-4 font-metropolis">1300 m2 of Co-Working Space,
                                 managed by <span style="font-weight: bold">Go Work</span>.</p>
                         </div>
                     </div>
@@ -84,22 +84,22 @@
             <div class="col-md-3"></div>
             <div class="col-md-6 col-12 text-center">
                 <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-logo_1.0.png') }}" alt="img" class="gowork-logo">
-                <p class="text-white py-5 txt-body px-5 font-lato">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
+                <p class="text-white py-5 txt-body px-5 font-metropolis">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
                     Starting from Pacific Place, Plaza Indonesia, Senayan City, including Bali.
                     Currently Go Work serves more than 12.000 members.</p>
-                <p class="text-white txt-body pb-3 font-lato">Go Work Partners include:</p>
+                <p class="text-white txt-body pb-3 font-metropolis">Go Work Partners include:</p>
                 <div class="row px-5">
-                    <div class="col-md-3 col-6 pb-3">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-gojek-logo_1.0.png') }}" alt="img" class="gojek-logo">
+                    <div class="col-md-3 col-6 pb-4">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-gojek-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
-                    <div class="col-md-3 col-6 pb-3">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-zomato-logo_1.0.png') }}" alt="img" class="zomato-logo">
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-kopikenangan-logo_1.0.png') }}" alt="img" class="kopikenangan-logo">
+                    <div class="col-md-3 col-6 pb-4">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-zomato-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-fore-logo_1.0.png') }}" alt="img" class="kopikenangan-logo">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-kopikenangan-logo_1.0.png') }}" alt="img" class="partners-logo">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-fore-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
                 </div>
             </div>
@@ -112,20 +112,20 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8 text-white text-center py-cust">
-                <p class="txt-header-body font-metropolis">TOWER PLANS</p>
+                <p class="txt-header-body font-lato let-spa">TOWER PLANS</p>
                 <p class="txt-body font-lato">A home and an office, all only a few steps away</p>
                 <!-- Nav tabs -->
-                <ul class="nav nav-tabs pt-5" role="tablist">
+                <ul class="nav nav-tabs pt-3" role="tablist">
                     <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                        <a class="nav-link active text-white font-metropolis" data-toggle="tab" href="#residence" role="tab">RESIDENCE UNIT</a>
+                        <a class="nav-link active text-white font-lato" data-toggle="tab" href="#residence" role="tab">RESIDENCE UNIT</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white font-metropolis" data-toggle="tab" href="#soho" role="tab" id="tabFloor">SOHO UNITS</a>
+                        <a class="nav-link text-white font-lato" data-toggle="tab" href="#soho" role="tab" id="tabFloor">SOHO UNITS</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white font-metropolis" data-toggle="tab" href="#office" role="tab" id="tabUnit">OFFICE UNITS</a>
+                        <a class="nav-link text-white font-lato" data-toggle="tab" href="#office" role="tab" id="tabUnit">OFFICE UNITS</a>
                     </li>
                 </ul>
             </div>
@@ -147,7 +147,7 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8">
-                <div class="text-center" style="position: relative; z-index: 999999;background-color: white; height:50px;top:-25px;">
+                <div class="text-center" style="position: relative; z-index: 999999;background-color: white;top:-45px;">
                     <a href="#residence" data-toggle="collapse" data-parent="accordion">
                                 <span class="txt-hemat-catatan font-lato text-dark">Description
                                     &nbsp; <img
@@ -155,7 +155,9 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                     </a>
-                    <div id="residence" class="collapse"
+{{--                    <div class="tab-content">--}}
+{{--                        <div class="tab-pane fade show active" id="residence" role="tabpanel">--}}
+                        <div class="collapse" id="residence"
                          style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                         <div class="panel-body" style="z-index:9999999 !important;">
                             <div class="row">
@@ -189,7 +191,7 @@
                                                             Every unit is equipped with safety fittings, including an intercom that connects<br/>
                                                             directly to the safety officers, ensuring needs are attended promptly.
                                                         </p>
-                                                        <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="btn-full details pt-3">
+                                                        <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                     </div>
                                                 </div>
                                             </div>
@@ -205,6 +207,14 @@
                             </div>
                         </div>
                     </div>
+{{--                    </div>--}}
+{{--                        <div class="tab-pane fade show" id="soho" role="tabpanel">--}}
+{{--                            <p>TESTTT INI SOHO</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="tab-pane fade show " id="office" role="tabpanel">--}}
+{{--                            <p>TESTTT INI OFFICE</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
             <div class="col-2"></div>
@@ -220,14 +230,14 @@
                 <p class="txt-body font-lato pb-3">Located strategically, neighboring to world-class amenities</p>
                 <div class="border-concept-custom"></div>
                 <div class="row py-5 px-md-0 px-5">
-                    <div class="col-md-4 col-12 pb-5">
+                    <div class="col-md-4 col-6 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader">1 MINUTE AWAY</p>
                             <p class="txt-body px-4 font-lato">From Alam Sutera Toll Gate</p>
                         </div>
                     </div>
-                    <div class="col-md-4 pb-5">
+                    <div class="col-md-4 col-6 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
@@ -273,14 +283,14 @@
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                        <p class="txt-body pt-5 font-lato d-none d-md-block">
+                        <p class="txt-body pt-5 font-metropolis d-none d-md-block">
                             The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,<br/>
                             namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.<br/>
                             An ease of multi-city commuting is also highlighted as it stands a minute away<br/>
                             from the Toll Gate of Alam Sutera.
                         </p>
 
-                        <p class="txt-body pt-5 font-lato d-block d-md-none px-5">
+                        <p class="txt-body pt-5 font-metropolis d-block d-md-none px-5">
                             The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
                             namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.
                             An ease of multi-city commuting is also highlighted as it stands a minute away
@@ -303,6 +313,15 @@
 @section('styles')
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
+        .fulldetail{
+            width:100px;
+        }
+        .let-spa{
+            letter-spacing: 5px;
+        }
+        .partners-logo{
+            width:100px;
+        }
         .container-fluid{
             padding:0;
         }
@@ -544,8 +563,8 @@ pop up css
 
             .border-location-custom{
                 border-bottom: 1px solid white;
-                width: 350px;
-                margin-left: 32%;
+                width: 300px;
+                margin-left: 30%;
                 padding-top:50px;
 
             }

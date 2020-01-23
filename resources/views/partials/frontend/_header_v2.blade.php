@@ -243,7 +243,7 @@
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="#" onclick="navigateSection('location')" class="text-white font-montserrat">LOCATION</a>
+                            <a href="#" onclick="navigateSection('location')" class="text-white font-metropolis">LOCATION</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="index.html">Homepage v1</a></li>--}}
 {{--                                <li><a href="home-02.html">Homepage v2</a></li>--}}
@@ -251,7 +251,7 @@
 {{--                            </ul>--}}
                         </li>
                         <li>
-                            <a href="{{ route('frontend.units')}}" @if(Route::currentRouteName() == 'frontend.units') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-montserrat">TOWER PLANS</a>
+                            <a href="{{ route('frontend.towerplans')}}" @if(Route::currentRouteName() == 'frontend.towerplans') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-metropolis">TOWER PLANS</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="services-list.html">Services List</a></li>--}}
 {{--                                <li>--}}
@@ -272,7 +272,7 @@
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="{{route('frontend.facilities')}}" class="text-white font-montserrat">FACILITIES</a>
+                            <a href="{{route('frontend.facilities')}}" class="text-white font-metropolis">FACILITIES</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="news-grid.html">News Grid</a></li>--}}
 {{--                                <li><a href="news-list.html">News List</a></li>--}}
@@ -285,7 +285,7 @@
 {{--                        </li>--}}
 
                         <li>
-                            <a href="{{ route('frontend.developer')}}" @if(Route::currentRouteName() == 'frontend.developer') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-montserrat">DEVELOPERS</a>
+                            <a href="{{ route('frontend.developer')}}" @if(Route::currentRouteName() == 'frontend.developer') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-metropolis">DEVELOPERS</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="projects-grid.html">Projects Grid</a></li>--}}
 {{--                                <li>--}}
@@ -324,23 +324,23 @@
         <div class="menu-mobile">
             <ul class="main-menu" style="background-color: black;">
                 <li>
-                    <a href="{{ route('home') }}" class="text-white font-montserrat">Home</a>
+                    <a href="{{ route('home') }}" class="text-white font-lato">Home</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.less') }}" class="text-white font-montserrat">The Idea</a>
+                    <a href="{{ route('frontend.less') }}" class="text-white font-lato">The Idea</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('home')}}#tangerang" class="text-white font-montserrat">Map</a>
+                    <a href="{{ route('home')}}#tangerang" class="text-white font-lato">Map</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.units' )}}" class="text-white font-montserrat">Units</a>
+                    <a href="{{ route('frontend.towerplans' )}}" class="text-white font-lato">Units</a>
                 </li>
 
                 <li>
-                    <a href="{{route('frontend.facilities')}}" class="text-white font-montserrat">Facilities</a>
+                    <a href="{{route('frontend.facilities')}}" class="text-white font-lato">Facilities</a>
                 </li>
 
 {{--                <li>--}}
@@ -348,11 +348,11 @@
 {{--                </li>--}}
 
                 <li>
-                    <a href="{{ route('frontend.developer')}}" class="text-white font-montserrat">Developer</a>
+                    <a href="{{ route('frontend.developer')}}" class="text-white font-lato">Developer</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">Contact Us
+                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-lato">Contact Us
 {{--                        <img src="{{ asset('images/thescott/phone icon-36.png') }}" alt="LOGO">--}}
                     </a>
                 </li>
