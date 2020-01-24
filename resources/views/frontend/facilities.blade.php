@@ -1,11 +1,11 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend-v2')
 
 @section('head_and_title')
     <meta name="description" content="Developer">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>THE SCOTT - FACILITIES</title>
+    <title>THE SMITH - FACILITIES</title>
 @endsection
 
 

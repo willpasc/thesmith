@@ -50,14 +50,13 @@
                 <div class="col-2"></div>
                 <div class="col-8">
 
-                    <div class="text-center" style="position: relative; z-index: 999999;background-color: white;top:-45px;">
+                    <div class="text-center" style="position: relative; z-index: 999999;background-color: white;top:-23px;">
                         <a href="#residence" data-toggle="collapse" data-parent="accordion">
                                 <span class="txt-hemat-catatan font-lato text-dark">Description
                                     &nbsp; <img
                                         src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
-                            <div><br/><br/><br/></div>
                         </a>
                         <div class="tab-content">
                             <div class="tab-pane active" role="tabpanel">
@@ -174,9 +173,6 @@
                                                                 </p>
                                                             </div>
                                                             </div>
-
-
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -191,12 +187,10 @@
                                                                 Every unit is equipped with safety fittings, including an intercom that connects<br/>
                                                                 directly to the safety officers, ensuring needs are attended promptly.
                                                             </p>
-
                                                             <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="btn-full details pt-3">
                                                         </div>
                                                     </div>
                                                 </div>
-
                                             </div>
                                             <!-- Add Pagination -->
                                             <div class="swiper-pagination"></div>

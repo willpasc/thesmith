@@ -111,21 +111,21 @@
     <div class="container">
         <div class="row">
             <div class="col-2"></div>
-            <div class="col-8 text-white text-center py-cust">
+            <div class="col-8 text-white text-center py-5">
                 <p class="txt-header-body font-lato let-spa">TOWER PLANS</p>
                 <p class="txt-body font-lato">A home and an office, all only a few steps away</p>
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs pt-3" role="tablist">
                     <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                        <a class="nav-link active text-white font-lato" data-toggle="tab" href="#residence" role="tab">RESIDENCE UNIT</a>
+                        <a class="nav-link active text-white font-lato" data-toggle="tab" href="#residence" role="tab" onclick="changetab(1)" >RESIDENCE UNIT</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white font-lato" data-toggle="tab" href="#soho" role="tab" id="tabFloor">SOHO UNITS</a>
+                        <a class="nav-link text-white font-lato" data-toggle="tab" href="#soho" role="tab" id="tabFloor" onclick="changetab(2)">SOHO UNITS</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white font-lato" data-toggle="tab" href="#office" role="tab" id="tabUnit">OFFICE UNITS</a>
+                        <a class="nav-link text-white font-lato" data-toggle="tab" href="#office" role="tab" id="tabUnit" onclick="changetab(3)">OFFICE UNITS</a>
                     </li>
                 </ul>
             </div>
@@ -147,77 +147,140 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8">
-                <div class="text-center" style="position: relative; z-index: 999999;background-color: white;top:-45px;">
-                    <a href="#residence" data-toggle="collapse" data-parent="accordion">
+                <div class="text-center" style="position: relative; z-index: 999999;background-color: white;top:-23px;">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="residence" role="tabpanel">
+                            <a href="#residence-accor" data-toggle="collapse" data-parent="accordion">
                                 <span class="txt-hemat-catatan font-lato text-dark">Description
                                     &nbsp; <img
                                         src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
-                    </a>
-{{--                    <div class="tab-content">--}}
-{{--                        <div class="tab-pane fade show active" id="residence" role="tabpanel">--}}
-                        <div class="collapse" id="residence"
-                         style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
-                        <div class="panel-body" style="z-index:9999999 !important;">
-                            <div class="row">
-                                <div class="col-12">
-                                    <!-- Swiper -->
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper py-3">
-                                            <div class="swiper-slide">
-                                                <div class="row">
-                                                    <div class="col-12 text-dark text-center">
-                                                        <p class="txt-header-body">ONE BEDROOM - A</p>
-                                                        <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
-                                                        <div class="border-swiper-custom"></div>
-                                                        <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
-                                                            with interiors installed smartly, together with ample ventilations that shines every room.<br/>
-                                                            Every unit is equipped with safety fittings, including an intercom that connects<br/>
-                                                            directly to the safety officers, ensuring needs are attended promptly.
-                                                        </p>
-                                                            <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="btn-full details pt-3">
+                            </a>
+                            <div class="collapse" id="residence-accor"
+                             style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
+                                <div class="panel-body" style="z-index:9999999 !important;">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <!-- Swiper -->
+                                            <div class="swiper-container">
+                                                <div class="swiper-wrapper py-3">
+                                                    <div class="swiper-slide">
+                                                        <div class="row">
+                                                            <div class="col-12 text-dark text-center">
+                                                                <p class="txt-header-body">ONE BEDROOM - A</p>
+                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <div class="border-swiper-custom"></div>
+                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.<br/>
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                    <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="row">
-                                                    <div class="col-12 text-dark text-center">
-                                                        <p class="txt-header-body">ONE BEDROOM - B</p>
-                                                        <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
-                                                        <div class="border-swiper-custom"></div>
-                                                        <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
-                                                            with interiors installed smartly, together with ample ventilations that shines every room.<br/>
-                                                            Every unit is equipped with safety fittings, including an intercom that connects<br/>
-                                                            directly to the safety officers, ensuring needs are attended promptly.
-                                                        </p>
-                                                        <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
+                                                    <div class="swiper-slide">
+                                                        <div class="row">
+                                                            <div class="col-12 text-dark text-center">
+                                                                <p class="txt-header-body">ONE BEDROOM - B</p>
+                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <div class="border-swiper-custom"></div>
+                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.<br/>
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
 
+                                                </div>
+                                                <!-- Add Pagination -->
+                                                <div class="swiper-pagination"></div>
+                                                <!-- Add Arrows -->
+                                                <div class="swiper-button-next swiper-button-black"></div>
+                                                <div class="swiper-button-prev swiper-button-black"></div>
+                                            </div>
                                         </div>
-                                        <!-- Add Pagination -->
-                                        <div class="swiper-pagination"></div>
-                                        <!-- Add Arrows -->
-                                        <div class="swiper-button-next swiper-button-black"></div>
-                                        <div class="swiper-button-prev swiper-button-black"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-{{--                    </div>--}}
+                    <div class="tab-content">
+                        <div class="tab-pane fade show" id="soho" role="tabpanel">
+                            <a href="#soho-accor" data-toggle="collapse" data-parent="accordion">
+                                <span class="txt-hemat-catatan font-lato text-dark">Description
+                                    &nbsp; <img
+                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
+                                        alt="IMG" style="width:20px;" class="img-fluid">
+                                </span>
+                            </a>
+                            <div class="collapse" id="soho-accor"
+                             style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
+                                <div class="panel-body" style="z-index:9999999 !important;">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <!-- Swiper -->
+                                            <p>TESTTT INI SOHO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show" id="office" role="tabpanel">
+                            <a href="#office-accor" data-toggle="collapse" data-parent="accordion">
+                                <span class="txt-hemat-catatan font-lato text-dark">Description
+                                    &nbsp; <img
+                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
+                                        alt="IMG" style="width:20px;" class="img-fluid">
+                                </span>
+                            </a>
+                            <div class="collapse" id="office-accor"
+                             style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
+                                <div class="panel-body" style="z-index:9999999 !important;">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <!-- Swiper -->
+                                            <p>TESTTT INI OFFICE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 {{--                        <div class="tab-pane fade show" id="soho" role="tabpanel">--}}
-{{--                            <p>TESTTT INI SOHO</p>--}}
 {{--                        </div>--}}
 {{--                        <div class="tab-pane fade show " id="office" role="tabpanel">--}}
-{{--                            <p>TESTTT INI OFFICE</p>--}}
 {{--                        </div>--}}
-{{--                    </div>--}}
                 </div>
             </div>
-            <div class="col-2"></div>
+        </div>
+        <div class="col-2"></div>
+
+    </div>
+</section>
+<section class="concept-bg" id="concept">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-white text-center py-5">
+                <p class="txt-header-body font-metropolis" style="letter-spacing: 5px;">FACILITIES</p>
+                <p class="txt-body font-lato pb-3">A home and an office, all only a few steps away</p>
+                <div class="border-concept-custom"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="bg-facilities"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -332,6 +395,14 @@
             background-size: cover;
             width: auto;
             height: 150px;
+        }
+        .bg-facilities{
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 155px;
         }
         .nav-tabs .nav-link.active {
             color: #495057;
@@ -578,6 +649,15 @@ pop up css
                 height: 540px;
             }
 
+            .bg-facilities{
+                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 557px;
+            }
+
             .img-concept{
                 width:100%;
             }
@@ -754,6 +834,42 @@ pop up css
                 },
             });
         });
+        $('#office').on('shown.bs.collapse', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+
+        function changetab(typeid) {
+            if (typeid === 1) {
+                $('#residence').show();
+                $('#soho').hide();
+                $('#office').hide();
+
+            }
+
+            if (typeid === 2) {
+                $('#residence').hide();
+                $('#soho').show();
+                $('#office').hide();
+            }
+
+            if (typeid === 3) {
+                $('#soho').hide();
+                $('#residence').hide();
+                $('#office').show();
+            }
+        };
+
+
 
 
     </script>

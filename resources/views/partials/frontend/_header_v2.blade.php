@@ -272,7 +272,7 @@
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="{{route('frontend.facilities')}}" class="text-white font-metropolis">FACILITIES</a>
+                            <a href="{{route('frontend.facilities')}}" class="text-white font-metropolis" @if(Route::currentRouteName() == 'frontend.facilities') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif>FACILITIES</a>
 {{--                            <ul class="sub-menu">--}}
 {{--                                <li><a href="news-grid.html">News Grid</a></li>--}}
 {{--                                <li><a href="news-list.html">News List</a></li>--}}
