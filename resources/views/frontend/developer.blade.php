@@ -22,10 +22,10 @@
     <section style="background-color: black">
         <div class="container">
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 text-center text-dark pb-5" style="background-color: white">
-                    <img src="{{ asset('images/thesmith/developer/logo-triniti.png') }}" alt="img" class="logo-triniti">
-                    <p class="txt-header-body font-metropolis" style="letter-spacing: 5px;">FINELY CRAFTED</p>
+                <div class="col-md-2 col-1"></div>
+                <div class="col-md-8 text-center text-dark pb-5 col-10" style="background-color: white; margin-top:-60px;">
+                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-logo_1.png') }}" alt="img" class="logo-triniti">
+                    <p class="txt-header-body font-metropolis pt-3" style="letter-spacing: 5px;">FINELY CRAFTED</p>
                     <div class="border-developer-custom-1"></div>
                     <div class="row">
                         <div class="col-1"></div>
@@ -41,12 +41,12 @@
                                 introducing a Superblock Project worth 4 trillion Rupiah named Collins Boulevard. Reaching it’s 9th year
                                 of building and innovating, Triniti Land plans to commence an Initial Public Offering (Go Public) and create
                                 masterplans of building Township Development scale projects in Jabodetabek also outside Java.</p>
-                            <p class="font-lato pb-5">OUR PROJECTS</p>
+                            <p class="font-lato pb-5 " style="letter-spacing: 2px;">OUR PROJECTS</p>
 
                         <div class="row px-md-5  pb-5">
                             <div class="col-md-6 col-12">
-                                <img src="{{ asset('images/thesmith/developer/img-brooklyn.png') }}" alt="img" class="img-project">
-                                <p class="py-3 font-lato">BROOKLYN</p>
+                                <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-04.jpg') }}" alt="img" class="img-project">
+                                <p class="py-3 font-lato let-spa-2">BROOKLYN</p>
                                 <div class="collapse" id="more-brooklyn">
                                     <p class="txt-body font-metropolis pb-3 px-3">New York inspired, Brooklyn stands
                                         gracefully in 2 towers & 900 units
@@ -62,8 +62,8 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img src="{{ asset('images/thesmith/developer/img-brooklyn.png') }}" alt="img" class="img-project">
-                                <p class="py-3 font-lato">YUKATA SUITES</p>
+                                <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-05.jpg') }}" alt="img" class="img-project">
+                                <p class="py-3 font-lato let-spa-2">YUKATA SUITES</p>
                                 <div class="collapse" id="more-yukata">
                                     <p class="txt-body font-metropolis pb-3">The first Japanese Resort Condominium in
                                         Alam Sutera. With facilities: Japanese
@@ -80,9 +80,9 @@
                             </div>
                         </div>
                             <div class="row px-md-5 pb-5">
-                                <div class="col-md-6 12">
-                                    <img src="{{ asset('images/thesmith/developer/img-brooklyn.png') }}" alt="img" class="img-project">
-                                    <p class="py-3 font-lato">SPRINGWOOD RESIDENCE</p>
+                                <div class="col-md-6 col-12">
+                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-06.jpg') }}" alt="img" class="img-project">
+                                    <p class="py-3 font-lato let-spa-2">SPRINGWOOD RESIDENCE</p>
                                     <div class="collapse" id="more-springwood">
                                         <p class="txt-body font-metropolis pb-3">The first prestigious apartment in Jalan Raya
                                             Serpong. Consist of 1,400 units within only
@@ -97,8 +97,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 ">
-                                    <img src="{{ asset('images/thesmith/developer/img-brooklyn.png') }}" alt="img" class="img-project">
-                                    <p class="py-3 font-lato">COLLINS BOULEVARD</p>
+                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-07.jpg') }}" alt="img" class="img-project">
+                                    <p class="py-3 font-lato let-spa-2">COLLINS BOULEVARD</p>
                                     <div class="collapse" id="more-collins">
                                         <p class="txt-body font-metropolis pb-3">Artsy approach of residential spaces, inspired
                                             by Melbourne. From Residence, Soho, Outlet,
@@ -117,9 +117,9 @@
                         <div class="col-1"></div>
                     </div>
                     <div class="border-developer-custom-2"></div>
-                    <p class="pt-5">VISIT US</p>
-                    <p class="txt-header-body pb-3">MARKETING GALLERY</p>
-                    <img src="{{ asset('images/thesmith/developer/img-marketing.png') }}" alt="img" class="img-marketing">
+                    <p class="pt-5 font-lato">VISIT US</p>
+                    <p class="txt-header-body pb-3 font-metropolis txt-marketing">MARKETING GALLERY</p>
+                    <img src="{{ asset('images/thesmith/developer/thesmith-marketing-gallery_1.jpg') }}" alt="img" class="img-marketing">
                     <div class="pt-4 pb-5">
                         <p class="txt-body font-metropolis">
                             LIVING WORLD, 1ST FLOOR<br/>
@@ -128,7 +128,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-2 col-1"></div>
             </div>
         </div>
     </section>
@@ -138,6 +138,12 @@
 @section('styles')
     {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
+        .marmintop{
+            margin-top: 30px;
+        }
+        .txt-marketing{
+            letter-spacing: 3px;
+        }
         .img-project{
             width:100%;
         }
@@ -146,6 +152,8 @@
         }
         .logo-triniti{
             width: 150px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
         .img-info{
             width:100px;
@@ -216,15 +224,12 @@
             margin-left: 45%;
         }
 
-        border-developer-custom-2 {
-
-            border-bottom: 1px solid
-
-            black;
-            width: 70%;
+        .border-developer-custom-2 {
+            border-bottom: 1px solid black;
+            width: 81%;
             padding-top: 10px;
             padding-bottom: 10px;
-            margin-left: 50px;
+            margin-left: 35px;
 
         }
         .border-swiper-custom{
@@ -324,12 +329,12 @@
             width: 262px;
         }
         .bg-home{
-            background-image: url('{{ asset('images/thesmith/developer/banner-developers.png') }}');
+            background-image: url('{{ asset('images/thesmith/developer/thesmith-building_1-1.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             width:100%;
-            height: 180px;
+            height: 300px;
         }
         /*
         pop up css
@@ -407,6 +412,10 @@
             align-items: center;
         }
         @media (min-width: 576px) {
+
+            .marmintop{
+                margin-top: 60px;
+            }
 
             .img-marketing{
                 width:575px;
@@ -526,12 +535,12 @@
                 width: 400px;
             }
             .bg-home {
-                background-image: url('{{ asset('images/thesmith/developer/banner-developers.png') }}');
+                background-image: url('{{ asset('images/thesmith/developer/thesmith-building_1-1.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
                 width: 100%;
-                height: 647px !important;
+                height: 647px;
                 position: relative;
                 margin-top:100px;
             }

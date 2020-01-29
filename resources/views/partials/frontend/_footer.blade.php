@@ -12,16 +12,16 @@
                 <div class="col-md-2 pl-5-c">
                     <p class="pb-2" style="color: gray; font-size:11px;">SITE MAP</p>
                     <p>
-                        <a href="#" onclick="navigateSection('concept')" style="color:white;" class="txt-body">CONCEPT</a>
+                        <a href="{{ route('home') }}#concept" style="color:white;" class="txt-body">CONCEPT</a>
                     </p>
                     <p>
-                        <a href="{{ route('home') }}" style="color:white;" class="txt-body">TOWER PLANS</a>
+                        <a href="{{ route('frontend.towerplans') }}" style="color:white;" class="txt-body">TOWER PLANS</a>
                     </p>
                     <p>
-                        <a href="{{ route('home') }}" style="color:white;" class="txt-body">FACILITIES</a>
+                        <a href="{{ route('frontend.facilities') }}" style="color:white;" class="txt-body">FACILITIES</a>
                     </p>
                     <p>
-                        <a href="{{ route('home') }}" style="color:white;" class="txt-body">DEVELOPERS</a>
+                        <a href="{{ route('frontend.developer') }}" style="color:white;" class="txt-body">DEVELOPERS</a>
                     </p>
                 </div>
                 <div class="col-md-3 pl-5-c pt-4 pt-md-0">

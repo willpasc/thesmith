@@ -1,487 +1,742 @@
 @extends('layouts.frontend-v2')
 
 @section('head_and_title')
-    <meta name="description" content="Developer">
+    <meta name="description" content="Home Page">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+
 
     <title>THE SMITH - FACILITIES</title>
 @endsection
 
-
 @section('content')
 
-    <section class="facsecmarg" >
+    <section class="bg-home">
+        <div class="container">
+            <div class="row no-gutters padd-top50">
+                <div class="col-12 text-center">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: black">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center pb-3">
-                    <div class="border-developer pt-5">
-                        <img src="{{ asset('images/thescott/facilities/keyfeatures.png') }}" alt="img" class="img-ourproject">
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: -50px;">
-                <div class="col-md-6 col-12 border-key pb-5">
-                    <img src="{{ asset('images/thescott/facilities/timeless.png') }}" alt="img" class="w-100 pb-5">
-                    <p class="txt-timeless font-librecaslon text-dark text-center pb-3">TIMELESS DESIGN</p>
-                    <div class="row">
-                        <div class="col-md-2 col-12"></div>
-                        <div class="col-md-8">
-                    <p class="txt-body text-center font-montserrat">Relish the beauty of timeless design and colors within
-                        the interiors of your home, carefully selected for your
-                        eternal comfort.</p>
+                <div class="col-md-2 col-1"></div>
+                <div class="col-md-8 col-10">
+                    <div class="text-center box-accor" >
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="residence" role="tabpanel">
+                                <a href="#facilities-accor" data-toggle="collapse" data-parent="accordion">
+                                <span class=" font-lato text-dark">Grand Lobby
+                                    &nbsp; <img
+                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
+                                        alt="IMG" style="width:20px;" class="img-fluid">
+                                </span>
+                                </a>
+                                <div class="collapse" id="facilities-accor"
+                                     style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
+                                    <div class="panel-body" style="z-index:9999999 !important;">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!-- Swiper -->
+                                                <div class="swiper-container">
+                                                    <div class="swiper-wrapper py-3">
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center pt-5">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-web-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-none d-md-block">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_2.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_4.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_5.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lounge_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-meetingrooms_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-auditorium_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center">
+                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <div class="border-swiper-custom"></div>
+                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="py-5">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-pool_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <!-- Add Pagination -->
+                                                    <div class="swiper-pagination"></div>
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next swiper-button-black"></div>
+                                                    <div class="swiper-button-prev swiper-button-black"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-2"></div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="pb-4">
-                        <img src="{{ asset('images/thescott/facilities/key1.png') }}" alt="img" class="img-key">
-                        <p class="text-body txt-space font-librecaslon pt-2">SPACE SAVER INSTALLATION</p>
-                    </div>
-                    <div class="pb-4">
-                        <img src="{{ asset('images/thescott/facilities/key3.png') }}" alt="img" class="img-key">
-                        <p class="text-body txt-space font-librecaslon pt-2">DEEP APPROACHED FACILITIES</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div style="padding-bottom:2rem;">
-                        <img src="{{ asset('images/thescott/facilities/key2.png') }}" alt="img" class="img-key">
-                        <p class="text-body txt-space font-librecaslon pt-2">ENERGY SAVER</p>
-                    </div>
-                    <div class="pb-4">
-                        <img src="{{ asset('images/thescott/facilities/key4.png') }}" alt="img" class="img-key">
-                        <p class="text-body  txt-space font-librecaslon pt-2">DRIVE LESS</p>
-                    </div>
-                </div>
+                <div class="col-md-2 col-1"></div>
             </div>
         </div>
     </section>
-    <section class="">
-        <div class="container-fluid bg-facilities">
-            <div class="row no-gutters">
-                <div class="col-md-2 col-12"></div>
-                <div class="col-md-8 text-center text-white px-md-0 px-4">
-                    <p class="txt-facilities font-librecaslon pb-4">FACILITIES</p>
-                    <p class="txt-body font-montserrat">
-                        “Quality over Quantity”, one exact way to describe the deep approach which The Scott embrace when it comes to facility. Having the best of facility rather than a lot of less valuable versions, to
-                        provide above standard convenience to all it’s resident.
-                    </p>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-        <div class="container-fluid d-none d-md-block">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
-                        <div class="fac-1 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Pool</p>
-                                <p class="txt-body-1 font-montserrat">Relax your mind as you step into the rejuvenating pool.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">--}}
 
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
-                        <div class="fac-2 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">GYM</p>
-                                <p class="txt-body-1 font-montserrat">Healthy body, better ideas.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
-                        <div class="fac-3 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Playground</p>
-                                <p class="txt-body-1 font-montserrat">A place for the little loved ones to explore their imagination.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
-                        <div class="fac-4 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Multipurpose</p>
-                                <p class="txt-body-1 font-montserrat">Be at ease by knowing there's a space to commodify all of your ideas.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
-                        <div class="fac-5 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Yoga Deck</p>
-                                <p class="txt-body-1 font-montserrat">Master your breath, let the self be in bliss.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
-                        <div class="fac-6 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lounge</p>
-                                <p class="txt-body font-montserrat">In the Mezzanine.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <div class="container-fluid d-block d-md-none">
-            <div class="row no-gutters">
-                <div class="col-6">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 1])}}">
-                        <div class="fac-1 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Pool</p>
-                                <p class="txt-body-1 font-montserrat">Relax your mind as you step into the rejuvenating pool.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-30.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-6">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 2])}}">
-                        <div class="fac-2 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">GYM</p>
-                                <p class="txt-body-1 font-montserrat">Healthy body, better ideas</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-31.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-6">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 3])}}">
-                        <div class="fac-3 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Playground</p>
-                                <p class="txt-body-1 font-montserrat">A place for the little loved ones to explore their imagination.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-32.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-6">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 4])}}">
-                        <div class="fac-4 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Multipurpose</p>
-                                <p class="txt-body-1 font-montserrat">Be at ease by knowing there's a space to commodify all of your ideas</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-33.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-6">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 5])}}">
-                        <div class="fac-5 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Yoga Deck</p>
-                                <p class="txt-body-1 font-montserrat">Master your breath, let the self be in bliss.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-34.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-                <div class="col-6">
-                    <a href="{{route('frontend.gallery-detail', ['type'=> 6])}}">
-                        <div class="fac-6 text-white">
-                            <div class="fac-space">
-                                <p class="txt-spacing-header font-librecaslon">Lounge</p>
-                                <p class="txt-body-1 font-montserrat">In the Mezzanine.</p>
-                            </div>
-                        </div>
-{{--                        <img src="{{ asset('images/thescott/facilities/foto baru-35.jpg') }}" alt="img" class="w-100">--}}
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+
 @endsection
 
 @section('styles')
-    <style type="text/css">
-
-        .txt-body-1 {
-            font-size: 12px;
+    {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
+    <style>
+        .fulldetail{
+            width:100px;
         }
-
-        .fac-space{
-            padding-top:75px;
-            padding-left:20px;
+        .let-spa{
+            letter-spacing: 5px;
         }
-        .fac-1{
-            background-image: url('{{ asset('images/thescott/facilities/lorem 1 - pool.jpg') }}');
+        .partners-logo{
+            width:100px;
+        }
+        .container-fluid{
+            padding:0;
+        }
+        .bg-tower{
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            width: auto;
+            height: 150px;
+        }
+        .bg-facilities{
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 155px;
+        }
+        .nav-tabs .nav-link.active {
+            color: #495057;
+            background-color: #414042;
+            border-color: #fff #fff #fff;
+        }
+        .tab-nav{
+            border: 1px solid #fff;
+        }
+        .border-location-custom{
+            border-bottom: 1px solid white;
             width: 100%;
-            height: 158px;
+            margin-left: 0;
+            padding-top:50px;
+
         }
-        .fac-2{
-            background-image: url('{{ asset('images/thescott/facilities/lorem 2 - gym.jpg') }}');
+
+        .img-location{
+            width:100%;
+        }
+        .img-map{
+            width:100%;
+        }
+
+        .gowork-bg{
+            background-color: #1c1a1a;
+        }
+        .py-cust{
+            padding-top:70px;
+            padding-bottom:70px;
+        }
+        .img-concept{
+            width:80%;
+        }
+        .border-concept-custom{
+            border-bottom: 1px solid white;
+            width:100%;
+        }
+        .border-swiper-custom{
+            border-bottom: 1px solid black;
+            width: 20%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flow-root inline;
+        }
+        .concept-bg{
+            background-color: black;
+        }
+        .banner-scroll{
+            padding-top:100px;
+        }
+        .txt-silicon-header{
+            letter-spacing: 5px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+        .padd-top50{
+            padding-top: 10%;
+        }
+
+        .click-img{
+            width: 80px;
+            padding-top: 30%;
+        }
+        .map-home{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
             width: auto;
-            height: 158px;
+            height: 273px;
         }
-        .fac-3{
-            background-image: url('{{ asset('images/thescott/facilities/lorem 3 - playground.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            width: auto;
-            height: 158px;
+        .txt-download{
+            letter-spacing: 0.3rem;
+            margin-top: -30px;
         }
-        .fac-4{
-            background-image: url('{{ asset('images/thescott/facilities/lorem 4 - multipurpose.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            width: auto;
-            height: 158px;
+        .img-btn-donlod{
+            width: 160px;
+            padding-top:60px;
         }
-        .fac-5{
-            background-image: url('{{ asset('images/thescott/facilities/lorem 5 - yoga deck.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            width: auto;
-            height: 158px;
+        .img-cekotlogo2{
+            width:50px;
         }
-        .fac-6{
-            background-image: url('{{ asset('images/thescott/facilities/lorem 6 - lounge.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            width: auto;
-            height: 158px;
+        sup {
+            vertical-align: super;
+            font-size: 13px;
+            top:-1.5px;
+
+        }
+        .txt-live{
+            line-height: 1.5em;
+            font-size: 13px;
+        }
+        .txt-header-body{
+            font-size:20px;
+        }
+        .readmore{
+            font-size: 13px;
         }
         .txt-spacing-header{
-            font-style: italic;
+            letter-spacing: 0.5rem;
             font-size:14px;
             padding-bottom: 5px;
         }
-        .txt-space{
-            font-size:9px;
+        .txt-spacing{
+            padding-left: 35px;
+            padding-top: 38%;
         }
-        .facsecmarg{
-            margin-top:0px;
-        }
-        .txt-facilities{
-            font-size: 20px;
-            padding-top:25%;
-        }
-        .bg-facilities{
-            background-image: url('{{ asset('images/thescott/facilities/foto facilities.jpg') }}');
+        .img-home-2{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             width: auto;
-            height: 400px;
+            height: 155px;
+            margin-bottom:40px;
         }
-        .img-key{
-            width:160px;
-        }
-        .txt-timeless{
-            font-size: 16px;
-        }
-
-        .project-padds-1{
-            padding-left: 6rem !important;
-            padding-top: 5rem;
-            padding-right: 5rem !important;
-        }
-        .container-fluid{
-            padding:0px;
-        }
-        .header-project{
-            font-size:20px;
-        }
-        .img-project{
-            width:100%;
-            height:auto;
-        }
-        .img-ourproject{
-            margin-top: -114px;
-        }
-        .border-developer{
-            border-top: 1px solid black;
-            width: 100%;
-            margin-top: 20px;
-            margin-left: 0px;
-        }
-        .header-developer{
-            font-size: 26px;
-            color: grey;
-            padding-top: 100px;
-        }
-
-        .bg-header-developer{
-            background-color: #000000;
-            height: 600px;
+        .img-home-3{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
             width: auto;
+            height: 155px;
+        }
+        .essentialy{
+            color: #cec6af;
+            font-size: 18px;
+            letter-spacing: 0.5rem;
+            padding-top: 10px;
+        }
+        .img-cekot-home{
+            padding-top: 23%;
+            width: 262px;
+        }
+        .bg-home{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        /*
+        pop up css
+        */
+        .modal-open .modal {
+            display: flex!important;
+            align-items: center!important;
+            z-index: 99999999;
         }
 
-        @media (max-width: 576px) {
-            .header-img{
-                min-height: 150px;
-            }
+        .modal-dialog {
+            display: flex!important;
+            align-items: center!important;
+            flex-grow: 1;
+            width: 100% !important;
+            height: auto;
         }
 
+        .modal-header{
+            border-bottom: 0 !important;
+        }
+
+        .bg_popup{
+            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 265px;
+            width: 355px;
+        }
+
+        .btn-paulmarc-more .w-25{
+            width: 75% !important;
+        }
+
+        .m-b-50{
+            margin-bottom: 25px;
+        }
+
+        .text-finely-crafted{
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        /*.slick-dots li button:before {*/
+        /*color: #fff;*/
+        /*}*/
+
+        /*.slick-dots li.slick-active button:before {*/
+        /*color: #fff !important;*/
+        /*}*/
+
+        /*swiper*/
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
         @media (min-width: 576px) {
-            .fac-1{
-                background-image: url('{{ asset('images/thescott/facilities/lorem 1 - pool.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 100%;
-                height: 380px;
+
+            .banner-scroll{
+                padding-top:190px;
             }
-            .fac-2{
-                background-image: url('{{ asset('images/thescott/facilities/lorem 2 - gym.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: auto;
-                height: 380px;
+
+            .border-banner-home{
+                border-bottom: 1px solid white;
+                width: 100px;
+                margin-left: -50px;
             }
-            .fac-3{
-                background-image: url('{{ asset('images/thescott/facilities/lorem 3 - playground.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: auto;
-                height: 380px;
+
+            .border-location-custom{
+                border-bottom: 1px solid white;
+                width: 300px;
+                margin-left: 30%;
+                padding-top:50px;
+
             }
-            .fac-4{
-                background-image: url('{{ asset('images/thescott/facilities/lorem 4 - multipurpose.jpg') }}');
+
+            .bg-tower{
+                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: auto;
-                height: 380px;
+                height: 540px;
             }
-            .fac-5{
-                background-image: url('{{ asset('images/thescott/facilities/lorem 5 - yoga deck.jpg') }}');
+
+            .bg-facilities{
+                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: auto;
-                height: 380px;
+                height: 557px;
             }
-            .fac-6{
-                background-image: url('{{ asset('images/thescott/facilities/lorem 6 - lounge.jpg') }}');
+
+            .img-concept{
+                width:100%;
+            }
+
+            .map-home{
+                background-image: url('{{ asset('images/thescott/home/map and phone icons-38.png') }}');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: auto;
-                height: 380px;
+                height: 390px;
             }
-            .fac-space{
-                padding-top: 300px;
-                padding-left: 40px;
+
+            .click-img{
+                width: 110px;
+                padding-top: 11%;
+            }
+
+            .modal-dialog{
+                max-width: 960px !important;
+            }
+            .bg_popup{
+                height: 600px;
+                width: 960px;
+            }
+
+            /*.map-home{*/
+            /*    height: 390px;*/
+            /*}*/
+
+            .txt-header-body{
+                font-size:26px;
+            }
+
+            .txt-spacing{
+                padding-left: 50px;
+                padding-top: 45%;
             }
 
             .txt-spacing-header{
-                font-style: italic;
-                font-size:16px;
+                letter-spacing: 0.5rem;
+                font-size:26px;
                 padding-bottom: 5px;
             }
-            .txt-space{
-                font-size:13px;
+
+            .img-home-3{
+                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                width: auto;
+                height: 348px;
+                margin-left: 5px;
             }
-            .img-key{
-                width:244px;
+
+            .img-home-2{
+                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                width: auto;
+                height: 348px;
+                margin-right: 5px;
             }
-            .border-key{
-                border-right: 1px solid black;
-                height:545px;
+
+            .img-cekot-home{
+                padding-top: 15%;
+                width: 400px;
             }
-            .bg-facilities{
-                background-image: url('{{ asset('images/thescott/facilities/foto facilities.jpg') }}');
+            .bg-home {
+                background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
-                width: auto;
-                height: 756px;
-            }
-            .txt-facilities{
-                font-size: 26px;
-                padding-top:35%;
-            }
-            .txt-timeless {
-                font-size: 26px;
-            }
-            .facsecmarg{
-                margin-top:100px;
-            }
-            .border-developer{
-                border-top: 1px solid black;
                 width: 100%;
-                margin-top: 70px;
-                margin-left: 0px;
+                height: 765px !important;
+                position: relative;
+                /*padding-top:100px;*/
             }
+            .img-btn-donlod{
+                width: 160px;
+                padding-top:100px;
+            }
+            .img-cekot{
+                margin-top: 0px;
+            }
+
         }
 
         @media (min-width: 768px) {
-        }
+            .img-banner-responsive{
+                height: 550px;
+            }
 
-        @media (max-width: 992px) {
-        }
+            .img-house-responsive{
+                height: 600px;
+            }
 
-        @media (min-width: 1024px) {
-            .header-img{
-                min-height: 300px;
-                width: 100%;
+            .img-paulmarc-responsive{
+                height: 200px;
+                width: auto;
+            }
+
+            .img-trinity-responsive{
+                margin-top: -28px;
+                height: 45px;
+                width: auto;
+            }
+
+            .btn-paulmarc-more .w-25{
+                width: 25% !important;
+            }
+
+            .m-b-50{
+                margin-bottom: 50px;
+            }
+
+            .text-finely-crafted{
+                font-size: 13px;
             }
         }
 
-        @media (min-width: 1200px) {
-            .header-img{
-                min-height: 400px;
-                width: 100%;
-            }
+        @media (min-width: 992px) {
         }
 
-        .bg-img3 {
-            background-position: center bottom;
-            background-repeat: no-repeat;
-            background-size: cover;
+        @media (min-width: 1369px) {
+            .click-img{
+                width: 150px;
+                padding-top: 6%;
+            }
         }
     </style>
 @endsection
 
 @section('scripts')
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    {{--    <script type="text/javascript" src="{{ asset('js/frontend/swiper.min.js') }}"></script>--}}
     <script>
-        $('.slider-developer').slick({
-            dots: false,
-            infinite: false,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            variableWidth: true,
-            arrows: true
+
+        function navigateSection(section){
+            var offsetTop = $('#' + section).offset().top;
+
+            if (offsetTop) {
+                $('html,body').animate({
+                    scrollTop: offsetTop
+                }, 1000);
+
+                return false;
+            }
+        };
+
+        $('#residence').on('shown.bs.collapse', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
         });
+        $('#soho').on('shown.bs.collapse', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+        $('#office').on('shown.bs.collapse', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+
+        function changetab(typeid) {
+            if (typeid === 1) {
+                $('#residence').show();
+                $('#soho').hide();
+                $('#office').hide();
+
+            }
+
+            if (typeid === 2) {
+                $('#residence').hide();
+                $('#soho').show();
+                $('#office').hide();
+            }
+
+            if (typeid === 3) {
+                $('#soho').hide();
+                $('#residence').hide();
+                $('#office').show();
+            }
+        };
+
+
+
+
     </script>
 @endsection

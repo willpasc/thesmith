@@ -16,6 +16,18 @@
     font-family: 'metropolisregular', sans-serif !important;
 }
 
+.let-spa-2{
+    letter-spacing: 2px;
+}
+
+.box-accor{
+    position: relative;
+    -index: 999999;
+    background-color: white;
+    top:-43px;
+    padding-bottom: 20px;
+}
+
 
 .pl-5-c{
     padding-left: 6rem !important;
@@ -130,6 +142,13 @@
 }
 
 @media (max-width: 576px) {
+    .box-accor{
+        position: relative;
+        -index: 999999;
+        background-color: white;
+        top:-23px;
+        padding-bottom: 0px;
+    }
     /* Footer */
     .mobile-center{
         text-align: center !important;
@@ -143,6 +162,7 @@
 }
 
 @media (max-width: 768px) {
+
     /* Footer */
     .mobile-center{
         text-align: center !important;;
