@@ -277,7 +277,7 @@
                                             <div class="swiper-container">
                                                 <div class="swiper-wrapper py-3">
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - A</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -297,7 +297,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - B</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -317,7 +317,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - B2</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -337,7 +337,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - B3</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -357,7 +357,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - B4</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -377,7 +377,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - C</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -397,7 +397,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - D</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -417,7 +417,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">SOHO - E</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -468,7 +468,7 @@
                                             <div class="swiper-container">
                                                 <div class="swiper-wrapper py-3">
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">OFFICE - A</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -488,7 +488,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">OFFICE - B</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
@@ -508,7 +508,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">OFFICE - C</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
