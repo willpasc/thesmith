@@ -20,6 +20,10 @@
     letter-spacing: 2px;
 }
 
+.let-spa-5{
+    letter-spacing: 5px;
+}
+
 .box-accor{
     position: relative;
     -index: 999999;
@@ -146,8 +150,8 @@
         position: relative;
         -index: 999999;
         background-color: white;
-        top:-23px;
-        padding-bottom: 0px;
+        top:-33px;
+        padding-bottom: 10px;
     }
     /* Footer */
     .mobile-center{

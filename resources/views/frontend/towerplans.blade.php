@@ -70,7 +70,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE RESIDENCES</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -178,7 +178,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE RESIDENCES</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -286,7 +286,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE RESIDENCES</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -394,7 +394,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE RESIDENCES</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -535,7 +535,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -634,7 +634,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -733,7 +733,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -832,7 +832,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -931,7 +931,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -1030,7 +1030,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -1129,7 +1129,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -1228,7 +1228,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE SOHO</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -1359,7 +1359,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE OFFICE</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -1458,7 +1458,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE OFFICE</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -1557,7 +1557,7 @@
                                                         <div class="swiper-slide">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis">THE OFFICE</p>
+                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                         with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -2019,7 +2019,7 @@
     /*}*/
 
     .txt-header-body{
-    font-size:26px;
+    font-size:20px;
     }
 
     .txt-spacing{

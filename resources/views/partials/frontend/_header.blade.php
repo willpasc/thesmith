@@ -243,69 +243,60 @@
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="{{ route('frontend.less') }}" class="text-dark font-montserrat">THE IDEA</a>
-{{--                            <ul class="sub-menu">--}}
-{{--                                <li><a href="index.html">Homepage v1</a></li>--}}
-{{--                                <li><a href="home-02.html">Homepage v2</a></li>--}}
-{{--                                <li><a href="home-03.html">Homepage v3</a></li>--}}
-{{--                            </ul>--}}
+                            <a href="#" onclick="navigateSection('location')" class="text-white font-metropolis let-spa-2">LOCATION</a>
+                            {{--                            <ul class="sub-menu">--}}
+                            {{--                                <li><a href="index.html">Homepage v1</a></li>--}}
+                            {{--                                <li><a href="home-02.html">Homepage v2</a></li>--}}
+                            {{--                                <li><a href="home-03.html">Homepage v3</a></li>--}}
+                            {{--                            </ul>--}}
                         </li>
                         <li>
-                            <a href="{{ route('home')}}#tangerang" onclick="navigateSection('tangerang')" class="text-dark font-montserrat">MAP</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('frontend.units')}}" class="text-dark font-montserrat">UNITS</a>
-{{--                            <ul class="sub-menu">--}}
-{{--                                <li><a href="services-list.html">Services List</a></li>--}}
-{{--                                <li>--}}
-{{--                                    <a href="#">Services Detail</a>--}}
+                            <a href="{{ route('frontend.towerplans')}}" @if(Route::currentRouteName() == 'frontend.towerplans') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-metropolis let-spa-2">TOWER PLANS</a>
+                            {{--                            <ul class="sub-menu">--}}
+                            {{--                                <li><a href="services-list.html">Services List</a></li>--}}
+                            {{--                                <li>--}}
+                            {{--                                    <a href="#">Services Detail</a>--}}
 
-{{--                                    <ul class="sub-menu">--}}
-{{--                                        <li><a href="services-detail-01.html">Services Detail v1</a></li>--}}
-{{--                                        <li><a href="services-detail-02.html">Services Detail v2</a></li>--}}
-{{--                                        <li><a href="services-detail-03.html">Services Detail v3</a></li>--}}
-{{--                                    </ul>--}}
-{{--                                </li>--}}
-{{--                            </ul>--}}
+                            {{--                                    <ul class="sub-menu">--}}
+                            {{--                                        <li><a href="services-detail-01.html">Services Detail v1</a></li>--}}
+                            {{--                                        <li><a href="services-detail-02.html">Services Detail v2</a></li>--}}
+                            {{--                                        <li><a href="services-detail-03.html">Services Detail v3</a></li>--}}
+                            {{--                                    </ul>--}}
+                            {{--                                </li>--}}
+                            {{--                            </ul>--}}
                         </li>
                     </ul>
 
                     <!-- Logo desktop -->
-                    <a class="logo-v2" href="{{ route('home') }}"><img src="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" alt="LOGO"></a>
+                    <a class="logo-v2" href="{{ route('home') }}"><img src="{{ asset('images/thesmith/thesmith-web-menu-logo_1.0.png') }}" alt="LOGO"></a>
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="{{route('frontend.facilities')}}" class="text-dark font-montserrat">FACILITIES</a>
-{{--                            <ul class="sub-menu">--}}
-{{--                                <li><a href="news-grid.html">News Grid</a></li>--}}
-{{--                                <li><a href="news-list.html">News List</a></li>--}}
-{{--                                <li><a href="news-detail.html">News Detail</a></li>--}}
-{{--                            </ul>--}}
+                            <a href="{{route('frontend.facilities')}}" class="text-white font-metropolis let-spa-2" @if(Route::currentRouteName() == 'frontend.facilities') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif>FACILITIES</a>
+                            {{--                            <ul class="sub-menu">--}}
+                            {{--                                <li><a href="news-grid.html">News Grid</a></li>--}}
+                            {{--                                <li><a href="news-list.html">News List</a></li>--}}
+                            {{--                                <li><a href="news-detail.html">News Detail</a></li>--}}
+                            {{--                            </ul>--}}
                         </li>
 
-{{--                        <li>--}}
-{{--                            <a href="{{ route('frontend.gallery') }}" class="text-dark font-montserrat">GALLERY</a>--}}
-{{--                        </li>--}}
+                        {{--                        <li>--}}
+                        {{--                            <a href="{{route('frontend.gallery')}}" class="text-white font-montserrat">GALLERY</a>--}}
+                        {{--                        </li>--}}
 
                         <li>
-                            <a href="{{ route('frontend.developer')}}" class="text-dark font-montserrat">DEVELOPER</a>
-{{--                            <ul class="sub-menu">--}}
-{{--                                <li><a href="projects-grid.html">Projects Grid</a></li>--}}
-{{--                                <li>--}}
-{{--                                    <a href="#">Projects Detail</a>--}}
+                            <a href="{{ route('frontend.developer')}}" @if(Route::currentRouteName() == 'frontend.developer') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-metropolis let-spa-2">DEVELOPERS</a>
+                            {{--                            <ul class="sub-menu">--}}
+                            {{--                                <li><a href="projects-grid.html">Projects Grid</a></li>--}}
+                            {{--                                <li>--}}
+                            {{--                                    <a href="#">Projects Detail</a>--}}
 
-{{--                                    <ul class="sub-menu">--}}
-{{--                                        <li><a href="projects-detail-01.html">Projects Detail v1</a></li>--}}
-{{--                                        <li><a href="projects-detail-02.html">Projects Detail v2</a></li>--}}
-{{--                                    </ul>--}}
-{{--                                </li>--}}
-{{--                            </ul>--}}
-                        </li>
-
-                        <li>
-                            <a href="{{ route('frontend.contact_us')}}" class="text-dark font-montserrat">CONTACT US
-{{--                                <img src="{{ asset('images/thescott/phone icon-37.png') }}" alt="LOGO">--}}
-                            </a>
+                            {{--                                    <ul class="sub-menu">--}}
+                            {{--                                        <li><a href="projects-detail-01.html">Projects Detail v1</a></li>--}}
+                            {{--                                        <li><a href="projects-detail-02.html">Projects Detail v2</a></li>--}}
+                            {{--                                    </ul>--}}
+                            {{--                                </li>--}}
+                            {{--                            </ul>--}}
                         </li>
                     </ul>
                 </div>
@@ -314,12 +305,11 @@
     </nav>
 
     <!-- Header Mobile -->
-
     <nav class="container-header-mobile">
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
             <div class="logo-mobile">
-                <a href="{{ route('home') }}"><img src="{{ asset('images/thescott/home/web-cekot-preview-3-19.png') }}" alt="LOGO"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('images/thesmith/thesmith-web-menu-logo_1.0.png') }}" alt="LOGO"></a>
             </div>
 
 
@@ -334,169 +324,36 @@
         <div class="menu-mobile">
             <ul class="main-menu" style="background-color: black;">
                 <li>
-                    <a href="{{ route('home') }}" class="text-white font-montserrat">Home</a>
+                    <a href="{{ route('home') }}" class="text-white font-metropolis let" style="letter-spacing: 2px;">HOME</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.less') }}" class="text-white font-montserrat">The Idea</a>
+                    <a href="#" onclick="navigateSection('location')" class="text-white font-metropolis" style="letter-spacing: 2px;">LOCATION</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('home')}}#tangerang" class="text-white font-montserrat">Map</a>
+                    <a href="{{ route('frontend.towerplans')}}" class="text-white font-metropolis" style="letter-spacing: 2px;">TOWER PLANS</a>
                 </li>
+
 
                 <li>
-                    <a href="{{ route('frontend.units' )}}" class="text-white font-montserrat">Units</a>
+                    <a href="{{route('frontend.facilities')}}" class="text-white font-metropolis" style="letter-spacing: 2px;">FACILITIES</a>
                 </li>
+
+                {{--                <li>--}}
+                {{--                    <a href="{{route('frontend.gallery')}}" class="text-white font-montserrat">Gallery</a>--}}
+                {{--                </li>--}}
 
                 <li>
-                    <a href="{{route('frontend.facilities')}}" class="text-white font-montserrat">Facilities</a>
+                    <a href="{{ route('frontend.developer')}}" class="text-white font-metropolis" style="letter-spacing: 2px;">DEVELOPER</a>
                 </li>
 
-{{--                <li>--}}
-{{--                    <a href="{{route('frontend.gallery')}}" class="text-white font-montserrat">Gallery</a>--}}
-{{--                </li>--}}
-
-                <li>
-                    <a href="{{ route('frontend.developer')}}" class="text-white font-montserrat">Developer</a>
-                </li>
-
-                <li>
-                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-montserrat">Contact Us
-{{--                        <img src="{{ asset('images/thescott/phone icon-36.png') }}" alt="LOGO">--}}
-                    </a>
-                </li>
+                {{--                <li>--}}
+                {{--                    <a href="{{ route('frontend.contact_us')}}" class="text-white font-lato">Contact Us--}}
+                {{--                        <img src="{{ asset('images/thescott/phone icon-36.png') }}" alt="LOGO">--}}
+                {{--                    </a>--}}
+                {{--                </li>--}}
             </ul>
         </div>
     </nav>
-{{--    <nav class="container-header-mobile">--}}
-{{--        <div class="wrap-header-mobile">--}}
-{{--            <!-- Logo moblie -->--}}
-{{--            <div class="logo-mobile">--}}
-{{--                <a href="{{ route('home') }}"><img src="{{ asset('images/thescott/home/web-cekot-preview-3-17.png') }}" alt="LOGO"></a>--}}
-{{--            </div>--}}
-
-
-{{--            <!-- Button show menu -->--}}
-{{--            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">--}}
-{{--					<span class="hamburger-box">--}}
-{{--						<span class="hamburger-inner"></span>--}}
-{{--					</span>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-
-{{--        <div class="menu-mobile">--}}
-{{--            <ul class="top-bar-m p-l-20 p-tb-8">--}}
-{{--                <li>--}}
-{{--                    <div class="t1-s-1 cl-5 p-tb-3">--}}
-{{--							<span class="fs-16 m-r-6">--}}
-{{--								<i class="fa fa-home" aria-hidden="true"></i>--}}
-{{--							</span>--}}
-{{--                        <span>379 5Th Ave New York, Nyc 10018</span>--}}
-{{--                    </div>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <div class="t1-s-1 cl-5 p-tb-3">--}}
-{{--							<span class="fs-16 m-r-6">--}}
-{{--								<i class="fa fa-phone" aria-hidden="true"></i>--}}
-{{--							</span>--}}
-{{--                        <span>(+1) 96 716 6879</span>--}}
-{{--                    </div>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <div class="t1-s-1 cl-5 p-tb-3">--}}
-{{--							<span class="fs-16 m-r-6">--}}
-{{--								<i class="fa fa-clock-o" aria-hidden="true"></i>--}}
-{{--							</span>--}}
-{{--                        <span>Mon-Sat 09:00 am - 17:00 pm/Sunday CLOSE</span>--}}
-{{--                    </div>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <div>--}}
-{{--                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-{{--                            <i class="fa fa-facebook-official"></i>--}}
-{{--                        </a>--}}
-
-{{--                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-{{--                            <i class="fa fa-twitter"></i>--}}
-{{--                        </a>--}}
-
-{{--                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-{{--                            <i class="fa fa-google-plus"></i>--}}
-{{--                        </a>--}}
-
-{{--                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-{{--                            <i class="fa fa-instagram"></i>--}}
-{{--                        </a>--}}
-
-{{--                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-{{--                            <i class="fa fa-linkedin"></i>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </li>--}}
-{{--            </ul>--}}
-
-{{--            <ul class="main-menu">--}}
-{{--                <li>--}}
-{{--                    <a href="index.html">Home</a>--}}
-{{--                    <ul class="sub-menu">--}}
-{{--                        <li><a href="index.html">Homepage v1</a></li>--}}
-{{--                        <li><a href="home-02.html">Homepage v2</a></li>--}}
-{{--                        <li><a href="home-03.html">Homepage v3</a></li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <a href="about.html">About Us</a>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <a href="services-list.html">Services</a>--}}
-{{--                    <ul class="sub-menu">--}}
-{{--                        <li><a href="services-list.html">Services List</a></li>--}}
-{{--                        <li>--}}
-{{--                            <a href="#">Services Detail</a>--}}
-
-{{--                            <ul class="sub-menu">--}}
-{{--                                <li><a href="services-detail-01.html">Services Detail v1</a></li>--}}
-{{--                                <li><a href="services-detail-02.html">Services Detail v2</a></li>--}}
-{{--                                <li><a href="services-detail-03.html">Services Detail v3</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <a href="news-grid.html">News</a>--}}
-{{--                    <ul class="sub-menu">--}}
-{{--                        <li><a href="news-grid.html">News Grid</a></li>--}}
-{{--                        <li><a href="news-list.html">News List</a></li>--}}
-{{--                        <li><a href="news-detail.html">News Detail</a></li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <a href="projects-grid.html">Projects</a>--}}
-{{--                    <ul class="sub-menu">--}}
-{{--                        <li><a href="projects-grid.html">Projects Grid</a></li>--}}
-{{--                        <li>--}}
-{{--                            <a href="#">Projects Detail</a>--}}
-
-{{--                            <ul class="sub-menu">--}}
-{{--                                <li><a href="projects-detail-01.html">Projects Detail v1</a></li>--}}
-{{--                                <li><a href="projects-detail-02.html">Projects Detail v2</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-
-{{--                <li>--}}
-{{--                    <a href="contact.html">Contact us</a>--}}
-{{--                </li>--}}
-{{--            </ul>--}}
-{{--        </div>--}}
-{{--    </nav>--}}
 </header>

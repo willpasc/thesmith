@@ -1,4 +1,4 @@
-@extends('layouts.frontend-v2')
+@extends('layouts.frontend')
 
 @section('head_and_title')
     <meta name="description" content="Home Page">
@@ -166,14 +166,19 @@
                                             <div class="swiper-container">
                                                 <div class="swiper-wrapper py-3">
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">ONE BEDROOM - A</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -181,14 +186,19 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">ONE BEDROOM - B</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -196,14 +206,19 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">ONE BEDROOM - C</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -211,14 +226,19 @@
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <div class="row">
+                                                        <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body">STUDIO</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -262,9 +282,14 @@
                                                                 <p class="txt-header-body">SOHO - A</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -277,9 +302,14 @@
                                                                 <p class="txt-header-body">SOHO - B</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -292,9 +322,14 @@
                                                                 <p class="txt-header-body">SOHO - B2</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -307,9 +342,14 @@
                                                                 <p class="txt-header-body">SOHO - B3</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -322,9 +362,14 @@
                                                                 <p class="txt-header-body">SOHO - B4</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -337,9 +382,14 @@
                                                                 <p class="txt-header-body">SOHO - C</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -352,9 +402,14 @@
                                                                 <p class="txt-header-body">SOHO - D</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -367,9 +422,14 @@
                                                                 <p class="txt-header-body">SOHO - E</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -413,9 +473,14 @@
                                                                 <p class="txt-header-body">OFFICE - A</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -428,9 +493,14 @@
                                                                 <p class="txt-header-body">OFFICE - B</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
@@ -443,9 +513,14 @@
                                                                 <p class="txt-header-body">OFFICE - C</p>
                                                                 <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
-                                                                <p class="txt-body pt-3">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
+                                                                <p class="txt-body pt-3 d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
                                                                     Every unit is equipped with safety fittings, including an intercom that connects<br/>
+                                                                    directly to the safety officers, ensuring needs are attended promptly.
+                                                                </p>
+                                                                <p class="txt-body pt-3 d-block d-md-none">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
+                                                                    with interiors installed smartly, together with ample ventilations that shines every room.
+                                                                    Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
