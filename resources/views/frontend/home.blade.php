@@ -46,7 +46,7 @@
             <div class="col-md-8 text-white text-center py-cust">
                 <p class="txt-header-body font-metropolis" style="letter-spacing: 5px;">CONCEPT</p>
                 <p class="txt-body font-lato pb-3">The foundational ideas of The Smith</p>
-                <div class="border-concept-custom"></div>
+                <div class="border-concept-custom-1"></div>
                 <div class="row pt-5">
                     <div class="col-md-4 col-12 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_1.1.jpg') }}" alt="img" class="img-concept">
@@ -724,6 +724,12 @@
             border-bottom: 1px solid white;
             width:100%;
         }
+
+        .border-concept-custom-1{
+            border-bottom: 0.04em solid rgba(255,255,255,0.80);
+            width:100%;
+        }
+
         .border-swiper-custom{
             border-bottom: 1px solid black;
             width:20%;

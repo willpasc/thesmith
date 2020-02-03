@@ -312,6 +312,7 @@
             padding-top: 10px;
             padding-bottom: 10px;
             display: flow-root inline;
+            display: -webkit-inline-flex;
         }
         .concept-bg{
             background-color: black;

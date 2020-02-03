@@ -59,13 +59,13 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                                 </a>
-                                <div class="collapse" id="residence-accor"
+                                <div class="collapse show" id="residence-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
                                             <div class="col-12">
                                                 <!-- Swiper -->
-                                                <div class="swiper-container">
+                                                <div id="residence-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
                                                         <div class="swiper-slide">
                                                             <div class="row">
@@ -131,7 +131,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -239,7 +239,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -347,7 +347,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -455,7 +455,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -524,13 +524,13 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                                 </a>
-                                <div class="collapse" id="soho-accor"
+                                <div class="collapse show" id="soho-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
                                             <div class="col-12">
                                                 <!-- Swiper -->
-                                                <div class="swiper-container">
+                                                <div id="soho-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
                                                         <div class="swiper-slide">
                                                             <div class="row">
@@ -587,7 +587,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -686,7 +686,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -785,7 +785,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -884,7 +884,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -983,7 +983,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -1082,7 +1082,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -1181,7 +1181,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -1280,7 +1280,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -1348,13 +1348,13 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                                 </a>
-                                <div class="collapse" id="office-accor"
+                                <div class="collapse show" id="office-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
                                             <div class="col-12">
                                                 <!-- Swiper -->
-                                                <div class="swiper-container">
+                                                <div id="office-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
                                                         <div class="swiper-slide">
                                                             <div class="row">
@@ -1411,7 +1411,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -1510,7 +1510,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -1609,7 +1609,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom-1"></div>
+                                                                            <div class="border-swiper-custom"></div>
                                                                         </div>
                                                                         <div class="pt-4 pb-5">
                                                                             <p class="pb-1 font-lato">FLOOR FINISHING</p>
@@ -2133,8 +2133,30 @@
             variableWidth: true,
             arrows: true
         });
-        $('#residence-tower').on('shown.bs.collapse', function () {
-            var swiper = new Swiper('.swiper-container', {
+        $(function() {
+            var swiper = new Swiper('#residence-swiper', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            var swiper2 = new Swiper('#soho-swiper', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            var swiper3 = new Swiper('#office-swiper', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -2146,8 +2168,8 @@
                 },
             });
         });
-        $('#soho-tower').on('shown.bs.collapse', function () {
-            var swiper = new Swiper('.swiper-container', {
+        $('#residence-tower').on('click', function () {
+            var swiper = new Swiper('#residence-swiper', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -2159,8 +2181,21 @@
                 },
             });
         });
-        $('#office-tower').on('shown.bs.collapse', function () {
-            var swiper = new Swiper('.swiper-container', {
+        $('#soho-tower').on('click', function () {
+            var swiper = new Swiper('#soho-swiper', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+        $('#office-tower').on('click', function () {
+            var swiper = new Swiper('#office-swiper', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',

@@ -58,7 +58,7 @@
     font-weight:bold;
 }
 .txt-body{
-    font-size: 13px;
+    font-size: 13px !important;
     line-height: 1.8em;
 }
 .txt-subheader{
