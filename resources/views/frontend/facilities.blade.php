@@ -34,7 +34,7 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                                 </a>
-                                <div class="collapse" id="facilities-accor"
+                                <div class="collapse show" id="facilities-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
@@ -663,6 +663,19 @@
     {{--    <script type="text/javascript" src="{{ asset('js/frontend/swiper.min.js') }}"></script>--}}
     <script>
 
+        $( document ).ready(function() {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
         function navigateSection(section){
             var offsetTop = $('#' + section).offset().top;
 

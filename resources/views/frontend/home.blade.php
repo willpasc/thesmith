@@ -117,15 +117,15 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs pt-3" role="tablist">
                     <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                        <a class="nav-link active text-white font-lato let-spa-2" data-toggle="tab" href="#residence" role="tab" onclick="changetab(1)">RESIDENCE UNIT</a>
+                        <a class="nav-link active text-white font-lato let-spa-2" data-toggle="tab" href="#residence" role="tab" id="tabResidence"  onclick="changetab(1)">RESIDENCE UNIT</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#soho" role="tab" id="tabFloor" onclick="changetab(2)">SOHO UNITS</a>
+                        <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#soho" role="tab" id="tabSoho" onclick="changetab(2)">SOHO UNITS</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
-                        <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#office" role="tab" id="tabUnit" onclick="changetab(3)">OFFICE UNITS</a>
+                        <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#office" role="tab" id="tabOffice" onclick="changetab(3)">OFFICE UNITS</a>
                     </li>
                 </ul>
             </div>
@@ -157,7 +157,7 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                             </a>
-                            <div class="collapse" id="residence-accor"
+                            <div class="collapse show" id="residence-accor"
                              style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row">
@@ -268,9 +268,9 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                             </a>
-                            <div class="collapse" id="soho-accor"
+                            <div class="collapse show" id="soho-accor"
                              style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
-                                <div class="odypanel-body" style="z-index:9999999 !important;">
+                                <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row">
                                         <div class="col-12">
                                             <!-- Swiper -->
@@ -459,7 +459,7 @@
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
                             </a>
-                            <div class="collapse" id="office-accor"
+                            <div class="collapse show" id="office-accor"
                              style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row">
@@ -1086,6 +1086,19 @@ pop up css
 {{--    <script type="text/javascript" src="{{ asset('js/frontend/swiper.min.js') }}"></script>--}}
     <script>
 
+        $( document ).ready(function() {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
         function navigateSection(section){
             var offsetTop = $('#' + section).offset().top;
 
@@ -1098,7 +1111,7 @@ pop up css
             }
         };
 
-        $('#residence').on('shown.bs.collapse', function () {
+        $('#tabResidence').on('click', function () {
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {
@@ -1111,7 +1124,7 @@ pop up css
                 },
             });
         });
-        $('#soho').on('shown.bs.collapse', function () {
+        $('#tabSoho').on('click', function () {
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {
@@ -1124,7 +1137,7 @@ pop up css
                 },
             });
         });
-        $('#office').on('shown.bs.collapse', function () {
+        $('#tabOffice').on('click', function () {
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {

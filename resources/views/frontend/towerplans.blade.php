@@ -18,15 +18,15 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs pt-5" role="tablist">
                         <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                            <a class="nav-link active text-white font-lato let-spa-2" data-toggle="tab" href="#residence-tower" role="tab" onclick="changetower(1)">RESIDENCE UNIT</a>
+                            <a class="nav-link active text-white font-lato let-spa-2" data-toggle="tab" href="#residence-tower" role="tab" id="tabResidence"  onclick="changetower(1)">RESIDENCE UNIT</a>
                         </li>
 
                         <li class="nav-item col-md-4 p-0 tab-nav">
-                            <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#soho-tower" role="tab" id="tabFloor" onclick="changetower(2)">SOHO UNITS</a>
+                            <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#soho-tower" role="tab" id="tabSoho" onclick="changetower(2)">SOHO UNITS</a>
                         </li>
 
                         <li class="nav-item col-md-4 p-0 tab-nav">
-                            <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#office-tower" role="tab" id="tabUnit" onclick="changetower(3)">OFFICE UNITS</a>
+                            <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#office-tower" role="tab" id="tabOffice" onclick="changetower(3)">OFFICE UNITS</a>
                         </li>
                     </ul>
                 </div>
@@ -2133,56 +2133,44 @@
             variableWidth: true,
             arrows: true
         });
-        $(function() {
-            var swiper = new Swiper('#residence-swiper', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-            var swiper2 = new Swiper('#soho-swiper', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-            var swiper3 = new Swiper('#office-swiper', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        });
-        $('#residence-tower').on('click', function () {
-            var swiper = new Swiper('#residence-swiper', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        });
-        $('#soho-tower').on('click', function () {
-            var swiper = new Swiper('#soho-swiper', {
+        // $(function() {
+        //     var swiper = new Swiper('#residence-swiper', {
+        //         loop: true,
+        //         pagination: {
+        //             el: '.swiper-pagination',
+        //             type: 'fraction',
+        //         },
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //     });
+        //     var swiper2 = new Swiper('#soho-swiper', {
+        //         loop: true,
+        //         pagination: {
+        //             el: '.swiper-pagination',
+        //             type: 'fraction',
+        //         },
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //     });
+        //     var swiper3 = new Swiper('#office-swiper', {
+        //         loop: true,
+        //         pagination: {
+        //             el: '.swiper-pagination',
+        //             type: 'fraction',
+        //         },
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //     });
+        // });
+
+        $( document ).ready(function() {
+            var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -2194,8 +2182,34 @@
                 },
             });
         });
-        $('#office-tower').on('click', function () {
-            var swiper = new Swiper('#office-swiper', {
+        $('#tabResidence').on('click', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+        $('#tabSoho').on('click', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+        $('#tabOffice').on('click', function () {
+            var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
