@@ -70,8 +70,27 @@ class HomeController extends Controller
         return view('frontend.less');
     }
 
-    public function towerplans(){
-        return view('frontend.towerplans');
+    public function towerplans($tabname){
+        if($tabname =="residence"){
+            $tabresidence = "active";
+            $tabsoho = "";
+            $taboffice = "";
+
+        }
+        if($tabname =="soho"){
+            $tabresidence = "";
+            $tabsoho = "active";
+            $taboffice = "";
+
+        }
+        if($tabname =="office"){
+            $tabresidence = "";
+            $tabsoho = "";
+            $taboffice = "active";
+
+        }
+
+        return view('frontend.towerplans', compact('tabresidence', 'tabsoho', 'taboffice'));
     }
 
     public function facilities(){

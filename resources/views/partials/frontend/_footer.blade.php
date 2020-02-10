@@ -15,7 +15,7 @@
                         <a href="{{ route('home') }}#concept" style="color:white;" class="txt-body">CONCEPT</a>
                     </p>
                     <p>
-                        <a href="{{ route('frontend.towerplans') }}" style="color:white;" class="txt-body">TOWER PLANS</a>
+                        <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" style="color:white;" class="txt-body">TOWER PLANS</a>
                     </p>
                     <p>
                         <a href="{{ route('frontend.facilities') }}" style="color:white;" class="txt-body">FACILITIES</a>

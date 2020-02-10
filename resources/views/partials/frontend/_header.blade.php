@@ -251,7 +251,7 @@
                             {{--                            </ul>--}}
                         </li>
                         <li>
-                            <a href="{{ route('frontend.towerplans')}}" @if(Route::currentRouteName() == 'frontend.towerplans') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-metropolis let-spa-2 txt-body">TOWER PLANS</a>
+                            <a href="{{route('frontend.towerplans', ['tabname'=>'residence'])}}" @if(Route::currentRouteName() == 'frontend.towerplans') style="border-bottom: 1px solid #fff; padding-bottom: 10px;" @endif class="text-white font-metropolis let-spa-2 txt-body">TOWER PLANS</a>
                             {{--                            <ul class="sub-menu">--}}
                             {{--                                <li><a href="services-list.html">Services List</a></li>--}}
                             {{--                                <li>--}}
@@ -332,7 +332,7 @@
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.towerplans')}}" class="text-white font-metropolis txt-body" style="letter-spacing: 2px;">TOWER PLANS</a>
+                    <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="text-white font-metropolis txt-body" style="letter-spacing: 2px;">TOWER PLANS</a>
                 </li>
 
 

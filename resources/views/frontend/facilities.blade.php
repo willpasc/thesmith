@@ -27,14 +27,14 @@
                     <div class="text-center box-accor" >
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="residence" role="tabpanel">
-                                <a href="#facilities-accor" data-toggle="collapse" data-parent="accordion">
+{{--                                <a href="#facilities-accor" data-toggle="collapse" data-parent="accordion">--}}
                                 <span class=" font-lato text-dark">Grand Lobby
                                     &nbsp; <img
                                         src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
-                                </a>
-                                <div class="collapse show" id="facilities-accor"
+{{--                                </a>--}}
+                                <div class="" id="facilities-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
@@ -42,7 +42,7 @@
                                                 <!-- Swiper -->
                                                 <div class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="fac-1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -60,7 +60,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -77,7 +77,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -94,7 +94,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-4">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -111,7 +111,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-5">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -128,7 +128,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-6">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -145,7 +145,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -162,7 +162,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-8">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -179,7 +179,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-9">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
@@ -196,7 +196,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="fac-10">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>

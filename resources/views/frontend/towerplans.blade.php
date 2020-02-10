@@ -18,15 +18,15 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs pt-5" role="tablist">
                         <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                            <a class="nav-link active text-white font-lato let-spa-2" data-toggle="tab" href="#residence-tower" role="tab" id="tabResidence"  onclick="changetower(1)">RESIDENCE UNIT</a>
+                            <a class="nav-link active text-white font-lato let-spa-2 {{$tabresidence}}" data-toggle="tab" href="#residence-tower" role="tab" id="tabResidence"  onclick="changetower(1)">RESIDENCE UNIT</a>
                         </li>
 
                         <li class="nav-item col-md-4 p-0 tab-nav">
-                            <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#soho-tower" role="tab" id="tabSoho" onclick="changetower(2)">SOHO UNITS</a>
+                            <a class="nav-link text-white font-lato let-spa-2 {{$tabsoho}}" data-toggle="tab" href="#soho-tower" role="tab" id="tabSoho" onclick="changetower(2)">SOHO UNITS</a>
                         </li>
 
                         <li class="nav-item col-md-4 p-0 tab-nav">
-                            <a class="nav-link text-white font-lato let-spa-2" data-toggle="tab" href="#office-tower" role="tab" id="tabOffice" onclick="changetower(3)">OFFICE UNITS</a>
+                            <a class="nav-link text-white font-lato let-spa-2 {{$taboffice}}" data-toggle="tab" href="#office-tower" role="tab" id="tabOffice" onclick="changetower(3)">OFFICE UNITS</a>
                         </li>
                     </ul>
                 </div>
@@ -51,15 +51,15 @@
                 <div class="col-md-8 col-10">
                     <div class="text-center box-accor">
                         <div class="tab-content">
-                            <div class="tab-pane fade show active" id="residence-tower" role="tabpanel">
-                                <a href="#residence-accor" data-toggle="collapse" data-parent="accordion">
+                            <div class="tab-pane fade show {{$tabresidence}}" id="residence-tower" role="tabpanel">
+{{--                                <a href="#residence-accor" data-toggle="collapse" data-parent="accordion">--}}
                                 <span class="txt-hemat-catatan font-lato text-dark">Description
                                     &nbsp; <img
                                         src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
-                                </a>
-                                <div class="collapse show" id="residence-accor"
+{{--                                </a>--}}
+                                <div class="" id="residence-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
@@ -67,7 +67,7 @@
                                                 <!-- Swiper -->
                                                 <div id="residence-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="res-1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -175,7 +175,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="res-2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -283,7 +283,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide"  id="res-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -391,7 +391,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="res-4">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -516,15 +516,15 @@
                             </div>
                         </div>
                         <div class="tab-content">
-                            <div class="tab-pane fade show" id="soho-tower" role="tabpanel">
-                                <a href="#soho-accor" data-toggle="collapse" data-parent="accordion">
+                            <div class="tab-pane fade show {{$tabsoho}}" id="soho-tower" role="tabpanel">
+{{--                                <a href="#soho-accor" data-toggle="collapse" data-parent="accordion">--}}
                                 <span class="txt-hemat-catatan font-lato text-dark">Description
                                     &nbsp; <img
                                         src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
-                                </a>
-                                <div class="collapse show" id="soho-accor"
+{{--                                </a>--}}
+                                <div class="" id="soho-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
@@ -532,7 +532,7 @@
                                                 <!-- Swiper -->
                                                 <div id="soho-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -631,7 +631,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-2>
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -730,7 +730,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -829,7 +829,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-4">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -928,7 +928,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-5">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1027,7 +1027,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-6">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1126,7 +1126,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1225,7 +1225,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="soho-8">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1340,15 +1340,15 @@
                             </div>
                         </div>
                         <div class="tab-content">
-                            <div class="tab-pane fade show" id="office-tower" role="tabpanel">
-                                <a href="#office-accor" data-toggle="collapse" data-parent="accordion">
+                            <div class="tab-pane fade show {{$taboffice}}" id="office-tower" role="tabpanel">
+{{--                                <a href="#office-accor" data-toggle="collapse" data-parent="accordion">--}}
                                 <span class="txt-hemat-catatan font-lato text-dark">Description
                                     &nbsp; <img
                                         src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
                                         alt="IMG" style="width:20px;" class="img-fluid">
                                 </span>
-                                </a>
-                                <div class="collapse show" id="office-accor"
+{{--                                </a>--}}
+                                <div class="" id="office-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">

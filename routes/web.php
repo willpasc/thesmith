@@ -39,7 +39,7 @@ Route::get('/location', 'Frontend\HomeController@location')->name('frontend.loca
 Route::get('/developer', 'Frontend\HomeController@developer')->name('frontend.developer');
 Route::get('/slow', 'Frontend\HomeController@slow')->name('frontend.slow');
 Route::get('/less', 'Frontend\HomeController@less')->name('frontend.less');
-Route::get('/towerplans', 'Frontend\HomeController@towerplans')->name('frontend.towerplans');
+Route::get('/towerplans/{tabname}', 'Frontend\HomeController@towerplans')->name('frontend.towerplans');
 Route::get('/facilities', 'Frontend\HomeController@facilities')->name('frontend.facilities');
 Route::get('/idea', 'Frontend\HomeController@idea')->name('frontend.idea');
 Route::get('/gallery', 'Frontend\HomeController@gallery')->name('frontend.gallery');
