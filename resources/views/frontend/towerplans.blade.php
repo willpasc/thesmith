@@ -631,7 +631,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-2>
+                                                        <div class="swiper-slide" id="soho-2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1356,7 +1356,7 @@
                                                 <!-- Swiper -->
                                                 <div id="office-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="off-1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
@@ -1455,7 +1455,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="off-2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
@@ -1554,7 +1554,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide">
+                                                        <div class="swiper-slide" id="off-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
