@@ -18,7 +18,7 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs pt-5" role="tablist">
                         <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                            <a class="nav-link active text-white font-lato let-spa-2 {{$tabresidence}}" data-toggle="tab" href="#residence-tower" role="tab" id="tabResidence"  onclick="changetower(1)">RESIDENCE UNIT</a>
+                            <a class="nav-link text-white font-lato let-spa-2 {{$tabresidence}}" data-toggle="tab" href="#residence-tower" role="tab" id="tabResidence"  onclick="changetower(1)">RESIDENCE UNIT</a>
                         </li>
 
                         <li class="nav-item col-md-4 p-0 tab-nav">

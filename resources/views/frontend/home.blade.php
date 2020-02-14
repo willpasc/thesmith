@@ -181,7 +181,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="#">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-1">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -204,7 +204,7 @@
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
 {{--                                                                <a href="{{ route('frontend.towerplans')}}#res-2">--}}
-                                                                <a href="">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-2">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -225,7 +225,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="#">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-3">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -246,7 +246,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="#">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-4">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a></div>
                                                         </div>
@@ -1243,6 +1243,15 @@ pop up css
                 },
             });
         });
+        // $('.swiper-container').each(function(){
+        //     new Swiper($(this), {
+        //         pagination: $(this).find('.swiper-pagination'),
+        //         paginationClickable: $(this).find('.swiper-pagination'),
+        //         nextButton: $(this).find('.swiper-button-next'),
+        //         prevButton: $(this).find('.swiper-button-prev'),
+        //         loop: true
+        //     });
+        // });
         function navigateSection(section){
             var offsetTop = $('#' + section).offset().top;
 
