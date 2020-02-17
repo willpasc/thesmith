@@ -67,7 +67,7 @@
                                                 <!-- Swiper -->
                                                 <div id="residence-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide" id="res-1">
+                                                        <div class="swiper-slide" id="1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -175,7 +175,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide"  id="res-2">
+                                                        <div class="swiper-slide"  id="2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -283,7 +283,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide"  id="res-3">
+                                                        <div class="swiper-slide"  id="3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -391,7 +391,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="res-4">
+                                                        <div class="swiper-slide" id="4">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
@@ -532,7 +532,7 @@
                                                 <!-- Swiper -->
                                                 <div id="soho-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide" id="soho-1">
+                                                        <div class="swiper-slide" id="1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -631,7 +631,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-2">
+                                                        <div class="swiper-slide" id="2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -730,7 +730,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-3">
+                                                        <div class="swiper-slide" id="3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -829,7 +829,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-4">
+                                                        <div class="swiper-slide" id="4">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -928,7 +928,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-5">
+                                                        <div class="swiper-slide" id="5">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1027,7 +1027,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-6">
+                                                        <div class="swiper-slide" id="6">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1126,7 +1126,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-7">
+                                                        <div class="swiper-slide" id="7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1225,7 +1225,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="soho-8">
+                                                        <div class="swiper-slide" id="8">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE SOHO</p>
@@ -1356,7 +1356,7 @@
                                                 <!-- Swiper -->
                                                 <div id="office-swiper" class="swiper-container">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide" id="off-1">
+                                                        <div class="swiper-slide" id="1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
@@ -1455,7 +1455,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="off-2">
+                                                        <div class="swiper-slide" id="2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
@@ -1554,7 +1554,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide" id="off-3">
+                                                        <div class="swiper-slide" id="3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class="txt-header-body font-metropolis let-spa-5">THE OFFICE</p>
@@ -2170,6 +2170,13 @@
         // });
 
         $( document ).ready(function() {
+            let Url = window.location.href;
+            let initialSlide = 0;
+            if(Url.includes("#")){
+                let splitUrl = Url.split("#");
+                initialSlide = parseInt(splitUrl[1]) - 1;
+            }
+            // alert(initialSlide);
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {
@@ -2180,6 +2187,9 @@
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                initialSlide: initialSlide,
+                observer: true,
+                observeParents: true
             });
         });
         $('#tabResidence').on('click', function () {
@@ -2193,6 +2203,8 @@
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                observer: true,
+                observeParents: true
             });
         });
         $('#tabSoho').on('click', function () {
@@ -2206,6 +2218,8 @@
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                observer: true,
+                observeParents: true
             });
         });
         $('#tabOffice').on('click', function () {
@@ -2219,6 +2233,8 @@
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                observer: true,
+                observeParents: true
             });
         });
 
@@ -2241,7 +2257,7 @@
                 $('#residence-tower').hide();
                 $('#office-tower').show();
             }
-        };
+        }
     </script>
 @endsection
 

@@ -181,7 +181,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-1">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#1">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -204,7 +204,7 @@
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
 {{--                                                                <a href="{{ route('frontend.towerplans')}}#res-2">--}}
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-2">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#2">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -225,7 +225,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-3">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#3">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -246,7 +246,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#res-4">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}#4">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a></div>
                                                         </div>
@@ -298,7 +298,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-1">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#1">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -320,7 +320,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-2">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#2">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>  </div>
                                                         </div>
@@ -341,7 +341,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-3">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#3">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>  </div>
                                                         </div>
@@ -362,7 +362,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-4">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#4">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -383,7 +383,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-5">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#5">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>  </div>
                                                         </div>
@@ -404,7 +404,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-6">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#6">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -426,7 +426,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-7">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#7">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>  </div>
                                                         </div>
@@ -447,7 +447,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#soho-8">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#8">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -499,7 +499,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{route('frontend.towerplans', ['tabname'=>'office'])}}#off-1">
+                                                                <a href="{{route('frontend.towerplans', ['tabname'=>'office'])}}#1">
                                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -521,7 +521,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{route('frontend.towerplans', ['tabname'=>'office'])}}#off-2">
+                                                                <a href="{{route('frontend.towerplans', ['tabname'=>'office'])}}#2">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -543,7 +543,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{route('frontend.towerplans', ['tabname'=>'office'])}}#off-3">
+                                                                <a href="{{route('frontend.towerplans', ['tabname'=>'office'])}}#3">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -1241,6 +1241,8 @@ pop up css
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                observer: true,
+                observeParents: true
             });
         });
         // $('.swiper-container').each(function(){
@@ -1275,6 +1277,8 @@ pop up css
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                observer: true,
+                observeParents: true
             });
         });
         $('#tabSoho').on('click', function () {
@@ -1288,6 +1292,8 @@ pop up css
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                observer: true,
+                observeParents: true
             });
         });
         $('#tabOffice').on('click', function () {
@@ -1301,6 +1307,8 @@ pop up css
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
+                observer: true,
+                observeParents: true
             });
         });
 
@@ -1323,7 +1331,7 @@ pop up css
                 $('#residence').hide();
                 $('#office').show();
             }
-        };
+        }
 
 
 
