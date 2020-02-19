@@ -61,35 +61,35 @@ Route::get('/paul_marc/lanes', 'Frontend\HomePaulController@lanes')->name('front
 
 // ADMIN ROUTE
 // ====================================================================================================================
-
-Route::prefix('admin')->group(function(){
-    Route::get('/', 'Admin\ContactMessageController@index')->name('admin.dashboard');
-    Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
-    Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
-    Route::get('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
-
-    // Contact Message
-    Route::get('/contact-messages', 'Admin\ContactMessageController@index')->name('admin.contact-messages.index');
-
-    // Admin User
-    Route::get('/admin-users', 'Admin\AdminUserController@index')->name('admin.admin-users.index');
-    Route::get('/admin-users/create', 'Admin\AdminUserController@create')->name('admin.admin-users.create');
-    Route::post('/admin-users/store', 'Admin\AdminUserController@store')->name('admin.admin-users.store');
-    Route::get('/admin-users/edit/{item}', 'Admin\AdminUserController@edit')->name('admin.admin-users.edit');
-    Route::post('/admin-users/update', 'Admin\AdminUserController@update')->name('admin.admin-users.update');
-    Route::post('/admin-users/delete', 'Admin\AdminUserController@destroy')->name('admin.admin-users.destroy');
-
-    // User
-    Route::get('/users', 'Admin\UserController@index')->name('admin.users.index');
-    Route::get('/users/create', 'Admin\UserController@create')->name('admin.users.create');
-    Route::post('/users/store', 'Admin\UserController@store')->name('admin.users.store');
-    Route::get('/users/edit/{item}', 'Admin\UserController@edit')->name('admin.users.edit');
-    Route::post('/users/update', 'Admin\UserController@update')->name('admin.users.update');
-    Route::post('/users/delete', 'Admin\UserController@destroy')->name('admin.users.destroy');
-
-    // Subscribes
-    Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
-    Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
-});
-
-Route::get('/datatable/contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
+//
+//Route::prefix('admin')->group(function(){
+//    Route::get('/', 'Admin\ContactMessageController@index')->name('admin.dashboard');
+//    Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
+//    Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+//    Route::get('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
+//
+//    // Contact Message
+//    Route::get('/contact-messages', 'Admin\ContactMessageController@index')->name('admin.contact-messages.index');
+//
+//    // Admin User
+//    Route::get('/admin-users', 'Admin\AdminUserController@index')->name('admin.admin-users.index');
+//    Route::get('/admin-users/create', 'Admin\AdminUserController@create')->name('admin.admin-users.create');
+//    Route::post('/admin-users/store', 'Admin\AdminUserController@store')->name('admin.admin-users.store');
+//    Route::get('/admin-users/edit/{item}', 'Admin\AdminUserController@edit')->name('admin.admin-users.edit');
+//    Route::post('/admin-users/update', 'Admin\AdminUserController@update')->name('admin.admin-users.update');
+//    Route::post('/admin-users/delete', 'Admin\AdminUserController@destroy')->name('admin.admin-users.destroy');
+//
+//    // User
+//    Route::get('/users', 'Admin\UserController@index')->name('admin.users.index');
+//    Route::get('/users/create', 'Admin\UserController@create')->name('admin.users.create');
+//    Route::post('/users/store', 'Admin\UserController@store')->name('admin.users.store');
+//    Route::get('/users/edit/{item}', 'Admin\UserController@edit')->name('admin.users.edit');
+//    Route::post('/users/update', 'Admin\UserController@update')->name('admin.users.update');
+//    Route::post('/users/delete', 'Admin\UserController@destroy')->name('admin.users.destroy');
+//
+//    // Subscribes
+//    Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
+//    Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
+//});
+//
+//Route::get('/datatable/contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
