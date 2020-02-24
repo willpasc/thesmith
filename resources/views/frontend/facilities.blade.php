@@ -11,11 +11,45 @@
 
 @section('content')
 
-    <section class="bg-home">
-        <div class="container">
-            <div class="row no-gutters padd-top50">
-                <div class="col-12 text-center">
-                </div>
+{{--    <section class="bg-home">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row no-gutters padd-top50">--}}
+{{--                <div class="col-12 text-center">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+    <section class="image-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facility-floor_1.0.jpg') }}" alt="img" >
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_1.0.jpg') }}" alt="img" >
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_2.0.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_4.0.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_5.0.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-lounge_1.0.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-meetingrooms_1.0.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-auditorium_1.0.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-pool_1.0.jpg') }}" alt="img">
             </div>
         </div>
     </section>
@@ -29,9 +63,9 @@
                             <div class="tab-pane fade show active" id="residence" role="tabpanel">
 {{--                                <a href="#facilities-accor" data-toggle="collapse" data-parent="accordion">--}}
                                 <span class=" font-lato text-dark">Grand Lobby
-                                    &nbsp; <img
-                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
-                                        alt="IMG" style="width:20px;" class="img-fluid">
+{{--                                    &nbsp; <img--}}
+{{--                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"--}}
+{{--                                        alt="IMG" style="width:20px;" class="img-fluid">--}}
                                 </span>
 {{--                                </a>--}}
                                 <div class="" id="facilities-accor"
@@ -404,8 +438,80 @@
             padding-top: 23%;
             width: 262px;
         }
-        .bg-home{
+        .bg-home-1{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_1.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-2{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_2.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-3{
             background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-4{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-5{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_4.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-6{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-lobby_5.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-7{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-lounge_1.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-8{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-meetingrooms_1.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-9{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-auditorium_1.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+            height: 212px;
+        }
+        .bg-home-10{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-pool_1.0.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -660,10 +766,15 @@
 @endsection
 
 @section('scripts')
-    {{--    <script type="text/javascript" src="{{ asset('js/frontend/swiper.min.js') }}"></script>--}}
+{{--        <script type="text/javascript" src="{{ asset('js/frontend/swiper.min.js') }}"></script>--}}
     <script>
 
         $( document ).ready(function() {
+            var imageSwiper = new Swiper('.image-slider', {
+                loop: true,
+                slidesPerView: 1,
+            });
+
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {
@@ -675,6 +786,8 @@
                     prevEl: '.swiper-button-prev',
                 },
             });
+            imageSwiper.controller.control  = swiper;
+            swiper.controller.control  = imageSwiper;
         });
         function navigateSection(section){
             var offsetTop = $('#' + section).offset().top;
@@ -747,10 +860,6 @@
                 $('#residence').hide();
                 $('#office').show();
             }
-        };
-
-
-
-
+        }
     </script>
 @endsection
