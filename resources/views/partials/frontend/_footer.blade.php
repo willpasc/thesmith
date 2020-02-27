@@ -37,7 +37,7 @@
             <div class="row pt-4">
                 <div class="col-md-2 col-12"></div>
                 <div class="col-md-4">
-                    <p class="d-none d-md-block disclaimer">
+                    <p class="d-none d-md-block disclaimer pb-4">
                         DISCLAIMER: All pictures & photos just for illustration on preparation, they
                         are not always the same the developer build, although seriously to think &
                         preparing this flyer, the developer will not take any responsibility it there

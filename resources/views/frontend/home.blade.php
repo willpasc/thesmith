@@ -602,7 +602,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>MAP</p>
+                                            <p class="font-lato">MAP</p>
                                             <a href="{{route('frontend.facilities')}}"#fac-1>
                                             <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a>
@@ -612,7 +612,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>GRAND LOBBY</p>
+                                            <p class="font-lato">GRAND LOBBY</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-2">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
@@ -621,7 +621,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>GRAND LOBBY</p>
+                                            <p class="font-lato">GRAND LOBBY</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-3">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
@@ -630,7 +630,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>GRAND LOBBY</p>
+                                            <p class="font-lato">GRAND LOBBY</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-4">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a></div>
@@ -639,7 +639,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>GRAND LOBBY</p>
+                                            <p class="font-lato">GRAND LOBBY</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-5">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a></div>
@@ -648,7 +648,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>GRAND LOBBY</p>
+                                            <p class="font-lato">GRAND LOBBY</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-6">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
@@ -657,7 +657,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>LOUNGE</p>
+                                            <p class="font-lato">LOUNGE</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-7">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
@@ -666,7 +666,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>MEETING ROOMS</p>
+                                            <p class="font-lato">MEETING ROOMS</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-8">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
@@ -675,7 +675,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>AUDITORIUM</p>
+                                            <p class="font-lato">AUDITORIUM</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-9">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a></div>
@@ -684,7 +684,7 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p>POOL</p>
+                                            <p class="font-lato">POOL</p>
                                             <a href="{{ route('frontend.facilities')}}#fac-10">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
@@ -710,28 +710,28 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-white text-center">
-                <p class="txt-header-body">LOCATION</p>
+                <p class="txt-header-body font-metropolis">LOCATION</p>
                 <p class="txt-body font-lato pb-3">Located strategically, neighboring to world-class amenities</p>
                 <div class="border-concept-custom"></div>
                 <div class="row py-5 px-md-0 px-5">
                     <div class="col-md-4 col-12 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">1 MINUTE AWAY</p>
+                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">1 MINUTE AWAY</p>
                             <p class="txt-body px-4 font-lato">From Alam Sutera Toll Gate</p>
                         </div>
                     </div>
                     <div class="col-md-4 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
                             <p class="txt-body px-4 font-lato">From IKEA Alam Sutera</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_3.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
                             <p class="txt-body px-4 font-lato">From BINUS University</p>
                         </div>
                     </div>
@@ -740,21 +740,21 @@
                     <div class="col-md-4 col-12 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_4.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">5 MINUTE AWAY</p>
+                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
                             <p class="txt-body px-4 font-lato">From Living World</p>
                         </div>
                     </div>
                     <div class="col-md-4 pb-5">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_5.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
                             <p class="txt-body px-4 font-lato">From Mall at Alam Sutera</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_6.1.jpg') }}" alt="img" class="img-location">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader">5 MINUTES AWAY</p>
+                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
                             <p class="txt-body px-4 font-lato">From OMNI Hospital</p>
                         </div>
                     </div>

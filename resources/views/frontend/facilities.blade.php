@@ -25,31 +25,31 @@
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facility-floor_1.0.jpg') }}" alt="img" >
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_1.0.jpg') }}" alt="img" >
+                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" >
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_2.0.jpg') }}" alt="img">
+                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}" alt="img">
+                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_4.0.jpg') }}" alt="img">
+                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img">
+            </div>
+{{--            <div class="swiper-slide">--}}
+{{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img">--}}
+{{--            </div>--}}
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_5.0.jpg') }}" alt="img">
+                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-lounge_1.0.jpg') }}" alt="img">
+                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-meetingrooms_1.0.jpg') }}" alt="img">
-            </div>
-            <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-auditorium_1.0.jpg') }}" alt="img">
-            </div>
-            <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-pool_1.0.jpg') }}" alt="img">
+                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img">
             </div>
         </div>
     </section>
@@ -62,7 +62,7 @@
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="residence" role="tabpanel">
 {{--                                <a href="#facilities-accor" data-toggle="collapse" data-parent="accordion">--}}
-                                <span class=" font-lato text-dark">Grand Lobby
+                                <span class=" font-lato text-dark">GRAND LOBBY
 {{--                                    &nbsp; <img--}}
 {{--                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"--}}
 {{--                                        alt="IMG" style="width:20px;" class="img-fluid">--}}
@@ -106,7 +106,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -123,7 +123,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_2.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -140,7 +140,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_3.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -157,28 +157,28 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_4.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide"  id="fac-6">
-                                                            <div class="row">
-                                                                <div class="col-12 text-dark text-center">
-                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
-                                                                    <div class="border-swiper-custom"></div>
-                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
-                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
-                                                                        that boosts a balanced lifesyle experience.</p>
-                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
-                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
-                                                                        that boosts a balanced lifesyle experience.</p>
-                                                                    <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lobby_5.0.jpg') }}" alt="img" class="w-100 ">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+{{--                                                        <div class="swiper-slide"  id="fac-6">--}}
+{{--                                                            <div class="row">--}}
+{{--                                                                <div class="col-12 text-dark text-center">--}}
+{{--                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>--}}
+{{--                                                                    <div class="border-swiper-custom"></div>--}}
+{{--                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>--}}
+{{--                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>--}}
+{{--                                                                        that boosts a balanced lifesyle experience.</p>--}}
+{{--                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.--}}
+{{--                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities--}}
+{{--                                                                        that boosts a balanced lifesyle experience.</p>--}}
+{{--                                                                    <div class="py-5">--}}
+{{--                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="w-100 ">--}}
+{{--                                                                    </div>--}}
+{{--                                                                </div>--}}
+{{--                                                            </div>--}}
+{{--                                                        </div>--}}
                                                         <div class="swiper-slide"  id="fac-7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
@@ -191,7 +191,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-lounge_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -208,7 +208,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-meetingrooms_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -225,7 +225,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-auditorium_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -242,7 +242,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-pool_1.0.jpg') }}" alt="img" class="w-100 ">
+                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="w-100 ">
                                                                     </div>
                                                                 </div>
                                                             </div>

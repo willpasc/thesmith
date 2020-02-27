@@ -53,11 +53,11 @@
                         <div class="tab-content">
                             <div class="tab-pane fade show {{$tabresidence}}" id="residence-tower" role="tabpanel">
 {{--                                <a href="#residence-accor" data-toggle="collapse" data-parent="accordion">--}}
-                                <span class="txt-hemat-catatan font-lato text-dark">Description
-                                    &nbsp; <img
-                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
-                                        alt="IMG" style="width:20px;" class="img-fluid">
-                                </span>
+{{--                                <span class="txt-hemat-catatan font-lato text-dark">Description--}}
+{{--                                    &nbsp; <img--}}
+{{--                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"--}}
+{{--                                        alt="IMG" style="width:20px;" class="img-fluid">--}}
+{{--                                </span>--}}
 {{--                                </a>--}}
                                 <div class="" id="residence-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
@@ -518,11 +518,11 @@
                         <div class="tab-content">
                             <div class="tab-pane fade show {{$tabsoho}}" id="soho-tower" role="tabpanel">
 {{--                                <a href="#soho-accor" data-toggle="collapse" data-parent="accordion">--}}
-                                <span class="txt-hemat-catatan font-lato text-dark">Description
-                                    &nbsp; <img
-                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
-                                        alt="IMG" style="width:20px;" class="img-fluid">
-                                </span>
+{{--                                <span class="txt-hemat-catatan font-lato text-dark">Description--}}
+{{--                                    &nbsp; <img--}}
+{{--                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"--}}
+{{--                                        alt="IMG" style="width:20px;" class="img-fluid">--}}
+{{--                                </span>--}}
 {{--                                </a>--}}
                                 <div class="" id="soho-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
@@ -1342,11 +1342,11 @@
                         <div class="tab-content">
                             <div class="tab-pane fade show {{$taboffice}}" id="office-tower" role="tabpanel">
 {{--                                <a href="#office-accor" data-toggle="collapse" data-parent="accordion">--}}
-                                <span class="txt-hemat-catatan font-lato text-dark">Description
-                                    &nbsp; <img
-                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"
-                                        alt="IMG" style="width:20px;" class="img-fluid">
-                                </span>
+{{--                                <span class="txt-hemat-catatan font-lato text-dark">Description--}}
+{{--                                    &nbsp; <img--}}
+{{--                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"--}}
+{{--                                        alt="IMG" style="width:20px;" class="img-fluid">--}}
+{{--                                </span>--}}
 {{--                                </a>--}}
                                 <div class="" id="office-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
