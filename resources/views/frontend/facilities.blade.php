@@ -22,7 +22,7 @@
     <section class="image-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facility-floor_1.0.jpg') }}" alt="img" >
+                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >
             </div>
             <div class="swiper-slide">
                 <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" >
@@ -62,14 +62,13 @@
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="residence" role="tabpanel">
 {{--                                <a href="#facilities-accor" data-toggle="collapse" data-parent="accordion">--}}
-                                <span class=" font-lato text-dark">GRAND LOBBY
+{{--                                <span class=" font-lato text-dark">GRAND LOBBY--}}
 {{--                                    &nbsp; <img--}}
 {{--                                        src="{{ asset('images/thesmith/thesmith-web-scroll-arrow_1.0-1.png') }}"--}}
 {{--                                        alt="IMG" style="width:20px;" class="img-fluid">--}}
-                                </span>
+{{--                                </span>--}}
 {{--                                </a>--}}
-                                <div class="" id="facilities-accor"
-                                     style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
+                                <div class="" id="facilities-accor">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row">
                                             <div class="col-12">
@@ -79,6 +78,7 @@
                                                         <div class="swiper-slide" id="fac-1">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">FLOOR PLAN</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -88,7 +88,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-web-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-none d-md-block">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" class="w-100 d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                                                                     </div>
                                                                 </div>
@@ -97,6 +97,7 @@
                                                         <div class="swiper-slide"  id="fac-2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">APARTMENT LOBBY</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -114,6 +115,7 @@
                                                         <div class="swiper-slide"  id="fac-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">GRAND LOBBY</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -131,6 +133,7 @@
                                                         <div class="swiper-slide"  id="fac-4">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">GRAND LOBBY</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -148,6 +151,7 @@
                                                         <div class="swiper-slide"  id="fac-5">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">OFFICE LOBBY</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -182,6 +186,7 @@
                                                         <div class="swiper-slide"  id="fac-7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">BUSINESS LOUGE</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -199,6 +204,7 @@
                                                         <div class="swiper-slide"  id="fac-8">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">COWORKING SPACE LOBBY</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -216,6 +222,7 @@
                                                         <div class="swiper-slide"  id="fac-9">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">AUDITORIUM</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
@@ -233,6 +240,7 @@
                                                         <div class="swiper-slide"  id="fac-10">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">SKY POOL</p>
                                                                     <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>

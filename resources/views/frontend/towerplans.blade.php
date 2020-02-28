@@ -1702,9 +1702,10 @@
     height: 165px;
     }
     .nav-tabs .nav-link.active {
-    color: #495057;
-    background-color: #414042;
-    border-color: #fff #fff #fff;
+        color: #495057;
+        background-color: #414042;
+        border-color: #fff #fff #fff;
+        border-radius:0;
     }
     .tab-nav{
     border: 1px solid #fff;
