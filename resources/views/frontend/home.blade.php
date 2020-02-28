@@ -1317,19 +1317,23 @@ pop up css
                 $('#residence').show();
                 $('#soho').hide();
                 $('#office').hide();
-
+                $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/tower/tower-residence_1.jpg') }}");
             }
 
             if (typeid === 2) {
                 $('#residence').hide();
                 $('#soho').show();
                 $('#office').hide();
+                $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/tower/tower-soho_1.jpg') }}");
+
             }
 
             if (typeid === 3) {
                 $('#soho').hide();
                 $('#residence').hide();
                 $('#office').show();
+                $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/tower/tower-office_1.jpg') }}");
+
             }
         }
 

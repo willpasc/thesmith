@@ -38,7 +38,7 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <div class="bg-tower"></div>
+                    <div class="bg-tower" id="bg-towerplans"></div>
                 </div>
             </div>
         </div>
@@ -1710,35 +1710,12 @@
     .tab-nav{
     border: 1px solid #fff;
     }
-    .border-location-custom{
-    border-bottom: 1px solid white;
-    width: 100%;
-    margin-left: 0;
-    padding-top:50px;
 
-    }
-
-    .img-location{
-    width:100%;
-    }
-    .img-map{
-    width:100%;
-    }
-
-    .gowork-bg{
-    background-color: #1c1a1a;
-    }
     .py-cust-1{
         /*padding-top: 100px;*/
         padding-bottom: 50px;
     }
-    .img-concept{
-    width:80%;
-    }
-    .border-concept-custom{
-    border-bottom: 1px solid white;
-    width:100%;
-    }
+
     .border-swiper-custom{
     border-bottom: 1px solid black;
     width:100px;
@@ -1746,111 +1723,18 @@
     padding-bottom: 10px;
         margin-left: 32%;
     }
-        .border-swiper-custom-1{
-            border-bottom: 1px solid black;
-            width:100px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin-left: 18%;
-        }
+
     .concept-bg{
     background-color: #1c1a1a;
     }
-    .banner-scroll{
-    padding-top:100px;
-    }
-    .txt-silicon-header{
-    letter-spacing: 5px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    }
-    .padd-top50{
-    padding-top: 10%;
-    }
 
-    .click-img{
-    width: 80px;
-    padding-top: 30%;
-    }
-    .map-home{
-    background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: auto;
-    height: 273px;
-    }
-    .txt-download{
-    letter-spacing: 0.3rem;
-    margin-top: -30px;
-    }
-    .img-btn-donlod{
-    width: 160px;
-    padding-top:60px;
-    }
-    .img-cekotlogo2{
-    width:50px;
-    }
     sup {
     vertical-align: super;
     font-size: 13px;
     top:-1.5px;
 
     }
-    .txt-live{
-    line-height: 1.5em;
-    font-size: 13px;
-    }
-    .txt-header-body{
-    font-size:20px;
-    }
-    .readmore{
-    font-size: 13px;
-    }
-    .txt-spacing-header{
-    letter-spacing: 0.5rem;
-    font-size:14px;
-    padding-bottom: 5px;
-    }
-    .txt-spacing{
-    padding-left: 35px;
-    padding-top: 38%;
-    }
-    .img-home-2{
-    background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: 155px;
-    margin-bottom:40px;
-    }
-    .img-home-3{
-    background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: auto;
-    height: 155px;
-    }
-    .essentialy{
-    color: #cec6af;
-    font-size: 18px;
-    letter-spacing: 0.5rem;
-    padding-top: 10px;
-    }
-    .img-cekot-home{
-    padding-top: 23%;
-    width: 262px;
-    }
-    .bg-home{
-    background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-img_1.0.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width:100%;
-    height: 184px;
-    }
+
     /*
     pop up css
     */
@@ -1860,39 +1744,13 @@
     z-index: 99999999;
     }
 
-    .modal-dialog {
-    display: flex!important;
-    align-items: center!important;
-    flex-grow: 1;
-    width: 100% !important;
-    height: auto;
-    }
 
-    .modal-header{
-    border-bottom: 0 !important;
-    }
-
-    .bg_popup{
-    background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 265px;
-    width: 355px;
-    }
 
     .btn-paulmarc-more .w-25{
     width: 75% !important;
     }
 
-    .m-b-50{
-    margin-bottom: 25px;
-    }
 
-    .text-finely-crafted{
-    font-size: 10px;
-    font-weight: bold;
-    }
 
     /*.slick-dots li button:before {*/
     /*color: #fff;*/
@@ -1946,13 +1804,7 @@
             padding-bottom: 10px;
             margin-left: 42%;
         }
-        .border-swiper-custom-1{
-            border-bottom: 1px solid black;
-            width:100px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin-left: 29%;
-        }
+
 
         .img-tower{
             width:300px;
@@ -1962,23 +1814,7 @@
             /*height:243em;*/
         }
 
-    .banner-scroll{
-    padding-top:190px;
-    }
 
-    .border-banner-home{
-    border-bottom: 1px solid white;
-    width: 100px;
-    margin-left: -50px;
-    }
-
-    .border-location-custom{
-    border-bottom: 1px solid white;
-    width: 350px;
-    margin-left: 32%;
-    padding-top:50px;
-
-    }
 
     .bg-tower{
     background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
@@ -1989,31 +1825,9 @@
     height: 540px;
     }
 
-    .img-concept{
-    width:100%;
-    }
 
-    .map-home{
-    background-image: url('{{ asset('images/thescott/home/map and phone icons-38.png') }}');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: auto;
-    height: 390px;
-    }
 
-    .click-img{
-    width: 110px;
-    padding-top: 11%;
-    }
 
-    .modal-dialog{
-    max-width: 960px !important;
-    }
-    .bg_popup{
-    height: 600px;
-    width: 960px;
-    }
 
     /*.map-home{*/
     /*    height: 390px;*/
@@ -2023,102 +1837,22 @@
     font-size:20px;
     }
 
-    .txt-spacing{
-    padding-left: 50px;
-    padding-top: 45%;
-    }
 
-    .txt-spacing-header{
-    letter-spacing: 0.5rem;
-    font-size:26px;
-    padding-bottom: 5px;
-    }
-
-    .img-home-3{
-    background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: auto;
-    height: 348px;
-    margin-left: 5px;
-    }
-
-    .img-home-2{
-    background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: auto;
-    height: 348px;
-    margin-right: 5px;
-    }
-
-    .img-cekot-home{
-    padding-top: 15%;
-    width: 400px;
-    }
-    .bg-home {
-    background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-img_1.0.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 663px !important;
-    position: relative;
-    padding-top:100px;
-    }
-    .img-btn-donlod{
-    width: 160px;
-    padding-top:100px;
-    }
-    .img-cekot{
-    margin-top: 0px;
-    }
 
     }
 
     @media (min-width: 768px) {
-    .img-banner-responsive{
-    height: 550px;
-    }
 
-    .img-house-responsive{
-    height: 600px;
-    }
 
-    .img-paulmarc-responsive{
-    height: 200px;
-    width: auto;
-    }
 
-    .img-trinity-responsive{
-    margin-top: -28px;
-    height: 45px;
-    width: auto;
-    }
 
-    .btn-paulmarc-more .w-25{
-    width: 25% !important;
-    }
-
-    .m-b-50{
-    margin-bottom: 50px;
-    }
-
-    .text-finely-crafted{
-    font-size: 13px;
-    }
     }
 
     @media (min-width: 992px) {
     }
 
     @media (min-width: 1369px) {
-    .click-img{
-    width: 150px;
-    padding-top: 6%;
-    }
+
     }
     </style>
 @endsection
@@ -2193,70 +1927,71 @@
                 observeParents: true
             });
         });
-        $('#tabResidence').on('click', function () {
-            var swiper = new Swiper('.swiper-container', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true,
-                observeParents: true
-            });
-        });
-        $('#tabSoho').on('click', function () {
-            var swiper = new Swiper('.swiper-container', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true,
-                observeParents: true
-            });
-        });
-        $('#tabOffice').on('click', function () {
-            var swiper = new Swiper('.swiper-container', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true,
-                observeParents: true
-            });
-        });
+        // $('#tabResidence').on('click', function () {
+        //     var swiper = new Swiper('.swiper-container', {
+        //         loop: true,
+        //         pagination: {
+        //             el: '.swiper-pagination',
+        //             type: 'fraction',
+        //         },
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //         observer: true,
+        //         observeParents: true
+        //     });
+        // });
+        // $('#tabSoho').on('click', function () {
+        //     var swiper = new Swiper('.swiper-container', {
+        //         loop: true,
+        //         pagination: {
+        //             el: '.swiper-pagination',
+        //             type: 'fraction',
+        //         },
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //         observer: true,
+        //         observeParents: true
+        //     });
+        // });
+        // $('#tabOffice').on('click', function () {
+        //     var swiper = new Swiper('.swiper-container', {
+        //         loop: true,
+        //         pagination: {
+        //             el: '.swiper-pagination',
+        //             type: 'fraction',
+        //         },
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //         observer: true,
+        //         observeParents: true
+        //     });
+        // });
 
         function changetower(typeid) {
             if (typeid === 1) {
                 $('#residence-tower').show();
                 $('#soho-tower').hide();
                 $('#office-tower').hide();
-
+                $('#bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-residence_1.jpg') }}");
             }
 
             if (typeid === 2) {
                 $('#residence-tower').hide();
                 $('#soho-tower').show();
                 $('#office-tower').hide();
+                $('#bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-soho_1.jpg') }}");
             }
-
             if (typeid === 3) {
                 $('#soho-tower').hide();
                 $('#residence-tower').hide();
                 $('#office-tower').show();
+                $('#bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-office_1.jpg') }}");
             }
         }
     </script>

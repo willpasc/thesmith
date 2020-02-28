@@ -158,64 +158,13 @@
         .img-info{
             width:100px;
         }
-        .let-spa{
-            letter-spacing: 5px;
-        }
-        .partners-logo{
-            width:100px;
-        }
-        .container-fluid{
-            padding:0;
-        }
-        .bg-tower{
-            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            width: auto;
-            height: 150px;
-        }
-        .bg-facilities{
-            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            width: auto;
-            height: 155px;
-        }
+
         .nav-tabs .nav-link.active {
             color: #495057;
             background-color: #414042;
             border-color: #fff #fff #fff;
         }
-        .tab-nav{
-            border: 1px solid #fff;
-        }
-        .border-location-custom{
-            border-bottom: 1px solid white;
-            width: 100%;
-            margin-left: 0;
-            padding-top:50px;
 
-        }
-
-        .img-location{
-            width:100%;
-        }
-        .img-map{
-            width:100%;
-        }
-
-        .gowork-bg{
-            background-color: #1c1a1a;
-        }
-        .py-cust{
-            padding-top:70px;
-            padding-bottom:70px;
-        }
-        .img-concept{
-            width:80%;
-        }
         .border-developer-custom-1{
             border-bottom: 1px solid black;
             width: 10%;
@@ -232,102 +181,19 @@
             margin-left: 35px;
 
         }
-        .border-swiper-custom{
-            border-bottom: 1px solid black;
-            width:100%;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        .concept-bg{
-            background-color: black;
-        }
-        .banner-scroll{
-            padding-top:100px;
-        }
-        .txt-silicon-header{
-            letter-spacing: 5px;
-            padding-top: 10px;
-            padding-bottom: 5px;
-        }
+
         .padd-top50{
             padding-top: 10%;
         }
 
-        .click-img{
-            width: 80px;
-            padding-top: 30%;
-        }
-        .map-home{
-            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            width: auto;
-            height: 273px;
-        }
-        .txt-download{
-            letter-spacing: 0.3rem;
-            margin-top: -30px;
-        }
-        .img-btn-donlod{
-            width: 160px;
-            padding-top:60px;
-        }
-        .img-cekotlogo2{
-            width:50px;
-        }
+
         sup {
             vertical-align: super;
             font-size: 13px;
             top:-1.5px;
 
         }
-        .txt-live{
-            line-height: 1.5em;
-            font-size: 13px;
-        }
-        .txt-header-body{
-            font-size:20px;
-        }
-        .readmore{
-            font-size: 13px;
-        }
-        .txt-spacing-header{
-            letter-spacing: 0.5rem;
-            font-size:14px;
-            padding-bottom: 5px;
-        }
-        .txt-spacing{
-            padding-left: 35px;
-            padding-top: 38%;
-        }
-        .img-home-2{
-            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            width: auto;
-            height: 155px;
-            margin-bottom:40px;
-        }
-        .img-home-3{
-            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            width: auto;
-            height: 155px;
-        }
-        .essentialy{
-            color: #cec6af;
-            font-size: 18px;
-            letter-spacing: 0.5rem;
-            padding-top: 10px;
-        }
-        .img-cekot-home{
-            padding-top: 23%;
-            width: 262px;
-        }
+
         .bg-home{
             background-image: url('{{ asset('images/thesmith/developer/thesmith-building_1-1.jpg') }}');
             background-repeat: no-repeat;
@@ -345,77 +211,14 @@
             z-index: 99999999;
         }
 
-        .modal-dialog {
-            display: flex!important;
-            align-items: center!important;
-            flex-grow: 1;
-            width: 100% !important;
-            height: auto;
-        }
 
-        .modal-header{
-            border-bottom: 0 !important;
-        }
 
-        .bg_popup{
-            background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-20.jpg') }}');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 265px;
-            width: 355px;
-        }
 
-        .btn-paulmarc-more .w-25{
-            width: 75% !important;
-        }
 
-        .m-b-50{
-            margin-bottom: 25px;
-        }
 
-        .text-finely-crafted{
-            font-size: 10px;
-            font-weight: bold;
-        }
-
-        /*.slick-dots li button:before {*/
-        /*color: #fff;*/
-        /*}*/
-
-        /*.slick-dots li.slick-active button:before {*/
-        /*color: #fff !important;*/
-        /*}*/
-
-        /*swiper*/
-        .swiper-container {
-            width: 100%;
-            height: 330px;
-        }
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-        }
         @media (min-width: 576px) {
 
-            .marmintop{
-                margin-top: 60px;
-            }
+
 
             .img-marketing{
                 width:575px;
@@ -429,111 +232,13 @@
                 margin-left: 97px;
             }
 
-            .banner-scroll{
-                padding-top:190px;
-            }
 
-            .border-banner-home{
-                border-bottom: 1px solid white;
-                width: 100px;
-                margin-left: -50px;
-            }
-
-            .border-location-custom{
-                border-bottom: 1px solid white;
-                width: 300px;
-                margin-left: 30%;
-                padding-top:50px;
-
-            }
-
-            .bg-tower{
-                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: auto;
-                height: 540px;
-            }
-
-            .bg-facilities{
-                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: auto;
-                height: 557px;
-            }
-
-            .img-concept{
-                width:100%;
-            }
-
-            .map-home{
-                background-image: url('{{ asset('images/thescott/home/map and phone icons-38.png') }}');
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: auto;
-                height: 390px;
-            }
-
-            .click-img{
-                width: 110px;
-                padding-top: 11%;
-            }
-
-            .modal-dialog{
-                max-width: 960px !important;
-            }
-            .bg_popup{
-                height: 600px;
-                width: 960px;
-            }
-
-            /*.map-home{*/
-            /*    height: 390px;*/
-            /*}*/
 
             .txt-header-body{
                 font-size:26px;
             }
 
-            .txt-spacing{
-                padding-left: 50px;
-                padding-top: 45%;
-            }
 
-            .txt-spacing-header{
-                letter-spacing: 0.5rem;
-                font-size:26px;
-                padding-bottom: 5px;
-            }
-
-            .img-home-3{
-                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-12.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
-                width: auto;
-                height: 348px;
-                margin-left: 5px;
-            }
-
-            .img-home-2{
-                background-image: url('{{ asset('images/thescott/home/web-cekot-preview-3-11.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
-                width: auto;
-                height: 348px;
-                margin-right: 5px;
-            }
-
-            .img-cekot-home{
-                padding-top: 15%;
-                width: 400px;
-            }
             .bg-home {
                 background-image: url('{{ asset('images/thesmith/developer/thesmith-building_1-1.jpg') }}');
                 background-repeat: no-repeat;
@@ -544,57 +249,18 @@
                 position: relative;
                 margin-top:100px;
             }
-            .img-btn-donlod{
-                width: 160px;
-                padding-top:100px;
-            }
-            .img-cekot{
-                margin-top: 0px;
-            }
 
         }
 
         @media (min-width: 768px) {
-            .img-banner-responsive{
-                height: 550px;
-            }
 
-            .img-house-responsive{
-                height: 600px;
-            }
-
-            .img-paulmarc-responsive{
-                height: 200px;
-                width: auto;
-            }
-
-            .img-trinity-responsive{
-                margin-top: -28px;
-                height: 45px;
-                width: auto;
-            }
-
-            .btn-paulmarc-more .w-25{
-                width: 25% !important;
-            }
-
-            .m-b-50{
-                margin-bottom: 50px;
-            }
-
-            .text-finely-crafted{
-                font-size: 13px;
-            }
         }
 
         @media (min-width: 992px) {
         }
 
         @media (min-width: 1369px) {
-            .click-img{
-                width: 150px;
-                padding-top: 6%;
-            }
+
         }
     </style>
 @endsection
