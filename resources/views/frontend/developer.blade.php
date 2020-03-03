@@ -22,14 +22,14 @@
     <section style="background-color: black">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-1"></div>
-                <div class="col-md-8 text-center text-dark pb-5 col-10" style="background-color: white; margin-top:-60px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-center text-dark pb-5 col-12" style="background-color: white; margin-top:-60px;">
                     <img src="{{ asset('images/thesmith/developer/thesmith-devs-logo_1.png') }}" alt="img" class="logo-triniti">
-                    <p class="txt-header-body font-metropolis pt-3" style="letter-spacing: 5px;">FINELY CRAFTED</p>
+                    <p class="txt-header-body font-lato pt-3 text-dark" style="letter-spacing: 5px;">FINELY CRAFTED</p>
                     <div class="border-developer-custom-1"></div>
                     <div class="row">
                         <div class="col-1"></div>
-                        <div class="col-10 txt-body">
+                        <div class="col-10 txt-body text-dark font-metropolis">
                             <p class="pb-4">
                                 PT Perintis Triniti Properti was initiated in 2009, with it’s first kick-starting project named Ubud Village,
                                 a 5-hectares land development. Since 2014 until 2017, PT. PTP or also known as Triniti Property Group
@@ -41,14 +41,14 @@
                                 introducing a Superblock Project worth 4 trillion Rupiah named Collins Boulevard. Reaching it’s 9th year
                                 of building and innovating, Triniti Land plans to commence an Initial Public Offering (Go Public) and create
                                 masterplans of building Township Development scale projects in Jabodetabek also outside Java.</p>
-                            <p class="font-lato pb-5 " style="letter-spacing: 2px;">OUR PROJECTS</p>
+                            <p class="font-lato pb-5 fs-14" style="letter-spacing: 2px;">OUR PROJECTS</p>
 
                         <div class="row px-md-5  pb-5">
                             <div class="col-md-6 col-12">
                                 <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-04.jpg') }}" alt="img" class="img-project">
                                 <p class="py-3 font-lato let-spa-2">BROOKLYN</p>
                                 <div class="collapse" id="more-brooklyn">
-                                    <p class="txt-body font-metropolis pb-3 px-3">New York inspired, Brooklyn stands
+                                    <p class="txt-body font-lato pb-3 px-md-3 px-0">New York inspired, Brooklyn stands
                                         gracefully in 2 towers & 900 units
                                         developed by Waskita Karya & Triniti Group.
                                         A masterpiece and the first mixed-use
@@ -65,7 +65,7 @@
                                 <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-05.jpg') }}" alt="img" class="img-project">
                                 <p class="py-3 font-lato let-spa-2">YUKATA SUITES</p>
                                 <div class="collapse" id="more-yukata">
-                                    <p class="txt-body font-metropolis pb-3">The first Japanese Resort Condominium in
+                                    <p class="txt-body font-lato pb-3 px-md-3 px-0">The first Japanese Resort Condominium in
                                         Alam Sutera. With facilities: Japanese
                                         hot spring (onsen), smart home system,
                                         private lift and Zen Garden. Elected as
@@ -84,7 +84,7 @@
                                     <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-06.jpg') }}" alt="img" class="img-project">
                                     <p class="py-3 font-lato let-spa-2">SPRINGWOOD RESIDENCE</p>
                                     <div class="collapse" id="more-springwood">
-                                        <p class="txt-body font-metropolis pb-3">The first prestigious apartment in Jalan Raya
+                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">The first prestigious apartment in Jalan Raya
                                             Serpong. Consist of 1,400 units within only
                                             1 minute from exit toll Serpong, Mall Alam
                                             Sutera and Binus University. Finished
@@ -100,13 +100,13 @@
                                     <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-07.jpg') }}" alt="img" class="img-project">
                                     <p class="py-3 font-lato let-spa-2">COLLINS BOULEVARD</p>
                                     <div class="collapse" id="more-collins">
-                                        <p class="txt-body font-metropolis pb-3">Artsy approach of residential spaces, inspired
+                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">Artsy approach of residential spaces, inspired
                                             by Melbourne. From Residence, Soho, Outlet,
                                             Hotel to Condominium, all placed strategicly
                                             right in Tangerang’s promising
                                             Serpong district.</p>
                                     </div>
-                                    <div class="pb-5">
+                                    <div>
                                         <a href="#more-collins" data-toggle="collapse" data-parent="accordion">
                                             <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-collins">
                                         </a>
@@ -117,18 +117,18 @@
                         <div class="col-1"></div>
                     </div>
                     <div class="border-developer-custom-2"></div>
-                    <p class="pt-5 font-lato">VISIT US</p>
-                    <p class="txt-header-body pb-3 font-metropolis txt-marketing">MARKETING GALLERY</p>
+                    <p class="pt-5 font-metropolis">VISIT US</p>
+                    <p class="txt-header-body pb-3 font-lato txt-marketing">MARKETING GALLERY</p>
                     <img src="{{ asset('images/thesmith/developer/thesmith-marketing-gallery_1.jpg') }}" alt="img" class="img-marketing">
-                    <div class="pt-4 pb-5">
-                        <p class="txt-body font-metropolis">
+                    <div class="pt-5 pb-5">
+                        <p class="txt-body font-lato">
                             LIVING WORLD, 1ST FLOOR<br/>
                             Monday — Sunday | 10.00 — 22.00<br/>
                             087 8886 8886 0
                         </p>
                     </div>
                 </div>
-                <div class="col-md-2 col-1"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
@@ -145,15 +145,15 @@
             letter-spacing: 3px;
         }
         .img-project{
-            width:100%;
+            width:75%;
         }
         .img-marketing{
             width:100%;
         }
         .logo-triniti{
-            width: 150px;
+            width: 100px;
             padding-top: 20px;
-            padding-bottom: 20px;
+
         }
         .img-info{
             width:100px;
@@ -200,7 +200,7 @@
             background-position: center;
             background-size: cover;
             width:100%;
-            height: 300px;
+            height: 320px;
         }
         /*
         pop up css
@@ -217,6 +217,12 @@
 
 
         @media (min-width: 576px) {
+
+            .logo-triniti{
+                width: 150px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
 
 
 
@@ -253,6 +259,9 @@
         }
 
         @media (min-width: 768px) {
+            .img-project{
+                width: 100%;
+            }
 
         }
 

@@ -28,7 +28,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="banner-scroll">
+                <div class="banner-scroll d-none d-md-block">
                     <a href="#" onclick="navigateSection('concept')">
                     <p class="text-white txt-body font-lato">SCROLL</p>
                     <img src="{{ asset('images/thesmith/home/thesmith-web-scroll-arrow_1.0.png') }}" alt="img" class="">
@@ -38,12 +38,28 @@
         </div>
     </div>
 </section>
+<section class="d-block d-md-none py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center text-dark">
+                <div class="border-swiper-custom"></div>
+                <p class="txt-header-body font-metropolis py-3" style="letter-spacing: 5px;">SILICON VALLEY EXPERIENCE</p>
+                <p class="txt-body font-lato">The Smith stands as a home for millennials who seek limitless
+                    opportunities at the prosperous land of Alam Sutera. Relish an
+                    elegant home that smartly incorporates luxury and comfort,
+                    encircled with complete SOHO amenities that boosts a
+                    balanced lifestyle experience.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="concept-bg" id="concept">
     <div class="container">
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8 text-white text-center py-cust">
+            <div class="col-md-8 text-white text-center py-cust px-md-0 px-5">
                 <p class="txt-header-body font-metropolis" style="letter-spacing: 5px;">CONCEPT</p>
                 <p class="txt-body font-lato pb-3">The foundational ideas of The Smith</p>
                 <div class="border-concept-custom-1"></div>
@@ -52,7 +68,7 @@
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_1.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                         <p class="py-md-4 py-3 txt-subheader font-lato">LIVE, HUSTLE, CREATE.</p>
-                        <p class="txt-body px-4 font-metropolis">Elegantly incorporates comfort and
+                        <p class="txt-body px-md-4 px-5 font-metropolis">Elegantly incorporates comfort and
                             well-being, all within steps from home.</p>
                         </div>
                     </div>
@@ -60,7 +76,7 @@
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_2.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-lato">CURRATED COMMUNITY.</p>
-                            <p class="txt-body px-4 font-metropolis">Equipped with facilities designed
+                            <p class="txt-body px-md-4 px-5 font-metropolis">Equipped with facilities designed
                                 for collaborative communities.</p>
                         </div>
                     </div>
@@ -68,7 +84,7 @@
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_3.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-lato">HOME OF UNICORNS</p>
-                            <p class="txt-body px-4 font-metropolis">1300 m2 of Co-Working Space,
+                            <p class="txt-body px-md-4 px-5 font-metropolis">1300 m2 of Co-Working Space,
                                 managed by <span style="font-weight: bold">Go Work</span>.</p>
                         </div>
                     </div>
@@ -89,16 +105,16 @@
                     Currently Go Work serves more than 12.000 members.</p>
                 <p class="text-white txt-body pb-3 font-metropolis">Go Work Partners include:</p>
                 <div class="row px-5">
-                    <div class="col-md-3 col-6 pb-4">
+                    <div class="col-md-3 col-12 pb-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-gojek-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
-                    <div class="col-md-3 col-6 pb-4">
+                    <div class="col-md-3 col-12 pb-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-zomato-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
-                    <div class="col-md-3 col-6">
+                    <div class="col-md-3 col-12 pb-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-kopikenangan-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
-                    <div class="col-md-3 col-6">
+                    <div class="col-md-3 col-12">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-fore-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
                 </div>
@@ -107,17 +123,24 @@
         </div>
     </div>
 </section>
-<section class="concept-bg" id="towerplan">
+<section class="concept-bg pb-md-0 pb-5" id="towerplan">
     <div class="container">
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8 text-white text-center py-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-white text-center py-md-5 py-4">
                 <p class="txt-header-body font-lato let-spa">TOWER PLANS</p>
-                <p class="txt-body font-lato">A home and an office, all only a few steps away</p>
+                <p class="txt-body font-lato pb-md-0 pb-3">A home and an office, all only a few steps away</p>
+                <div class="border-concept-custom d-block d-md-none"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col-2"></div>
+            <div class="col-8">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs pt-3" role="tablist">
                     <li class="nav-item col-md-4 col-12 p-0 tab-nav">
-                        <a class="nav-link active text-white font-lato let-spa-2" data-toggle="tab" href="#residence" role="tab" id="tabResidence"  onclick="changetab(1)">RESIDENCE UNIT</a>
+                        <a class="nav-link active text-white font-lato let-spa-2" data-toggle="tab" href="#residence" role="tab" id="tabResidence"  onclick="changetab(1)">RESIDENCE UNITS</a>
                     </li>
 
                     <li class="nav-item col-md-4 p-0 tab-nav">
@@ -169,7 +192,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">ONE BEDROOM - A</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -191,7 +214,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">ONE BEDROOM - B</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -213,7 +236,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">ONE BEDROOM - C</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -234,7 +257,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">STUDIO</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -286,7 +309,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - A</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -308,7 +331,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - B</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -329,7 +352,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - B2</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -350,7 +373,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - B3</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -371,7 +394,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - B4</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -392,7 +415,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - C</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -414,7 +437,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - D</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -435,7 +458,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">SOHO - E</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -487,7 +510,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">OFFICE - A</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -509,7 +532,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">OFFICE - B</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -531,7 +554,7 @@
                                                         <div class="row px-md-0 px-4">
                                                             <div class="col-12 text-dark text-center pt-5">
                                                                 <p class="txt-header-body font-metropolis">OFFICE - C</p>
-                                                                <p class="txt-body font-lato">Located strategically, neighboring to world-class amenities</p>
+                                                                <p class="txt-body font-lato d-none d-md-block">Located strategically, neighboring to world-class amenities</p>
                                                                 <div class="border-swiper-custom"></div>
                                                                 <p class="txt-body pt-3 d-none d-md-block font-metropolis">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
                                                                     with interiors installed smartly, together with ample ventilations that shines every room.<br/>
@@ -713,49 +736,101 @@
                 <p class="txt-header-body font-metropolis">LOCATION</p>
                 <p class="txt-body font-lato pb-3">Located strategically, neighboring to world-class amenities</p>
                 <div class="border-concept-custom"></div>
-                <div class="row py-5 px-md-0 px-5">
-                    <div class="col-md-4 col-12 pb-5">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
-                        <div class="">
-                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">1 MINUTE AWAY</p>
-                            <p class="txt-body px-4 font-lato">From Alam Sutera Toll Gate</p>
+                <div class="d-none d-md-block">
+                    <div class="row py-5 px-md-0 px-5">
+                        <div class="col-md-4 col-12 pb-5">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">1 MINUTE AWAY</p>
+                                <p class="txt-body px-4 font-lato">From Alam Sutera Toll Gate</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 pb-5">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-4 font-lato">From IKEA Alam Sutera</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_3.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-4 font-lato">From BINUS University</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 pb-5">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
-                        <div class="">
-                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                            <p class="txt-body px-4 font-lato">From IKEA Alam Sutera</p>
+                    <div class="row px-md-0 px-5">
+                        <div class="col-md-4 col-12 pb-5">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_4.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
+                                <p class="txt-body px-4 font-lato">From Living World</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_3.1.jpg') }}" alt="img" class="img-location">
-                        <div class="">
-                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                            <p class="txt-body px-4 font-lato">From BINUS University</p>
+                        <div class="col-md-4 pb-5">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_5.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-4 font-lato">From Mall at Alam Sutera</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_6.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-4 font-lato">From OMNI Hospital</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row px-md-0 px-5">
-                    <div class="col-md-4 col-12 pb-5">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_4.1.jpg') }}" alt="img" class="img-location">
-                        <div class="">
-                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
-                            <p class="txt-body px-4 font-lato">From Living World</p>
+                <div class="d-block d-md-none pt-5">
+                    <div class="row px-md-0 px-3">
+                        <div class="col-6 pb-md-5 pb-5">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">1 MINUTE AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From Alam Sutera Toll Gate</p>
+                            </div>
+                        </div>
+                        <div class="col-6 pb-md-5 pb-5">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From IKEA Alam Sutera</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 pb-5">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_5.1.jpg') }}" alt="img" class="img-location">
-                        <div class="">
-                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                            <p class="txt-body px-4 font-lato">From Mall at Alam Sutera</p>
+                    <div class="row px-md-0 px-3">
+                        <div class="col-6">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_3.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From BINUS University</p>
+                            </div>
+                        </div>
+                        <div class="col-6 pb-md-5 pb-5">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_4.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From Living World</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_6.1.jpg') }}" alt="img" class="img-location">
-                        <div class="">
-                            <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                            <p class="txt-body px-4 font-lato">From OMNI Hospital</p>
+                    <div class="row px-md-0 px-3">
+                        <div class="col-6">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_5.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From Mall at Alam Sutera</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_6.1.jpg') }}" alt="img" class="img-location">
+                            <div class="">
+                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From OMNI Hospital</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -807,7 +882,7 @@
             letter-spacing: 5px;
         }
         .partners-logo{
-            width:100px;
+            width:80px;
         }
         .container-fluid{
             padding:0;
@@ -974,10 +1049,10 @@
         .bg-home{
             background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-img_1.0.jpg') }}');
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center left;
             background-size: cover;
             width:100%;
-            height: 184px;
+            height: 260px;
         }
 /*
 pop up css
@@ -1055,6 +1130,10 @@ pop up css
             align-items: center;
         }
         @media (min-width: 576px) {
+
+            .partners-logo{
+                width:100px;
+            }
 
             .banner-scroll{
                 padding-top:190px;
