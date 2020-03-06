@@ -186,7 +186,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <!-- Swiper -->
-                                            <div class="swiper-container">
+                                            <div class="swiper-container swiper-others">
                                                 <div class="swiper-wrapper py-3">
                                                     <div class="swiper-slide">
                                                         <div class="row px-md-0 px-4">
@@ -303,7 +303,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <!-- Swiper -->
-                                            <div class="swiper-container">
+                                            <div class="swiper-container swiper-others">
                                                 <div class="swiper-wrapper py-3">
                                                     <div class="swiper-slide">
                                                         <div class="row px-md-0 px-4">
@@ -504,7 +504,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <!-- Swiper -->
-                                            <div class="swiper-container">
+                                            <div class="swiper-container swiper-others">
                                                 <div class="swiper-wrapper py-3">
                                                     <div class="swiper-slide">
                                                         <div class="row px-md-0 px-4">
@@ -604,14 +604,49 @@
             <div class="col-md-2"></div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="bg-facilities">
-                </div>
+{{--    <div class="container-fluid">--}}
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="bg-facilities">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
+    <section class="swiper-container image-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" >
+            </div>
+            <div class="swiper-slide" >
+                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img">
+            </div>
+            {{--            <div class="swiper-slide">--}}
+            {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img">--}}
+            {{--            </div>--}}
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img">
             </div>
         </div>
-    </div>
+    </section>
 </section>
 <section style="background-color: black" class="fac-slide">
     <div class="container">
@@ -620,13 +655,13 @@
             <div class="col-md-8 col-10">
                 <div class="row">
                     <div class="col-12">
-                        <div class="swiper-container">
+                        <div class="swiper-container content-slider">
                             <div class="swiper-wrapper py-3">
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
                                             <p class="font-lato">MAP</p>
-                                            <a href="{{route('frontend.facilities')}}"#fac-1>
+                                            <a href="{{route('frontend.facilities')}}#1">
                                             <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a>
                                         </div>
@@ -635,8 +670,8 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">GRAND LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-2">
+                                            <p class="font-lato">APARTMENT LOBBY</p>
+                                            <a href="{{ route('frontend.facilities')}}#2">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
                                     </div>
@@ -645,7 +680,7 @@
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
                                             <p class="font-lato">GRAND LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-3">
+                                            <a href="{{ route('frontend.facilities')}}#3">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
                                     </div>
@@ -654,7 +689,7 @@
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
                                             <p class="font-lato">GRAND LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-4">
+                                            <a href="{{ route('frontend.facilities')}}#4">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a></div>
                                     </div>
@@ -662,8 +697,8 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">GRAND LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-5">
+                                            <p class="font-lato">OFFICE LOBBY</p>
+                                            <a href="{{ route('frontend.facilities')}}#5">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a></div>
                                     </div>
@@ -671,8 +706,8 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">GRAND LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-6">
+                                            <p class="font-lato">BUSINESS LOUNGE</p>
+                                            <a href="{{ route('frontend.facilities')}}#6">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
                                     </div>
@@ -680,17 +715,8 @@
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">LOUNGE</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-7">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a> </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">MEETING ROOMS</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-8">
+                                            <p class="font-lato">COWORKING SPACE LOBBY</p>
+                                            <a href="{{ route('frontend.facilities')}}#7">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a> </div>
                                     </div>
@@ -699,18 +725,18 @@
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
                                             <p class="font-lato">AUDITORIUM</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-9">
+                                            <a href="{{ route('frontend.facilities')}}#8">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a></div>
+                                            </a> </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">POOL</p>
-                                            <a href="{{ route('frontend.facilities')}}#fac-10">
+                                            <p class="font-lato">SKY POOL</p>
+                                            <a href="{{ route('frontend.facilities')}}#9">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a> </div>
+                                            </a></div>
                                     </div>
                                 </div>
 
@@ -1311,7 +1337,7 @@ pop up css
     <script>
 
         $( document ).ready(function() {
-            var swiper = new Swiper('.swiper-container', {
+            var swiper = new Swiper('.swiper-others', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1324,6 +1350,29 @@ pop up css
                 observer: true,
                 observeParents: true
             });
+
+            var imageSwiper = new Swiper('.image-slider', {
+                loop: true,
+                // pagination: {
+                //     el: '.swiper-pagination',
+                //     type: 'fraction',
+                // },
+                slidesPerView: 1,
+                setWrapperSize: true,
+            });
+            var contentSwiper = new Swiper('.content-slider', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            imageSwiper.controller.control  = contentSwiper;
+            contentSwiper.controller.control  = imageSwiper;
         });
         // $('.swiper-container').each(function(){
         //     new Swiper($(this), {
@@ -1344,10 +1393,10 @@ pop up css
 
                 return false;
             }
-        };
+        }
 
         $('#tabResidence').on('click', function () {
-            var swiper = new Swiper('.swiper-container', {
+            var swiper = new Swiper('.swiper-others', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1362,7 +1411,7 @@ pop up css
             });
         });
         $('#tabSoho').on('click', function () {
-            var swiper = new Swiper('.swiper-container', {
+            var swiper = new Swiper('.swiper-others', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1377,7 +1426,7 @@ pop up css
             });
         });
         $('#tabOffice').on('click', function () {
-            var swiper = new Swiper('.swiper-container', {
+            var swiper = new Swiper('.swiper-others', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1416,9 +1465,5 @@ pop up css
 
             }
         }
-
-
-
-
     </script>
 @endsection

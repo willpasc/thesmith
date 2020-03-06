@@ -1806,7 +1806,6 @@
             margin-left: 42%;
         }
 
-
         .img-tower{
             width:300px;
         }
@@ -1815,45 +1814,31 @@
             /*height:243em;*/
         }
 
-
-
-    .bg-tower{
-    background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: auto;
-    height: 540px;
-    }
-
-
-
-
+        .bg-tower{
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 540px;
+        }
 
     /*.map-home{*/
     /*    height: 390px;*/
     /*}*/
 
-    .txt-header-body{
-    font-size:20px;
-    }
-
-
-
+        .txt-header-body{
+            font-size:20px;
+        }
     }
 
     @media (min-width: 768px) {
-
-
-
-
     }
 
     @media (min-width: 992px) {
     }
 
     @media (min-width: 1369px) {
-
     }
     </style>
 @endsection
