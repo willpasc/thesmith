@@ -83,7 +83,7 @@
                     <div class="col-md-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_3.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader font-lato">HOME OF UNICORNS</p>
+                            <p class="py-md-4 py-3 txt-subheader font-lato">HOME OF UNICORNS.</p>
                             <p class="txt-body px-md-4 px-5 font-metropolis">1300 m2 of Co-Working Space,
                                 managed by <span style="font-weight: bold">Go Work</span>.</p>
                         </div>
@@ -134,7 +134,7 @@
             </div>
             <div class="col-md-2"></div>
         </div>
-        <div class="row text-center">
+        <div class="row text-center pb-md-5 pb-0">
             <div class="col-2"></div>
             <div class="col-8">
                 <!-- Nav tabs -->
@@ -836,7 +836,8 @@
                 </div>
                 <div class="col-12">
                     <div class="border-location-custom"></div>
-                    <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-map_1.0.png') }}" alt="img" class="img-map pt-5">
+                    <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-map_1.0.png') }}" alt="img" class="img-map pt-5 d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/home/thesmith-mweb-map_1.0.png') }}" alt="img" class="img-map pt-5 d-block d-md-none">
 
                 </div>
                 <div class="row">

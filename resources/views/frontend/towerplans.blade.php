@@ -38,7 +38,8 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <div class="bg-tower" id="bg-towerplans"></div>
+                    <div class="bg-tower bg-towerplans d-none d-mb-block" id=""></div>
+                    <div class="bg-tower bg-towerplans-m d-block d-mb-none" id=""></div>
                 </div>
             </div>
         </div>
@@ -1690,75 +1691,75 @@
         .img-tower{
             width:250px;
         }
-    .container-fluid{
-    padding:0;
-    }
-    .bg-tower{
-    background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: auto;
-    height: 165px;
-    }
-    .nav-tabs .nav-link.active {
-        color: #495057;
-        background-color: #414042;
-        border-color: #fff #fff #fff;
-        border-radius:0;
-    }
-    .tab-nav{
-    border: 1px solid #fff;
-    }
+        .container-fluid{
+        padding:0;
+        }
+        .bg-tower{
+        background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: auto;
+        height: 310px;
+        }
+        .nav-tabs .nav-link.active {
+            color: #495057;
+            background-color: #414042;
+            border-color: #fff #fff #fff;
+            border-radius:0;
+        }
+        .tab-nav{
+        border: 1px solid #fff;
+        }
 
-    .py-cust-1{
-        /*padding-top: 100px;*/
-        padding-bottom: 50px;
-    }
+        .py-cust-1{
+            /*padding-top: 100px;*/
+            padding-bottom: 50px;
+        }
 
-    .border-swiper-custom{
-    border-bottom: 1px solid black;
-    width:100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-        margin-left: 32%;
-    }
+        .border-swiper-custom{
+        border-bottom: 1px solid black;
+        width:100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+            margin-left: 32%;
+        }
 
-    .concept-bg{
-    background-color: #1c1a1a;
-    }
+        .concept-bg{
+        background-color: #1c1a1a;
+        }
 
-    sup {
-    vertical-align: super;
-    font-size: 13px;
-    top:-1.5px;
+        sup {
+        vertical-align: super;
+        font-size: 13px;
+        top:-1.5px;
 
-    }
+        }
 
-    /*
-    pop up css
-    */
-    .modal-open .modal {
-    display: flex!important;
-    align-items: center!important;
-    z-index: 99999999;
-    }
-
-
-
-    .btn-paulmarc-more .w-25{
-    width: 75% !important;
-    }
+        /*
+        pop up css
+        */
+        .modal-open .modal {
+        display: flex!important;
+        align-items: center!important;
+        z-index: 99999999;
+        }
 
 
 
-    /*.slick-dots li button:before {*/
-    /*color: #fff;*/
-    /*}*/
+        .btn-paulmarc-more .w-25{
+        width: 75% !important;
+        }
 
-    /*.slick-dots li.slick-active button:before {*/
-    /*color: #fff !important;*/
-    /*}*/
+
+
+        /*.slick-dots li button:before {*/
+        /*color: #fff;*/
+        /*}*/
+
+        /*.slick-dots li.slick-active button:before {*/
+        /*color: #fff !important;*/
+        /*}*/
 
     /*swiper*/
         .swiper-container {
@@ -1978,20 +1979,23 @@
                 $('#residence-tower').show();
                 $('#soho-tower').hide();
                 $('#office-tower').hide();
-                $('#bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-residence_1.jpg') }}");
+                $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-residence_1.jpg') }}");
+                $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/tower/thesmith-mobile-units-residence_1.0.jpg') }}");
             }
 
             if (typeid === 2) {
                 $('#residence-tower').hide();
                 $('#soho-tower').show();
                 $('#office-tower').hide();
-                $('#bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-soho_1.jpg') }}");
+                $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-soho_1.jpg') }}");
+                $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/tower/thesmith-mobile-units-soho_1.0.jpg') }}");
             }
             if (typeid === 3) {
                 $('#soho-tower').hide();
                 $('#residence-tower').hide();
                 $('#office-tower').show();
-                $('#bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-office_1.jpg') }}");
+                $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-office_1.jpg') }}");
+                $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/tower/thesmith-mobile-units-office_1.0.jpg') }}");
             }
         }
     </script>
