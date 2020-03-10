@@ -139,7 +139,7 @@
                                                         <div class="swiper-slide"  id="fac-7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">BUSINESS LOUGE</p>
+                                                                    <p class=" font-lato  txt-body text-dark py-3">BUSINESS LOUNGE</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -283,7 +283,7 @@
             display: -webkit-box;
             display: -ms-flexbox;
             display: -webkit-flex;
-            display: flex;
+            display: inline;
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             -webkit-justify-content: center;
