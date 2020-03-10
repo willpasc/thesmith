@@ -21,8 +21,12 @@
     {{--    </section>--}}
     <section class="swiper-container image-slider">
         <div class="swiper-wrapper">
+{{--            <div class="swiper-slide">--}}
+{{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
+{{--            </div>--}}
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >
+                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">

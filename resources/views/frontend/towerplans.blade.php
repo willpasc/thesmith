@@ -551,84 +551,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-08.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -650,84 +650,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-09.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -749,84 +749,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-10.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -848,84 +848,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-11.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -947,84 +947,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-12.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1046,84 +1046,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-13.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1145,84 +1145,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-14.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1244,84 +1244,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-15.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1375,84 +1375,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-16.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1474,84 +1474,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-17.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1573,84 +1573,84 @@
                                                                     <div class="text-center">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-18.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
+{{--                                                                    <div class="px-5 px-md-0">--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BED ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>--}}
+{{--                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>--}}
+{{--                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>--}}
+{{--                                                                                Dining Table · 2 Dining Chairs · Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">BATHROOM</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>--}}
+{{--                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">KITCHEN</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>--}}
+{{--                                                                                Cutlery · Utensils--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class=" pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div>--}}
+{{--                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>--}}
+{{--                                                                            <div class="border-swiper-custom"></div>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pt-4 pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>--}}
+{{--                                                                                Bedroom Floor: Laminated Parquette Floor<br/>--}}
+{{--                                                                                Bathroom Floor: Marble Floor--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>--}}
+{{--                                                                                Bathroom Wall: Homogenous Tile Double Loaded--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">CEILING</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">DOOR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Engineering Door--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">PANTRY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">SANITAIR</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                        <div class="pb-5">--}}
+{{--                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>--}}
+{{--                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)--}}
+{{--                                                                            </p>--}}
+{{--                                                                        </div>--}}
+{{--                                                                    </div>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
