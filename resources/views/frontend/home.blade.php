@@ -84,7 +84,7 @@
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-concept-img_3.1.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-lato">HOME OF UNICORNS.</p>
-                            <p class="txt-body px-md-4 px-5 font-metropolis">1300 m2 of Co-Working Space,
+                            <p class="txt-body px-md-4 px-5 font-metropolis">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,
                                 managed by <span style="font-weight: bold">Go Work</span>.</p>
                         </div>
                     </div>
