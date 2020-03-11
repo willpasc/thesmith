@@ -618,21 +618,21 @@
 {{--            <div class="swiper-slide">--}}
 {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
 {{--            </div>--}}
+{{--            <div class="swiper-slide">--}}
+{{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+{{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
+{{--            </div>--}}
             <div class="swiper-slide">
                 <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
-            </div>
-            <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide" >
                 <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_2.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
@@ -669,25 +669,16 @@
                     <div class="col-12">
                         <div class="swiper-container content-slider">
                             <div class="swiper-wrapper py-3">
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">MAP</p>
-                                            <a href="{{route('frontend.facilities')}}#1">
-                                            <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">APARTMENT LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#2">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a> </div>
-                                    </div>
-                                </div>
+{{--                                <div class="swiper-slide">--}}
+{{--                                    <div class="row px-md-0 px-4">--}}
+{{--                                        <div class="col-12 text-dark text-center pt-5">--}}
+{{--                                            <p class="font-lato">MAP</p>--}}
+{{--                                            <a href="{{route('frontend.facilities')}}#1">--}}
+{{--                                            <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
+{{--                                            </a>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                                 <div class="swiper-slide">
                                     <div class="row px-md-0 px-4">
                                         <div class="col-12 text-dark text-center pt-5">
@@ -704,6 +695,15 @@
                                             <a href="{{ route('frontend.facilities')}}#4">
                                                 <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                             </a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row px-md-0 px-4">
+                                        <div class="col-12 text-dark text-center pt-5">
+                                            <p class="font-lato">APARTMENT LOBBY</p>
+                                            <a href="{{ route('frontend.facilities')}}#2">
+                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
+                                            </a> </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">

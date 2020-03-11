@@ -24,21 +24,21 @@
 {{--            <div class="swiper-slide">--}}
 {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
 {{--            </div>--}}
+{{--            <div class="swiper-slide">--}}
+{{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+{{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
+{{--            </div>--}}
             <div class="swiper-slide">
                 <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
-            </div>
-            <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_2.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
@@ -88,20 +88,13 @@
                                                 <!-- Swiper -->
                                                 <div class="swiper-container content-slider">
                                                     <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide" id="fac-1">
-                                                            <div class="row">
-                                                                <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">FLOOR PLAN</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide"  id="fac-2">
-                                                            <div class="row">
-                                                                <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">APARTMENT LOBBY</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+{{--                                                        <div class="swiper-slide" id="fac-1">--}}
+{{--                                                            <div class="row">--}}
+{{--                                                                <div class="col-12 text-dark text-center pt-5">--}}
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">FLOOR PLAN</p>--}}
+{{--                                                                </div>--}}
+{{--                                                            </div>--}}
+{{--                                                        </div>--}}
                                                         <div class="swiper-slide"  id="fac-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
@@ -113,6 +106,13 @@
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
                                                                     <p class=" font-lato  txt-body text-dark py-3">GRAND LOBBY</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide"  id="fac-2">
+                                                            <div class="row">
+                                                                <div class="col-12 text-dark text-center pt-5">
+                                                                    <p class=" font-lato  txt-body text-dark py-3">APARTMENT LOBBY</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -192,7 +192,7 @@
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                         that boosts a balanced lifesyle experience.</p>
                                                                     <div class="py-5">
-                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" class="w-100 d-none d-md-block">
+                                                                        <img src="{{ asset('images/thesmith/facilities/thesmith-web-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                                                                     </div>
                                                                 </div>
