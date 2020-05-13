@@ -779,22 +779,22 @@
                         <div class="col-md-4 col-12 pb-5">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">1 MINUTE AWAY</p>
-                                <p class="txt-body px-4 font-lato">From Alam Sutera Toll Gate</p>
+                                <p class="pt-md-4 font-metropolis pb-md-1 py-3 txt-subheader font-weight-bold let-spa-1">1 MINUTE AWAY</p>
+                                <p class="txt-body px-4 font-metropolis let-spa-1">From <span class="font-weight-bold">Alam Sutera Toll Gate</span></p>
                             </div>
                         </div>
                         <div class="col-md-4 pb-5">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-4 font-lato">From IKEA Alam Sutera</p>
+                                <p class="let-spa-1 pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="let-spa-1 txt-body px-4 font-metropolis">From <span class="font-weight-bold">IKEA Alam Sutera</span></p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_3.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-4 font-lato">From BINUS University</p>
+                                <p class="let-spa-1 pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="let-spa-1 txt-body px-4 font-metropolis">From <span class="font-weight-bold">BINUS University</span> </p>
                             </div>
                         </div>
                     </div>
@@ -802,22 +802,22 @@
                         <div class="col-md-4 col-12 pb-5">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_4.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
-                                <p class="txt-body px-4 font-lato">From Living World</p>
+                                <p class="let-spa-1 pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
+                                <p class="let-spa-1 txt-body px-4 font-metropolis">From <span class="font-weight-bold">Living World</span></p>
                             </div>
                         </div>
                         <div class="col-md-4 pb-5">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_5.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-4 font-lato">From Mall at Alam Sutera</p>
+                                <p class="let-spa-1 pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="let-spa-1 txt-body px-4 font-metropolis">From <span class="font-weight-bold">Mall at Alam Sutera</span></p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_6.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-4 font-lato">From OMNI Hospital</p>
+                                <p class="let-spa-1 pt-md-4 font-weight-bold font-metropolis pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="let-spa-1 txt-body px-4 font-metropolis">From <span class="font-weight-bold">OMNI Hospital</span></p>
                             </div>
                         </div>
                     </div>
@@ -827,15 +827,15 @@
                         <div class="col-6 pb-md-5 pb-5">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_1.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">1 MINUTE AWAY</p>
-                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From Alam Sutera Toll Gate</p>
+                                <p class="pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">1 MINUTE AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-metropolis" style="font-size:11px !important;">From <span class="font-weight-bold">Alam Sutera Toll Gate</span></p>
                             </div>
                         </div>
                         <div class="col-6 pb-md-5 pb-5">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_2.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From IKEA Alam Sutera</p>
+                                <p class="pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-metropolis" style="font-size:11px !important;">From <span class="font-weight-bold">IKEA Alam Sutera</span></p>
                             </div>
                         </div>
                     </div>
@@ -843,15 +843,15 @@
                         <div class="col-6">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_3.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From BINUS University</p>
+                                <p class="pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-metropolis" style="font-size:11px !important;">From <span class="font-weight-bold">BINUS University</span></p>
                             </div>
                         </div>
                         <div class="col-6 pb-md-5 pb-5">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_4.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
-                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From Living World</p>
+                                <p class="pt-md-4 font-weight-bold font-metropolis pb-md-1 py-3 txt-subheader">5 MINUTE AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-metropolis" style="font-size:11px !important;">From <span class="font-weight-bold">Living World</span></p>
                             </div>
                         </div>
                     </div>
@@ -859,15 +859,15 @@
                         <div class="col-6">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_5.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From Mall at Alam Sutera</p>
+                                <p class="pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-metropolis" style="font-size:11px !important;">From <span class="font-weight-bold">Mall at Alam Sutera</span></p>
                             </div>
                         </div>
                         <div class="col-6">
                             <img src="{{ asset('images/thesmith/home/thesmith-web-home-location-img_6.1.jpg') }}" alt="img" class="img-location">
                             <div class="">
-                                <p class="pt-md-4  pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
-                                <p class="txt-body px-md-4 px-0 font-lato" style="font-size:11px !important;">From OMNI Hospital</p>
+                                <p class="pt-md-4 font-metropolis font-weight-bold pb-md-1 py-3 txt-subheader">5 MINUTES AWAY</p>
+                                <p class="txt-body px-md-4 px-0 font-metropolis" style="font-size:11px !important;">From <span class="font-weight-bold">OMNI Hospital</span></p>
                             </div>
                         </div>
                     </div>

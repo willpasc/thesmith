@@ -648,7 +648,7 @@
                                                                         directly to the safety officers, ensuring needs are attended promptly.
                                                                     </p>
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-09.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-09.png') }}" alt="img" class="img-soho">
                                                                     </div>
 {{--                                                                    <div class="px-5 px-md-0">--}}
 {{--                                                                        <div>--}}
@@ -747,7 +747,7 @@
                                                                         directly to the safety officers, ensuring needs are attended promptly.
                                                                     </p>
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-10.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-10.png') }}" alt="img" class="img-soho">
                                                                     </div>
 {{--                                                                    <div class="px-5 px-md-0">--}}
 {{--                                                                        <div>--}}
@@ -846,7 +846,7 @@
                                                                         directly to the safety officers, ensuring needs are attended promptly.
                                                                     </p>
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-11.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-11.png') }}" alt="img" class="img-soho">
                                                                     </div>
 {{--                                                                    <div class="px-5 px-md-0">--}}
 {{--                                                                        <div>--}}
@@ -945,7 +945,7 @@
                                                                         directly to the safety officers, ensuring needs are attended promptly.
                                                                     </p>
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-12.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-12.png') }}" alt="img" class="img-soho">
                                                                     </div>
 {{--                                                                    <div class="px-5 px-md-0">--}}
 {{--                                                                        <div>--}}
@@ -1044,7 +1044,7 @@
                                                                         directly to the safety officers, ensuring needs are attended promptly.
                                                                     </p>
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-13.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-13.png') }}" alt="img" class="img-soho">
                                                                     </div>
 {{--                                                                    <div class="px-5 px-md-0">--}}
 {{--                                                                        <div>--}}
@@ -1143,7 +1143,7 @@
                                                                         directly to the safety officers, ensuring needs are attended promptly.
                                                                     </p>
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-14.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-14.png') }}" alt="img" class="img-soho">
                                                                     </div>
 {{--                                                                    <div class="px-5 px-md-0">--}}
 {{--                                                                        <div>--}}
@@ -1242,7 +1242,7 @@
                                                                         directly to the safety officers, ensuring needs are attended promptly.
                                                                     </p>
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-15.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-15.png') }}" alt="img" class="img-soho">
                                                                     </div>
 {{--                                                                    <div class="px-5 px-md-0">--}}
 {{--                                                                        <div>--}}
