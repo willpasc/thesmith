@@ -21,47 +21,54 @@
     {{--    </section>--}}
     <section class="swiper-container image-slider">
         <div class="swiper-wrapper">
-{{--            <div class="swiper-slide">--}}
-{{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
-{{--            </div>--}}
-{{--            <div class="swiper-slide">--}}
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-{{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
-{{--            </div>--}}
+            {{--            <div class="swiper-slide">--}}
+            {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
+            {{--            </div>--}}
+            {{--            <div class="swiper-slide">--}}
+            {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+            {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
+            {{--            </div>--}}
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_3.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
-            <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">
+            <div class="swiper-slide" >
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_2.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_2.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_1.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_4.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_4.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             {{--            <div class="swiper-slide">--}}
             {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img">--}}
             {{--            </div>--}}
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lounge_1.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lounge_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-MeetingRooms_1.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-meetingrooms_1.0.jpg') }}" alt="img" class="d-block d-md-none">
-
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Auditorium_1.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-auditorium_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Pool_1.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-pool_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
         </div>
