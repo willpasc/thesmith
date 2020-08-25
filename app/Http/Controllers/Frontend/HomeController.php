@@ -36,6 +36,11 @@ class HomeController extends Controller
         return view('frontend.about');
     }
 
+    public function concept()
+    {
+        return view('frontend.concept');
+    }
+
     public function district()
     {
         return view('frontend.district');

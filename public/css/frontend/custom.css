@@ -1,5 +1,12 @@
 /*font*/
 
+.container-header-desktop{
+    display: none;
+}
+.container-header-mobile{
+    display: block;
+}
+
 .font-librecaslon {
     font-family: 'libre_caslon_textregular', sans-serif !important;
 }
@@ -177,9 +184,19 @@
         /*padding-right:35px;*/
         line-height: 1.8em;
     }
+    .menu-mobile .main-menu{
+        padding-left: 50px;
+    }
+    .txt-header{
+        font-size: 30px;
+    }
+    .wrap-header-mobile{
+        height:100px;
+    }
 }
 
 @media (max-width: 768px) {
+
 
     /* Footer */
     .mobile-center{

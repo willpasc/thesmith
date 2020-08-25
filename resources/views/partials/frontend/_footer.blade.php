@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer>
-    <div class="parallax100 pt-md-5 bg-1" style="background: #1f2020;">
+    <div class="parallax100 pt-md-5 bg-1" style="background-color: black;">
         <div class="container p-5 p-md-2 d-none d-md-block">
             <div class="row">
                 <div class="col-md-2"></div>
@@ -15,22 +15,32 @@
                         <a href="{{ route('home') }}#concept" style="color:white;" class="txt-body">CONCEPT</a>
                     </p>
                     <p>
+                    <a href="{{ route('home') }}#concept" style="color:white;" class="txt-body">LOCATION</a>
+                    </p>
+                    <p>
                         <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" style="color:white;" class="txt-body">TOWER PLANS</a>
                     </p>
                     <p>
                         <a href="{{ route('frontend.facilities') }}" style="color:white;" class="txt-body">FACILITIES</a>
                     </p>
                     <p>
-                        <a href="{{ route('frontend.developer') }}" style="color:white;" class="txt-body">DEVELOPERS</a>
+                    <a href="{{ route('home') }}#concept" style="color:white;" class="txt-body">ARCHITECT & INTERIORS</a>
+                    </p>
+                    <p>
+                        <a href="{{ route('frontend.developer') }}" style="color:white;" class="txt-body">DEVELOPER</a>
                     </p>
                 </div>
                 <div class="col-md-3 pl-5-c pt-4 pt-md-0">
                     <p class="pb-2" style="color: gray; font-size:11px;">CONTACT US</p>
-                    <p class="txt-body" style="color:white"><span style="font-weight: bold;color:;">P</span>&nbsp&nbsp&nbsp087 8886 8886 0</p>
-                    <p class="txt-body" style="color:white"><span style="font-weight: bold">I</span>&nbsp&nbsp&nbsp TRINITILAND</p>
-                    <p class="txt-body" style="color:white"><span style="font-weight: bold">A</span>&nbsp&nbsp&nbspLIVING WORLD, 1ST FLOOR</p>
-                    <p class="txt-body" style="color:white">&nbsp&nbsp&nbsp&nbsp&nbspMonday — Sunday</p>
-                    <p class="txt-body" style="color:white">&nbsp&nbsp&nbsp&nbsp&nbsp10.00 — 22.00</p>
+                    <p class="txt-body" style="color:white"><span class="pr-3" style="font-weight: bold;">P</span><span>087 8886 8886 0</span></p>
+                    <p class="txt-body" style="color:white"><span class="pr-3" style="font-weight: bold"></span>
+                        <a href="http://wa.me/6287888688860">
+                            <img class="w-100 pl-1" src="{{ asset('images/thesmith/watsap.png') }}" >
+                        </a>
+                    </p>
+                    <p class="txt-body" style="color:white"><span class="pr-3" style="font-weight: bold">A</span><span>Living World, 1ST FLOOR</span></p>
+                    <p class="txt-body" style="color:white"><span class="pr-3 black">A</span><span>Monday — Sunday</span></p>
+                    <p class="txt-body" style="color:white"><span class="pr-3 black">A</span><span>10.00 — 22.00</span></p>
                 </div>
                 <div class="col-md-1"></div>
             </div>

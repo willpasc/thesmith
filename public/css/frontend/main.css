@@ -645,7 +645,7 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #16a086;
-    text-align: right !important;
+    /*text-align: right !important;*/
 }
 
 .menu-mobile .main-menu > li > a {

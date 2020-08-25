@@ -322,22 +322,22 @@
         </div>
 
         <div class="menu-mobile">
-            <ul class="main-menu" style="background-color: black;">
+            <ul class="main-menu left" style="background-color: black;">
                 <li>
-                    <a href="{{ route('home') }}" class="text-white font-metropolis txt-body" style="letter-spacing: 2px;">HOME</a>
+                    <a href="{{ route('home') }}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">HOME</a>
                 </li>
 
                 <li>
-                    <a href="#" onclick="navigateSection('location')" class="text-white font-metropolis txt-body" style="letter-spacing: 2px;">LOCATION</a>
+                    <a href="{{route('frontend.location')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">LOCATION</a>
                 </li>
 
                 <li>
-                    <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="text-white font-metropolis txt-body" style="letter-spacing: 2px;">TOWER PLANS</a>
+                    <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">TOWER PLANS</a>
                 </li>
 
 
                 <li>
-                    <a href="{{route('frontend.facilities')}}" class="text-white font-metropolis txt-body" style="letter-spacing: 2px;">FACILITIES</a>
+                    <a href="{{route('frontend.facilities')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">FACILITIES</a>
                 </li>
 
                 {{--                <li>--}}
@@ -345,7 +345,7 @@
                 {{--                </li>--}}
 
                 <li>
-                    <a href="{{ route('frontend.developer')}}" class="text-white font-metropolis txt-body" style="letter-spacing: 2px;">DEVELOPER</a>
+                    <a href="{{ route('frontend.developer')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">DEVELOPER</a>
                 </li>
 
                 {{--                <li>--}}
