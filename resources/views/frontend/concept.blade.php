@@ -84,8 +84,56 @@
         </div>
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6">
-
+            <div class="col-md-6 text-center text-white">
+                <p class="txt-subheader font-lato-bold let-spa-1 pb-5">FEATURES</p>
+                <div class="row txt-body font-metropolis pb-5">
+                    <div class="col-md-3 ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-43.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">High Speed<br/> Internet</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-44.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">Exclusive Events &<br/> Workshops</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-45.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">24/7 Access</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-46.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">State of the Art<br/> Meeting Rooms</p>
+                    </div>
+                </div>
+                <div class="row txt-body font-metropolis pb-5">
+                    <div class="col-md-3 ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-47.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">Member Network</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-48.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">Flexible Plans</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-49.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">Private Events</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-50.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">Spacious<br/> Lounge Area</p>
+                    </div>
+                </div>
+                <div class="row txt-body font-metropolis pb-5">
+                    <div class="col-md-3 "></div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-51.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">Business-Class<br/> Printers</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-52.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                        <p class="pt-2">Business Support</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
             </div>
             <div class="col-md-3"></div>
         </div>

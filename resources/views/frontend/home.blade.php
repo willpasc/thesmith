@@ -20,7 +20,7 @@
                     <div class="col-6 text-left text-white">
                         <div class="border-banner-home"></div>
                         <p class="pb-3 txt-silicon-header txt-header-body font-metropolis-medium d-none d-md-block">SILICON VALLEY<br/> EXPERIENCE</p>
-                        <p class="txt-body font-lato-light d-none d-md-block">The Smith stands as a home for millennials who seek limitless
+                        <p class="txt-body font-lato d-none d-md-block">The Smith stands as a home for millennials who seek limitless
                             opportunities at<br/> the prosperous land of Alam Sutera. Relish an
                             elegant home that smartly<br/> incorporates luxury and comfort,
                             encircled with complete SOHO amenities<br/> that boosts a
@@ -28,7 +28,7 @@
                         </p>
                         <div class="row pt-4">
                             <div class="col-3">
-                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body font-lato-light text-center p-2 text-white" style="border: 1px solid white;">See Tower Plans</a>
+                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body font-lato text-center px-3 py-2 text-white" style="border: 1px solid white;">See Tower Plans</a>
                             </div>
                             <div class="col"></div>
                         </div>
@@ -136,7 +136,7 @@
                     <div class="col-2"></div>
                     <div class="col-8 px-5">
                     <p class="txt-subheader font-lato-bold pb-3">ALAM SUTERA SMART CITY</p>
-                    <p class="txt-body font-metropolis-medium ">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
+                    <p class="txt-body font-lato-bold ">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
                         namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.
                         An ease of multi-city commuting is also highlighted as it stands a minute away from the
                         Toll Gate of Alam Sutera.</p>

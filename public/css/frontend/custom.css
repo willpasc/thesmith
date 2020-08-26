@@ -178,6 +178,14 @@
 }
 
 @media (min-width: 576px) {
+    .border-black-100{
+        border-bottom: 1px solid black;
+    }
+
+    .border-white-100{
+        border-bottom: 1px solid white;
+    }
+
     .disclaimer-1{
         color:gray;
         font-size:11px;

@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer>
-    <div class="parallax100 pt-md-5 bg-1" style="background-color: black;">
+    <div class="parallax100 pt-md-5 bg-1" style="background-color: #0d0d0d;">
         <div class="container p-5 p-md-2 d-none d-md-block">
             <div class="row">
                 <div class="col-md-2"></div>

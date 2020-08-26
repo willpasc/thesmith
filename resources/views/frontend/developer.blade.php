@@ -1,4 +1,4 @@
-@extends('layouts.frontend-v2')
+@extends('layouts.frontend')
 
 @section('head_and_title')
     <meta name="description" content="Home Page">
@@ -23,110 +23,130 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 text-center text-dark pb-5 col-12" style="background-color: white; margin-top:-60px;">
-                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-logo_1.png') }}" alt="img" class="logo-triniti">
-                    <p class="txt-header-body font-lato pt-3 text-dark" style="letter-spacing: 5px;">FINELY CRAFTED</p>
-                    <div class="border-developer-custom-1"></div>
+                <div class="col-md-8 text-center text-dark py-5 col-12" style="background-color: white; margin-top:-60px;">
+{{--                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-logo_1.png') }}" alt="img" class="logo-triniti">--}}
+                    <p class="txt-header-body font-lato  pb-2 text-dark" style="letter-spacing: 5px;">FINELY CRAFTED</p>
+                    <p class="txt-subheader font-metropolis let-spa-3 pb-5">By TRINITI LAND</p>
                     <div class="row">
                         <div class="col-1"></div>
                         <div class="col-10 txt-body text-dark font-metropolis">
-                            <p class="pb-4">
-                                PT Perintis Triniti Properti was initiated in 2009, with it’s first kick-starting project named Ubud Village,
-                                a 5-hectares land development. Since 2014 until 2017, PT. PTP or also known as Triniti Property Group
-                                began introducing it’s iconic projects – Brooklyn, Springwood Residences, Yukata Suites, The Smith
-                                with total revenue 4 trillion Rupiah.
+                            <p class="pb-4 txt-body font-lato-bold px-5">
+                                Initiated in 2019, PT Perintis Triniti Properti TBK (Triniti Land) commenced its journey with its
+                                2017, introducing thoughtful lands namely Brooklyn, Springwood Residence, Yukata suites, The
+                                Smith, Collins Boulevard, and Marcs Boulevard.
                             </p>
-                            <p class="pb-5">
-                                In 2018, Triniti Property Group launched it’s new face with a name TRINITI L AND, together by
-                                introducing a Superblock Project worth 4 trillion Rupiah named Collins Boulevard. Reaching it’s 9th year
-                                of building and innovating, Triniti Land plans to commence an Initial Public Offering (Go Public) and create
-                                masterplans of building Township Development scale projects in Jabodetabek also outside Java.</p>
-                            <p class="font-lato pb-5 fs-14" style="letter-spacing: 2px;">OUR PROJECTS</p>
+                            <p class=" txt-body font-lato-bold px-5">
+                                The success brought Triniti Property Group emerged with a new face named Triniti Land. Triniti
+                                Land has listed its initial shares on the Indonesia Stock Exchange (IDX) through an Initial Public
+                                Offering (IPO) cheme on 15th January 2020 and will create another masterplans of building
+                                Township Development scale project in Jakarta, Tangerang, and Batam.
+                            </p>
+                            <div class="row border-black-100 py-5"></div>
+                            <div class="col-12 py-5">
+                                <p class="font-metropolis-bold txt-subheader" style="letter-spacing: 2px;">Developed Projects</p>
+                                <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.1-44.png') }}" alt="img" class="w-100">
+                            </div>
+                            <div class="row border-black-100"></div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="txt-subheader font-gotham-book font-weight-bold let-spa-1 py-4">Jakarta & Tangerang</p>
+                                    <div class="row txt-body">
+                                        <div class="col-3">
+                                            <p>Ubud Village</p>
+                                            <p>Project Value 180 Billion</p>
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-3"></div>
+                                        <div class="col-3"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="row px-md-5  pb-5">
-                            <div class="col-md-6 col-12">
-                                <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-04.jpg') }}" alt="img" class="img-project">
-                                <p class="py-3 font-lato let-spa-2">BROOKLYN</p>
-                                <div class="collapse" id="more-brooklyn">
-                                    <p class="txt-body font-lato pb-3 px-md-3 px-0">New York inspired, Brooklyn stands
-                                        gracefully in 2 towers & 900 units
-                                        developed by Waskita Karya & Triniti Group.
-                                        A masterpiece and the first mixed-use
-                                        building in Alam Sutera built in 2014 and
-                                        finished in 2016.</p>
-                                </div>
-                                <div class="pb-5">
-                                    <a href="#more-brooklyn" data-toggle="collapse" data-parent="accordion">
-                                        <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-brooklyn">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-05.jpg') }}" alt="img" class="img-project">
-                                <p class="py-3 font-lato let-spa-2">YUKATA SUITES</p>
-                                <div class="collapse" id="more-yukata">
-                                    <p class="txt-body font-lato pb-3 px-md-3 px-0">The first Japanese Resort Condominium in
-                                        Alam Sutera. With facilities: Japanese
-                                        hot spring (onsen), smart home system,
-                                        private lift and Zen Garden. Elected as
-                                        the best Apartment in Serpong according
-                                        to Consumer Choice Award 2015.</p>
-                                </div>
-                                <div>
-                                    <a href="#more-yukata" data-toggle="collapse" data-parent="accordion">
-                                        <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-yukata">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                            <div class="row px-md-5 pb-5">
-                                <div class="col-md-6 col-12">
-                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-06.jpg') }}" alt="img" class="img-project">
-                                    <p class="py-3 font-lato let-spa-2">SPRINGWOOD RESIDENCE</p>
-                                    <div class="collapse" id="more-springwood">
-                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">The first prestigious apartment in Jalan Raya
-                                            Serpong. Consist of 1,400 units within only
-                                            1 minute from exit toll Serpong, Mall Alam
-                                            Sutera and Binus University. Finished
-                                            construction in 2017.</p>
-                                    </div>
-                                    <div class="pb-5">
-                                        <a href="#more-springwood" data-toggle="collapse" data-parent="accordion">
-                                            <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-springwood">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 ">
-                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-07.jpg') }}" alt="img" class="img-project">
-                                    <p class="py-3 font-lato let-spa-2">COLLINS BOULEVARD</p>
-                                    <div class="collapse" id="more-collins">
-                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">Artsy approach of residential spaces, inspired
-                                            by Melbourne. From Residence, Soho, Outlet,
-                                            Hotel to Condominium, all placed strategicly
-                                            right in Tangerang’s promising
-                                            Serpong district.</p>
-                                    </div>
-                                    <div>
-                                        <a href="#more-collins" data-toggle="collapse" data-parent="accordion">
-                                            <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-collins">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+
+{{--                            <div class="row px-md-5  pb-5">--}}
+{{--                                <div class="col-md-6 col-12">--}}
+{{--                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-04.jpg') }}" alt="img" class="img-project">--}}
+{{--                                    <p class="py-3 font-lato let-spa-2">BROOKLYN</p>--}}
+{{--                                    <div class="collapse" id="more-brooklyn">--}}
+{{--                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">New York inspired, Brooklyn stands--}}
+{{--                                            gracefully in 2 towers & 900 units--}}
+{{--                                            developed by Waskita Karya & Triniti Group.--}}
+{{--                                            A masterpiece and the first mixed-use--}}
+{{--                                            building in Alam Sutera built in 2014 and--}}
+{{--                                            finished in 2016.</p>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pb-5">--}}
+{{--                                        <a href="#more-brooklyn" data-toggle="collapse" data-parent="accordion">--}}
+{{--                                            <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-brooklyn">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-6">--}}
+{{--                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-05.jpg') }}" alt="img" class="img-project">--}}
+{{--                                    <p class="py-3 font-lato let-spa-2">YUKATA SUITES</p>--}}
+{{--                                    <div class="collapse" id="more-yukata">--}}
+{{--                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">The first Japanese Resort Condominium in--}}
+{{--                                            Alam Sutera. With facilities: Japanese--}}
+{{--                                            hot spring (onsen), smart home system,--}}
+{{--                                            private lift and Zen Garden. Elected as--}}
+{{--                                            the best Apartment in Serpong according--}}
+{{--                                            to Consumer Choice Award 2015.</p>--}}
+{{--                                    </div>--}}
+{{--                                    <div>--}}
+{{--                                        <a href="#more-yukata" data-toggle="collapse" data-parent="accordion">--}}
+{{--                                            <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-yukata">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row px-md-5 pb-5">--}}
+{{--                                <div class="col-md-6 col-12">--}}
+{{--                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-06.jpg') }}" alt="img" class="img-project">--}}
+{{--                                    <p class="py-3 font-lato let-spa-2">SPRINGWOOD RESIDENCE</p>--}}
+{{--                                    <div class="collapse" id="more-springwood">--}}
+{{--                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">The first prestigious apartment in Jalan Raya--}}
+{{--                                            Serpong. Consist of 1,400 units within only--}}
+{{--                                            1 minute from exit toll Serpong, Mall Alam--}}
+{{--                                            Sutera and Binus University. Finished--}}
+{{--                                            construction in 2017.</p>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pb-5">--}}
+{{--                                        <a href="#more-springwood" data-toggle="collapse" data-parent="accordion">--}}
+{{--                                            <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-springwood">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-6 ">--}}
+{{--                                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-img_1-07.jpg') }}" alt="img" class="img-project">--}}
+{{--                                    <p class="py-3 font-lato let-spa-2">COLLINS BOULEVARD</p>--}}
+{{--                                    <div class="collapse" id="more-collins">--}}
+{{--                                        <p class="txt-body font-lato pb-3 px-md-3 px-0">Artsy approach of residential spaces, inspired--}}
+{{--                                            by Melbourne. From Residence, Soho, Outlet,--}}
+{{--                                            Hotel to Condominium, all placed strategicly--}}
+{{--                                            right in Tangerang’s promising--}}
+{{--                                            Serpong district.</p>--}}
+{{--                                    </div>--}}
+{{--                                    <div>--}}
+{{--                                        <a href="#more-collins" data-toggle="collapse" data-parent="accordion">--}}
+{{--                                            <img src="{{ asset('images/thesmith/developer/img-moreinfo.png') }}" alt="img" class="img-info" id="btn-collins">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                         </div>
                         <div class="col-1"></div>
                     </div>
-                    <div class="border-developer-custom-2"></div>
-                    <p class="pt-5 font-metropolis">VISIT US</p>
-                    <p class="txt-header-body pb-3 font-lato txt-marketing">MARKETING GALLERY</p>
-                    <img src="{{ asset('images/thesmith/developer/thesmith-marketing-gallery_1.jpg') }}" alt="img" class="img-marketing">
-                    <div class="pt-5 pb-5">
-                        <p class="txt-body font-lato">
-                            LIVING WORLD, 1ST FLOOR<br/>
-                            Monday — Sunday | 10.00 — 22.00<br/>
-                            087 8886 8886 0
-                        </p>
-                    </div>
+{{--                    <div class="border-developer-custom-2"></div>--}}
+{{--                    <p class="pt-5 font-metropolis">VISIT US</p>--}}
+{{--                    <p class="txt-header-body pb-3 font-lato txt-marketing">MARKETING GALLERY</p>--}}
+{{--                    <img src="{{ asset('images/thesmith/developer/thesmith-marketing-gallery_1.jpg') }}" alt="img" class="img-marketing">--}}
+{{--                    <div class="pt-5 pb-5">--}}
+{{--                        <p class="txt-body font-lato">--}}
+{{--                            LIVING WORLD, 1ST FLOOR<br/>--}}
+{{--                            Monday — Sunday | 10.00 — 22.00<br/>--}}
+{{--                            087 8886 8886 0--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
                 </div>
                 <div class="col-md-2"></div>
             </div>

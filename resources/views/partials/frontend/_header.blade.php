@@ -323,8 +323,12 @@
 
         <div class="menu-mobile">
             <ul class="main-menu left" style="background-color: black;">
+{{--                <li>--}}
+{{--                    <a href="{{ route('home') }}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">HOME</a>--}}
+{{--                </li>--}}
+
                 <li>
-                    <a href="{{ route('home') }}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">HOME</a>
+                    <a href="{{route('frontend.concept')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">CONCEPT</a>
                 </li>
 
                 <li>
@@ -343,6 +347,10 @@
                 {{--                <li>--}}
                 {{--                    <a href="{{route('frontend.gallery')}}" class="text-white font-montserrat">Gallery</a>--}}
                 {{--                </li>--}}
+
+                <li>
+                    <a href="{{ route('home')}}#architect" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">ARCHITECT & INTERIORS</a>
+                </li>
 
                 <li>
                     <a href="{{ route('frontend.developer')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">DEVELOPER</a>

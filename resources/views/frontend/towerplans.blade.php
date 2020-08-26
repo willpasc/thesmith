@@ -1,4 +1,4 @@
-@extends('layouts.frontend-v2')
+@extends('layouts.frontend')
 
 @section('head_and_title')
     <meta name="description" content="Developer">
