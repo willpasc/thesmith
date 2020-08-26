@@ -146,7 +146,7 @@
                 <div class="row pt-4">
                     <div class="col"></div>
                     <div class="col-2">
-                        <a href="{{ route('frontend.concept')}}" class="txt-body text-center py-2 px-3 text-dark" style="border: 1px solid black;">Read More</a>
+                        <a href="{{ route('frontend.location')}}" class="txt-body text-center py-2 px-3 text-dark" style="border: 1px solid black;">Read More</a>
                     </div>
                     <div class="col"></div>
                 </div>
@@ -155,35 +155,35 @@
         </div>
     </div>
 </section>
-<section class="gowork-bg">
-    <div class="container">
-        <div class="row py-cust">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 col-12 text-center">
-                <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-logo_1.0.png') }}" alt="img" class="gowork-logo">
-                <p class="text-white py-5 txt-body px-5 font-metropolis">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
-                    Starting from Pacific Place, Plaza Indonesia, Senayan City, including Bali.
-                    Currently Go Work serves more than 12.000 members.</p>
-                <p class="text-white txt-body pb-3 font-metropolis">Go Work Partners include:</p>
-                <div class="row px-5">
-                    <div class="col-md-3 col-12 pb-4">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-gojek-logo_1.0.png') }}" alt="img" class="partners-logo">
-                    </div>
-                    <div class="col-md-3 col-12 pb-4">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-zomato-logo_1.0.png') }}" alt="img" class="partners-logo">
-                    </div>
-                    <div class="col-md-3 col-12 pb-4">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-kopikenangan-logo_1.0.png') }}" alt="img" class="partners-logo">
-                    </div>
-                    <div class="col-md-3 col-12">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-fore-logo_1.0.png') }}" alt="img" class="partners-logo">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-    </div>
-</section>
+{{--<section class="gowork-bg">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row py-cust">--}}
+{{--            <div class="col-md-3"></div>--}}
+{{--            <div class="col-md-6 col-12 text-center">--}}
+{{--                <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-logo_1.0.png') }}" alt="img" class="gowork-logo">--}}
+{{--                <p class="text-white py-5 txt-body px-5 font-metropolis">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.--}}
+{{--                    Starting from Pacific Place, Plaza Indonesia, Senayan City, including Bali.--}}
+{{--                    Currently Go Work serves more than 12.000 members.</p>--}}
+{{--                <p class="text-white txt-body pb-3 font-metropolis">Go Work Partners include:</p>--}}
+{{--                <div class="row px-5">--}}
+{{--                    <div class="col-md-3 col-12 pb-4">--}}
+{{--                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-gojek-logo_1.0.png') }}" alt="img" class="partners-logo">--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-12 pb-4">--}}
+{{--                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-zomato-logo_1.0.png') }}" alt="img" class="partners-logo">--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-12 pb-4">--}}
+{{--                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-kopikenangan-logo_1.0.png') }}" alt="img" class="partners-logo">--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-12">--}}
+{{--                        <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-fore-logo_1.0.png') }}" alt="img" class="partners-logo">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-3"></div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 <section class="concept-bg pb-md-0 pb-5" id="towerplan">
     <div class="container">
         <div class="row">
@@ -884,7 +884,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-10 text-white text-center py-5">
                 <p class="txt-header-body font-metropolis-bold" style="letter-spacing: 5px;">ARCHITECT & INTERIORS</p>
-                <p class="txt-body font-lato pb-3">Our Collaborators in Making the Living Experiences</p>
+                <p class="txt-body font-lato pb-5">Our Collaborators in Making the Living Experiences</p>
                 {{--                <div class="border-concept-custom"></div>--}}
                 <div class="row px-5">
                     <div class="col-md-6 pr-md-1">

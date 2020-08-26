@@ -12,10 +12,10 @@
                 <div class="col-md-3 pl-5-c">
                     <p class="pb-2 font-metropolis" style="color: gray; font-size:11px;">SITE MAP</p>
                     <p>
-                        <a href="{{ route('home') }}#concept" style="color:white;" class="fs-14 font-gotham-book lh-20">CONCEPT</a>
+                        <a href="{{ route('frontend.concept') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">CONCEPT</a>
                     </p>
                     <p>
-                    <a href="{{ route('home') }}#concept" style="color:white;" class="fs-14 font-gotham-book lh-20">LOCATION</a>
+                    <a href="{{ route('frontend.location') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">LOCATION</a>
                     </p>
                     <p>
                         <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" style="color:white;" class="fs-14 lh-20 font-gotham-book">TOWER PLANS</a>
@@ -24,7 +24,7 @@
                         <a href="{{ route('frontend.facilities') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">FACILITIES</a>
                     </p>
                     <p>
-                    <a href="{{ route('home') }}#concept" style="color:white;" class="fs-14 font-gotham-book lh-20">ARCHITECT & INTERIORS</a>
+                    <a href="{{ route('home') }}#architect" style="color:white;" class="fs-14 font-gotham-book lh-20">ARCHITECT & INTERIORS</a>
                     </p>
                     <p>
                         <a href="{{ route('frontend.developer') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">DEVELOPER</a>
