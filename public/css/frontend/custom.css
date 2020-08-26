@@ -1,7 +1,7 @@
 /*font*/
 
 .center-logo{
-    padding-left: 41%;
+    left: 57% !important;
 }
 
 .container-header-desktop{
@@ -191,7 +191,7 @@
 
 @media (min-width: 576px) {
     .center-logo{
-        padding-left: 57%;
+        left: 57% !important;
     }
     .txt-subheader{
         font-size:18px;
