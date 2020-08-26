@@ -686,7 +686,7 @@
 {{--            </div>--}}
             <div class="swiper-slide">
 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_3.1.jpg') }}" alt="img" class="d-none d-md-block">
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Web-Home_2.0-15.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide" >
@@ -757,7 +757,7 @@
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+                                            <a href="{{ route('frontend.facilities')}}#1" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
 {{--                                            <a href="{{ route('frontend.facilities')}}#3">--}}
 {{--                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
 {{--                                            </a> --}}
@@ -765,67 +765,101 @@
                                         <div class="col-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">GRAND LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#4">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a></div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0 px-5">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 text-white text-center py-5 px-5">
+                                            <p class="font-metropolis-bold">GRAND LOBBY</p>
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                in or out of the building.</p>
+                                            <a href="{{ route('frontend.facilities')}}#2" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+{{--                                            <a href="{{ route('frontend.facilities')}}#4">--}}
+{{--                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
+{{--                                            </a>--}}
+                                        </div>
+                                        <div class="col-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">APARTMENT LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#2">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a> </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0 px-5">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 text-white text-center py-5 px-5">
+                                            <p class="font-metropolis-bold">APARTMENT LOBBY</p>
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                in or out of the building.</p>
+                                            <a href="{{ route('frontend.facilities')}}#3" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+{{--                                            <a href="{{ route('frontend.facilities')}}#2">--}}
+{{--                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
+{{--                                            </a>--}}
+                                        </div>
+                                        <div class="col-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">OFFICE LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#5">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a></div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0 px-5">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 text-white text-center py-5 px-5">
+                                            <p class="font-metropolis-bold">OFFICE LOBBY</p>
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                in or out of the building.</p>
+                                            <a href="{{ route('frontend.facilities')}}#5" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+                                        </div>
+                                        <div class="col-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">BUSINESS LOUNGE</p>
-                                            <a href="{{ route('frontend.facilities')}}#6">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a> </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0 px-5">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 text-white text-center py-5 px-5">
+                                            <p class="font-metropolis-bold">BUSINESS LOUNGE</p>
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                in or out of the building.</p>
+                                            <a href="{{ route('frontend.facilities')}}#6" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+                                        </div>
+                                        <div class="col-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">COWORKING SPACE LOBBY</p>
-                                            <a href="{{ route('frontend.facilities')}}#7">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a> </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0 px-5">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 text-white text-center py-5 px-5">
+                                            <p class="font-metropolis-bold">COWORKING SPACE LOBBY</p>
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                in or out of the building.</p>
+                                            <a href="{{ route('frontend.facilities')}}#7" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+                                        </div>
+                                        <div class="col-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">AUDITORIUM</p>
-                                            <a href="{{ route('frontend.facilities')}}#8">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a> </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0 px-5">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 text-white text-center py-5 px-5">
+                                            <p class="font-metropolis-bold">AUDITORIUM</p>
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                in or out of the building.</p>
+                                            <a href="{{ route('frontend.facilities')}}#8" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+                                        </div>
+                                        <div class="col-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-4">
-                                        <div class="col-12 text-dark text-center pt-5">
-                                            <p class="font-lato">SKY POOL</p>
-                                            <a href="{{ route('frontend.facilities')}}#9">
-                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
-                                            </a></div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0 px-5">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 text-white text-center py-5 px-5">
+                                            <p class="font-metropolis-bold">SKY POOL</p>
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                in or out of the building.</p>
+                                            <a href="{{ route('frontend.facilities')}}#9" class="txt-body font-lato-light text-center text-white" style="border: 1px solid white;padding:5px 20px;">See More</a>
+                                        </div>
+                                        <div class="col-1"></div>
                                     </div>
                                 </div>
 

@@ -19,7 +19,222 @@
     {{--            </div>--}}
     {{--        </div>--}}
     {{--    </section>--}}
-    <section class="swiper-container image-slider">
+
+    <section class="" id="facilities">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-dark text-center py-5">
+                    <p class="txt-header-body font-metropolis-bold" style="letter-spacing: 5px;">FACILITIES</p>
+                    <p class="txt-body font-lato pb-3 let-spa-2">Experience Silicon Valley Amenities</p>
+                    {{--                <div class="border-concept-custom"></div>--}}
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        {{--    <div class="container-fluid">--}}
+        {{--        <div class="row no-gutters">--}}
+        {{--            <div class="col-12">--}}
+        {{--                <div class="bg-facilities">--}}
+        {{--                </div>--}}
+        {{--            </div>--}}
+        {{--        </div>--}}
+        {{--    </div>--}}
+
+        <section class="swiper-container image-slider">
+            <div class="swiper-wrapper">
+                {{--            <div class="swiper-slide">--}}
+                {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
+                {{--            </div>--}}
+                {{--            <div class="swiper-slide">--}}
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
+                {{--            </div>--}}
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Web-Home_2.0-15.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_3.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                <div class="swiper-slide" >
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_2.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_2.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_4.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_4.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                {{--            <div class="swiper-slide">--}}
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img">--}}
+                {{--            </div>--}}
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Lounge_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lounge_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-MeetingRooms_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-meetingrooms_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Auditorium_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-auditorium_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+                <div class="swiper-slide">
+                    {{--                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Pool_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-pool_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                </div>
+            </div>
+        </section>
+    </section>
+    <section  class="fac-slide">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-1"></div>
+                <div class="col-md-8 col-10">
+                    <div class="row text-center box-accor">
+                        <div class="col-12">
+                            <div class="swiper-container content-slider">
+                                <div class="swiper-wrapper py-3">
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">Double Road System</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">GRAND LOBBY</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">APARTMENT LOBBY</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">OFFICE LOBBY</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">BUSINESS LOUNGE</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">COWORKING SPACE LOBBY</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">AUDITORIUM</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="background-color: black;">
+                                        <div class="row px-md-0 px-5">
+                                            <div class="col-1"></div>
+                                            <div class="col-10 text-white text-center py-5 px-5">
+                                                <p class="font-metropolis-bold">SKY POOL</p>
+                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
+                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                                    in or out of the building.</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination white"></div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="" id="architect" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 text-white text-center py-5">
+                    <p class="txt-header-body font-lato-bold let-spa-9">INNER FACILITIES</p>
+                    <p class="txt-body font-lato pb-3 pt-3 let-spa-2">Things to Luxuriate Within The Smith</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="swiper-container image-slider2">
         <div class="swiper-wrapper">
             {{--            <div class="swiper-slide">--}}
             {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
@@ -93,15 +308,8 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <!-- Swiper -->
-                                                <div class="swiper-container content-slider">
+                                                <div class="swiper-container content-slider2">
                                                     <div class="swiper-wrapper py-3">
-{{--                                                        <div class="swiper-slide" id="fac-1">--}}
-{{--                                                            <div class="row">--}}
-{{--                                                                <div class="col-12 text-dark text-center pt-5">--}}
-{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">FLOOR PLAN</p>--}}
-{{--                                                                </div>--}}
-{{--                                                            </div>--}}
-{{--                                                        </div>--}}
                                                         <div class="swiper-slide"  id="fac-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
@@ -130,23 +338,6 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        {{--                                                        <div class="swiper-slide"  id="fac-6">--}}
-                                                        {{--                                                            <div class="row">--}}
-                                                        {{--                                                                <div class="col-12 text-dark text-center">--}}
-                                                        {{--                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>--}}
-                                                        {{--                                                                    <div class="border-swiper-custom"></div>--}}
-                                                        {{--                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>--}}
-                                                        {{--                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>--}}
-                                                        {{--                                                                        that boosts a balanced lifesyle experience.</p>--}}
-                                                        {{--                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.--}}
-                                                        {{--                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities--}}
-                                                        {{--                                                                        that boosts a balanced lifesyle experience.</p>--}}
-                                                        {{--                                                                    <div class="py-5">--}}
-                                                        {{--                                                                        <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="w-100 ">--}}
-                                                        {{--                                                                    </div>--}}
-                                                        {{--                                                                </div>--}}
-                                                        {{--                                                            </div>--}}
-                                                        {{--                                                        </div>--}}
                                                         <div class="swiper-slide"  id="fac-7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
@@ -190,7 +381,7 @@
                                                         <div class="swiper-slide-content">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
-                                                                    <p class="txt-header-body let-spa font-metropolis">SILICON VALLEY FACILITIES</p>
+                                                                    <p class="txt-header-body let-spa font-metropolis">3RD FLOOR FACILITES</p>
                                                                     <div class="border-swiper-custom"></div>
                                                                     <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
                                                                         Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
@@ -366,6 +557,36 @@
             });
             imageSwiper.controller.control  = swiper;
             swiper.controller.control  = imageSwiper;
+
+            var imageSwiper2 = new Swiper('.image-slider2', {
+                loop: true,
+                // pagination: {
+                //     el: '.swiper-pagination',
+                //     type: 'fraction',
+                // },
+                slidesPerView: 1,
+                setWrapperSize: true,
+                initialSlide: initialSlide,
+                observer: true,
+                observeParents: true
+            });
+
+            var swiper2 = new Swiper('.content-slider2', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                initialSlide: initialSlide,
+                observer: true,
+                observeParents: true
+            });
+            imageSwiper2.controller.control  = swiper2;
+            swiper2.controller.control  = imageSwiper2;
         });
         function navigateSection(section){
             var offsetTop = $('#' + section).offset().top;

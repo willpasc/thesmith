@@ -36,6 +36,21 @@
     letter-spacing: 5px;
 }
 
+.let-spa-7{
+    letter-spacing: 7px;
+}
+
+.let-spa-9{
+    letter-spacing: 9px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: 40% !important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right: 40% !important;
+ }
+
 .box-accor{
     position: relative;
     -index: 999999;
