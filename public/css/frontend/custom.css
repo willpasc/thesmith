@@ -56,10 +56,11 @@
     padding-left: 6rem !important;
 }
 .disclaimer{
-    color:gray;
-    font-size:11px;
-    padding-right:35px;
+    color: gray;
+    font-size: 11px;
+    /* padding-right: 35px; */
     line-height: 1.8em;
+    margin-top: -30%;
 }
 .disclaimer-1{
     color:gray;
@@ -81,7 +82,7 @@
     line-height: 1.8em;
 }
 .txt-subheader{
-    font-size:18px;
+    font-size:14px;
 }
 
 .gold{
@@ -185,6 +186,9 @@
 }
 
 @media (min-width: 576px) {
+    .txt-subheader{
+        font-size:18px;
+    }
     .border-black-100{
         border-bottom: 1px solid black;
     }

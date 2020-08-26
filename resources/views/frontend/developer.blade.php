@@ -25,8 +25,8 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 text-center text-dark py-5 col-12" style="background-color: white; margin-top:-60px;">
 {{--                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-logo_1.png') }}" alt="img" class="logo-triniti">--}}
-                    <p class="txt-header-body font-lato  pb-2 text-dark" style="letter-spacing: 5px;">FINELY CRAFTED</p>
-                    <p class="txt-subheader font-metropolis let-spa-3 pb-5">By TRINITI LAND</p>
+                    <p class="txt-header-body font-metropolis-bold  pb-2 text-dark" style="letter-spacing: 5px;">FINELY CRAFTED</p>
+                    <p class="txt-body font-metropolis let-spa-3 pb-5">By TRINITI LAND</p>
                     <div class="row">
                         <div class="col-1"></div>
                         <div class="col-10 txt-body text-dark font-metropolis-">
@@ -274,7 +274,7 @@
         }
 
         .bg-home{
-            background-image: url('{{ asset('images/thesmith/developer/thesmith-building_1-1.jpg') }}');
+            background-image: url('{{ asset('images/thesmith/developer/thesmith-web-home_2.1-09.jpg') }}');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -328,14 +328,14 @@
 
 
             .bg-home {
-                background-image: url('{{ asset('images/thesmith/developer/thesmith-building_1-1.jpg') }}');
+                background-image: url('{{ asset('images/thesmith/developer/thesmith-web-home_2.1-09.jpg') }}');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
                 width: 100%;
                 height: 647px;
                 position: relative;
-                margin-top:100px;
+                /*margin-top:100px;*/
             }
 
         }
@@ -353,6 +353,32 @@
         @media (min-width: 1369px) {
 
         }
+        @media (min-width: 1400px) {
+            .bg-home {
+                background-image: url('{{ asset('images/thesmith/developer/thesmith-web-home_2.1-09.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 725px;
+                position: relative;
+                /*margin-top:100px;*/
+            }
+        }
+
+        @media (min-width: 1900px) {
+            .bg-home {
+                background-image: url('{{ asset('images/thesmith/developer/thesmith-web-home_2.1-09.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 965px;
+                position: relative;
+                /*margin-top:100px;*/
+            }
+        }
+
     </style>
 @endsection
 

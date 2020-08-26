@@ -931,7 +931,7 @@
                             </div>
                             <div class="pb-5">
                                 <a href="#more-studio" data-toggle="collapse" data-parent="accordion">
-                                    <img src="{{ asset('images/thesmith/home/btn-readmore.png') }}" alt="img" style="width:150px;" id="btn-rafal">
+                                    <img src="{{ asset('images/thesmith/home/btn-readmore.png') }}" alt="img" style="width:150px;" id="btn-studio">
                                 </a>
                             </div>
                         </div>
@@ -1620,10 +1620,10 @@ pop up css
         });
 
         $('#more-studio').on('shown.bs.collapse', function () {
-            $('#btn-studio').attr('src', "{{ asset('images/thesmith/developer/img-lessinfo.png') }}");
+            $('#btn-studio').attr('src', "{{ asset('images/thesmith/home/btn-close.png') }}");
         });
         $('#more-studio').on('hidden.bs.collapse', function () {
-            $('#btn-studio').attr('src', "{{ asset('images/thesmith/developer/img-moreinfo.png') }}");
+            $('#btn-studio').attr('src', "{{ asset('images/thesmith/home/btn-readmore.png') }}");
         });
 
         $( document ).ready(function() {
