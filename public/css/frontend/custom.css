@@ -7,20 +7,12 @@
     display: block;
 }
 
-.font-librecaslon {
-    font-family: 'libre_caslon_textregular', sans-serif !important;
+.border-black-100{
+    border-bottom: 1px solid black;
 }
 
-.font-montserrat {
-    font-family: 'montserratregular', sans-serif !important;
-}
-
-.font-lato {
-     font-family: 'lato', sans-serif; !important;
-}
-
-.font-metropolis {
-    font-family: 'metropolisregular', sans-serif !important;
+.border-white-100{
+    border-bottom: 1px solid white;
 }
 
 
