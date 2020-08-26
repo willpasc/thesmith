@@ -1,5 +1,9 @@
 /*font*/
 
+.center-logo{
+    padding-left: 41%;
+}
+
 .container-header-desktop{
     display: none;
 }
@@ -186,6 +190,9 @@
 }
 
 @media (min-width: 576px) {
+    .center-logo{
+        padding-left: 57%;
+    }
     .txt-subheader{
         font-size:18px;
     }

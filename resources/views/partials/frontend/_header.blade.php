@@ -308,16 +308,31 @@
     <nav class="container-header-mobile">
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
-            <div class="logo-mobile">
-                <a href="{{ route('home') }}"><img src="{{ asset('images/thesmith/thesmith-web-menu-logo_1.0.png') }}" alt="LOGO"></a>
+            <div class="logo-mobile ">
+                <a href="{{ route('home') }}"><img src="{{ asset('images/thesmith/thesmith-web-menu-logo_1.0.png') }}" alt="LOGO" class="center-logo"></a>
             </div>
 
 
             <!-- Button show menu -->
-            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze pl-5" style="position: absolute;">
 					<span class="hamburger-box">
 						<span class="hamburger-inner"></span>
 					</span>
+                <div class="pl-3 fs-18 text-white font-lato let-spa" >
+                    <p>MENU</p>
+                </div>
+            </div>
+            <div class="text-right" style="padding-right: 10%;">
+                <span class="text-white font-lato fs-14 pr-3 let-spa">REACH US</span>
+                <a href="#">
+                    <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-53.png') }}" style="width:25px;">
+                </a>
+                <a href="#">
+                    <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-55.png') }}" style="width:25px;">
+                </a>
+                <a href="#">
+                    <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-56.png') }}" style="width:25px;">
+                </a>
             </div>
         </div>
 
