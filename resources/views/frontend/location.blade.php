@@ -150,7 +150,7 @@
             background-position: center center;
             background-size: cover;
             width: auto;
-            height: 150px;
+            height: 250px;
         }
         .bg-facilities{
             background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
@@ -420,7 +420,7 @@ pop up css
                 background-position: center center;
                 background-size: cover;
                 width: auto;
-                height: 390px;
+                height: 540px;
             }
 
             .bg-facilities{
