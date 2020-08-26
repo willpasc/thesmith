@@ -86,7 +86,7 @@
             <div class="col-md-3"></div>
             <div class="col-md-6 text-center text-white">
                 <p class="txt-subheader font-lato-bold let-spa-1 pb-5">FEATURES</p>
-                <div class="row txt-body font-metropolis pb-5">
+                <div class="row txt-body font-gotham-book pb-5">
                     <div class="col-md-3 ">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-43.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
                         <p class="pt-2">High Speed<br/> Internet</p>
