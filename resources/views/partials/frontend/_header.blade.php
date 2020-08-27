@@ -319,11 +319,11 @@
 						<span class="hamburger-inner"></span>
 					</span>
                 <div class="pl-3 fs-18 text-white font-lato let-spa" >
-                    <p>MENU</p>
+                    <p class="let-spa-5">MENU</p>
                 </div>
             </div>
             <div class="text-right" style="padding-right: 10%;">
-                <span class="text-white font-lato fs-14 pr-3 let-spa">REACH US</span>
+                <span class="text-white font-lato fs-14 pr-3 let-spa-5">REACH US</span>
                 <a href="#">
                     <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-53.png') }}" style="width:25px;">
                 </a>
@@ -337,13 +337,13 @@
         </div>
 
         <div class="menu-mobile">
-            <ul class="main-menu left" style="background-color: black;">
+            <ul class="main-menu left pb-5" style="background-color: black;">
 {{--                <li>--}}
 {{--                    <a href="{{ route('home') }}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">HOME</a>--}}
 {{--                </li>--}}
 
                 <li>
-                    <a href="{{route('frontend.concept')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">CONCEPT</a>
+                    <a href="{{route('frontend.concept')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">THE CONCEPT</a>
                 </li>
 
                 <li>
@@ -364,7 +364,7 @@
                 {{--                </li>--}}
 
                 <li>
-                    <a href="{{ route('home')}}#architect" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">ARCHITECT & INTERIORS</a>
+                    <a href="{{ route('home')}}#architect" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">VIRTUAL TOUR</a>
                 </li>
 
                 <li>

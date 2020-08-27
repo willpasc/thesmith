@@ -16,18 +16,18 @@
     <div class="container">
         <div class="row py-5">
             <div class="col-md-1"></div>
-            <div class="col-md-10 text-dark text-center">
+            <div class="col-md-10 text-dark text-center py-4">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8 px-5">
-                        <p class="txt-header-body font-metropolis font-weight-bold" style="letter-spacing: 5px;">THE PERFECT LOCATION</p>
-                        <p class="txt-body font-lato pb-5 let-spa-2">At The Heart of CBD Alam Sutera</p>
-                        <p class="txt-body font-metropolis ">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 col-12 px-md-5 px-3">
+                        <p class="txt-header-body font-metropolis font-weight-bold let-spa-5" >THE PERFECT LOCATION</p>
+                        <p class="txt-subheader-2 font-lato pb-5 let-spa-2">At The Heart of CBD Alam Sutera</p>
+                        <p class="txt-body font-lato-bold px-3 ">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
                             namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.
                             An ease of multi-city commuting is also highlighted as it stands a minute away from the
                             Toll Gate of Alam Sutera.</p>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-md-2"></div>
                 </div>
                 <img src="{{ asset('images/thesmith/location/thesmith-web_2.0-11.png') }}" alt="img" class="w-100 pb-3">
             </div>
@@ -40,8 +40,8 @@
         <div class="row no-gutters  pb-5">
             <div class="col-md-3"></div>
             <div class="col-md-6 text-center text-white">
-                <p class="txt-header-body font-metropolis font-weight-bold" style="letter-spacing: 5px;">AT THE HEART OF CBD</p>
-                <p class="txt-body font-lato let-spa-2">Business District Minutes Away</p>
+                <p class="txt-header-body font-metropolis font-weight-bold let-spa-5" >AT THE HEART OF CBD</p>
+                <p class="txt-subheader-2 font-lato let-spa-2">Business District Minutes Away</p>
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -50,16 +50,16 @@
             <div class="col-2"></div>
             <div class="col-8 bg-white text-center py-5" style="margin-top: -50px;">
                 <div class="row no-gutters">
-                    <div class="col-3"></div>
-                    <div class="col-6 text-dark px-2">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 col-12 text-dark px-3 px-md-2">
                         <p class="font-metropolis-bold txt-subheader pb-3">Only 150 Meters Away</p>
-                        <p class="txt-body font-metropolis ">
+                        <p class="txt-body font-lato-bold ">
                             Located at the heart of CBD Alam Sutera, The Smith stands only 150 meters away
                             from the Exit Toll Gate of Alam Sutera. Providing ease for residents to commute within
                             and outside the city.
                         </p>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="col-md-3"></div>
                 </div>
 
             </div>
@@ -69,34 +69,34 @@
 </section>
 <section>
     <div class="container">
-        <div class="row  pb-5">
+        <div class="row  pb-md-5">
             <div class="col-md-1"></div>
             <div class="col-md-10 text-center text-dark">
                 <div class="py-5">
-                    <p class="txt-header-body font-metropolis font-weight-bold" style="letter-spacing: 5px;">ALAM SUTERA SMART CITY</p>
-                    <p class="txt-body font-lato let-spa-2">Even More Livable Features</p>
+                    <p class="txt-header-body font-metropolis font-weight-bold let-spa-5" >ALAM SUTERA SMART CITY</p>
+                    <p class="txt-subheader-2 font-lato let-spa-2">Even More Livable Features</p>
                 </div>
-                <div class="row txt-body text-center font-lato-bold">
-                    <div class="col-3">
+                <div class="row txt-body text-center font-lato-bold px-3 px-md-0">
+                    <div class="col-md-3 col-6 pb-5 pb-md-0">
                         <img src="{{ asset('images/thesmith/location/thesmith-web-home_2.0-29.jpg') }}" alt="img" class="img-smart pb-3">
                         <p class="pl-3">EMERGENCY BUTTON</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-6 pb-5 pb-md-0">
                         <img src="{{ asset('images/thesmith/location/thesmith-web-home_2.0-30.jpg') }}" alt="img" class="img-smart pb-3">
                         <p class="pl-3">CCTV & CONTROL ROOM</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-6">
                         <img src="{{ asset('images/thesmith/location/thesmith-web-home_2.0-31.jpg') }}" alt="img" class="img-smart pb-3">
                         <p class="pl-3">SUTERA LOOP</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-6">
                         <img src="{{ asset('images/thesmith/location/thesmith-web-home_2.0-32.jpg') }}" alt="img" class="img-smart pb-3">
                         <p class="pl-3">BICYCLE TRACK</p>
                     </div>
                 </div>
-                <div class="row py-5">
-                    <div class="col-3"></div>
-                    <div class="col-6">
+                <div class="row py-5 px-3 px-md-0">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 col-12">
                         <p class="txt-body text-center font-lato-bold px-2">
                             As part of Alam Sutera Smart City, relish the additional safety and convenience provided
                             such as emergency buttons at roadsides, 24-hour CCTV surveillance and control
@@ -104,7 +104,7 @@
                             well-built bicycle track.
                         </p>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="col-md-3"></div>
                 </div>
             </div>
             <div class="col-md-1"></div>

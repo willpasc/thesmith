@@ -22,11 +22,11 @@
 
     <section class="" id="facilities">
         <div class="container">
-            <div class="row">
+            <div class="row pt-5">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 text-dark text-center py-5">
-                    <p class="txt-header-body font-metropolis-bold" style="letter-spacing: 5px;">FACILITIES</p>
-                    <p class="txt-body font-lato pb-3 let-spa-2">Experience Silicon Valley Amenities</p>
+                    <p class="txt-header-body font-gotham-book font-weight-bold let-spa-7">FACILITIES</p>
+                    <p class="txt-subheader-2 font-lato let-spa-2">Experience Silicon Valley Amenities</p>
                     {{--                <div class="border-concept-custom"></div>--}}
                 </div>
                 <div class="col-md-2"></div>
@@ -228,7 +228,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-10 text-white text-center py-5">
                     <p class="txt-header-body font-lato-bold let-spa-9">INNER FACILITIES</p>
-                    <p class="txt-body font-lato pb-3 pt-3 let-spa-2">Things to Luxuriate Within The Smith</p>
+                    <p class="txt-subheader-2 font-lato pb-3 pt-2 let-spa-2">Things to Luxuriate Within The Smith</p>
                 </div>
                 <div class="col-md-1"></div>
             </div>
@@ -243,6 +243,11 @@
             {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
             {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
             {{--            </div>--}}
+            <div class="swiper-slide">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/TheSmith-Pool_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-pool_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+            </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_3.1.jpg') }}" alt="img" class="d-none d-md-block">
@@ -281,11 +286,6 @@
                 <img src="{{ asset('images/thesmith/facilities/TheSmith-Auditorium_1.1.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-auditorium_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
-            <div class="swiper-slide">
-                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Pool_1.1.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-pool_1.0.jpg') }}" alt="img" class="d-block d-md-none">
-            </div>
         </div>
     </section>
     <section style="background-color: black">
@@ -313,56 +313,56 @@
                                                         <div class="swiper-slide"  id="fac-3">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">GRAND LOBBY</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">GRAND LOBBY</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide"  id="fac-4">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">GRAND LOBBY</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">GRAND LOBBY</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide"  id="fac-2">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">APARTMENT LOBBY</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">APARTMENT LOBBY</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide"  id="fac-5">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">OFFICE LOBBY</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">OFFICE LOBBY</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide"  id="fac-7">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">BUSINESS LOUNGE</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">BUSINESS LOUNGE</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide"  id="fac-8">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">COWORKING SPACE LOBBY</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">COWORKING SPACE LOBBY</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide"  id="fac-9">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">AUDITORIUM</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">AUDITORIUM</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide"  id="fac-10">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class=" font-lato  txt-body text-dark py-3">SKY POOL</p>
+{{--                                                                    <p class=" font-lato  txt-body text-dark py-3">SKY POOL</p>--}}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -381,14 +381,20 @@
                                                         <div class="swiper-slide-content">
                                                             <div class="row">
                                                                 <div class="col-12 text-dark text-center">
-                                                                    <p class="txt-header-body let-spa font-metropolis">3RD FLOOR FACILITES</p>
-                                                                    <div class="border-swiper-custom"></div>
-                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.<br/>
-                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities<br/>
-                                                                        that boosts a balanced lifesyle experience.</p>
-                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
-                                                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
-                                                                        that boosts a balanced lifesyle experience.</p>
+                                                                    <div class="row">
+                                                                        <div class="col-2"></div>
+                                                                        <div class="col-8 pt-5">
+                                                                            <p class="txt-subheader let-spa font-metropolis-bold">3<sup style="top:0px;font-size: 10px;">RD</sup> FLOOR FACILITES</p>
+                                                                            {{--                                                                    <div class="border-swiper-custom"></div>--}}
+                                                                            <p class="txt-body pt-3 font-lato-bold d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                                Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                                that boosts a balanced lifesyle experience.</p>
+                                                                            <p class="txt-body pt-3 font-lato-bold d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                                Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
+                                                                                that boosts a balanced lifesyle experience.</p>
+                                                                        </div>
+                                                                        <div class="col-2"></div>
+                                                                    </div>
                                                                     <div class="py-5">
                                                                         <img src="{{ asset('images/thesmith/facilities/thesmith-web-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">

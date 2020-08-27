@@ -1,5 +1,13 @@
 /*font*/
 
+.txt-header-body{
+    font-size: 16px !important;
+}
+
+.txt-subheader{
+    font-size:12px;
+}
+
 .center-logo{
     left: 57% !important;
 }
@@ -194,11 +202,19 @@
 }
 
 @media (min-width: 576px) {
+
+    .txt-header-body{
+        font-size: 20px !important;
+    }
+
     .center-logo{
         left: 57% !important;
     }
     .txt-subheader{
         font-size:18px;
+    }
+    .txt-subheader-2{
+        font-size:14px;
     }
     .border-black-100{
         border-bottom: 1px solid black;

@@ -15,32 +15,34 @@
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-10 text-dark text-center py-cust px-md-0 px-5">
-                <p class="txt-header-body font-metropolis" style="letter-spacing: 5px;">THE CONCEPT</p>
-                <p class="txt-body font-lato pb-3 let-spa">Three Foundational Ideas</p>
+            <div class="col-md-10 text-dark text-center py-5 px-md-0 px-5">
+                <p class="txt-header-body font-gotham-book font-weight-bold" style="letter-spacing: 5px;">THE CONCEPT</p>
+                <p class="txt-subheader-2 font-lato pb-3 let-spa-2">Three Foundational Ideas</p>
                 <div class="border-concept-custom-1"></div>
                 <div class="row py-5">
                     <div class="col-md-4 col-12 pb-5 pb-md-0">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                        <p class="py-md-4 py-3 txt-subheader font-lato-bold let-spa-2">LIVE, HUSTLE, CREATE.</p>
-                        <p class="txt-body px-md-3 px-5 font-metropolis">Elegantly incorporates comfort and
+                        <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE.</p>
+                        <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Elegantly incorporates comfort and
                             well-being,<br/> all within steps from home.</p>
+                            <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Elegantly incorporates comfort and
+                                well-being, all within steps from home.</p>
                         </div>
                     </div>
                     <div class="col-md-4 pb-5 pb-md-0">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader font-lato-bold let-spa-2">CURRATED COMMUNITY.</p>
-                            <p class="txt-body px-md-3 px-5 font-metropolis">Equipped with facilities designed
+                            <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">CURRATED COMMUNITY.</p>
+                            <p class="txt-body px-md-3 px-5 font-lato-bold">Equipped with facilities designed
                                 for<br/> collaborative communities.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-subheader font-lato-bold let-spa-2">HOME OF UNICORNS.</p>
-                            <p class="txt-body px-md-3 px-5 font-metropolis">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
+                            <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">HOME OF UNICORNS.</p>
+                            <p class="txt-body px-md-3 px-5 font-lato-bold">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
                                 managed by Go Work.</p>
                         </div>
                     </div>
@@ -53,31 +55,36 @@
 <section style="background-color: black;">
     <div class="container">
         <div class="row pt-5">
+            <div class="col"></div>
+            <div class="col-10 text-center pt-5">
+                <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-logo_1.0.png') }}" alt="img" class="gowork-logo pb-5">
+                <img src="{{ asset('images/thesmith/concept/gowork.png') }}" alt="img" class="w-100">
+            </div>
+            <div class="col"></div>
             <div class="col-md-3"></div>
             <div class="col-md-6 col-12 text-center">
-                <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-logo_1.0.png') }}" alt="img" class="gowork-logo">
-                <p class="text-white py-5 txt-body px-5 font-metropolis">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
+                <p class="text-white py-5 txt-body px-5 font-lato-bold">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
                     Starting from Pacific Place, Plaza Indonesia, Senayan City, including Bali.
                     Currently Go Work serves more than 12.000 members.</p>
-                <p class="text-white txt-body pb-3 font-metropolis">Go Work Partners include:</p>
+                <p class="txt-subheader-2 pb-3 font-metropolis-bold" style="color: #b2b2b2;">Go Work Partners include:</p>
                 <div class="row px-5">
-                    <div class="col-md-3 col-12 pb-4">
+                    <div class="col-md-3 col-6 pb-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-gojek-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
-                    <div class="col-md-3 col-12 pb-4">
+                    <div class="col-md-3 col-6 pb-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-zomato-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
-                    <div class="col-md-3 col-12 pb-4">
+                    <div class="col-md-3 col-6 pb-4">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-kopikenangan-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-md-3 col-6">
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home-gowork-fore-logo_1.0.png') }}" alt="img" class="partners-logo">
                     </div>
                 </div>
             </div>
             <div class="col-md-3"></div>
         </div>
-        <div class="row py-5">
+        <div class="row py-5 px-5 px-md-0">
             <div class="col-md-2"></div>
             <div class="col-md-8 border-concept-custom"></div>
             <div class="col-md-2"></div>
@@ -85,57 +92,101 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6 text-center text-white">
-                <p class="txt-subheader font-lato-bold let-spa-1 pb-5">FEATURES</p>
-                <div class="row txt-body font-gotham-book pb-5">
-                    <div class="col-md-3 ">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-43.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                <p class="txt-subheader font-metropolis-bold let-spa-1 pb-5">FEATURES</p>
+                <div class="row txt-body font-lato-bold pb-5 px-5 px-md-0">
+                    <div class="col-md-3 col-6 pb-4 pb-0">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-43.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">High Speed<br/> Internet</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-44.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-44.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Exclusive Events &<br/> Workshops</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-45.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-45.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">24/7 Access</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-46.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-46.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">State of the Art<br/> Meeting Rooms</p>
                     </div>
                 </div>
-                <div class="row txt-body font-metropolis pb-5">
-                    <div class="col-md-3 ">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-47.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                <div class="row txt-body font-lato-bold pb-5 px-5 px-md-0">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-47.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Member Network</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-48.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6 pb-4 pb-0">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-48.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Flexible Plans</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-49.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-49.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Private Events</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-50.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-50.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Spacious<br/> Lounge Area</p>
                     </div>
                 </div>
-                <div class="row txt-body font-metropolis pb-5">
+                <div class="row txt-body font-metropolis pb-5 px-5 px-md-0">
                     <div class="col-md-3 "></div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-51.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-51.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Business-Class<br/> Printers</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-52.png') }}" alt="img" class="w-75" style="border: 1px solid white;">
+                    <div class="col-md-3 col-6">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-52.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Business Support</p>
                     </div>
                     <div class="col-md-3"></div>
                 </div>
             </div>
             <div class="col-md-3"></div>
+        </div>
+    </div>
+</section>
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 text-dark text-center py-5">
+                <p class="txt-header-body font-gotham-book font-weight-bold let-spa-5 pb-3 pb-md-0">ARCHITECT & INTERIORS</p>
+                <p class="txt-subheader-2 font-lato pb-5 let-spa-2 d-none d-md-block">Our Collaborators in Making the Living Experiences</p>
+                <p class="txt-subheader-2 font-lato pb-5 let-spa-2 d-block d-md-none">Our Collaborators in Making the<br/> Living Experiences</p>
+                {{--                <div class="border-concept-custom"></div>--}}
+                <div class="row px-5">
+                    <div class="col-md-6 pr-md-1">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.0-16.jpg') }}" alt="img" class="w-100">
+                        <div class="pt-4 pb-4 pb-md-5">
+                            <p class=" font-metropolis-bold txt-subheader let-spa-2">+OOZN</p>
+                            <p class="txt-body font-lato-bold font-italic">The Architect</p>
+                        </div>
+                        <div class="txt-body font-lato-bold px-md-5 pb-5">
+                            <p class="px-md-2 px-0">
+                                Founded +OOZN in 2013 by Rafal Kapusta, along with
+                                Stephanie Gunawan. The team quickly built upon the success
+                                of their first collaboration to develop a portfolio of award
+                                winning projects.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-md-1">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.0-17.jpg') }}" alt="img" class="w-100">
+                        <div class="pt-4 pb-4 pb-md-5">
+                            <p class=" font-metropolis-bold txt-subheader let-spa-2">STUDIO HBA</p>
+                            <p class="txt-body font-lato-bold font-italic">Interior Designer</p>
+                        </div>
+                        <div class="txt-body font-lato-bold px-md-5 ">
+                                <p class="px-md-5 px-0">
+                                    An international interior design studio, with more than
+                                    50 years of experience in the field.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -146,6 +197,12 @@
 @section('styles')
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
+        .img-features{
+            width:50%;
+        }
+        .txt-concept{
+            font-size: 19px;
+        }
         .fac-slide{
             margin-top: -50px;
         }
@@ -211,7 +268,7 @@
             padding-bottom:70px;
         }
         .img-concept{
-            width:80%;
+            width:100%;
         }
         .border-concept-custom{
             border-bottom: 1px solid white;
@@ -405,6 +462,10 @@ pop up css
             align-items: center;
         }
         @media (min-width: 576px) {
+
+            .img-features{
+                width:75%;
+            }
 
             .partners-logo{
                 width:100px;

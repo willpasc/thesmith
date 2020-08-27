@@ -24,9 +24,10 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 text-center text-dark py-5 col-12" style="background-color: white; margin-top:-60px;">
-{{--                    <img src="{{ asset('images/thesmith/developer/thesmith-devs-logo_1.png') }}" alt="img" class="logo-triniti">--}}
-                    <p class="txt-header-body font-metropolis-bold  pb-2 text-dark" style="letter-spacing: 5px;">FINELY CRAFTED</p>
-                    <p class="txt-body font-metropolis let-spa-3 pb-5">By TRINITI LAND</p>
+                    <p class="txt-header-body font-gotham-book font-weight-bold  pb-2 text-dark let-spa-7" >PT TRINITI DINAMIK</p>
+                    <p class="txt-body font-metropolis let-spa-3 pb-5">Member Of
+{{--                        <img src="{{ asset('images/thesmith/developer/thesmith-web_2.0-27.png') }}" alt="img" class="logo-triniti">--}}
+                    </p>
                     <div class="row">
                         <div class="col-1"></div>
                         <div class="col-10 txt-body text-dark font-metropolis-">
@@ -41,7 +42,7 @@
                                 Offering (IPO) cheme on 15th January 2020 and will create another masterplans of building
                                 Township Development scale project in Jakarta, Tangerang, and Batam.
                             </p>
-                            <div class="row border-black-100 py-2 py-md-5"></div>
+                            <div class="row border-black-100 py-2 py-md-4"></div>
                             <div class="col-12 py-5">
                                 <p class="font-metropolis-bold txt-subheader" style="letter-spacing: 2px;">Developed Projects</p>
                                 <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.1-44.png') }}" alt="img" class="w-100">
@@ -49,7 +50,7 @@
                             <div class="row border-black-100"></div>
                             <div class="row">
                                 <div class="col-12">
-                                    <p class="txt-subheader font-gotham-book font-weight-bold let-spa-1 py-4">Jakarta & Tangerang</p>
+                                    <p class="txt-subheader-2 font-gotham-book font-weight-bold let-spa-1 py-4">Jakarta & Tangerang</p>
                                     <div class="row txt-body pb-4">
                                         <div class="col-6 col-md-3 pb-3 pb-md-0">
                                             <p class="font-lato-bold">Ubud Village</p>
@@ -88,7 +89,7 @@
                             <div class="row border-black-100"></div>
                             <div class="row">
                                 <div class="col-12 pb-4">
-                                    <p class="txt-subheader font-gotham-book font-weight-bold let-spa-1 py-4">Batam</p>
+                                    <p class="txt-subheader-2 font-gotham-book font-weight-bold let-spa-1 py-4">Batam</p>
                                     <div>
                                         <p class="font-lato-bold">Marc's Boulevard</p>
                                         <p class="font-lato font-italic">Project Value 5 Trillion</p>
@@ -99,7 +100,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="py-5">
-                                        <p class="txt-subheader font-lato-light let-spa-2">TRINITI LAND</p>
+                                        <p class="txt-subheader-2    font-lato-light let-spa-2">TRINITI LAND</p>
                                         <p class="txt-subheader font-metropolis-bold">Asia's Best Boutique Developer</p>
                                     </div>
                                     <div class="row">

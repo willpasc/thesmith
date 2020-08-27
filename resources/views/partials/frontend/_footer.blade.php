@@ -12,10 +12,10 @@
                 <div class="col-md-3 pl-5-c">
                     <p class="pb-2 font-metropolis" style="color: gray; font-size:11px;">SITE MAP</p>
                     <p>
-                        <a href="{{ route('frontend.concept') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">CONCEPT</a>
+                        <a href="{{ route('frontend.concept') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">THE CONCEPT</a>
                     </p>
                     <p>
-                    <a href="{{ route('frontend.location') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">LOCATION</a>
+                        <a href="{{ route('frontend.location') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">LOCATION</a>
                     </p>
                     <p>
                         <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" style="color:white;" class="fs-14 lh-20 font-gotham-book">TOWER PLANS</a>
@@ -24,7 +24,7 @@
                         <a href="{{ route('frontend.facilities') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">FACILITIES</a>
                     </p>
                     <p>
-                    <a href="{{ route('home') }}#architect" style="color:white;" class="fs-14 font-gotham-book lh-20">ARCHITECT & INTERIORS</a>
+                        <a href="{{ route('home') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">ARCHITECT & INTERIORS</a>
                     </p>
                     <p>
                         <a href="{{ route('frontend.developer') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">DEVELOPER</a>
@@ -33,7 +33,7 @@
                 <div class="col-md-3 pl-5 pt-4 pt-md-0 ">
                     <p class="pb-2 font-metropolis lh-20" style="color: gray; font-size:11px;">CONTACT US</p>
                     <p class="fs-14 font-gotham-book lh-20" style="color:white"><span class="pr-3" style="font-weight: bold;">P</span><span>087 8886 8886 0</span></p>
-                    <div class="fs-14 font-gotham-book lh-20 px-3 mb-4" style="border: 1px solid white;margin-left: 25px;">
+                    <div class="fs-12 font-gotham-book lh-20 px-3 mb-4" style="border: 1px solid white;margin-left: 25px;margin-right: 25px;">
                         <a href="http://wa.me/6287888688860"  >
 {{--                            <img class="w-100 pl-1" src="{{ asset('images/thesmith/watsap.png') }}" >--}}
                             <p class="text-white font-gotham-book text-center">CHAT VIA WHATSAPP</p>
