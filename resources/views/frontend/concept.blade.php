@@ -16,14 +16,14 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10 text-dark text-center py-5 px-md-0 px-5">
-                <p class="txt-header-body font-gotham-book font-weight-bold" style="letter-spacing: 5px;">THE CONCEPT</p>
-                <p class="txt-subheader-2 font-lato pb-3 let-spa-2">Three Foundational Ideas</p>
+                <p class="txt-header-body font-metropolis-medium let-spa-8">THE CONCEPT</p>
+                <p class="txt-subheader-2 font-metropolis pb-3 let-spa-2">Three Foundational Ideas</p>
                 <div class="border-concept-custom-1"></div>
                 <div class="row py-5">
                     <div class="col-md-4 col-12 pb-5 pb-md-0">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                        <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE.</p>
+                        <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE</p>
                         <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Elegantly incorporates comfort and
                             well-being,<br/> all within steps from home.</p>
                             <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Elegantly incorporates comfort and
@@ -33,7 +33,7 @@
                     <div class="col-md-4 pb-5 pb-md-0">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">CURRATED COMMUNITY.</p>
+                            <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">CURRATED COMMUNITY</p>
                             <p class="txt-body px-md-3 px-5 font-lato-bold">Equipped with facilities designed
                                 for<br/> collaborative communities.</p>
                         </div>
@@ -41,7 +41,7 @@
                     <div class="col-md-4">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept">
                         <div class="">
-                            <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">HOME OF UNICORNS.</p>
+                            <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">HOME OF UNICORNS</p>
                             <p class="txt-body px-md-3 px-5 font-lato-bold">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
                                 managed by Go Work.</p>
                         </div>
@@ -157,7 +157,7 @@
                 {{--                <div class="border-concept-custom"></div>--}}
                 <div class="row px-5">
                     <div class="col-md-6 pr-md-1">
-                        <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.0-16.jpg') }}" alt="img" class="w-100">
+                        <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.1-18.jpg') }}" alt="img" class="w-100">
                         <div class="pt-4 pb-4 pb-md-5">
                             <p class=" font-metropolis-bold txt-subheader let-spa-2">+OOZN</p>
                             <p class="txt-body font-lato-bold font-italic">The Architect</p>
@@ -271,7 +271,7 @@
             width:100%;
         }
         .border-concept-custom{
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid #e6e6e6;
             width:100%;
         }
 

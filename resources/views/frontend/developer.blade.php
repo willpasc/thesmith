@@ -25,9 +25,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 text-center text-dark py-5 col-12" style="background-color: white; margin-top:-60px;">
                     <p class="txt-header-body font-gotham-book font-weight-bold  pb-2 text-dark let-spa-7" >PT TRINITI DINAMIK</p>
-                    <p class="txt-body font-metropolis let-spa-3 pb-5">Member Of
-{{--                        <img src="{{ asset('images/thesmith/developer/thesmith-web_2.0-27.png') }}" alt="img" class="logo-triniti">--}}
-                    </p>
+                        <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.0-24.png') }}" alt="img" class="logo-triniti">
                     <div class="row">
                         <div class="col-1"></div>
                         <div class="col-10 txt-body text-dark font-metropolis-">
@@ -302,9 +300,9 @@
             }
 
             .logo-triniti{
-                width: 150px;
-                padding-top: 20px;
-                padding-bottom: 20px;
+                width: 220px;
+                padding-top: 0px;
+                padding-bottom: 50px;
             }
 
 

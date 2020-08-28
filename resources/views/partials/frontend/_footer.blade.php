@@ -24,7 +24,7 @@
                         <a href="{{ route('frontend.facilities') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">FACILITIES</a>
                     </p>
                     <p>
-                        <a href="{{ route('home') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">ARCHITECT & INTERIORS</a>
+                        <a href="{{ route('frontend.virtual') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">VIRTUAL TOUR</a>
                     </p>
                     <p>
                         <a href="{{ route('frontend.developer') }}" style="color:white;" class="fs-14 font-gotham-book lh-20">DEVELOPER</a>

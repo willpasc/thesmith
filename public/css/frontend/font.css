@@ -63,6 +63,10 @@
     font-family: 'gothambook', sans-serif !important;
 }
 
+.font-oriya {
+    font-family: 'oriya', sans-serif !important;
+}
+
 
 @font-face {
     font-family: 'avenir-black';
@@ -169,6 +173,32 @@
     font-style: normal;
     /*font-display: swap;*/
 }
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('../../fonts/gotham/gotham-light.woff2') format('woff2'),
+    url('../../fonts/gotham/gotham-light.woff') format('woff'),
+    url('../../fonts/gotham/gotham-light.ttf') format('truetype'),
+    url('../../fonts/gotham/gotham-light.svg#gotham-book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    /*font-display: swap;*/
+}
+
+@font-face {
+    font-family: 'oriya';
+    src: url('../../fonts/oriya/oriyamn.eot');
+    src: url('../../fonts/oriya/oriyamn.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/oriya/oriyamn.woff2') format('woff2'),
+    url('../../fonts/oriya/oriyamn.woff') format('woff'),
+    url('../../fonts/oriya/oriyamn.ttf') format('truetype'),
+    url('../../fonts/oriya/oriyamn.svg#Oriyamn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    /*font-display: swap;*/
+}
+
+
 
 
 

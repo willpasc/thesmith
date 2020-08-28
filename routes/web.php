@@ -34,6 +34,7 @@ Route::get('/', 'Frontend\HomeController@index')->name('home');
 Route::get('/district', 'Frontend\HomeController@district')->name('frontend.district');
 Route::get('/about', 'Frontend\HomeController@about')->name('frontend.about');
 Route::get('/concept', 'Frontend\HomeController@concept')->name('frontend.concept');
+Route::get('/virtual', 'Frontend\HomeController@virtual')->name('frontend.virtual');
 Route::get('/masterplan', 'Frontend\HomeController@masterplan')->name('frontend.masterplan');
 Route::get('/introduction', 'Frontend\HomeController@introduction')->name('frontend.introduction');
 Route::get('/location', 'Frontend\HomeController@location')->name('frontend.location');

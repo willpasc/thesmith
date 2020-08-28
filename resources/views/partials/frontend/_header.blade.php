@@ -364,7 +364,7 @@
                 {{--                </li>--}}
 
                 <li>
-                    <a href="{{ route('home')}}#architect" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">VIRTUAL TOUR</a>
+                    <a href="{{ route('frontend.virtual')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">VIRTUAL TOUR</a>
                 </li>
 
                 <li>

@@ -44,6 +44,10 @@
     letter-spacing: 7px;
 }
 
+.let-spa-8{
+    letter-spacing: 8px;
+}
+
 .let-spa-9{
     letter-spacing: 9px;
 }
@@ -204,7 +208,7 @@
 @media (min-width: 576px) {
 
     .txt-header-body{
-        font-size: 20px !important;
+        font-size: 24px !important;
     }
 
     .center-logo{
