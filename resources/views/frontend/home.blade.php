@@ -105,8 +105,10 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">CURRATED COMMUNITY</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold">Equipped with facilities designed
+                            <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Equipped with facilities designed
                                 for<br/> collaborative communities.</p>
+                            <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Equipped with facilities designed
+                                for collaborative communities.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -120,11 +122,11 @@
                 </div>
                 <div class="border-concept-custom-1"></div>
                 <div class="row pt-5">
-                    <div class="col-md-5 col-3"></div>
-                    <div class="col-md-2 col-6">
+                    <div class="col-md-5 col"></div>
+                    <div class="col-md-2 col-8">
                         <a href="{{ route('frontend.concept')}}" class="txt-body text-center py-2 px-4 text-white font-lato let-spa-2" style="border: 1px solid white;">Read More</a>
                     </div>
-                    <div class="col-md-5 col-3"></div>
+                    <div class="col-md-5 col"></div>
                 </div>
             </div>
             <div class="col-md-1"></div>
@@ -1063,36 +1065,36 @@
                 <p class="txt-subheader-2 font-lato pb-5 let-spa-2">The Associates To Ensure Your Perfect Homes</p>
                 <div class="row py-5">
                     <div class="col-4">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Architecture</p>
+                        <p class="txt-body font-metropolis-bold pb-2">Architecture</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.0-22.png') }}" alt="img" class="w-75 pt-3">
                     </div>
                     <div class="col-4">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Interior Design</p>
+                        <p class="txt-body font-metropolis-bold pb-2">Interior Design</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-19.png') }}" alt="img" class="w-75 pt-4">
                     </div>
                     <div class="col-4">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Luxury Brand</p>
+                        <p class="txt-body font-metropolis-bold pb-2">Luxury Brand</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-20.png') }}" alt="img" class="w-75 pt-4">
                     </div>
                 </div>
                 <div class="row py-5">
                     <div class="col-6">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Building Management</p>
+                        <p class="txt-body font-metropolis-bold pb-2">Building Management</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-21.png') }}" alt="img" class="w-50 pt-3">
                     </div>
                     <div class="col-6">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Main Contractor</p>
+                        <p class="txt-body font-metropolis-bold pb-2">Main Contractor</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-22.png') }}" alt="img" class="w-50 pt-3">
                     </div>
                 </div>
                 <div class="row py-4">
                     <div class="col-12">
-                        <p class="txt-subheader font-metropolis-bold pb-2">BANKS</p>
+                        <p class="txt-body font-metropolis-bold pb-2">BANKS</p>
                         <div class="border-bot-black"></div>
                         <div class="row px-5 px-md-0">
                             <div class="col-md-3 col-6 pb-3 pb-md-0">

@@ -34,8 +34,10 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">CURRATED COMMUNITY</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold">Equipped with facilities designed
+                            <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Equipped with facilities designed
                                 for<br/> collaborative communities.</p>
+                            <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Equipped with facilities designed
+                                for collaborative communities.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
