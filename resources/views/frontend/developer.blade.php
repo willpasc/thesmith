@@ -23,12 +23,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 text-center text-dark py-5 col-12" style="background-color: white; margin-top:-60px;">
+                <div class="col-md-8 col-12 text-center text-dark py-5 col-12" style="background-color: white; margin-top:-60px;">
                     <p class="txt-header-body font-gotham-book font-weight-bold  pb-2 text-dark let-spa-7" >PT TRINITI DINAMIK</p>
-                        <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.0-24.png') }}" alt="img" class="logo-triniti">
+                        <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.0-24.png') }}" alt="img" class="logo-triniti pb-3 pb-md-0">
                     <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-10 txt-body text-dark font-metropolis-">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 col-12 txt-body text-dark font-metropolis">
                             <p class="pb-4 txt-body font-lato-bold px-5">
                                 Initiated in 2019, PT Perintis Triniti Properti TBK (Triniti Land) commenced its journey with its
                                 2017, introducing thoughtful lands namely Brooklyn, Springwood Residence, Yukata suites, The
@@ -189,7 +189,7 @@
 {{--                                </div>--}}
 {{--                            </div>--}}
                         </div>
-                        <div class="col-1"></div>
+                        <div class="col-md-1"></div>
                     </div>
 {{--                    <div class="border-developer-custom-2"></div>--}}
 {{--                    <p class="pt-5 font-metropolis">VISIT US</p>--}}
@@ -229,8 +229,7 @@
             width:100%;
         }
         .logo-triniti{
-            width: 100px;
-            padding-top: 20px;
+            width: 200px;
 
         }
         .img-info{
@@ -275,10 +274,11 @@
         .bg-home{
             background-image: url('{{ asset('images/thesmith/developer/thesmith-web-home_2.1-09.jpg') }}');
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center bottom;
             background-size: cover;
             width:100%;
-            height: 320px;
+            height: 370px;
+            margin-bottom:20px;
         }
         /*
         pop up css

@@ -26,11 +26,11 @@
                             encircled with complete SOHO amenities<br/> that boosts a
                             balanced lifestyle experience.
                         </p>
-                        <div class="row pt-4">
+                        <div class="row pt-4 d-none d-md-block">
                             <div class="col-4">
                                 <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body font-metropolis-medium text-center px-3 py-2 text-white" style="border: 1px solid white;">See Tower Plans</a>
                             </div>
-                            <div class="col"></div>
+                            <div class="col-8"></div>
                         </div>
                     </div>
 
@@ -49,7 +49,8 @@
 <section class="d-block d-md-none py-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center text-dark">
+            <div class="col-1"></div>
+            <div class="col-md-12 col-10  text-center text-dark">
                 <div class="border-swiper-custom"></div>
                 <p class="txt-header-body font-metropolis py-3" style="letter-spacing: 5px;">SILICON VALLEY EXPERIENCE</p>
                 <p class="txt-body font-lato">The Smith stands as a home for millennials who seek limitless
@@ -59,23 +60,24 @@
                     balanced lifestyle experience.
                 </p>
             </div>
+            <div class="col-1"></div>
         </div>
     </div>
 </section>
 
 <section id="overview">
     <div class="container">
-        <div class="row py-5">
-            <div class="col-2"></div>
-            <div class="col-8 text-center text-dark pt-3">
+        <div class="row pt-md-5 pt-0 pb-5">
+            <div class="col-md-2 col-1"></div>
+            <div class="col-md-8 col-10 text-center text-dark pt-3">
                 <p class="let-spa txt-header-body font-metropolis font-weight-bold">3D OVERVIEW</p>
-                <p class="txt-subheader-2 font-lato pb-5 let-spa-2">Bird’s Eye View of The Smith</p>
+                <p class="txt-subheader-2 font-lato pb-md-5 pb-3 let-spa-2">Bird’s Eye View of The Smith</p>
 {{--                <img src="{{ asset('images/thesmith/home/overview-dummy.png') }}" alt="overview" class="w-100">--}}
                 <video class="w-100" autoplay muted loop>
                     <source src="{{ asset('videos/prev02 the smith.mp4') }}" type="video/mp4">
                 </video>
             </div>
-            <div class="col-2"></div>
+            <div class="col-md-2 col-1"></div>
         </div>
     </div>
 </section>
@@ -93,7 +95,9 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                         <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE</p>
-                        <p class="txt-body px-md-3 px-5 font-lato-bold">Elegantly incorporates comfort and
+                        <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Elegantly incorporates comfort and
+                            well-being, all within steps from home.</p>
+                            <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Elegantly incorporates comfort and
                             well-being,<br/> all within steps from home.</p>
                         </div>
                     </div>
@@ -116,11 +120,11 @@
                 </div>
                 <div class="border-concept-custom-1"></div>
                 <div class="row pt-5">
-                    <div class="col"></div>
-                    <div class="col-2">
+                    <div class="col-md-5 col-3"></div>
+                    <div class="col-md-2 col-6">
                         <a href="{{ route('frontend.concept')}}" class="txt-body text-center py-2 px-4 text-white font-lato let-spa-2" style="border: 1px solid white;">Read More</a>
                     </div>
-                    <div class="col"></div>
+                    <div class="col-md-5 col-3"></div>
                 </div>
             </div>
             <div class="col-md-1"></div>
@@ -136,19 +140,19 @@
                 <p class="txt-subheader-2 font-lato pb-3 let-spa-2">Neighbors to World-Class Amenities</p>
                 <img src="{{ asset('images/thesmith/location/thesmith-web_2.0-11.png') }}" alt="img" class="w-100 pb-3">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8 px-5">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 col-12 px-5">
                     <p class="txt-subheader font-metropolis-bold py-3">ALAM SUTERA SMART CITY</p>
                     <p class="txt-body font-lato-bold px-4">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
                         namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.
                         An ease of multi-city commuting is also highlighted as it stands a minute away from the
                         Toll Gate of Alam Sutera.</p>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-md-2"></div>
                 </div>
                 <div class="row pt-4">
                     <div class="col"></div>
-                    <div class="col-2">
+                    <div class="col-md-2 col-6">
                         <a href="{{ route('frontend.location')}}" class="txt-body text-center py-2 px-4 text-dark font-lato-bold" style="border: 1px solid black;">Read More</a>
                     </div>
                     <div class="col"></div>
@@ -193,7 +197,8 @@
             <div class="col-md-2"></div>
             <div class="col-md-8 text-white text-center py-md-5 py-4">
                 <p class="txt-header-body font-metropolis-medium let-spa-8">TOWER PLANS</p>
-                <p class="txt-subheader-2 font-metropolis pb-md-0 pb-3 let-spa-2">A home and an office, all only a few steps away</p>
+                <p class="txt-subheader-2 font-metropolis pb-md-0 pb-3 let-spa-2 d-none d-md-block">A home and an office, all only a few steps away</p>
+                <p class="txt-subheader-2 font-metropolis pb-md-0 pb-3 let-spa-2 d-block d-md-none">A home and an office,<br/> all only a few steps away</p>
                 <div class="border-concept-custom d-block d-md-none"></div>
             </div>
             <div class="col-md-2"></div>
@@ -256,16 +261,16 @@
                                         <div class="col-1"></div>
                                         <div class="col-10">
                                             <div class="row">
-                                                <div class="col-3"></div>
-                                                <div class="col-6">
+                                                <div class="col-md-3 col-1"></div>
+                                                <div class="col-md-6 col-10">
                                                     <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-13.png') }}" alt="img" class="w-100 pb-4">
                                                 </div>
-                                                <div class="col-3"></div>
+                                                <div class="col-md-3 col-1"></div>
                                             </div>
                                         <div class="border-bot-black"></div>
                                             <div class="row">
-                                                <div class="col-1"></div>
-                                                <div class="col-10 pt-5">
+                                                <div class="col-md-1"></div>
+                                                <div class="col-md-10 pt-5">
                                                     <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-36.png') }}" alt="img" class="w-100 pb-4">
                                                     <p class="txt-header-body  font-oriya let-spa-5 py-3">WE RUN OUR HOME</p>
                                                     <p class="txt-body font-lato-bold px-4 pb-4">Amidst the chaos of the world, there is nothing more soothing then staying at home
@@ -276,14 +281,14 @@
                                                         rest and hustle. It is a home infused with smart modern living experience, allowing
                                                         residents to create and re-create, initiating dreams and rejuvinate in a single space.</p>
                                                     <div class="row">
-                                                        <div class="col"></div>
-                                                        <div class="col-6 pt-4">
+                                                        <div class="col-md-3"></div>
+                                                        <div class="col-md-6 col-12 pt-4">
                                                             <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body text-center py-2 px-4 text-dark font-lato-bold let-spa-2" style="border: 1px solid red;">Find Out More</a>
                                                         </div>
-                                                        <div class="col"></div>
+                                                        <div class="col-md-"></div>
                                                     </div>
                                                 </div>
-                                                <div class="col-1"></div>
+                                                <div class="col-md-1"></div>
                                             </div>
                                         </div>
                                         <div class="col-1"></div>
@@ -613,14 +618,14 @@
                 <div class="row">
                     <div class="col-12 fac-slide bg-white text-center text-dark">
                         <div class="row">
-                            <div class="col-2"></div>
-                            <div class="col-8 py-5">
+                            <div class="col-md-2 col-1"></div>
+                            <div class="col-md-8 col-10 py-5">
                                 <p class="txt-header-body font-oriya let-spa-5 pb-3 px-5">THE LOBBY</p>
                                 <p class="txt-body font-lato-bold">Indulge into a comforting stroke as you step into a welcoming lobby, decorated finely
                                     yet luxurious to the eyes. Feel the warmth as you walk in from a hussling day, or sit
                                     comfortably as you connect socially with your acquaintance or fellow residents.</p>
                             </div>
-                            <div class="col-2"></div>
+                            <div class="col-md-2 col-1"></div>
                         </div>
                     </div>
                 </div>
@@ -714,127 +719,100 @@
                     <div class="col-12">
                         <div class="swiper-container content-slider">
                             <div class="swiper-wrapper py-3">
-{{--                                <div class="swiper-slide">--}}
-{{--                                    <div class="row px-md-0 px-4">--}}
-{{--                                        <div class="col-12 text-dark text-center pt-5">--}}
-{{--                                            <p class="font-lato">MAP</p>--}}
-{{--                                            <a href="{{route('frontend.facilities')}}#1">--}}
-{{--                                            <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
-{{--                                            </a>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5 px-0">
                                             <p class="font-metropolis-bold">Double Road System</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#1" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
-{{--                                            <a href="{{ route('frontend.facilities')}}#3">--}}
-{{--                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
-{{--                                            </a> --}}
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">GRAND LOBBY</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#2" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
-{{--                                            <a href="{{ route('frontend.facilities')}}#4">--}}
-{{--                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
-{{--                                            </a>--}}
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">APARTMENT LOBBY</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#3" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
-{{--                                            <a href="{{ route('frontend.facilities')}}#2">--}}
-{{--                                                <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">--}}
-{{--                                            </a>--}}
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">OFFICE LOBBY</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#5" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">BUSINESS LOUNGE</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#6" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">COWORKING SPACE LOBBY</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#7" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">AUDITORIUM</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#8" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="row px-md-0 px-5">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 text-dark text-center py-5 px-5">
+                                <div class="swiper-slide" >
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">SKY POOL</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
                                                 a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
                                                 in or out of the building.</p>
-                                            <a href="{{ route('frontend.facilities')}}#9" class="txt-body font-lato let-spa-2 text-center text-dark" style="border: 1px solid black;padding:5px 20px;">See More</a>
                                         </div>
-                                        <div class="col-1"></div>
+                                        <div class="col-md-1"></div>
                                     </div>
                                 </div>
 
@@ -894,17 +872,17 @@
                     <div class="col-12">
                         <p class="txt-subheader font-metropolis-bold pb-2">BANKS</p>
                         <div class="border-bot-black"></div>
-                        <div class="row">
-                            <div class="col-3">
+                        <div class="row px-5 px-md-0">
+                            <div class="col-md-3 col-6 pb-3 pb-md-0">
                                 <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-23.png') }}" alt="img" class="w-75 pt-3">
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 col-6 pb-3 pb-md-0">
                                 <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-24.png') }}" alt="img" class="w-100 pt-3">
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 col-6">
                                 <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-25.png') }}" alt="img" class="w-100 pt-3">
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 col-6">
                                 <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-26.png') }}" alt="img" class="w-100 pt-3">
                             </div>
                         </div>
@@ -1111,12 +1089,12 @@
             height: 150px;
         }
         .bg-lobby{
-            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-14.jpg') }}');
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
             width: auto;
-            height: 150px;
+            height: 345px;
         }
         .bg-facilities{
             background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');

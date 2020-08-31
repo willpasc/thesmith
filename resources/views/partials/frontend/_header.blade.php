@@ -314,15 +314,15 @@
 
 
             <!-- Button show menu -->
-            <div class="btn-show-menu-mobile hamburger hamburger--squeeze pl-5" style="position: absolute;">
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze pl-md-5" style="position: absolute;">
 					<span class="hamburger-box">
 						<span class="hamburger-inner"></span>
 					</span>
-                <div class="pl-3 fs-18 text-white font-lato let-spa" >
-                    <p class="let-spa-5">MENU</p>
+                <div class="pl-3 fs-18 text-white font-lato let-spa d-none d-md-block" >
+                    <p class="let-spa-5 ">MENU</p>
                 </div>
             </div>
-            <div class="text-right" style="padding-right: 10%;">
+            <div class="text-right d-none d-md-block" style="padding-right: 10%;">
                 <span class="text-white font-lato fs-14 pr-3 let-spa-5">REACH US</span>
                 <a href="#">
                     <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-53.png') }}" style="width:25px;">
@@ -369,6 +369,18 @@
 
                 <li>
                     <a href="{{ route('frontend.developer')}}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">DEVELOPER</a>
+                </li>
+
+                <li class="d-block d-md-none">
+                    <a href="http://wa.me/6287888688860">
+                        <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-53.png') }}" style="width:30px;">
+                    </a>
+                    <a href="#">
+                        <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-55.png') }}" style="width:30px;">
+                    </a>
+                    <a href="#">
+                        <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-56.png') }}" style="width:30px;">
+                    </a>
                 </li>
 
                 {{--                <li>--}}

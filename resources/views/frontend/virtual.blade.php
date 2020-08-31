@@ -27,37 +27,37 @@
                     <div class="row">
                         <div class="col-12 fac-slide bg-white text-center text-dark">
                             <div class="row">
-                                <div class="col-2"></div>
-                                <div class="col-8 py-5">
+                                <div class="col-md-2 col-1"></div>
+                                <div class="col-md-8 col-10 py-5">
                                     <p class="txt-header-body font-metropolis-medium let-spa-5 pb-3">VIRTUAL TOUR</p>
                                     <div class="txt-body font-lato-bold pb-4">
                                         <p>Simulate the living experiences of the units from Home Runner.</p>
                                         <p>Pick the perfect residence for you.</p>
                                     </div>
                                     <div class="row no-gutters font-lato txt-body text-center ">
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-6">
                                             <a href="https://kuula.co/share/collection/7lt5P?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark">
                                                 <img src="{{ asset('images/thesmith/virtual/studio.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-6">
                                             <a href="https://kuula.co/post/7FZ1r" class="py-3 text-dark">
                                                 <img src="{{ asset('images/thesmith/virtual/1 bedroom.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-6">
                                             <a href="https://kuula.co/share/collection/7ltF5?fs=1&vr=1&sd=1&thumbs=1&chromeless=1&logo=0" class="py-3 text-dark">
                                                 <img src="{{ asset('images/thesmith/virtual/2 bedroom optional.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-6">
                                             <a href="https://kuula.co/share/collection/7ltND?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark">
                                                 <img src="{{ asset('images/thesmith/virtual/2 bedroom optional corner.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-2"></div>
+                                <div class="col-md-2 col-1"></div>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
             background-position: center center;
             background-size: cover;
             width: auto;
-            height: 150px;
+            height: 300px;
         }
         .bg-facilities{
             background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
