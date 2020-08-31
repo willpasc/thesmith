@@ -634,6 +634,228 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-12 text-dark text-center pt-5">
+                        <p class="txt-header-body font-oriya let-spa-5">UNIT TYPES</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs2 pt-3 fs-12 lh-12" role="tablist">
+                            <li class="nav-item col-md-2 p-0 tab-nav">
+                            </li>
+                            <li class="nav-item col-md-2 col-12 p-0 tab-nav" >
+                                <a class="nav-link font-lato-bold  active" data-toggle="tab" href="#sohoa" role="tab" id="tabSohoa" style="padding: 16px 5px;" onclick="changeDetailTower(1)"><span>Studio</span></a>
+                            </li>
+
+                            <li class="nav-item col-md-2 p-0 tab-nav">
+                                <a class="nav-link  font-lato-bold  " data-toggle="tab" href="#sohob" role="tab" id="tabSohob" style="padding: 16px 5px;" onclick="changeDetailTower(2)"><span>1 Bedroom</span></a>
+                            </li>
+
+                            <li class="nav-item col-md-2 p-0 tab-nav">
+                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" onclick="changeDetailTower(3)"><span>2 Bedroom<br/> Optional</span></a>
+                            </li>
+                            <li class="nav-item col-md-2 p-0 tab-nav">
+                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" onclick="changeDetailTower(4)">2 Bedroom<br/> Optional Corner</a>
+                            </li>
+{{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
+{{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}
+{{--                            </li>--}}
+                            <li class="nav-item col-md-2 p-0 tab-nav">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="sohoa" role="tabpanel">
+                                <div class="panel-body" style="z-index:9999999 !important;">
+                                    <div class="row py-5">
+                                        <div class="col-md-4">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 py-5">
+                                            <div class="swiper-container units-slider">
+                                                <div class="swiper-wrapper ">
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-06.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-07.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-08.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-09.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+
+                                                </div>
+                                                <!-- Add Pagination -->
+                                                <div class="swiper-pagination black"></div>
+                                                <!-- Add Arrows -->
+                                                <div class="swiper-button-next swiper-button-black"></div>
+                                                <div class="swiper-button-prev swiper-button-black"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="sohob" role="tabpanel">
+                                <div class="panel-body" style="z-index:9999999 !important;">
+                                    <div class="row py-5">
+                                        <div class="col-md-4">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 py-5">
+                                            <div class="swiper-container units-slider">
+                                                <div class="swiper-wrapper ">
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-10.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-11.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-12.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-13.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+
+                                                </div>
+                                                <!-- Add Pagination -->
+                                                <div class="swiper-pagination black"></div>
+                                                <!-- Add Arrows -->
+                                                <div class="swiper-button-next swiper-button-black"></div>
+                                                <div class="swiper-button-prev swiper-button-black"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="sohoc" role="tabpanel">
+                                <div class="panel-body" style="z-index:9999999 !important;">
+                                    <div class="row py-5">
+                                        <div class="col-md-4">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 py-5">
+                                            <div class="swiper-container units-slider">
+                                                <div class="swiper-wrapper ">
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-14.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-15.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-16.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-17.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-18.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-19.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-20.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+
+                                                </div>
+                                                <!-- Add Pagination -->
+                                                <div class="swiper-pagination black"></div>
+                                                <!-- Add Arrows -->
+                                                <div class="swiper-button-next swiper-button-black"></div>
+                                                <div class="swiper-button-prev swiper-button-black"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="sohod" role="tabpanel">
+                                <div class="panel-body" style="z-index:9999999 !important;">
+                                    <div class="row py-5">
+                                        <div class="col-md-4">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 py-5">
+                                            <div class="swiper-container units-slider">
+                                                <div class="swiper-wrapper ">
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-21.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-22.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-23.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-24.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-25.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-26.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                </div>
+                                                <!-- Add Pagination -->
+                                                <div class="swiper-pagination black"></div>
+                                                <!-- Add Arrows -->
+                                                <div class="swiper-button-next swiper-button-black"></div>
+                                                <div class="swiper-button-prev swiper-button-black"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+{{--                            <div class="tab-pane fade show" id="sohoe" role="tabpanel">--}}
+{{--                                <div class="panel-body" style="z-index:9999999 !important;">--}}
+{{--                                    <div class="text-center">--}}
+{{--                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-15.jpg') }}" alt="img" class="img-soho">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</section>
 <section class="" id="facilities" style="background-color: black;">
     <div class="container">
         <div class="row">
@@ -1060,6 +1282,12 @@
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
 
+        .img-soho{
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
         .border-bot-black{
             border-bottom: 1px solid #333333;
             width: 100%;
@@ -1108,11 +1336,28 @@
             color: #495057;
             background-color: #414042;
             border-color: #fff #fff #fff;
-            border-radius: 0;
+            border-radius:0;
+        }
+        .nav-tabs2 .nav-link {
+            color: Black;
+            background-color: white;
+            border: 1px solid red;
+            border-radius:0;
+            margin:10px;
+        }
+        .nav-tabs2 .nav-link.active {
+            color: white;
+            /*background-color: #dc2d19;*/
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-15.png') }}');
+            background-size: cover;
+            border-color: #fff #fff #fff;
+            border-radius:0;
+        }
+        .nav-tabs {
+            border-bottom:0px;
         }
         .tab-nav{
-            border: 1px solid #E6E6E6;
-            border-radius: 0;
+            border: 1px solid #fff;
         }
         .border-location-custom{
             border-bottom: 1px solid white;
@@ -1331,6 +1576,12 @@ pop up css
             align-items: center;
         }
         @media (min-width: 576px) {
+
+            .img-soho{
+                width: 500px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
 
             .padd-trans{
                 padding-top:33%;
@@ -1620,6 +1871,18 @@ pop up css
                     prevEl: '.swiper-button-prev',
                 },
             });
+            var contentSwiper = new Swiper('.units-slider', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+
             imageSwiper.controller.control  = contentSwiper;
             contentSwiper.controller.control  = imageSwiper;
         });
