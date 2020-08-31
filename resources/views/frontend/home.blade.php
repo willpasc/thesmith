@@ -672,7 +672,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row text-center text-md-none">
                     <div class="col-12">
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="sohoa" role="tabpanel">
