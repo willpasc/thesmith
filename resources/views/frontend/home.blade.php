@@ -2046,16 +2046,13 @@ pop up css
 
         function changebg() {
             let mode = $('#home_runner_bg_switcher').val();
-            alert(mode);
             if (mode === "1") {
                 $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}");
                 $('#home_runner_bg_switcher').val(2);
-                alert(2);
             }
             else{
                 $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-34.jpg') }}");
                 $('#home_runner_bg_switcher').val(1);
-                alert(1);
             }
         }
     </script>
