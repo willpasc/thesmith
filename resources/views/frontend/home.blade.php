@@ -653,18 +653,18 @@
                             <li class="nav-item col-md-2 p-0 tab-nav">
                             </li>
                             <li class="nav-item col-md-2 col-12 p-0 tab-nav" >
-                                <a class="nav-link font-lato-bold  active" data-toggle="tab" href="#sohoa" role="tab" id="tabSohoa" style="padding: 16px 5px;" onclick="changeDetailTower(1)"><span>Studio</span></a>
+                                <a class="nav-link font-lato-bold  active" data-toggle="tab" href="#sohoa" role="tab" id="tabSohoa" style="padding: 16px 5px;" ><span>Studio</span></a>
                             </li>
 
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link  font-lato-bold  " data-toggle="tab" href="#sohob" role="tab" id="tabSohob" style="padding: 16px 5px;" onclick="changeDetailTower(2)"><span>1 Bedroom</span></a>
+                                <a class="nav-link  font-lato-bold  " data-toggle="tab" href="#sohob" role="tab" id="tabSohob" style="padding: 16px 5px;" ><span>1 Bedroom</span></a>
                             </li>
 
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" onclick="changeDetailTower(3)"><span>2 Bedroom<br/> Optional</span></a>
+                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" ><span>2 Bedroom<br/> Optional</span></a>
                             </li>
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" onclick="changeDetailTower(4)">2 Bedroom<br/> Optional Corner</a>
+                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" >2 Bedroom<br/> Optional Corner</a>
                             </li>
 {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
 {{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}
@@ -1853,6 +1853,20 @@ pop up css
                 observeParents: true
             });
 
+            var unitSwiper = new Swiper('.units-slider', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                observer: true,
+                observeParents: true
+            });
+
             var imageSwiper = new Swiper('.image-slider', {
                 loop: true,
                 // pagination: {
@@ -1863,17 +1877,6 @@ pop up css
                 setWrapperSize: true,
             });
             var contentSwiper = new Swiper('.content-slider', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-            var contentSwiper = new Swiper('.units-slider', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1941,6 +1944,67 @@ pop up css
         });
         $('#tabOffice').on('click', function () {
             var swiper = new Swiper('.swiper-others', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                observer: true,
+                observeParents: true
+            });
+        });
+
+        $('#tabSohoa').on('click', function () {
+            var swiper = new Swiper('.units-slider', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                observer: true,
+                observeParents: true
+            });
+        });
+        $('#tabSohob').on('click', function () {
+            var swiper = new Swiper('.units-slider', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                observer: true,
+                observeParents: true
+            });
+        });
+        $('#tabSohoc').on('click', function () {
+            var swiper = new Swiper('.units-slider', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                observer: true,
+                observeParents: true
+            });
+        });
+        $('#tabSohod').on('click', function () {
+            var swiper = new Swiper('.units-slider', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
