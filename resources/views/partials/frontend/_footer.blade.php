@@ -81,16 +81,22 @@
                 <div class="col-6 pt-5 pl-4">
                     <p class="pb-2" style="color: gray; font-size:9px;">SITE MAP</p>
                     <p>
-                        <a href="{{ route('home') }}#concept" style="color:white; font-size:9px;" class="">CONCEPT</a>
+                        <a href="{{ route('frontend.concept') }}" style="color:white;" class="fs-9 font-gotham-book lh-20">THE CONCEPT</a>
                     </p>
                     <p>
-                        <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" style="color:white; font-size:9px;" class="">TOWER PLANS</a>
+                        <a href="{{ route('frontend.location') }}" style="color:white;" class="fs-9 font-gotham-book lh-20">LOCATION</a>
                     </p>
                     <p>
-                        <a href="{{ route('frontend.facilities') }}" style="color:white; font-size:9px;" class="">FACILITIES</a>
+                        <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" style="color:white;" class="fs-9 lh-20 font-gotham-book">TOWER PLANS</a>
                     </p>
                     <p>
-                        <a href="{{ route('frontend.developer') }}" style="color:white; font-size:9px;" class="">DEVELOPERS</a>
+                        <a href="{{ route('frontend.facilities') }}" style="color:white;" class="fs-9 font-gotham-book lh-20">FACILITIES</a>
+                    </p>
+                    <p>
+                        <a href="{{ route('frontend.virtual') }}" style="color:white;" class="fs-9 font-gotham-book lh-20">VIRTUAL TOUR</a>
+                    </p>
+                    <p>
+                        <a href="{{ route('frontend.developer') }}" style="color:white;" class="fs-9 font-gotham-book lh-20">DEVELOPER</a>
                     </p>
                 </div>
             </div>
@@ -105,7 +111,7 @@
                     <p class="pb-2" style=" line-height:2em;color: gray; font-size:9px;">CONTACT US</p>
                     <p class="" style=" line-height:2em;font-size:9px;color:white"><span style="font-weight: bold;">P</span>&nbsp&nbsp&nbsp087 8886 8886 0</p>
                     <p class="" style=" line-height:2em; font-size:9px;color:white"><span style="font-weight: bold">I</span>&nbsp&nbsp&nbsp TRINITILAND</p>
-                    <p class="" style=" line-height:2em; font-size:9px;color:white"><span style="font-weight: bold">A</span>&nbsp&nbsp&nbspLIVING WORLD, 1ST FLOOR</p>
+                    <p class="" style=" line-height:2em; font-size:9px;color:white"><span style="font-weight: bold">A</span>&nbsp&nbsp&nbspLIVING WORLD, 1<sup class="fs-7">ST</sup> FLOOR</p>
                     <p class="" style=" line-height:2em; font-size:9px;color:white">&nbsp&nbsp&nbsp&nbsp&nbspMonday — Sunday</p>
                     <p class="" style=" line-height:2em; font-size:9px;color:white">&nbsp&nbsp&nbsp&nbsp&nbsp10.00 — 22.00</p>
                 </div>
