@@ -234,7 +234,7 @@
                 <div class="bg-tower">
                     <input type="hidden" value="1" id="home_runner_bg_switcher">
                     <div class="padd-trans">
-                            <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-35.png') }}" alt="img" id="btn-trans" style="width:245px;" onclick="changebg()">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-35.png') }}" alt="img" id="btn-trans"  style="width:245px;cursor: pointer;" onclick="changebg()">
                     </div>
                 </div>
             </div>
@@ -604,7 +604,7 @@
         </div>
     </div>
 </section>
-<section class="bg-lobby">
+<section class="bg-lobby" id="lobby-bg">
     <div class="container-fluid">
         <div class="row no-gutters">
             <div class="col-12 text-center">
@@ -612,7 +612,7 @@
         </div>
     </div>
 </section>
-<section  class=" pb-5" style="background-color: black;">
+<section  class=" pb-5" style="background-color: black;" id="lobby-txt">
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-1"></div>
@@ -636,7 +636,7 @@
         </div>
     </div>
 </section>
-<section>
+<section id="unit-types">
     <div class="container">
         <div class="row">
             <div class="col-2"></div>
@@ -2039,6 +2039,9 @@ pop up css
                 $('#office').hide();
                 $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}");
                 $('#btn-trans').show();
+                $('#lobby-bg').show();
+                $('#lobby-txt').show();
+                $('#unit-types').show();
             }
 
             if (typeid === 2) {
@@ -2047,6 +2050,9 @@ pop up css
                 $('#office').hide();
                 $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/tower/tower-soho_1.jpg') }}");
                 $('#btn-trans').hide();
+                $('#lobby-bg').hide();
+                $('#lobby-txt').hide();
+                $('#unit-types').hide();
 
             }
 
@@ -2056,6 +2062,9 @@ pop up css
                 $('#office').show();
                 $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/tower/tower-office_1.jpg') }}");
                 $('#btn-trans').hide();
+                $('#lobby-bg').hide();
+                $('#lobby-txt').hide();
+                $('#unit-types').hide();
 
             }
         }

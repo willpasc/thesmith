@@ -37,13 +37,28 @@
     <section>
         <div class="container-fluid">
             <div class="row no-gutters">
-                <div class="col-12">
-                    <div class="bg-tower bg-towerplans d-none d-mb-block" id=""></div>
-                    <div class="bg-tower bg-towerplans-m d-block d-mb-none" id=""></div>
+                <div class="col-12 text-center">
+                    <div class="bg-tower bg-towerplans d-none d-md-block" id="">
+                        <input type="hidden" value="1" id="home_runner_bg_switcher">
+                        <div class="padd-trans">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-35.png') }}" alt="img" id="btn-trans"  style="width:245px;cursor: pointer;" onclick="changebg()">
+                        </div>
+                    </div>
+                    <div class="bg-tower bg-towerplans-m d-block d-md-none" id=""></div>
                 </div>
             </div>
         </div>
     </section>
+{{--    <section>--}}
+{{--        <div class="container-fluid">--}}
+{{--            <div class="row no-gutters">--}}
+{{--                <div class="col-12 text-center">--}}
+{{--                    <div class="bg-tower">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     <section class="long-bg">
         <div class="container">
@@ -63,454 +78,41 @@
                                 <div class="" id="residence-accor"
                                      style="background-color: rgba(0,0,0,0);z-index:9999999 !important;">
                                     <div class="panel-body" style="z-index:9999999 !important;">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <!-- Swiper -->
-                                                <div id="residence-swiper" class="swiper-container">
-                                                    <div class="swiper-wrapper py-3">
-                                                        <div class="swiper-slide">
-                                                            <div class="row">
-                                                                <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
-                                                                    <div class="border-swiper-custom"></div>
-                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.<br/>
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects<br/>
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-                                                                    <div class="">
-                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-a.png') }}" alt="img" class="img-tower">
-                                                                    </div>
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-b.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-c.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-{{--                                                                    <div class="mb-5">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/studio.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide" >
-                                                            <div class="row">
-                                                                <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
-                                                                    <div class="border-swiper-custom"></div>
-                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.<br/>
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects<br/>
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-a.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-                                                                    <div class="">
-                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-b.png') }}" alt="img" class="img-tower">
-                                                                    </div>
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-c.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-{{--                                                                    <div class="mb-5">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/studio.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide" >
-                                                            <div class="row">
-                                                                <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
-                                                                    <div class="border-swiper-custom"></div>
-                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.<br/>
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects<br/>
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-a.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-b.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-                                                                    <div class="">
-                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-c.png') }}" alt="img" class="img-tower">
-                                                                    </div>
-{{--                                                                    <div class="mb-5">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/studio.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="row">
-                                                                <div class="col-12 text-dark text-center pt-5">
-                                                                    <p class="txt-header-body font-metropolis let-spa-5">THE RESIDENCES</p>
-                                                                    <div class="border-swiper-custom"></div>
-                                                                    <p class="txt-body pt-3 font-metropolis d-none d-md-block">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators<br/>
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.<br/>
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects<br/>
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-                                                                    <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">Crafted with a thoughtful stroke of luxury and comfort, The Smith invents a home perfect for innovators
-                                                                        with interiors installed smartly, together with ample ventilations that shines every room.
-                                                                        Every unit is equipped with safety fittings, including an intercom that connects
-                                                                        directly to the safety officers, ensuring needs are attended promptly.
-                                                                    </p>
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-a.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-b.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-{{--                                                                    <div class="">--}}
-{{--                                                                        <img src="{{ asset('images/thesmith/tower/onebedroom-c.png') }}" alt="img" class="img-tower">--}}
-{{--                                                                    </div>--}}
-                                                                    <div class="mb-5">
-                                                                        <img src="{{ asset('images/thesmith/tower/studio.png') }}" alt="img" class="img-tower">
-                                                                    </div>
-                                                                    <div class="px-5 px-md-0">
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">BED ROOM</p>
-                                                                            <p class="txt-body font-metropolis">Vitrase · Blackout Curtain · Bed Frame · Bed Head · Queen Size Mattress · 2 Pillows · Bed Sheet<br/>
-                                                                                Bed Cover · 1 Night Case · 1 Table Lamp · Wallpaper · 1 Large Photo Frame<br/>
-                                                                                1 Sliding Wardrobe with Mirror · 1 Set Flat Screen TV · Vynil Parquet
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">LIVING ROOM</p>
-                                                                            <p class="txt-body font-metropolis">2 Seater Sofa · 1 Coffee Table · 1 Large Photo Frame · Carpet · Wallpaper · Telephone Set<br/>
-                                                                                Dining Table · 2 Dining Chairs · Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">BATHROOM</p>
-                                                                            <p class="txt-body font-metropolis">Light & Large Mirror · Toiletries Rack · 2 Large Towels · 2 Small Towels · Floor Carpet<br/>
-                                                                                Soap Dispenser · Marble Floor · Sanitair Kohler & Grohe
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">KITCHEN</p>
-                                                                            <p class="txt-body font-metropolis">Premium Kitchen Set · Cooker Hood · Cooker Hob · Glassware<br/>
-                                                                                Cutlery · Utensils
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class=" pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRONICS</p>
-                                                                            <p class="txt-body font-metropolis">Refrigerator Mini Bar · AC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div>
-                                                                            <p class="txt-header-body font-lato let-spa-2">FURNISHINGS INCLUDED</p>
-                                                                            <div class="border-swiper-custom"></div>
-                                                                        </div>
-                                                                        <div class="pt-4 pb-5">
-                                                                            <p class="pb-1 font-lato">FLOOR FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">Living Room: Marble Floor<br/>
-                                                                                Bedroom Floor: Laminated Parquette Floor<br/>
-                                                                                Bathroom Floor: Marble Floor
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">WALL FINISHING</p>
-                                                                            <p class="txt-body font-metropolis">General Wall: Lightweight Concrete Painted Finishing<br/>
-                                                                                Bathroom Wall: Homogenous Tile Double Loaded
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">CEILING</p>
-                                                                            <p class="txt-body font-metropolis">Gypsum Board Painted Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">DOOR</p>
-                                                                            <p class="txt-body font-metropolis">Engineering Door
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">PANTRY</p>
-                                                                            <p class="txt-body font-metropolis">Kitchen Set with Marble Top-Table Finishing
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">SANITAIR</p>
-                                                                            <p class="txt-body font-metropolis">Ex. Grohe-Kohler / equal
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="pb-5">
-                                                                            <p class="pb-1 font-lato">ELECTRICITY</p>
-                                                                            <p class="txt-body font-metropolis">2200 Watt (1BR); 3500 Watt (2BR)
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-{{--                                                        <div class="swiper-slide"></div>--}}
-
-
+                                        <div class="row py-5 text-dark">
+                                            <div class="col-1"></div>
+                                            <div class="col-10">
+                                                <div class="row">
+                                                    <div class="col-md-3 col-1"></div>
+                                                    <div class="col-md-6 col-10">
+                                                        <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-13.png') }}" alt="img" class="w-100 pb-4">
                                                     </div>
-                                                    <!-- Add Pagination -->
-                                                    <div class="swiper-pagination"></div>
-                                                    <!-- Add Arrows -->
-                                                    <div class="swiper-button-next swiper-button-black"></div>
-                                                    <div class="swiper-button-prev swiper-button-black"></div>
+                                                    <div class="col-md-3 col-1"></div>
+                                                </div>
+                                                <div class="border-bot-black"></div>
+                                                <div class="row">
+                                                    <div class="col-md-1"></div>
+                                                    <div class="col-md-10 pt-5">
+                                                        <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-36.png') }}" alt="img" class="w-100 pb-4">
+                                                        <p class="txt-header-body  font-oriya let-spa-5 py-3">WE RUN OUR HOME</p>
+                                                        <p class="txt-body font-lato-bold px-4 pb-4">Amidst the chaos of the world, there is nothing more soothing then staying at home
+                                                            while creating pathways to your dreams. Coping up with the new lifestyle, Home
+                                                            Runner by The Smith proudly stands as a pioneer of a Convertible Home Office,
+                                                            sharing liberty to its residents to design their spaces based on their own needs.</p>
+                                                        <p class="txt-body font-lato-bold px-4">Home Runner carries an inspiration of “We Run Our Homes”, serving as a home to
+                                                            rest and hustle. It is a home infused with smart modern living experience, allowing
+                                                            residents to create and re-create, initiating dreams and rejuvinate in a single space.</p>
+                                                        <div class="row">
+                                                            <div class="col-md-3"></div>
+                                                            <div class="col-md-6 col-12 pt-4">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body text-center py-2 px-4 text-dark font-lato-bold let-spa-2" style="border: 1px solid red;">Find Out More</a>
+                                                            </div>
+                                                            <div class="col-md-"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-1"></div>
                                                 </div>
                                             </div>
+                                            <div class="col-1"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -636,72 +238,72 @@
                                                     <div class="col-12 text-dark text-left pt-5">
                                                         <p class="txt-header-body font-metropolis-bold text-center let-spa-5">SPECIFICATIONS</p>
                                                         <div class="border-swiper-custom-specification" styl="padding-top: 25px"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">FLOOR TO FLOOR</div>
-                                                            <div class="col-7 txt-body font-metropolis">600 cm</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2 "></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">FLOOR TO FLOOR</div>
+                                                            <div class="col-md-7 col txt-body font-metropolis ">600 cm</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">FLOOR FINISHING</div>
-                                                            <div class="col-2 txt-body font-metropolis">Living Room</div>
-                                                            <div class="col-5 txt-body font-metropolis">: Homogenous Tile<br>&nbsp; Double Loaded 60x60</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">FLOOR FINISHING</div>
+                                                            <div class="col-md-2 txt-body font-metropolis">Living Room:</div>
+                                                            <div class="col-md-5 txt-body font-metropolis">Homogenous Tile<br>&nbsp; Double Loaded 60x60</div>
                                                         </div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body font-metropolis">Mezzanine</div>
-                                                            <div class="col-5 txt-body font-metropolis">: Laminated Parquette Floor</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body font-metropolis">Mezzanine:</div>
+                                                            <div class="col-md-5 txt-body font-metropolis"> Laminated Parquette Floor</div>
                                                         </div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body font-metropolis">Bathroom</div>
-                                                            <div class="col-5 txt-body font-metropolis">: Homogenous Tile Double Loaded</div>
-                                                        </div>
-                                                        <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">WALL FINISHING</div>
-                                                            <div class="col-2 txt-body font-metropolis">General Wall</div>
-                                                            <div class="col-5 txt-body font-metropolis">: Lightweight Concrete Painted Finish</div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body font-metropolis">Bathroom Wall</div>
-                                                            <div class="col-4 txt-body font-metropolis">: Homogenous Tile Double Loaded</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body font-metropolis">Bathroom:</div>
+                                                            <div class="col-md-5 txt-body font-metropolis"> Homogenous Tile Double Loaded</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">CEILING</div>
-                                                            <div class="col-7 txt-body font-metropolis">Gypsum Board Painted Finishing</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">WALL FINISHING</div>
+                                                            <div class="col-md-2 txt-body font-metropolis">General Wall:</div>
+                                                            <div class="col-md-5 txt-body font-metropolis"> Lightweight Concrete Painted Finish</div>
+                                                        </div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body font-metropolis">Bathroom Wall:</div>
+                                                            <div class="col-md-4 txt-body font-metropolis"> Homogenous Tile Double Loaded</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">DOOR</div>
-                                                            <div class="col-7 txt-body font-metropolis">Engineering Door</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">CEILING</div>
+                                                            <div class="col-md-7 txt-body font-metropolis">Gypsum Board Painted Finishing</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">PANTRY</div>
-                                                            <div class="col-7 txt-body font-metropolis">Marble Top Table</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">DOOR</div>
+                                                            <div class="col-md-7 txt-body font-metropolis">Engineering Door</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">SANITARY</div>
-                                                            <div class="col-7 txt-body font-metropolis">Ex. Kohler / equal</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">PANTRY</div>
+                                                            <div class="col-md-7 txt-body font-metropolis">Marble Top Table</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">ELECTRICITY</div>
-                                                            <div class="col-7 txt-body font-metropolis">4400 Watt</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">SANITARY</div>
+                                                            <div class="col-md-7 txt-body font-metropolis">Ex. Kohler / equal</div>
+                                                        </div>
+                                                        <div class="border-swiper-custom-specification"></div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">ELECTRICITY</div>
+                                                            <div class="col-md-7 txt-body font-metropolis">4400 Watt</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
                                                     </div>
@@ -734,7 +336,7 @@
                                                             centers, premium event spaces, trained on-site staffs, and in-house cleaning facilities; it invents
                                                             a hassle-free venture as initiators craft their opportunities.
                                                         </p>
-                                                        <p class="txt-body pt-3 font-metropolis d-block d-md-none px-5">Supported by Go-Work, this dedicated 1.300m2 space allows residents to innovate and establish
+                                                        <p class="txt-body pt-3 font-metropolis d-block d-md-none ">Supported by Go-Work, this dedicated 1.300m2 space allows residents to innovate and establish
                                                             startup offices through renting private spaces or hot desks. Equipped with spacious business
                                                             centers, premium event spaces, trained on-site staffs, and in-house cleaning facilities; it invents
                                                             a hassle-free venture as initiators craft their opportunities.
@@ -810,40 +412,40 @@
                                                     <div class="col-12 text-dark text-left pt-5">
                                                         <p class="txt-header-body font-metropolis-bold text-center let-spa-5">SPECIFICATIONS</p>
                                                         <div class="border-swiper-custom-specification" style="padding-top: 25px"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">FLOOR TO FLOOR</div>
-                                                            <div class="col-7 txt-body font-metropolis">380 cm</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">FLOOR TO FLOOR</div>
+                                                            <div class="col-md-8 txt-body font-metropolis">380 cm</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">FLOOR FINISHING</div>
-                                                            <div class="col-7 txt-body font-metropolis">Homogenous Tile Double Loaded 60x60</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">FLOOR FINISHING</div>
+                                                            <div class="col-md-8 txt-body font-metropolis">Homogenous Tile Double Loaded 60x60</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">WALL FINISHING</div>
-                                                            <div class="col-7 txt-body font-metropolis">Lightweight Concrete Painted Finish</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">WALL FINISHING</div>
+                                                            <div class="col-md-8 txt-body font-metropolis">Lightweight Concrete Painted Finish</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">CEILING</div>
-                                                            <div class="col-7 txt-body font-metropolis">Gypsum Board Painted Finishing</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">CEILING</div>
+                                                            <div class="col-md-8 txt-body font-metropolis">Gypsum Board Painted Finishing</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">DOOR</div>
-                                                            <div class="col-7 txt-body font-metropolis">Bare Finishing</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">DOOR</div>
+                                                            <div class="col-md-8 txt-body font-metropolis">Bare Finishing</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
-                                                        <div class="row">
-                                                            <div class="col-2"></div>
-                                                            <div class="col-2 txt-body-f11 font-metropolis-bold">ELECTRICITY</div>
-                                                            <div class="col-7 txt-body font-metropolis">4400 Watt</div>
+                                                        <div class="row text-center text-md-left">
+                                                            <div class="col-md-2"></div>
+                                                            <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">ELECTRICITY</div>
+                                                            <div class="col-md-8 txt-body font-metropolis">4400 Watt</div>
                                                         </div>
                                                         <div class="border-swiper-custom-specification"></div>
                                                     </div>
@@ -860,12 +462,303 @@
             </div>
         </div>
     </section>
+    <section class="bg-lobby" id="lobby-bg">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-12 text-center">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  class=" pb-5" style="background-color: black;" id="lobby-txt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-1"></div>
+                <div class="col-md-8 col-10">
+                    <div class="row">
+                        <div class="col-12 fac-slide bg-white text-center text-dark">
+                            <div class="row">
+                                <div class="col-md-2 col-1"></div>
+                                <div class="col-md-8 col-10 py-5">
+                                    <p class="txt-header-body font-oriya let-spa-5 pb-3 px-5">THE LOBBY</p>
+                                    <p class="txt-body font-lato-bold">Indulge into a comforting stroke as you step into a welcoming lobby, decorated finely
+                                        yet luxurious to the eyes. Feel the warmth as you walk in from a hussling day, or sit
+                                        comfortably as you connect socially with your acquaintance or fellow residents.</p>
+                                </div>
+                                <div class="col-md-2 col-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-1"></div>
+            </div>
+        </div>
+    </section>
+    <section id="unit-types">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-12 text-dark text-center pt-5">
+                            <p class="txt-header-body font-oriya let-spa-5">UNIT TYPES</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs3 pt-3 fs-12 lh-12" role="tablist">
+                                <li class="nav-item col-md-2 p-0 tab-nav">
+                                </li>
+                                <li class="nav-item col-md-2 col-12 p-0 tab-nav" >
+                                    <a class="nav-link font-lato-bold  active" data-toggle="tab" href="#unita" role="tab" id="tabUnita" style="padding: 16px 5px;" ><span>Studio</span></a>
+                                </li>
+
+                                <li class="nav-item col-md-2 p-0 tab-nav">
+                                    <a class="nav-link  font-lato-bold  " data-toggle="tab" href="#unitb" role="tab" id="tabUnitb" style="padding: 16px 5px;" ><span>1 Bedroom</span></a>
+                                </li>
+
+                                <li class="nav-item col-md-2 p-0 tab-nav">
+                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitc" role="tab" id="tabUnitc" style="padding: 10px 5px;" ><span>2 Bedroom<br/> Optional</span></a>
+                                </li>
+                                <li class="nav-item col-md-2 p-0 tab-nav">
+                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitd" role="tab" id="tabUnitd" style="padding: 10px 5px;" >2 Bedroom<br/> Optional Corner</a>
+                                </li>
+                                {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
+                                {{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}
+                                {{--                            </li>--}}
+                                <li class="nav-item col-md-2 p-0 tab-nav">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row text-center text-md-none">
+                        <div class="col-12">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="unita" role="tabpanel">
+                                    <div class="panel-body" style="z-index:9999999 !important;">
+                                        <div class="row py-5">
+                                            <div class="col-md-4">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pb-5">
+                                            <div class="col-12 py-5">
+                                                <div class="swiper-container units-slider">
+                                                    <div class="swiper-wrapper ">
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-06.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-07.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-08.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-09.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pagi-pos">
+                                                    <!-- Add Pagination -->
+                                                    <div class="swiper-pagination black"></div>
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next swiper-button-black"></div>
+                                                    <div class="swiper-button-prev swiper-button-black"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="unitb" role="tabpanel">
+                                    <div class="panel-body" style="z-index:9999999 !important;">
+                                        <div class="row py-5">
+                                            <div class="col-md-4">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pb-5">
+                                            <div class="col-12 py-5">
+                                                <div class="swiper-container units-slider">
+                                                    <div class="swiper-wrapper ">
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-10.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-11.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-12.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-13.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="pagi-pos">
+                                                    <!-- Add Pagination -->
+                                                    <div class="swiper-pagination black"></div>
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next swiper-button-black"></div>
+                                                    <div class="swiper-button-prev swiper-button-black"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="unitc" role="tabpanel">
+                                    <div class="panel-body" style="z-index:9999999 !important;">
+                                        <div class="row py-5">
+                                            <div class="col-md-4">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pb-5">
+                                            <div class="col-12 py-5">
+                                                <div class="swiper-container units-slider">
+                                                    <div class="swiper-wrapper ">
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-14.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-15.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-16.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-17.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-18.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-19.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-20.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="pagi-pos">
+                                                    <!-- Add Pagination -->
+                                                    <div class="swiper-pagination black"></div>
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next swiper-button-black"></div>
+                                                    <div class="swiper-button-prev swiper-button-black"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="unitd" role="tabpanel">
+                                    <div class="panel-body" style="z-index:9999999 !important;">
+                                        <div class="row py-5">
+                                            <div class="col-md-4">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pb-5">
+                                            <div class="col-12 py-5">
+                                                <div class="swiper-container units-slider">
+                                                    <div class="swiper-wrapper ">
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-21.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-22.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-23.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-24.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-25.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                        <div class="swiper-slide" >
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-26.jpg') }}" alt="img" class="w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pagi-pos">
+                                                    <!-- Add Pagination -->
+                                                    <div class="swiper-pagination black"></div>
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next swiper-button-black"></div>
+                                                    <div class="swiper-button-prev swiper-button-black"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{--                            <div class="tab-pane fade show" id="sohoe" role="tabpanel">--}}
+                                {{--                                <div class="panel-body" style="z-index:9999999 !important;">--}}
+                                {{--                                    <div class="text-center">--}}
+                                {{--                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-15.jpg') }}" alt="img" class="img-soho">--}}
+                                {{--                                    </div>--}}
+                                {{--                                </div>--}}
+                                {{--                            </div>--}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </section>
 
 
 @endsection
 
 @section('styles')
     <style>
+        .fac-slide{
+            margin-top: -50px;
+        }
+        .pagi-pos{
+            position: relative;
+            bottom:0px;
+        }
+        .nav-tabs3 .nav-link {
+            color: Black;
+            background-color: white;
+            border: 1px solid red;
+            border-radius:0;
+            margin:10px;
+        }
+        .nav-tabs3 .nav-link.active {
+            color: white;
+            /*background-color: #dc2d19;*/
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-15.png') }}');
+            background-size: cover;
+            border-color: #fff #fff #fff;
+            border-radius:0;
+        }
+        .bg-lobby{
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 345px;
+        }
         .long-bg{
             background-color: black;
             /*height:281em;*/
@@ -882,7 +775,7 @@
         padding:0;
         }
         .bg-tower{
-        background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
+        background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -1001,6 +894,19 @@
         }
     @media (min-width: 576px) {
 
+        .padd-trans{
+            padding-top:33%;
+        }
+
+        .bg-lobby{
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-14.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 390px;
+        }
+
         .img-soho{
             width: 500px;
             padding-top: 30px;
@@ -1030,12 +936,12 @@
         }
 
         .bg-tower{
-            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
             width: auto;
-            height: 540px;
+            height: 600px;
         }
 
     /*.map-home{*/
@@ -1050,11 +956,47 @@
     @media (min-width: 768px) {
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: 1300px) {
+        .padd-trans{
+            padding-top:31%;
+        }
     }
 
-    @media (min-width: 1369px) {
+    @media (min-width: 1400px) {
+        .padd-trans{
+            padding-top:30%;
+        }
+        .bg-lobby{
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-14.jpg') }}');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: auto;
+            height: 410px;
+        }
     }
+        @media (min-width: 1900px) {
+
+            .bg-lobby {
+                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-14.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 550px;
+            }
+            .padd-trans{
+                padding-top:32%;
+            }
+            .bg-tower{
+                background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: auto;
+                height: 840px;
+            }
+        }
     </style>
 @endsection
 
@@ -1179,8 +1121,14 @@
                 $('#residence-tower').show();
                 $('#soho-tower').hide();
                 $('#office-tower').hide();
-                $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-residence_1.jpg') }}");
+                {{--$('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-residence_1.jpg') }}");--}}
                 $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/tower/thesmith-mobile-units-residence_1.0.jpg') }}");
+                $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}");
+                $('#btn-trans').show();
+                $('#lobby-bg').show();
+                $('#lobby-txt').show();
+                $('#unit-types').show();
+
             }
 
             if (typeid === 2) {
@@ -1189,6 +1137,10 @@
                 $('#office-tower').hide();
                 $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-soho_1.jpg') }}");
                 $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/tower/thesmith-mobile-units-soho_1.0.jpg') }}");
+                $('#btn-trans').hide();
+                $('#lobby-bg').hide();
+                $('#lobby-txt').hide();
+                $('#unit-types').hide();
             }
             if (typeid === 3) {
                 $('#soho-tower').hide();
@@ -1196,8 +1148,26 @@
                 $('#office-tower').show();
                 $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-office_1.jpg') }}");
                 $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/tower/thesmith-mobile-units-office_1.0.jpg') }}");
+                $('#btn-trans').hide();
+                $('#lobby-bg').hide();
+                $('#lobby-txt').hide();
+                $('#unit-types').hide();
             }
         }
+
+        function changebg() {
+            let mode = $('#home_runner_bg_switcher').val();
+            if (mode === "1") {
+                $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}");
+                $('#home_runner_bg_switcher').val(2);
+            }
+            else{
+                $('.bg-tower').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-34.jpg') }}");
+                $('#home_runner_bg_switcher').val(1);
+            }
+        }
+
+
     </script>
 @endsection
 
