@@ -24,9 +24,9 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                         <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE</p>
-                        <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Elegantly incorporates comfort and
+                        <p class="txt-body px-md-3 px-5 font-lato d-none d-md-block">Elegantly incorporates comfort and
                             well-being,<br/> all within steps from home.</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Elegantly incorporates comfort and
+                            <p class="txt-body px-md-3 px-5 font-lato d-block d-md-none">Elegantly incorporates comfort and
                                 well-being, all within steps from home.</p>
                         </div>
                     </div>
@@ -34,9 +34,9 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">CURRATED COMMUNITY</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Equipped with facilities designed
+                            <p class="txt-body px-md-3 px-5 font-lato d-none d-md-block">Equipped with facilities designed
                                 for<br/> collaborative communities.</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Equipped with facilities designed
+                            <p class="txt-body px-md-3 px-5 font-lato d-block d-md-none">Equipped with facilities designed
                                 for collaborative communities.</p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">HOME OF UNICORNS</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
+                            <p class="txt-body px-md-3 px-5 font-lato">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
                                 managed by Go Work.</p>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
             <div class="col"></div>
             <div class="col-md-3"></div>
             <div class="col-md-6 col-12 text-center">
-                <p class="text-white py-5 txt-body px-5 font-lato-bold">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
+                <p class="text-white py-5 txt-body px-5 font-lato">One of the biggest Co-Working Space in Indonesia, with more than 30 locations.
                     Starting from Pacific Place, Plaza Indonesia, Senayan City, including Bali.
                     Currently Go Work serves more than 12.000 members.</p>
                 <p class="txt-subheader-2 pb-3 font-metropolis-bold" style="color: #b2b2b2;">Go Work Partners include:</p>
@@ -95,7 +95,7 @@
             <div class="col-md-3"></div>
             <div class="col-md-6 text-center text-white">
                 <p class="txt-subheader font-metropolis-bold let-spa-1 pb-5">FEATURES</p>
-                <div class="row txt-body font-lato-bold pb-5 px-5 px-md-0">
+                <div class="row txt-body font-lato pb-5 px-5 px-md-0">
                     <div class="col-md-3 col-6 pb-4 pb-0">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-43.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">High Speed<br/> Internet</p>
@@ -113,7 +113,7 @@
                         <p class="pt-2">State of the Art<br/> Meeting Rooms</p>
                     </div>
                 </div>
-                <div class="row txt-body font-lato-bold pb-5 px-5 px-md-0">
+                <div class="row txt-body font-lato pb-5 px-5 px-md-0">
                     <div class="col-md-3 col-6">
                         <img src="{{ asset('images/thesmith/concept/thesmith-web_2.0-47.png') }}" alt="img" class="img-features" >
                         <p class="pt-2">Member Network</p>
@@ -162,9 +162,9 @@
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.1-18.jpg') }}" alt="img" class="w-100">
                         <div class="pt-4 pb-4 pb-md-5">
                             <p class=" font-metropolis-bold txt-subheader let-spa-2">+OOZN</p>
-                            <p class="txt-body font-lato-bold font-italic">The Architect</p>
+                            <p class="txt-body font-lato font-italic">The Architect</p>
                         </div>
-                        <div class="txt-body font-lato-bold px-md-5 pb-5">
+                        <div class="txt-body font-lato px-md-5 pb-5">
                             <p class="px-md-2 px-0">
                                 Founded +OOZN in 2013 by Rafal Kapusta, along with
                                 Stephanie Gunawan. The team quickly built upon the success
@@ -177,9 +177,9 @@
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.0-17.jpg') }}" alt="img" class="w-100">
                         <div class="pt-4 pb-4 pb-md-5">
                             <p class=" font-metropolis-bold txt-subheader let-spa-2">STUDIO HBA</p>
-                            <p class="txt-body font-lato-bold font-italic">Interior Designer</p>
+                            <p class="txt-body font-lato font-italic">Interior Designer</p>
                         </div>
-                        <div class="txt-body font-lato-bold px-md-5 ">
+                        <div class="txt-body font-lato px-md-5 ">
                                 <p class="px-md-5 px-0">
                                     An international interior design studio, with more than
                                     50 years of experience in the field.
@@ -273,7 +273,7 @@
             width:100%;
         }
         .border-concept-custom{
-            border-bottom: 1px solid #e6e6e6;
+            border-bottom: 1px solid #565656;
             width:100%;
         }
 

@@ -29,12 +29,12 @@
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-10 col-12 txt-body text-dark font-metropolis">
-                            <p class="pb-4 txt-body font-lato-bold px-5">
+                            <p class="pb-4 txt-body font-lato px-5">
                                 Initiated in 2019, PT Perintis Triniti Properti TBK (Triniti Land) commenced its journey with its
                                 2017, introducing thoughtful lands namely Brooklyn, Springwood Residence, Yukata suites, The
                                 Smith, Collins Boulevard, and Marcs Boulevard.
                             </p>
-                            <p class=" txt-body font-lato-bold px-5">
+                            <p class=" txt-body font-lato px-5">
                                 The success brought Triniti Property Group emerged with a new face named Triniti Land. Triniti
                                 Land has listed its initial shares on the Indonesia Stock Exchange (IDX) through an Initial Public
                                 Offering (IPO) cheme on 15th January 2020 and will create another masterplans of building
@@ -51,33 +51,33 @@
                                     <p class="txt-subheader-2 font-gotham-book font-weight-bold let-spa-1 py-4">Jakarta & Tangerang</p>
                                     <div class="row txt-body pb-4">
                                         <div class="col-6 col-md-3 pb-3 pb-md-0">
-                                            <p class="font-lato-bold">Ubud Village</p>
+                                            <p class="font-lato">Ubud Village</p>
                                             <p class="font-lato font-italic">Project Value 180 Billion</p>
                                         </div>
                                         <div class="col-6 col-md-3 pb-3 pb-md-0">
-                                            <p class="font-lato-bold ">Brooklyn</p>
+                                            <p class="font-lato ">Brooklyn</p>
                                             <p class="font-lato font-italic">Project Value 1.2 Trillion</p>
                                         </div>
                                         <div class="col-6 col-md-3 ">
-                                            <p class="font-lato-bold">Yukata Suites</p>
+                                            <p class="font-lato">Yukata Suites</p>
                                             <p class="font-lato font-italic">Project Value 900 Billion</p>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <p class="font-lato-bold">Collins Boulevard</p>
+                                            <p class="font-lato">Collins Boulevard</p>
                                             <p class="font-lato font-italic">Project Value 5 Trillion</p>
                                         </div>
                                     </div>
                                     <div class="row txt-body pb-4">
                                         <div class="col-md-3 col-6 pb-3 pb-md-0">
-                                            <p class="font-lato-bold">Melrose Place</p>
+                                            <p class="font-lato">Melrose Place</p>
                                             <p class="font-lato font-italic">Project Value 50 Billion</p>
                                         </div>
                                         <div class="col-md-3 col-6 pb-3 pb-md-0">
-                                            <p class="font-lato-bold">Springwood Residence</p>
+                                            <p class="font-lato">Springwood Residence</p>
                                             <p class="font-lato font-italic">Project Value 900 Billion</p>
                                         </div>
                                         <div class="col-md-3 col-12">
-                                            <p class="font-lato-bold">The Smith</p>
+                                            <p class="font-lato">The Smith</p>
                                             <p class="font-lato font-italic">Project Value 1 Triillion</p>
                                         </div>
                                         <div class="col-3"></div>
@@ -89,7 +89,7 @@
                                 <div class="col-12 pb-4">
                                     <p class="txt-subheader-2 font-gotham-book font-weight-bold let-spa-1 py-4">Batam</p>
                                     <div>
-                                        <p class="font-lato-bold">Marc's Boulevard</p>
+                                        <p class="font-lato">Marc's Boulevard</p>
                                         <p class="font-lato font-italic">Project Value 5 Trillion</p>
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@
                                         <div class="col-1"></div>
                                         <div class="col-10">
                                             <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.1-45.png') }}" alt="img" class="img-developer">
-                                            <p class="pt-5 txt-body font-lato-bold px-md-3">
+                                            <p class="pt-5 txt-body font-lato px-md-3">
                                                 Collins Marketplace is proudly developed by Asia’s Best Boutique Developer, Triniti Land, that
                                                 promotes innovative establishments for over a decade, carrying a promising aspect through
                                                 its trusted values and succesful development.

@@ -227,7 +227,7 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10 text-white text-center py-5">
-                    <p class="txt-header-body font-lato-bold let-spa-9">INNER FACILITIES</p>
+                    <p class="txt-header-body font-lato let-spa-9">INNER FACILITIES</p>
                     <p class="txt-subheader-2 font-lato pb-3 pt-2 let-spa-2">Things to Luxuriate Within The Smith</p>
                 </div>
                 <div class="col-md-1"></div>
@@ -386,10 +386,10 @@
                                                                         <div class="col-md-8 col-12 pt-5">
                                                                             <p class="txt-subheader let-spa font-metropolis-bold">3<sup style="top:0px;font-size: 10px;">RD</sup> FLOOR FACILITES</p>
                                                                             {{--                                                                    <div class="border-swiper-custom"></div>--}}
-                                                                            <p class="txt-body pt-3 font-lato-bold d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                            <p class="txt-body pt-3 font-lato d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
                                                                                 Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                                 that boosts a balanced lifesyle experience.</p>
-                                                                            <p class="txt-body pt-3 font-lato-bold d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
+                                                                            <p class="txt-body pt-3 font-lato d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
                                                                                 Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
                                                                                 that boosts a balanced lifesyle experience.</p>
                                                                         </div>

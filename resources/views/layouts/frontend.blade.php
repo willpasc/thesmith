@@ -88,6 +88,7 @@
     <script src="{{ asset('js/frontend/main.js') }}"></script>
     <script src="{{ asset('js/frontend/swiper.min.js') }}"></script>
 
+
     <script>
         $(window).on('load', function(){
             // $('#preloader').delay(100).fadeOut();

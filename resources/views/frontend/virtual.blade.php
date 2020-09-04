@@ -30,7 +30,7 @@
                                 <div class="col-md-2 col-1"></div>
                                 <div class="col-md-8 col-10 py-5">
                                     <p class="txt-header-body font-metropolis-medium let-spa-5 pb-3">VIRTUAL TOUR</p>
-                                    <div class="txt-body font-lato-bold pb-4">
+                                    <div class="txt-body font-lato pb-4">
                                         <p>Simulate the living experiences of the units from Home Runner.</p>
                                         <p>Pick the perfect residence for you.</p>
                                     </div>

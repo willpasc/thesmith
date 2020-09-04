@@ -95,6 +95,15 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
   margin: -46px auto 0 auto;
 }
 
+.logo-thesmith-load{
+    width:600px;
+    /*height:200px;*/
+    position:relative;
+    top: 50%;
+    left:-20px;
+
+}
+
 @keyframes loader08 {
   0%, 100% {
     box-shadow: -13px 20px 0 #05233a, 13px 20px 0 rgba(5, 35, 58, 0.2), 13px 46px 0 rgba(5, 35, 58, 0.2), -13px 46px 0 rgba(5, 35, 58, 0.2); }

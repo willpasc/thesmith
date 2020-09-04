@@ -94,17 +94,17 @@
                                                     <div class="col-md-10 pt-5">
                                                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-36.png') }}" alt="img" class="w-100 pb-4">
                                                         <p class="txt-header-body  font-oriya let-spa-5 py-3">WE RUN OUR HOME</p>
-                                                        <p class="txt-body font-lato-bold px-4 pb-4">Amidst the chaos of the world, there is nothing more soothing then staying at home
+                                                        <p class="txt-body font-lato px-4 pb-4">Amidst the chaos of the world, there is nothing more soothing then staying at home
                                                             while creating pathways to your dreams. Coping up with the new lifestyle, Home
                                                             Runner by The Smith proudly stands as a pioneer of a Convertible Home Office,
                                                             sharing liberty to its residents to design their spaces based on their own needs.</p>
-                                                        <p class="txt-body font-lato-bold px-4">Home Runner carries an inspiration of “We Run Our Homes”, serving as a home to
+                                                        <p class="txt-body font-lato px-4">Home Runner carries an inspiration of “We Run Our Homes”, serving as a home to
                                                             rest and hustle. It is a home infused with smart modern living experience, allowing
                                                             residents to create and re-create, initiating dreams and rejuvinate in a single space.</p>
                                                         <div class="row">
                                                             <div class="col-md-3"></div>
                                                             <div class="col-md-6 col-12 pt-4">
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body text-center py-2 px-4 text-dark font-lato-bold let-spa-2" style="border: 1px solid red;">Find Out More</a>
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid red;">Find Out More</a>
                                                             </div>
                                                             <div class="col-md-"></div>
                                                         </div>
@@ -134,7 +134,7 @@
                                             <div class="col-12">
                                                 <div class="row">
                                                     <div class="col-12 text-dark text-center pt-5 pb-4">
-                                                        <p class="txt-header-body font-lato-bold let-spa-5">SOHO UNITS</p>
+                                                        <p class="txt-header-body font-lato let-spa-5">SOHO UNITS</p>
                                                         <p class="txt-body pt-3 font-metropolis d-none d-md-block">Adopting Silicon Valley Experience, The Smith’s SOHO delights residents with ease of a one-stop<br>
                                                             development, incorporating business and leisure within doorsteps. Equipped with premium office<br>
                                                             spaces, meeting rooms and relaxing lounges, relish a balanced lifestyle within modern<br>
@@ -198,35 +198,38 @@
                                                             <div class="tab-pane fade show active" id="sohoa" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-08.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_a.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohob" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-09.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b1.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b2.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b3.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b4.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohoc" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-13.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_c.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohod" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-14.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_d.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohoe" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-15.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_e.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -330,7 +333,7 @@
                                             <div class="col-12">
                                                 <div class="row">
                                                     <div class="col-12 text-dark text-center pt-5 pb-4" style="padding-left:20%; padding-right:20%;">
-                                                        <p class="txt-header-body font-lato-bold let-spa-5">OFFICE UNITS</p>
+                                                        <p class="txt-header-body font-lato let-spa-5">OFFICE UNITS</p>
                                                         <p class="txt-body pt-4 font-metropolis d-none d-md-block">Supported by Go-Work, this dedicated 1.300m2 space allows residents to innovate and establish
                                                             startup offices through renting private spaces or hot desks. Equipped with spacious business
                                                             centers, premium event spaces, trained on-site staffs, and in-house cleaning facilities; it invents
@@ -386,21 +389,21 @@
                                                             <div class="tab-pane fade show active" id="officea" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-16.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_a.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="officeb" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-17.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_b.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="officec" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-towerplans_1-18.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_c.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -481,7 +484,7 @@
                                 <div class="col-md-2 col-1"></div>
                                 <div class="col-md-8 col-10 py-5">
                                     <p class="txt-header-body font-oriya let-spa-5 pb-3 px-5">THE LOBBY</p>
-                                    <p class="txt-body font-lato-bold">Indulge into a comforting stroke as you step into a welcoming lobby, decorated finely
+                                    <p class="txt-body font-lato">Indulge into a comforting stroke as you step into a welcoming lobby, decorated finely
                                         yet luxurious to the eyes. Feel the warmth as you walk in from a hussling day, or sit
                                         comfortably as you connect socially with your acquaintance or fellow residents.</p>
                                 </div>
@@ -511,18 +514,18 @@
                                 <li class="nav-item col-md-2 p-0 tab-nav">
                                 </li>
                                 <li class="nav-item col-md-2 col-12 p-0 tab-nav" >
-                                    <a class="nav-link font-lato-bold  active" data-toggle="tab" href="#unita" role="tab" id="tabUnita" style="padding: 16px 5px;" ><span>Studio</span></a>
+                                    <a class="nav-link font-lato  active" data-toggle="tab" href="#unita" role="tab" id="tabUnita" style="padding: 16px 5px;" ><span>Studio</span></a>
                                 </li>
 
                                 <li class="nav-item col-md-2 p-0 tab-nav">
-                                    <a class="nav-link  font-lato-bold  " data-toggle="tab" href="#unitb" role="tab" id="tabUnitb" style="padding: 16px 5px;" ><span>1 Bedroom</span></a>
+                                    <a class="nav-link  font-lato  " data-toggle="tab" href="#unitb" role="tab" id="tabUnitb" style="padding: 16px 5px;" ><span>1 Bedroom</span></a>
                                 </li>
 
                                 <li class="nav-item col-md-2 p-0 tab-nav">
-                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitc" role="tab" id="tabUnitc" style="padding: 10px 5px;" ><span>1 Bedroom +<br/>Home Office</span></a>
+                                    <a class="nav-link font-lato " data-toggle="tab" href="#unitc" role="tab" id="tabUnitc" style="padding: 10px 5px;" ><span>1 Bedroom +<br/>Home Office</span></a>
                                 </li>
                                 <li class="nav-item col-md-2 p-0 tab-nav">
-                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitd" role="tab" id="tabUnitd" style="padding: 10px 5px;" >1 Bedroom +<br/>Home Office Corner</a>
+                                    <a class="nav-link font-lato " data-toggle="tab" href="#unitd" role="tab" id="tabUnitd" style="padding: 10px 5px;" >1 Bedroom +<br/>Home Office Corner</a>
                                 </li>
                                 {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
                                 {{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}

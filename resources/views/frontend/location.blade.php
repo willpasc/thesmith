@@ -22,7 +22,7 @@
                     <div class="col-md-8 col-12 px-md-5 px-3">
                         <p class="txt-header-body font-metropolis font-weight-bold let-spa-5" >THE PERFECT LOCATION</p>
                         <p class="txt-subheader-2 font-lato pb-5 let-spa-2">At The Heart of CBD Alam Sutera</p>
-                        <p class="txt-body font-lato-bold px-3 ">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
+                        <p class="txt-body font-lato px-3 ">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
                             namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.
                             An ease of multi-city commuting is also highlighted as it stands a minute away from the
                             Toll Gate of Alam Sutera.</p>
@@ -53,7 +53,7 @@
                     <div class="col-md-3"></div>
                     <div class="col-md-6 col-12 text-dark px-3 px-md-2">
                         <p class="font-metropolis-bold txt-subheader pb-3">Only 150 Meters Away</p>
-                        <p class="txt-body font-lato-bold ">
+                        <p class="txt-body font-lato ">
                             Located at the heart of CBD Alam Sutera, The Smith stands only 150 meters away
                             from the Exit Toll Gate of Alam Sutera. Providing ease for residents to commute within
                             and outside the city.
@@ -76,7 +76,7 @@
                     <p class="txt-header-body font-metropolis font-weight-bold let-spa-5" >ALAM SUTERA SMART CITY</p>
                     <p class="txt-subheader-2 font-lato let-spa-2">Even More Livable Features</p>
                 </div>
-                <div class="row txt-body text-center font-lato-bold px-3 px-md-0">
+                <div class="row txt-body text-center font-lato px-3 px-md-0">
                     <div class="col-md-3 col-6 pb-5 pb-md-0">
                         <img src="{{ asset('images/thesmith/location/thesmith-web-home_2.0-29.jpg') }}" alt="img" class="img-smart pb-3">
                         <p class="pl-3">EMERGENCY BUTTON</p>
@@ -97,7 +97,7 @@
                 <div class="row py-5 px-3 px-md-0">
                     <div class="col-md-3"></div>
                     <div class="col-md-6 col-12">
-                        <p class="txt-body text-center font-lato-bold px-2">
+                        <p class="txt-body text-center font-lato px-2">
                             As part of Alam Sutera Smart City, relish the additional safety and convenience provided
                             such as emergency buttons at roadsides, 24-hour CCTV surveillance and control
                             room guard, up to commuting ease through Sutera Loop access and

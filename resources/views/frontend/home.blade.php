@@ -95,9 +95,9 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                         <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE</p>
-                        <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Elegantly incorporates comfort and
+                        <p class="txt-body px-md-3 px-5 font-lato d-block d-md-none">Elegantly incorporates comfort and
                             well-being, all within steps from home.</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Elegantly incorporates comfort and
+                            <p class="txt-body px-md-3 px-5 font-lato d-none d-md-block">Elegantly incorporates comfort and
                             well-being,<br/> all within steps from home.</p>
                         </div>
                     </div>
@@ -105,9 +105,9 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">CURRATED COMMUNITY</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold d-none d-md-block">Equipped with facilities designed
+                            <p class="txt-body px-md-3 px-5 font-lato d-none d-md-block">Equipped with facilities designed
                                 for<br/> collaborative communities.</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold d-block d-md-none">Equipped with facilities designed
+                            <p class="txt-body px-md-3 px-5 font-lato d-block d-md-none">Equipped with facilities designed
                                 for collaborative communities.</p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">HOME OF UNICORNS</p>
-                            <p class="txt-body px-md-3 px-5 font-lato-bold">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
+                            <p class="txt-body px-md-3 px-5 font-lato">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
                                 managed by Go Work.</p>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                     <div class="col-md-2"></div>
                     <div class="col-md-8 col-12 px-5">
                     <p class="txt-subheader font-metropolis-bold py-3">ALAM SUTERA SMART CITY</p>
-                    <p class="txt-body font-lato-bold px-4">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
+                    <p class="txt-body font-lato px-4">The Smith stands neighboring to countable world-class education, healthcare and leisure amenities,
                         namely St. Laurensia School, Binus University, Omni Hospital, Mall Alam Sutera, Living World and Ikea.
                         An ease of multi-city commuting is also highlighted as it stands a minute away from the
                         Toll Gate of Alam Sutera.</p>
@@ -155,7 +155,7 @@
                 <div class="row pt-4">
                     <div class="col"></div>
                     <div class="col-md-2 col-6">
-                        <a href="{{ route('frontend.location')}}" class="txt-body text-center py-2 px-4 text-dark font-lato-bold" style="border: 1px solid black;">Read More</a>
+                        <a href="{{ route('frontend.location')}}" class="txt-body text-center py-2 px-4 text-dark font-lato" style="border: 1px solid #333;">Read More</a>
                     </div>
                     <div class="col"></div>
                 </div>
@@ -275,17 +275,17 @@
                                                 <div class="col-md-10 pt-5">
                                                     <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-36.png') }}" alt="img" class="w-100 pb-4">
                                                     <p class="txt-header-body  font-oriya let-spa-5 py-3">WE RUN OUR HOME</p>
-                                                    <p class="txt-body font-lato-bold px-4 pb-4">Amidst the chaos of the world, there is nothing more soothing then staying at home
+                                                    <p class="txt-body font-lato px-4 pb-4">Amidst the chaos of the world, there is nothing more soothing then staying at home
                                                         while creating pathways to your dreams. Coping up with the new lifestyle, Home
                                                         Runner by The Smith proudly stands as a pioneer of a Convertible Home Office,
                                                         sharing liberty to its residents to design their spaces based on their own needs.</p>
-                                                    <p class="txt-body font-lato-bold px-4">Home Runner carries an inspiration of “We Run Our Homes”, serving as a home to
+                                                    <p class="txt-body font-lato px-4">Home Runner carries an inspiration of “We Run Our Homes”, serving as a home to
                                                         rest and hustle. It is a home infused with smart modern living experience, allowing
                                                         residents to create and re-create, initiating dreams and rejuvinate in a single space.</p>
                                                     <div class="row">
                                                         <div class="col-md-3"></div>
                                                         <div class="col-md-6 col-12 pt-4">
-                                                            <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body text-center py-2 px-4 text-dark font-lato-bold let-spa-2" style="border: 1px solid red;">Find Out More</a>
+                                                            <a href="{{ route('frontend.towerplans', ['tabname'=>'residence'])}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid red;">Find Out More</a>
                                                         </div>
                                                         <div class="col-md-"></div>
                                                     </div>
@@ -332,7 +332,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#1">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohoa">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -354,7 +354,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#2">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohob">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>  </div>
                                                         </div>
@@ -375,7 +375,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#3">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohob">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>  </div>
                                                         </div>
@@ -396,7 +396,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#4">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohob">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -417,7 +417,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#5">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohob">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -439,7 +439,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#6">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohoc">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>
                                                             </div>
@@ -461,7 +461,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#7">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohod">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a>  </div>
                                                         </div>
@@ -482,7 +482,7 @@
                                                                     Every unit is equipped with safety fittings, including an intercom that connects
                                                                     directly to the safety officers, ensuring needs are attended promptly.
                                                                 </p>
-                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#8">
+                                                                <a href="{{ route('frontend.towerplans', ['tabname'=>'soho'])}}#sohoe">
                                                                     <img src="{{ asset('images/thesmith/home/thesmith-web-detail-button_1.0.png') }}" alt="img" class="fulldetail pt-3">
                                                                 </a> </div>
                                                         </div>
@@ -623,7 +623,7 @@
                             <div class="col-md-2 col-1"></div>
                             <div class="col-md-8 col-10 py-5">
                                 <p class="txt-header-body font-oriya let-spa-5 pb-3 px-5">THE LOBBY</p>
-                                <p class="txt-body font-lato-bold">Indulge into a comforting stroke as you step into a welcoming lobby, decorated finely
+                                <p class="txt-body font-lato">Indulge into a comforting stroke as you step into a welcoming lobby, decorated finely
                                     yet luxurious to the eyes. Feel the warmth as you walk in from a hussling day, or sit
                                     comfortably as you connect socially with your acquaintance or fellow residents.</p>
                             </div>
@@ -653,18 +653,18 @@
                             <li class="nav-item col-md-2 p-0 tab-nav">
                             </li>
                             <li class="nav-item col-md-2 col-12 p-0 tab-nav" >
-                                <a class="nav-link font-lato-bold  active" data-toggle="tab" href="#sohoa" role="tab" id="tabSohoa" style="padding: 16px 5px;" ><span>Studio</span></a>
+                                <a class="nav-link font-lato  active" data-toggle="tab" href="#sohoa" role="tab" id="tabSohoa" style="padding: 16px 5px;" ><span>Studio</span></a>
                             </li>
 
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link  font-lato-bold  " data-toggle="tab" href="#sohob" role="tab" id="tabSohob" style="padding: 16px 5px;" ><span>1 Bedroom</span></a>
+                                <a class="nav-link  font-lato  " data-toggle="tab" href="#sohob" role="tab" id="tabSohob" style="padding: 16px 5px;" ><span>1 Bedroom</span></a>
                             </li>
 
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" ><span>1 Bedroom +<br/>Home Office</span></a>
+                                <a class="nav-link font-lato " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" ><span>1 Bedroom +<br/>Home Office</span></a>
                             </li>
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" >1 Bedroom +<br/>Home Office Corner</a>
+                                <a class="nav-link font-lato " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" >1 Bedroom +<br/>Home Office Corner</a>
                             </li>
 {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
 {{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}
@@ -1068,7 +1068,7 @@
         <div class="row py-5">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-dark text-center py-5">
-                <p class="txt-header-body font-lato-bold let-spa-7" >PARTNERS</p>
+                <p class="txt-header-body font-lato let-spa-7" >PARTNERS</p>
                 <p class="txt-subheader-2 font-lato pb-5 let-spa-2">The Associates To Ensure Your Perfect Homes</p>
                 <div class="row py-5">
                     <div class="col-4">
@@ -1311,7 +1311,7 @@
         }
 
         .border-bot-black{
-            border-bottom: 1px solid #333333;
+            border-bottom: 1px solid #333;
             width: 100%;
         }
         .fac-slide{
@@ -1412,12 +1412,12 @@
         }
 
         .border-concept-custom-1{
-            border-bottom: 1px solid #E6E6E6;
+            border-bottom: 1px solid #565656;
             width:100%;
         }
 
         .border-swiper-custom{
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid #333;
             width:20%;
             padding-top: 10px;
             padding-bottom: 10px;
