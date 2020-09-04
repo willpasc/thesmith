@@ -234,7 +234,7 @@
                 <div class="bg-tower">
                     <input type="hidden" value="1" id="home_runner_bg_switcher">
                     <div class="padd-trans">
-                            <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-35.png') }}" alt="img" id="btn-trans"  style="width:245px;cursor: pointer;" onclick="changebg()">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-35.png') }}" alt="img" id="btn-trans" class="transform-button"  style="cursor: pointer;" onclick="changebg()">
                     </div>
                 </div>
             </div>
@@ -661,10 +661,10 @@
                             </li>
 
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" ><span>2 Bedroom<br/> Optional</span></a>
+                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" ><span>1 Bedroom +<br/>Home Office</span></a>
                             </li>
                             <li class="nav-item col-md-2 p-0 tab-nav">
-                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" >2 Bedroom<br/> Optional Corner</a>
+                                <a class="nav-link font-lato-bold " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" >1 Bedroom +<br/>Home Office Corner</a>
                             </li>
 {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
 {{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}
@@ -683,7 +683,7 @@
                                         <div class="col-md-4">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                         </div>
-                                        <div class="col-md-8">
+                                        <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
                                         </div>
                                     </div>
@@ -722,7 +722,7 @@
                                         <div class="col-md-4">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                         </div>
-                                        <div class="col-md-8">
+                                        <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
                                         </div>
                                     </div>
@@ -762,7 +762,7 @@
                                         <div class="col-md-4">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                         </div>
-                                        <div class="col-md-8">
+                                        <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
                                         </div>
                                     </div>
@@ -811,7 +811,7 @@
                                         <div class="col-md-4">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                         </div>
-                                        <div class="col-md-8">
+                                        <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">
                                         </div>
                                     </div>
@@ -1291,6 +1291,14 @@
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
 
+        .transform-button{
+            width:150px;
+        }
+
+        .padd-trans{
+            padding-top:23%;
+        }
+
         .pagi-pos{
             position: relative;
             bottom:0px;
@@ -1323,12 +1331,12 @@
             padding:0;
         }
         .bg-tower{
-            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-towerplans-img_1.0.jpg') }}');
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
             width: auto;
-            height: 150px;
+            height: 180px;
         }
         .bg-lobby{
             background-image: url('{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}');
@@ -1357,7 +1365,7 @@
             background-color: white;
             border: 1px solid red;
             border-radius:0;
-            margin:10px;
+            margin:3px;
         }
         .nav-tabs2 .nav-link.active {
             color: white;
@@ -1590,6 +1598,10 @@ pop up css
             align-items: center;
         }
         @media (min-width: 576px) {
+
+            .transform-button{
+                width:245px;
+            }
 
 
             .img-soho{

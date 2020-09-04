@@ -519,10 +519,10 @@
                                 </li>
 
                                 <li class="nav-item col-md-2 p-0 tab-nav">
-                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitc" role="tab" id="tabUnitc" style="padding: 10px 5px;" ><span>2 Bedroom<br/> Optional</span></a>
+                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitc" role="tab" id="tabUnitc" style="padding: 10px 5px;" ><span>1 Bedroom +<br/>Home Office</span></a>
                                 </li>
                                 <li class="nav-item col-md-2 p-0 tab-nav">
-                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitd" role="tab" id="tabUnitd" style="padding: 10px 5px;" >2 Bedroom<br/> Optional Corner</a>
+                                    <a class="nav-link font-lato-bold " data-toggle="tab" href="#unitd" role="tab" id="tabUnitd" style="padding: 10px 5px;" >1 Bedroom +<br/>Home Office Corner</a>
                                 </li>
                                 {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
                                 {{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}
@@ -538,10 +538,10 @@
                                 <div class="tab-pane fade show active" id="unita" role="tabpanel">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 col-12">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
                                             </div>
                                         </div>
@@ -580,7 +580,7 @@
                                             <div class="col-md-4">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
                                             </div>
                                         </div>
@@ -620,7 +620,7 @@
                                             <div class="col-md-4">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
                                             </div>
                                         </div>
@@ -669,7 +669,7 @@
                                             <div class="col-md-4">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">
                                             </div>
                                         </div>
@@ -741,7 +741,7 @@
             background-color: white;
             border: 1px solid red;
             border-radius:0;
-            margin:10px;
+            margin:3px;
         }
         .nav-tabs3 .nav-link.active {
             color: white;

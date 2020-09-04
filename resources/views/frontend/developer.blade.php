@@ -25,7 +25,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 col-12 text-center text-dark py-5 col-12" style="background-color: white; margin-top:-60px;">
                     <p class="txt-header-body font-gotham-book font-weight-bold  pb-2 text-dark let-spa-7" >PT TRINITI DINAMIK</p>
-                        <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.0-24.png') }}" alt="img" class="logo-triniti pb-3 pb-md-0">
+                        <img src="{{ asset('images/thesmith/developer/thesmith-web-home_2.0-24.png') }}" alt="img" class="logo-triniti pb-3">
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-10 col-12 txt-body text-dark font-metropolis">
@@ -278,7 +278,7 @@
             background-size: cover;
             width:100%;
             height: 370px;
-            margin-bottom:20px;
+            /*margin-bottom:20px;*/
         }
         /*
         pop up css
