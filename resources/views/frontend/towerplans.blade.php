@@ -38,13 +38,13 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-12 text-center">
-                    <div class="bg-tower bg-towerplans d-none d-md-block" id="">
+                    <div class="bg-tower bg-towerplans " id="">
                         <input type="hidden" value="1" id="home_runner_bg_switcher">
                         <div class="padd-trans">
-                            <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-35.png') }}" alt="img" id="btn-trans"  style="width:245px;cursor: pointer;" onclick="changebg()">
+                            <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-35.png') }}" alt="img" id="btn-trans"  class="transform-button" style="cursor: pointer;" onclick="changebg()">
                         </div>
                     </div>
-                    <div class="bg-tower bg-towerplans-m d-block d-md-none" id=""></div>
+{{--                    <div class="bg-tower bg-towerplans-m d-block d-md-none" id=""></div>--}}
                 </div>
             </div>
         </div>
@@ -729,6 +729,14 @@
 
 @section('styles')
     <style>
+
+        .padd-trans{
+            padding-top:53%;
+        }
+
+        .transform-button{
+            width:150px;
+        }
         .fac-slide{
             margin-top: -50px;
         }
@@ -897,6 +905,12 @@
         .padd-trans{
             padding-top:33%;
         }
+
+        .transform-button{
+            width:245px;
+        }
+
+
 
         .bg-lobby{
             background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-14.jpg') }}');
@@ -1122,7 +1136,7 @@
                 $('#soho-tower').hide();
                 $('#office-tower').hide();
                 {{--$('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/tower/tower-residence_1.jpg') }}");--}}
-                $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/tower/thesmith-mobile-units-residence_1.0.jpg') }}");
+                $('.bg-towerplans-m').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}");
                 $('.bg-towerplans').css("background-image", "url('{{ asset('images/thesmith/home/thesmith-web-home_2.0-33.jpg') }}");
                 $('#btn-trans').show();
                 $('#lobby-bg').show();
