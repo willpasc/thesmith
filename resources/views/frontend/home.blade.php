@@ -689,7 +689,7 @@
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
-                                            <div class="swiper-container units-slider">
+                                            <div class="swiper-container units-slider1">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-06.jpg') }}" alt="img" class="w-100">
@@ -728,7 +728,7 @@
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
-                                            <div class="swiper-container units-slider">
+                                            <div class="swiper-container units-slider2">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-10.jpg') }}" alt="img" class="w-100">
@@ -768,7 +768,7 @@
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
-                                            <div class="swiper-container units-slider">
+                                            <div class="swiper-container units-slider3">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-14.jpg') }}" alt="img" class="w-100">
@@ -817,7 +817,7 @@
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
-                                            <div class="swiper-container units-slider">
+                                            <div class="swiper-container units-slider4">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-21.jpg') }}" alt="img" class="w-100">
@@ -1864,21 +1864,21 @@ pop up css
         });
 
         $( document ).ready(function() {
-            var swiper = new Swiper('.swiper-others', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true,
-                observeParents: true
-            });
+            // var swiper = new Swiper('.swiper-others', {
+            //     loop: true,
+            //     pagination: {
+            //         el: '.swiper-pagination',
+            //         type: 'fraction',
+            //     },
+            //     navigation: {
+            //         nextEl: '.swiper-button-next',
+            //         prevEl: '.swiper-button-prev',
+            //     },
+            //     observer: true,
+            //     observeParents: true
+            // });
 
-            var unitSwiper = new Swiper('.units-slider', {
+            var unitSwiper = new Swiper('.units-slider1', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1938,7 +1938,20 @@ pop up css
         }
 
         $('#tabResidence').on('click', function () {
-            var swiper = new Swiper('.swiper-others', {
+            // var swiper = new Swiper('.swiper-others', {
+            //     loop: true,
+            //     pagination: {
+            //         el: '.swiper-pagination',
+            //         type: 'fraction',
+            //     },
+            //     navigation: {
+            //         nextEl: '.swiper-button-next',
+            //         prevEl: '.swiper-button-prev',
+            //     },
+            //     observer: true,
+            //     observeParents: true
+            // });
+            var swiper2 = new Swiper('.units-slider1', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1984,7 +1997,7 @@ pop up css
         });
 
         $('#tabSohoa').on('click', function () {
-            var swiper = new Swiper('.units-slider', {
+            var swiper = new Swiper('.units-slider1', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -1999,7 +2012,7 @@ pop up css
             });
         });
         $('#tabSohob').on('click', function () {
-            var swiper = new Swiper('.units-slider', {
+            var swiper = new Swiper('.units-slider2', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -2014,7 +2027,7 @@ pop up css
             });
         });
         $('#tabSohoc').on('click', function () {
-            var swiper = new Swiper('.units-slider', {
+            var swiper = new Swiper('.units-slider3', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
@@ -2029,7 +2042,7 @@ pop up css
             });
         });
         $('#tabSohod').on('click', function () {
-            var swiper = new Swiper('.units-slider', {
+            var swiper = new Swiper('.units-slider4', {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination',
