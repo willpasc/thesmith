@@ -14,7 +14,7 @@
             loading: true,
             loadingParentElement: 'html',
             loadingClass: 'animsition-loading-1',
-            loadingInner: '<div class="logo-thesmith-load"><img src="images/thesmith/thesmith-logo-black_1.0-33.png" style="width: 600px" alt=""></div>',
+            loadingInner: '<div class="logo-thesmith-load"><img src="images/thesmith/thesmith-logo-black_1.0-33.png" style="width: 300px" alt=""></div>',
             timeout: false,
             timeoutCountdown: 5000,
             onLoadEvent: true,
