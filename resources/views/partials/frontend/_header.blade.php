@@ -314,7 +314,7 @@
 
 
             <!-- Button show menu -->
-            <div class="btn-show-menu-mobile hamburger hamburger--squeeze pl-md-5" style="position: absolute;">
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze pl-md-5" >
 					<span class="hamburger-box">
 						<span class="hamburger-inner"></span>
 					</span>
@@ -337,7 +337,7 @@
         </div>
 
         <div class="menu-mobile">
-            <ul class="main-menu left pb-5" style="background-color: black;">
+            <ul class="main-menu left pb-5 text-right text-md-left" style="background-color: black;">
 {{--                <li>--}}
 {{--                    <a href="{{ route('home') }}" class="text-white font-metropolis txt-header" style="letter-spacing: 2px;">HOME</a>--}}
 {{--                </li>--}}
