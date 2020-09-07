@@ -1072,36 +1072,36 @@
                 <p class="txt-subheader-2 font-lato pb-5 let-spa-2">The Associates To Ensure Your Perfect Homes</p>
                 <div class="row py-5">
                     <div class="col-4">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Architecture</p>
+                        <p class="txt-subheader font-metropolis-bold pb-2 font-partners">Architecture</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web-home_2.0-22.png') }}" alt="img" class="w-75 pt-3">
                     </div>
-                    <div class="col-4">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Interior Design</p>
+                    <div class="col-4 px-0 ">
+                        <p class="txt-subheader font-metropolis-bold pb-2 font-partners">Interior Design</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-19.png') }}" alt="img" class="w-75 pt-4">
                     </div>
                     <div class="col-4">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Luxury Brand</p>
+                        <p class="txt-subheader font-metropolis-bold pb-2 font-partners">Luxury Brand</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-20.png') }}" alt="img" class="w-75 pt-4">
                     </div>
                 </div>
                 <div class="row py-5">
                     <div class="col-6">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Building Management</p>
+                        <p class="txt-subheader font-metropolis-bold pb-2 font-partners">Building Management</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-21.png') }}" alt="img" class="w-50 pt-3">
                     </div>
                     <div class="col-6">
-                        <p class="txt-subheader font-metropolis-bold pb-2">Main Contractor</p>
+                        <p class="txt-subheader font-metropolis-bold pb-2 font-partners">Main Contractor</p>
                         <div class="border-bot-black"></div>
                         <img src="{{ asset('images/thesmith/home/thesmith-web_2.0-22.png') }}" alt="img" class="w-50 pt-3">
                     </div>
                 </div>
                 <div class="row py-4">
                     <div class="col-12">
-                        <p class="txt-subheader font-metropolis-bold pb-2">BANKS</p>
+                        <p class="txt-subheader font-metropolis-bold pb-2 font-partners">BANKS</p>
                         <div class="border-bot-black"></div>
                         <div class="row px-5 px-md-0">
                             <div class="col-md-3 col-6 pb-3 pb-md-0">
@@ -1596,6 +1596,12 @@ pop up css
             -ms-flex-align: center;
             -webkit-align-items: center;
             align-items: center;
+        }
+
+        @media (width: 360px){
+            .font-partners {
+                font-size: 13px;
+            }
         }
         @media (min-width: 576px) {
 
