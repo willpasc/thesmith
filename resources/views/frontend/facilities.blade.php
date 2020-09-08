@@ -232,11 +232,11 @@
     </section>
 
     <section style="background-color: black;">
-        <div class="container-fluid">
+        <div class="container-fluid no-padding">
             <div class="row no-gutters bg-facilities"></div>
             <div class="row no-gutters">
-                <div class="col-2"></div>
-                <div class="col-8 bg-white text-center py-5" style="margin-top: -50px;">
+                <div class="col-3"></div>
+                <div class="col-6 bg-white text-center py-5" style="margin-top: -50px;">
                     {{--                    <div class="row no-gutters">--}}
                     {{--                        <div class="col-md-3"></div>--}}
                     {{--                        <div class="col-md-6 col-12 text-dark px-3 px-md-2">--}}
@@ -275,7 +275,7 @@
                     </div>
 
                 </div>
-                <div class="col-2"></div>
+                <div class="col-3"></div>
             </div>
         </div>
     </section>
@@ -494,7 +494,9 @@
             top:-1.5px;
 
         }
-
+        .no-padding{
+            padding:0;
+        }
         .bg-facilities{
             background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
             background-repeat: no-repeat;
