@@ -210,15 +210,15 @@
             <div class="col-8">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs pt-3" role="tablist">
-                    <li class="nav-item col-md-4 col-12 p-0 tab-nav">
+                    <li class="nav-item col-md-4 col-12 p-0 tab-nav font-12">
                         <a class="nav-link active text-white font-lato-light let-spa-2" data-toggle="tab" href="#residence" role="tab" id="tabResidence"  onclick="changetab(1)">RESIDENCES</a>
                     </li>
 
-                    <li class="nav-item col-md-4 p-0 tab-nav">
+                    <li class="nav-item col-md-4 p-0 tab-nav font-12">
                         <a class="nav-link text-white font-lato-light let-spa-2" data-toggle="tab" href="#soho" role="tab" id="tabSoho" onclick="changetab(2)">SOHO</a>
                     </li>
 
-                    <li class="nav-item col-md-4 p-0 tab-nav">
+                    <li class="nav-item col-md-4 p-0 tab-nav font-12">
                         <a class="nav-link text-white font-lato-light let-spa-2" data-toggle="tab" href="#office" role="tab" id="tabOffice" onclick="changetab(3)">OFFICES</a>
                     </li>
                 </ul>
@@ -652,18 +652,18 @@
                         <ul class="nav nav-tabs2 pt-3 fs-12 lh-12" role="tablist">
                             <li class="nav-item col-md-2 p-0 tab-nav">
                             </li>
-                            <li class="nav-item col-md-2 col-12 p-0 tab-nav" >
+                            <li class="nav-item col-md-2 col-12 p-0 tab-nav font-12" >
                                 <a class="nav-link font-lato  active" data-toggle="tab" href="#sohoa" role="tab" id="tabSohoa" style="padding: 16px 5px;" ><span>Studio</span></a>
                             </li>
 
-                            <li class="nav-item col-md-2 p-0 tab-nav">
+                            <li class="nav-item col-md-2 p-0 tab-nav font-12">
                                 <a class="nav-link  font-lato  " data-toggle="tab" href="#sohob" role="tab" id="tabSohob" style="padding: 16px 5px;" ><span>1 Bedroom</span></a>
                             </li>
 
-                            <li class="nav-item col-md-2 p-0 tab-nav">
+                            <li class="nav-item col-md-2 p-0 tab-nav font-12">
                                 <a class="nav-link font-lato " data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" style="padding: 10px 5px;" ><span>1 Bedroom +<br/>Home Office</span></a>
                             </li>
-                            <li class="nav-item col-md-2 p-0 tab-nav">
+                            <li class="nav-item col-md-2 p-0 tab-nav font-12">
                                 <a class="nav-link font-lato " data-toggle="tab" href="#sohod" role="tab" id="tabSohod" style="padding: 10px 5px;" >1 Bedroom +<br/>Home Office Corner</a>
                             </li>
 {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
