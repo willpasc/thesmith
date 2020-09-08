@@ -353,7 +353,7 @@
                                                     <div class="col-12 text-dark text-center pt-5">
                                                         <p class="txt-header-body font-metropolis-bold let-spa-5">TOWER PLANS</p>
                                                         <div class="text-center">
-                                                            <img src="{{ asset('images/thesmith/tower/TheSmith-Web_2.0-40.png') }}" alt="img" class="img-soho">
+                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-offices.png') }}" alt="img" class="img-soho">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -542,7 +542,7 @@
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
                                             <div class="col-md-4 col-12">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-studio.png') }}" alt="img" class="w-100">
                                             </div>
                                             <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
@@ -581,7 +581,7 @@
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
                                             <div class="col-md-4">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-1br.png') }}" alt="img" class="w-100">
                                             </div>
                                             <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
@@ -621,7 +621,7 @@
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
                                             <div class="col-md-4">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-1brho.png') }}" alt="img" class="w-100">
                                             </div>
                                             <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
@@ -670,7 +670,7 @@
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
                                             <div class="col-md-4">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-1brhoc.png') }}" alt="img" class="w-100">
                                             </div>
                                             <div class="col-md-8 pt-5 pt-md-0">
                                                 <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">

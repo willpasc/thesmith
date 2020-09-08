@@ -36,22 +36,22 @@
                                     </div>
                                     <div class="row no-gutters font-lato txt-body text-center ">
                                         <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/share/collection/7lt5P?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark">
+                                            <a href="https://kuula.co/share/collection/7lt5P?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
                                                 <img src="{{ asset('images/thesmith/virtual/studio.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>
                                         <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/post/7FZ1r" class="py-3 text-dark">
+                                            <a href="https://kuula.co/share/collection/7PYY5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
                                                 <img src="{{ asset('images/thesmith/virtual/1 bedroom.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>
                                         <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/share/collection/7ltF5?fs=1&vr=1&sd=1&thumbs=1&chromeless=1&logo=0" class="py-3 text-dark">
+                                            <a href="https://kuula.co/share/collection/7ltF5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
                                                 <img src="{{ asset('images/thesmith/virtual/2 bedroom optional.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>
                                         <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/share/collection/7ltND?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark">
+                                            <a href="https://kuula.co/share/collection/7ltND?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
                                                 <img src="{{ asset('images/thesmith/virtual/2 bedroom optional corner.png') }}" alt="img" class="w-100 pb-3">
                                             </a>
                                         </div>

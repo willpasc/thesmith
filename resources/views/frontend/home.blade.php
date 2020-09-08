@@ -681,7 +681,7 @@
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
                                         <div class="col-md-4">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-studio.png') }}" alt="img" class="w-100">
                                         </div>
                                         <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
@@ -720,7 +720,7 @@
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
                                         <div class="col-md-4">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-1br.png') }}" alt="img" class="w-100">
                                         </div>
                                         <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
@@ -760,7 +760,7 @@
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
                                         <div class="col-md-4">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-1brho.png') }}" alt="img" class="w-100">
                                         </div>
                                         <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
@@ -809,7 +809,7 @@
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
                                         <div class="col-md-4">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-home_2.1-17.png') }}" alt="img" class="w-100">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-1brhoc.png') }}" alt="img" class="w-100">
                                         </div>
                                         <div class="col-md-8 pt-5 pt-md-0">
                                             <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">
@@ -888,56 +888,61 @@
 
     <section class="swiper-container image-slider">
         <div class="swiper-wrapper">
-{{--            <div class="swiper-slide">--}}
-{{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
-{{--            </div>--}}
-{{--            <div class="swiper-slide">--}}
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-{{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
-{{--            </div>--}}
+            {{--            <div class="swiper-slide">--}}
+            {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-floorplan_1.png') }}" alt="img" >--}}
+            {{--            </div>--}}
+            {{--            <div class="swiper-slide">--}}
+            {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+            {{--                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
+            {{--            </div>--}}
             <div class="swiper-slide">
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Web-Home_2.0-15.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-02.jpg') }}" alt="img" class="d-none d-md-block">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
+            </div>
+            <div class="swiper-slide">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-03.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide" >
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_2.1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-04.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_2.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-05.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lobby_4.1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-06.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_4.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             {{--            <div class="swiper-slide">--}}
             {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img">--}}
             {{--            </div>--}}
             <div class="swiper-slide">
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Lounge_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-07.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lounge_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
             <div class="swiper-slide">
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-MeetingRooms_1.1.jpg') }}" alt="img" class="d-none d-md-block">
+                {{--                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-08.jpg') }}" alt="img" class="d-none d-md-block">
                 <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-meetingrooms_1.0.jpg') }}" alt="img" class="d-block d-md-none">
             </div>
-            <div class="swiper-slide">
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Auditorium_1.1.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-auditorium_1.0.jpg') }}" alt="img" class="d-block d-md-none">
-            </div>
-            <div class="swiper-slide">
-{{--                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                <img src="{{ asset('images/thesmith/facilities/TheSmith-Pool_1.1.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-pool_1.0.jpg') }}" alt="img" class="d-block d-md-none">
-            </div>
+            {{--                <div class="swiper-slide">--}}
+            {{--                    --}}{{--                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+            {{--                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Auditorium_1.1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+            {{--                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-auditorium_1.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
+            {{--                </div>--}}
+            {{--                <div class="swiper-slide">--}}
+            {{--                    --}}{{--                <img src="{{ asset('images/thesmith/facilities/facilities-sky-pool_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+            {{--                    <img src="{{ asset('images/thesmith/facilities/TheSmith-Pool_1.1.jpg') }}" alt="img" class="d-none d-md-block">--}}
+            {{--                    <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-pool_1.0.jpg') }}" alt="img" class="d-block d-md-none">--}}
+            {{--                </div>--}}
         </div>
     </section>
 </section>
@@ -950,109 +955,103 @@
                     <div class="col-12">
                         <div class="swiper-container content-slider">
                             <div class="swiper-wrapper py-3">
-                                <div class="swiper-slide" >
+                                <div class="swiper-slide" style="background-color: black;">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5 px-0">
+                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5 px-0">
+                                            <p class="font-metropolis-bold">Swimming Pool</p>
+                                            <p class="font-lato txt-body py-3 px-5">Live, Hustle, Create. Enjoy living in The Smith. May it be for sport, leisure, or any purposes.
+                                                A swimming pool with a view is at your doorstep for you to relish.</p>
+                                        </div>
+                                        <div class="col-md-1"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                            <p class="font-metropolis-bold">Gym Studio</p>
+                                            <p class="font-lato txt-body py-3 px-5">Stay vigorous to maximize your hustle. The Smith has a Gym Studio for any kind of exercise
+                                                that you need for tip-top fitness.</p>
+                                        </div>
+                                        <div class="col-md-1"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                            <p class="font-metropolis-bold">1.400 Sqm Silicon Valley Facilities</p>
+                                            <p class="font-lato txt-body py-3 px-5">Experience elegant Silicon Valley amenities within The Smith. Limitless opportunities
+                                                ready to be made.</p>
+                                        </div>
+                                        <div class="col-md-1"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                            <p class="font-metropolis-bold">Meeting Rooms</p>
+                                            <p class="font-lato txt-body py-3 px-5">Balance your life with utmost productivity by the convenience of having meeting rooms
+                                                steps away from your homes.</p>
+                                        </div>
+                                        <div class="col-md-1"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                            <p class="font-metropolis-bold">Co-Working Space</p>
+                                            <p class="font-lato txt-body py-3 px-5">Work with a view. Utilize the beautifully placed co-working space within The Smith. Equipped
+                                                with world-class features.</p>
+                                        </div>
+                                        <div class="col-md-1"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                            <p class="font-metropolis-bold">Outdoor Plaza</p>
+                                            <p class="font-lato txt-body py-3 px-5">Greeted with lavishness, then take delight in strolls, or get your fresh cups of coffee on the
+                                                outdoor plaza of The Smith.</p>
+                                        </div>
+                                        <div class="col-md-1"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="background-color: black;">
+                                    <div class="row px-md-0">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">Double Road System</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
+                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both Slow Land and
+                                                a Fast Lane. Besides giving more privacy, the Slow Lane is adding the safety to commute
                                                 in or out of the building.</p>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" >
-                                    <div class="row px-md-0">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">GRAND LOBBY</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
-                                                in or out of the building.</p>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" >
-                                    <div class="row px-md-0">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">APARTMENT LOBBY</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
-                                                in or out of the building.</p>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" >
-                                    <div class="row px-md-0">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">OFFICE LOBBY</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
-                                                in or out of the building.</p>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" >
-                                    <div class="row px-md-0">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">BUSINESS LOUNGE</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
-                                                in or out of the building.</p>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" >
-                                    <div class="row px-md-0">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">COWORKING SPACE LOBBY</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
-                                                in or out of the building.</p>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" >
-                                    <div class="row px-md-0">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">AUDITORIUM</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
-                                                in or out of the building.</p>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" >
-                                    <div class="row px-md-0">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">SKY POOL</p>
-                                            <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and
-                                                a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute
-                                                in or out of the building.</p>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
+                                {{--                                    <div class="swiper-slide" style="background-color: black;">--}}
+                                {{--                                        <div class="row px-md-0">--}}
+                                {{--                                            <div class="col-md-1"></div>--}}
+                                {{--                                            <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">--}}
+                                {{--                                                <p class="font-metropolis-bold">SKY POOL</p>--}}
+                                {{--                                                <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both a Slow Lane and--}}
+                                {{--                                                    a Fast Lane. Besides giving more privacy, the slow lane is adding the safety to commute--}}
+                                {{--                                                    in or out of the building.</p>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="col-md-1"></div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
 
                             </div>
                             <!-- Add Pagination -->
-                            <div class="swiper-pagination black"></div>
+                            <div class="swiper-pagination white"></div>
                             <!-- Add Arrows -->
-                            <div class="swiper-button-next swiper-button-black"></div>
-                            <div class="swiper-button-prev swiper-button-black"></div>
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
                         </div>
                     </div>
                 </div>
