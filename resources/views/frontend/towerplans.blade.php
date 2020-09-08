@@ -17,15 +17,15 @@
                 <div class="col-8 text-white text-center">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs pt-5 pb-5" role="tablist">
-                        <li class="nav-item col-md-4 col-12 p-0 tab-nav">
+                        <li class="nav-item col-md-4 col-12 p-0 tab-nav font-12">
                             <a class="nav-link text-white font-lato let-spa-2 {{$tabresidence}}" data-toggle="tab" href="#residence-tower" role="tab" id="tabResidence"  onclick="changetower(1)">RESIDENCE</a>
                         </li>
 
-                        <li class="nav-item col-md-4 p-0 tab-nav">
+                        <li class="nav-item col-md-4 p-0 tab-nav font-12">
                             <a class="nav-link text-white font-lato let-spa-2 {{$tabsoho}}" data-toggle="tab" href="#soho-tower" role="tab" id="tabSoho" onclick="changetower(2)">SOHO</a>
                         </li>
 
-                        <li class="nav-item col-md-4 p-0 tab-nav">
+                        <li class="nav-item col-md-4 p-0 tab-nav font-12">
                             <a class="nav-link text-white font-lato let-spa-2 {{$taboffice}}" data-toggle="tab" href="#office-tower" role="tab" id="tabOffice" onclick="changetower(3)">OFFICE</a>
                         </li>
                     </ul>
@@ -170,21 +170,21 @@
                                                         <ul class="nav nav-tabs2 pt-3" role="tablist">
                                                             <li class="nav-item col-md-1 p-0 tab-nav">
                                                             </li>
-                                                            <li class="nav-item col-md-2 col-12 p-0 tab-nav">
+                                                            <li class="nav-item col-md-2 col-12 p-0 tab-nav font-12">
                                                                 <a class="nav-link font-lato let-spa-2 active" data-toggle="tab" href="#sohoa" role="tab" id="tabSohoa"  onclick="changeDetailTower(1)">SOHO A</a>
                                                             </li>
 
-                                                            <li class="nav-item col-md-2 p-0 tab-nav">
+                                                            <li class="nav-item col-md-2 p-0 tab-nav font-12">
                                                                 <a class="nav-link  font-lato let-spa-2 " data-toggle="tab" href="#sohob" role="tab" id="tabSohob" onclick="changeDetailTower(2)">SOHO B</a>
                                                             </li>
 
-                                                            <li class="nav-item col-md-2 p-0 tab-nav">
+                                                            <li class="nav-item col-md-2 p-0 tab-nav font-12">
                                                                 <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoc" role="tab" id="tabSohoc" onclick="changeDetailTower(3)">SOHO C</a>
                                                             </li>
-                                                            <li class="nav-item col-md-2 p-0 tab-nav">
+                                                            <li class="nav-item col-md-2 p-0 tab-nav font-12">
                                                                 <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohod" role="tab" id="tabSohod" onclick="changeDetailTower(4)">SOHO D</a>
                                                             </li>
-                                                            <li class="nav-item col-md-2 p-0 tab-nav">
+                                                            <li class="nav-item col-md-2 p-0 tab-nav font-12">
                                                                 <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>
                                                             </li>
                                                             <li class="nav-item col-md-1 p-0 tab-nav">
@@ -198,38 +198,38 @@
                                                             <div class="tab-pane fade show active" id="sohoa" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_a.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-a.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohob" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b1.jpg') }}" alt="img" class="img-soho">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b2.jpg') }}" alt="img" class="img-soho">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b3.jpg') }}" alt="img" class="img-soho">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b4.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b1.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b2.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b3.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b4.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohoc" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_c.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-c.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohod" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_d.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-d.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohoe" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_e.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-e.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -368,15 +368,15 @@
                                                     <div class="col-8 text-center">
                                                         <!-- Nav tabs -->
                                                         <ul class="nav nav-tabs2 pt-3" role="tablist">
-                                                            <li class="nav-item col-md-4 col-12 p-0 tab-nav">
+                                                            <li class="nav-item col-md-4 col-12 p-0 tab-nav font-12">
                                                                 <a class="nav-link font-lato let-spa-2 active" data-toggle="tab" href="#officea" role="tab" id="tabOfficea">OFFICE A</a>
                                                             </li>
 
-                                                            <li class="nav-item col-md-4 p-0 tab-nav">
+                                                            <li class="nav-item col-md-4 p-0 tab-nav font-12">
                                                                 <a class="nav-link  font-lato let-spa-2 " data-toggle="tab" href="#officeb" role="tab" id="tabOfficeb">OFFICE B</a>
                                                             </li>
 
-                                                            <li class="nav-item col-md-4 p-0 tab-nav">
+                                                            <li class="nav-item col-md-4 p-0 tab-nav font-12">
                                                                 <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#officec" role="tab" id="tabOfficec">OFFICE C</a>
                                                             </li>
                                                         </ul>
@@ -389,21 +389,21 @@
                                                             <div class="tab-pane fade show active" id="officea" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_a.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-a.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="officeb" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_b.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-b.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="officec" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
                                                                     <div class="text-center">
-                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_c.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-c.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -869,8 +869,6 @@
         width: 75% !important;
         }
 
-
-
         /*.slick-dots li button:before {*/
         /*color: #fff;*/
         /*}*/
@@ -912,8 +910,6 @@
         .transform-button{
             width:245px;
         }
-
-
 
         .bg-lobby{
             background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-14.jpg') }}');

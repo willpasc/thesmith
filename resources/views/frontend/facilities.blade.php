@@ -254,20 +254,46 @@
                             <div class="row">
                                 <div class="col-md-2 col"></div>
                                 <div class="col-md-8 col-12 pt-5">
-                                    <p class="txt-subheader let-spa font-metropolis-bold">3<sup style="top:0px;font-size: 10px;">RD</sup> FLOOR FACILITES</p>
+                                    <p class="txt-subheader let-spa font-metropolis-bold">GROUND FLOOR | LOBBY</p>
                                     {{--                                                                    <div class="border-swiper-custom"></div>--}}
-                                    <p class="txt-body pt-3 font-lato d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
-                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
-                                        that boosts a balanced lifesyle experience.</p>
-                                    <p class="txt-body pt-3 font-lato d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.
-                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities
-                                        that boosts a balanced lifesyle experience.</p>
+{{--                                    <p class="txt-body pt-3 font-lato d-none d-md-block">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.--}}
+{{--                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities--}}
+{{--                                        that boosts a balanced lifesyle experience.</p>--}}
+{{--                                    <p class="txt-body pt-3 font-lato d-block d-md-none px-5">The Smith stands as a home for millenials who seek limitless opportunities at the prosperous land of Alam Sutera.--}}
+{{--                                        Relish an elegant home that smartly incorporates luxury and comfort, encircled with complete SOHO amenities--}}
+{{--                                        that boosts a balanced lifesyle experience.</p>--}}
                                 </div>
                                 <div class="col-md-2"></div>
                             </div>
                             <div class="py-5">
                                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-10.png') }}" alt="img" class="w-100 d-none d-md-block">
+                                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">
+                            </div>
+                        </div>
+                        <div class="col-12 text-dark text-center">
+                            <div class="row">
+                                <div class="col-md-2 col"></div>
+                                <div class="col-md-8 col-12 pt-5">
+                                    <p class="txt-subheader let-spa font-metropolis-bold">3<sup style="top:0px;font-size: 10px;">RD</sup> FLOOR | CO-WORKING SPACE</p>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="py-5">
                                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-11.png') }}" alt="img" class="w-100 d-none d-md-block">
+                                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">
+                            </div>
+                        </div>
+                        <div class="col-12 text-dark text-center">
+                            <div class="row">
+                                <div class="col-md-2 col"></div>
+                                <div class="col-md-8 col-12 pt-5">
+                                    <p class="txt-subheader let-spa font-metropolis-bold">F FLOOR | LEISURE</p>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="py-5">
+                                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-12.png') }}" alt="img" class="w-100 d-none d-md-block">
+                                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-13.png') }}" alt="img" class="w-100 d-none d-md-block">
                                 <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                                 <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                             </div>
@@ -498,7 +524,7 @@
             padding:0;
         }
         .bg-facilities{
-            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home-facilities-img_1.1.jpg') }}');
+            background-image: url('{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-09.jpg') }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
