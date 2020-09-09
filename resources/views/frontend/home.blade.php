@@ -898,27 +898,27 @@
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-02.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-01.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-03.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_3.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-02.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
             </div>
             <div class="swiper-slide" >
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-04.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_2.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-03.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-05.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-04.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-06.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lobby_4.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-05.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
             </div>
             {{--            <div class="swiper-slide">--}}
             {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img">--}}
@@ -926,12 +926,12 @@
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-07.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-lounge_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-06.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-08.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mobile-meetingrooms_1.0.jpg') }}" alt="img" class="d-block d-md-none">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-07.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
             </div>
             {{--                <div class="swiper-slide">--}}
             {{--                    --}}{{--                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
@@ -953,82 +953,131 @@
             <div class="col-md-8 col-10">
                 <div class="row">
                     <div class="col-12">
-                        <div class="swiper-container content-slider">
+                        <div class="swiper-container content-slider text-dark bg-white">
                             <div class="swiper-wrapper py-3">
-                                <div class="swiper-slide" style="background-color: black;">
+                                <div class="swiper-slide">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5 px-0">
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5 px-0">
                                             <p class="font-metropolis-bold">Swimming Pool</p>
                                             <p class="font-lato txt-body py-3 px-5">Live, Hustle, Create. Enjoy living in The Smith. May it be for sport, leisure, or any purposes.
                                                 A swimming pool with a view is at your doorstep for you to relish.</p>
+                                            <div class="row">
+                                                <div class="col-md-3"></div>
+                                                <div class="col-md-6 col-12 pt-4">
+                                                    <a href="{{ route('frontend.facilities')}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid black;">See More</a>
+                                                </div>
+                                                <div class="col-md-"></div>
+                                            </div>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" style="background-color: black;">
+                                <div class="swiper-slide">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">Gym Studio</p>
                                             <p class="font-lato txt-body py-3 px-5">Stay vigorous to maximize your hustle. The Smith has a Gym Studio for any kind of exercise
                                                 that you need for tip-top fitness.</p>
+                                            <div class="row">
+                                                <div class="col-md-3"></div>
+                                                <div class="col-md-6 col-12 pt-4">
+                                                    <a href="{{ route('frontend.facilities')}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid black;">See More</a>
+                                                </div>
+                                                <div class="col-md-"></div>
+                                            </div>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" style="background-color: black;">
+                                <div class="swiper-slide">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">1.400 Sqm Silicon Valley Facilities</p>
                                             <p class="font-lato txt-body py-3 px-5">Experience elegant Silicon Valley amenities within The Smith. Limitless opportunities
                                                 ready to be made.</p>
+                                            <div class="row">
+                                                <div class="col-md-3"></div>
+                                                <div class="col-md-6 col-12 pt-4">
+                                                    <a href="{{ route('frontend.facilities')}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid black;">See More</a>
+                                                </div>
+                                                <div class="col-md-"></div>
+                                            </div>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" style="background-color: black;">
+                                <div class="swiper-slide">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">Meeting Rooms</p>
                                             <p class="font-lato txt-body py-3 px-5">Balance your life with utmost productivity by the convenience of having meeting rooms
                                                 steps away from your homes.</p>
+                                            <div class="row">
+                                                <div class="col-md-3"></div>
+                                                <div class="col-md-6 col-12 pt-4">
+                                                    <a href="{{ route('frontend.facilities')}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid black;">See More</a>
+                                                </div>
+                                                <div class="col-md-"></div>
+                                            </div>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" style="background-color: black;">
+                                <div class="swiper-slide">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">Co-Working Space</p>
                                             <p class="font-lato txt-body py-3 px-5">Work with a view. Utilize the beautifully placed co-working space within The Smith. Equipped
                                                 with world-class features.</p>
+                                            <div class="row">
+                                                <div class="col-md-3"></div>
+                                                <div class="col-md-6 col-12 pt-4">
+                                                    <a href="{{ route('frontend.facilities')}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid black;">See More</a>
+                                                </div>
+                                                <div class="col-md-"></div>
+                                            </div>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" style="background-color: black;">
+                                <div class="swiper-slide">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">Outdoor Plaza</p>
                                             <p class="font-lato txt-body py-3 px-5">Greeted with lavishness, then take delight in strolls, or get your fresh cups of coffee on the
                                                 outdoor plaza of The Smith.</p>
+                                            <div class="row">
+                                                <div class="col-md-3"></div>
+                                                <div class="col-md-6 col-12 pt-4">
+                                                    <a href="{{ route('frontend.facilities')}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid black;">See More</a>
+                                                </div>
+                                                <div class="col-md-"></div>
+                                            </div>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" style="background-color: black;">
+                                <div class="swiper-slide">
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
-                                        <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
+                                        <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
                                             <p class="font-metropolis-bold">Double Road System</p>
                                             <p class="font-lato txt-body py-3 px-5">The Smith is the only mixed-use development in Alam Sutera that have both Slow Land and
                                                 a Fast Lane. Besides giving more privacy, the Slow Lane is adding the safety to commute
                                                 in or out of the building.</p>
+                                            <div class="row">
+                                                <div class="col-md-3"></div>
+                                                <div class="col-md-6 col-12 pt-4">
+                                                    <a href="{{ route('frontend.facilities')}}" class="txt-body text-center py-2 px-4 text-dark font-lato let-spa-2" style="border: 1px solid black;">See More</a>
+                                                </div>
+                                                <div class="col-md-"></div>
+                                            </div>
                                         </div>
                                         <div class="col-md-1"></div>
                                     </div>
@@ -1048,10 +1097,10 @@
 
                             </div>
                             <!-- Add Pagination -->
-                            <div class="swiper-pagination white"></div>
+                            <div class="swiper-pagination"></div>
                             <!-- Add Arrows -->
-                            <div class="swiper-button-next swiper-button-white"></div>
-                            <div class="swiper-button-prev swiper-button-white"></div>
+                            <div class="swiper-button-next swiper-button-black"></div>
+                            <div class="swiper-button-prev swiper-button-black"></div>
                         </div>
                     </div>
                 </div>
