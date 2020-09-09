@@ -197,39 +197,65 @@
                                                         <div class="tab-content">
                                                             <div class="tab-pane fade show active" id="sohoa" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-a.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-a.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_a.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohob" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b1.jpg') }}" alt="img" class="img-soho">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b2.jpg') }}" alt="img" class="img-soho">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b3.jpg') }}" alt="img" class="img-soho">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-b4.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-b1.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b1.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-b2.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b2.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-b3.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b3.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-b4.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_b4.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohoc" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-c.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-c.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_c.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohod" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-d.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-d.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_d.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="sohoe" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.0-e.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_3.1-e.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-soho_e.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -240,7 +266,7 @@
                                                 <div class="row">
                                                     <div class="col-12 text-dark text-left pt-5">
                                                         <p class="txt-header-body font-metropolis-bold text-center let-spa-5">SPECIFICATIONS</p>
-                                                        <div class="border-swiper-custom-specification" styl="padding-top: 25px"></div>
+                                                        <div class="border-swiper-custom-specification" style="padding-top: 25px"></div>
                                                         <div class="row text-center text-md-left">
                                                             <div class="col-md-2 "></div>
                                                             <div class="col-md-2 col-12 txt-body-f11 font-metropolis-bold">FLOOR TO FLOOR</div>
@@ -388,22 +414,34 @@
                                                         <div class="tab-content">
                                                             <div class="tab-pane fade show active" id="officea" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-a.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-01.jpg') }}" alt="img" class="img-soho ">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_a.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="officeb" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-b.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-02.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_b.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade show" id="officec" role="tabpanel">
                                                                 <div class="panel-body" style="z-index:9999999 !important;">
-                                                                    <div class="text-center">
+                                                                    <div class="text-center d-none d-md-block">
                                                                         <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-c.jpg') }}" alt="img" class="img-soho">
+                                                                    </div>
+                                                                    <div class="text-center d-block d-md-none pl-3 pr-3">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_3.1-03.jpg') }}" alt="img" class="img-soho">
+                                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-office_c.jpg') }}" alt="img" class="img-soho">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -542,15 +580,15 @@
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
 
-{{--                                            <div class="col-md-4 col-12">--}}
-{{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-studio.png') }}" alt="img" class="w-100">--}}
-{{--                                            </div>--}}
-{{--                                            <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">--}}
-{{--                                            </div>--}}
-                                            <div class="col-md-12 col-12">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-studio.png') }}" alt="img" class="w-100">
+                                            <div class="col-md-4 col-12">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-05.png') }}" alt="img" class="w-100">
                                             </div>
+                                            <div class="col-md-8 pt-5 pt-md-0">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
+                                            </div>
+{{--                                            <div class="col-md-12 col-12">--}}
+{{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-studio.png') }}" alt="img" class="w-100">--}}
+{{--                                            </div>--}}
                                         </div>
                                         <div class="row pb-5">
                                             <div class="col-12 py-5">
@@ -584,12 +622,12 @@
                                 <div class="tab-pane fade show" id="unitb" role="tabpanel">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
-                                            <div class="col-md-12 col-12">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1br.png') }}" alt="img" class="w-100">
+                                            <div class="col-md-4 col-12">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-06.png') }}" alt="img" class="w-100">
                                             </div>
-{{--                                            <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">--}}
-{{--                                            </div>--}}
+                                            <div class="col-md-8 pt-5 pt-md-0">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
+                                            </div>
                                         </div>
                                         <div class="row pb-5">
                                             <div class="col-12 py-5">
@@ -624,12 +662,12 @@
                                 <div class="tab-pane fade show" id="unitc" role="tabpanel">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
-                                            <div class="col-md-12 col-12">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1brho.png') }}" alt="img" class="w-100">
+                                            <div class="col-md-4 col-12">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-07.png') }}" alt="img" class="w-100">
                                             </div>
-{{--                                            <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">--}}
-{{--                                            </div>--}}
+                                            <div class="col-md-8 pt-5 pt-md-0">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
+                                            </div>
                                         </div>
                                         <div class="row pb-5">
                                             <div class="col-12 py-5">
@@ -673,12 +711,12 @@
                                 <div class="tab-pane fade show" id="unitd" role="tabpanel">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
-                                            <div class="col-md-12 col-12">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1brhoc.png') }}" alt="img" class="w-100">
+                                            <div class="col-md-4 col-12">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-08.png') }}" alt="img" class="w-100">
                                             </div>
-{{--                                            <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">--}}
-{{--                                            </div>--}}
+                                            <div class="col-md-8 pt-5 pt-md-0">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">
+                                            </div>
                                         </div>
                                         <div class="row pb-5">
                                             <div class="col-12 py-5">

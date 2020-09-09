@@ -92,7 +92,8 @@
                 <div class="border-concept-custom-1"></div>
                 <div class="row py-5">
                     <div class="col-md-4 col-12 pb-5 pb-md-0">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept d-none d-md-block ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-concept-mobile_2.0-21.jpg') }}" alt="img" class="img-concept d-block d-md-none">
                         <div class="">
                         <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE</p>
                         <p class="txt-body px-md-3 px-5 font-lato d-block d-md-none">Elegantly incorporates comfort and
@@ -102,7 +103,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 pb-5 pb-md-0">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept d-none d-md-block ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-concept-mobile_2.0-22.jpg') }}" alt="img" class="img-concept d-block d-md-none">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">CURRATED COMMUNITY</p>
                             <p class="txt-body px-md-3 px-5 font-lato d-none d-md-block">Equipped with facilities designed
@@ -112,7 +114,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept d-none d-md-block ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-concept-mobile_2.0-23.jpg') }}" alt="img" class="img-concept d-block d-md-none">
                         <div class="">
                             <p class="py-md-4 py-3 txt-subheader font-metropolis-bold let-spa-2">HOME OF UNICORNS</p>
                             <p class="txt-body px-md-3 px-5 font-lato">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>
@@ -680,12 +683,15 @@
                             <div class="tab-pane fade show active" id="sohoa" role="tabpanel">
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
-                                        <div class="col-md-12 col-12">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-studio.png') }}" alt="img" class="w-100">
-                                        </div>
-{{--                                        <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">--}}
+{{--                                        <div class="col-md-12 col-12">--}}
+{{--                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-studio.png') }}" alt="img" class="w-100">--}}
 {{--                                        </div>--}}
+                                        <div class="col-md-4 col-12">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-05.png') }}" alt="img" class="w-100">
+                                        </div>
+                                        <div class="col-md-8 pt-5 pt-md-0">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">
+                                        </div>
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
@@ -719,12 +725,12 @@
                             <div class="tab-pane fade show" id="sohob" role="tabpanel">
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
-                                        <div class="col-md-12 col-12">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1br.png') }}" alt="img" class="w-100">
+                                        <div class="col-md-4 col-12">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-06.png') }}" alt="img" class="w-100">
                                         </div>
-{{--                                        <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">--}}
-{{--                                        </div>--}}
+                                        <div class="col-md-8 pt-5 pt-md-0">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-03.png') }}" alt="img" class="w-100">
+                                        </div>
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
@@ -759,12 +765,15 @@
                             <div class="tab-pane fade show" id="sohoc" role="tabpanel">
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
-                                        <div class="col-md-12 col-12">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1brho.png') }}" alt="img" class="w-100">
-                                        </div>
-{{--                                        <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">--}}
+{{--                                        <div class="col-md-12 col-12">--}}
+{{--                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1brho.png') }}" alt="img" class="w-100">--}}
 {{--                                        </div>--}}
+                                        <div class="col-md-4 col-12">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-07.png') }}" alt="img" class="w-100">
+                                        </div>
+                                        <div class="col-md-8 pt-5 pt-md-0">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-04.png') }}" alt="img" class="w-100">
+                                        </div>
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
@@ -808,12 +817,15 @@
                             <div class="tab-pane fade show" id="sohod" role="tabpanel">
                                 <div class="panel-body" style="z-index:9999999 !important;">
                                     <div class="row py-5">
-                                        <div class="col-md-12 col-12">
-                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1brhoc.png') }}" alt="img" class="w-100">
-                                        </div>
-{{--                                        <div class="col-md-8 pt-5 pt-md-0">--}}
-{{--                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">--}}
+{{--                                        <div class="col-md-12 col-12">--}}
+{{--                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-1brhoc.png') }}" alt="img" class="w-100">--}}
 {{--                                        </div>--}}
+                                        <div class="col-md-4 col-12">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-08.png') }}" alt="img" class="w-100">
+                                        </div>
+                                        <div class="col-md-8 pt-5 pt-md-0">
+                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-05.png') }}" alt="img" class="w-100">
+                                        </div>
                                     </div>
                                     <div class="row pb-5">
                                         <div class="col-12 py-5">
@@ -1452,7 +1464,7 @@
             padding-bottom:70px;
         }
         .img-concept{
-            width:80%;
+            width:100%;
         }
         .border-concept-custom{
             border-bottom: 1px solid white;

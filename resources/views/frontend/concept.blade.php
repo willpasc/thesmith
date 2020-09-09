@@ -21,7 +21,8 @@
                 <div class="border-concept-custom-1"></div>
                 <div class="row py-5">
                     <div class="col-md-4 col-12 pb-5 pb-md-0">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-08.jpg') }}" alt="img" class="img-concept d-none d-md-block ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-concept-mobile_2.0-21.jpg') }}" alt="img" class="img-concept d-block d-md-none">
                         <div class="">
                         <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">LIVE, HUSTLE, CREATE</p>
                         <p class="txt-body px-md-3 px-5 font-lato d-none d-md-block">Elegantly incorporates comfort and
@@ -31,7 +32,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 pb-5 pb-md-0">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-09.jpg') }}" alt="img" class="img-concept d-none d-md-block ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-concept-mobile_2.0-22.jpg') }}" alt="img" class="img-concept d-block d-md-none">
                         <div class="">
                             <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">CURRATED COMMUNITY</p>
                             <p class="txt-body px-md-3 px-5 font-lato d-none d-md-block">Equipped with facilities designed
@@ -41,7 +43,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-home_2.0-10.jpg') }}" alt="img" class="img-concept d-none d-md-block ">
+                        <img src="{{ asset('images/thesmith/concept/thesmith-web-concept-mobile_2.0-23.jpg') }}" alt="img" class="img-concept d-block d-md-none">
                         <div class="">
                             <p class="py-md-4 py-3 txt-concept font-metropolis-bold let-spa-2">HOME OF UNICORNS</p>
                             <p class="txt-body px-md-3 px-5 font-lato">1300 m<sup style="font-size:10px;">2</sup> of Co-Working Space,<br/>

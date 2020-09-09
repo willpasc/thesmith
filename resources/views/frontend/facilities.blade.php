@@ -311,6 +311,23 @@
                             <div class="row">
                                 <div class="col-md-2 col-1"></div>
                                 <div class="col-md-8 col-10 pt-5">
+                                    <p class="txt-subheader let-spa font-metropolis-bold">MEZZANINE</p>
+                                </div>
+                                <div class="col-md-2 col-1"></div>
+                            </div>
+                            <div class="py-5">
+                                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities-mezzanine_2.0-14.png') }}" alt="img" class="w-100 d-none d-md-block pl-5 pr-5">
+                                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities-mezzanine_2.0-14.png') }}" alt="img" class="w-100 d-block d-md-none pl-2 pr-2">
+                                {{--                                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-12.png') }}" alt="img" class="w-100 d-none d-md-block">--}}
+                                {{--                                <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-13.png') }}" alt="img" class="w-100 d-none d-md-block">--}}
+                                {{--                                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">--}}
+                                {{--                                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facility-floor_1.0.jpg') }}" alt="img" class="w-100 d-block d-md-none">--}}
+                            </div>
+                        </div>
+                        <div class="col-12 text-dark text-center">
+                            <div class="row">
+                                <div class="col-md-2 col-1"></div>
+                                <div class="col-md-8 col-10 pt-5">
                                     <p class="txt-subheader let-spa font-metropolis-bold">M FLOOR | MULTIPURPOSE</p>
                                 </div>
                                 <div class="col-md-2 col-1"></div>
