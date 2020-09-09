@@ -74,7 +74,7 @@
                 <p class="txt-subheader-2 font-lato pb-md-5 pb-3 let-spa-2">Bird’s Eye View of The Smith</p>
 {{--                <img src="{{ asset('images/thesmith/home/overview-dummy.png') }}" alt="overview" class="w-100">--}}
                 <video class="w-100" autoplay muted loop>
-                    <source src="{{ asset('videos/prev02 the smith.mp4') }}" type="video/mp4">
+                    <source src="{{ asset('videos/prev03 the smith.mp4') }}" type="video/mp4">
                 </video>
             </div>
             <div class="col-md-2 col-1"></div>
@@ -898,27 +898,27 @@
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-02.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-01.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-01.jpg') }}" alt="img" class="w-100 d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-03.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-02.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-02.jpg') }}" alt="img" class="w-100 d-block d-md-none">
             </div>
             <div class="swiper-slide" >
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-04.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-03.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-03.jpg') }}" alt="img" class="w-100 d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-05.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-04.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-04.jpg') }}" alt="img" class="w-100 d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-06.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-05.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-05.jpg') }}" alt="img" class="w-100 d-block d-md-none">
             </div>
             {{--            <div class="swiper-slide">--}}
             {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img">--}}
@@ -926,12 +926,12 @@
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-07.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-06.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-06.jpg') }}" alt="img" class="w-100 d-block d-md-none">
             </div>
             <div class="swiper-slide">
                 {{--                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
                 <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-08.jpg') }}" alt="img" class="d-none d-md-block">
-                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-07.jpg') }}" alt="img" class="d-block d-md-none" style="width:360px">
+                <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-07.jpg') }}" alt="img" class="w-100 d-block d-md-none">
             </div>
             {{--                <div class="swiper-slide">--}}
             {{--                    --}}{{--                <img src="{{ asset('images/thesmith/facilities/facilities-auditorium_1.jpg') }}" alt="img" class="d-none d-md-block">--}}

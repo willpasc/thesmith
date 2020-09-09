@@ -541,12 +541,16 @@
                                 <div class="tab-pane fade show active" id="unita" role="tabpanel">
                                     <div class="panel-body" style="z-index:9999999 !important;">
                                         <div class="row py-5">
-                                            <div class="col-md-12 col-12">
-                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-studio.png') }}" alt="img" class="w-100">
-                                            </div>
+
+{{--                                            <div class="col-md-4 col-12">--}}
+{{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_1-studio.png') }}" alt="img" class="w-100">--}}
+{{--                                            </div>--}}
 {{--                                            <div class="col-md-8 pt-5 pt-md-0">--}}
 {{--                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-02.png') }}" alt="img" class="w-100">--}}
 {{--                                            </div>--}}
+                                            <div class="col-md-12 col-12">
+                                                <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-studio.png') }}" alt="img" class="w-100">
+                                            </div>
                                         </div>
                                         <div class="row pb-5">
                                             <div class="col-12 py-5">
