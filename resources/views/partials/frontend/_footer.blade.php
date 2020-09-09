@@ -44,10 +44,10 @@
                     <p class="fs-14 font-gotham-book lh-20" style="color:white"><span class="pr-3 black">A</span><span>10.00 — 22.00</span></p>
                     <div class="pt-4">
                         <p class="fs-14 font-gotham-book lh-20" style="color:white"><span class="pr-3 black">A</span><span>FOLLOW US</span></p>
-                        <a href="#">
+                        <a href="https://www.youtube.com/channel/UCMtJaeyUqYNbgsBHmr112RA">
                             <img class=" pl-4" src="{{ asset('images/thesmith/thesmith-web_2.0-56.png') }}" style="width:50px;">
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/thesmithofficial_id/">
                             <img class=" pl-3" src="{{ asset('images/thesmith/thesmith-web_2.0-55.png') }}" style="width:40px;">
                         </a>
                     </div>

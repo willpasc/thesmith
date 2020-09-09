@@ -324,13 +324,13 @@
             </div>
             <div class="text-right d-none d-md-block" style="padding-right: 10%;">
                 <span class="text-white font-lato fs-14 pr-3 let-spa-5">REACH US</span>
-                <a href="#">
+                <a href="http://wa.me/6287888688860">
                     <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-53.png') }}" style="width:25px;">
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/thesmithofficial_id/">
                     <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-55.png') }}" style="width:25px;">
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/channel/UCMtJaeyUqYNbgsBHmr112RA">
                     <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-56.png') }}" style="width:25px;">
                 </a>
             </div>
@@ -375,10 +375,10 @@
                     <a href="http://wa.me/6287888688860">
                         <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-53.png') }}" style="width:30px;">
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/thesmithofficial_id/">
                         <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-55.png') }}" style="width:30px;">
                     </a>
-                    <a href="#">
+                    <a href="https://www.youtube.com/channel/UCMtJaeyUqYNbgsBHmr112RA">
                         <img class=" pl-1" src="{{ asset('images/thesmith/thesmith-web_2.0-56.png') }}" style="width:30px;">
                     </a>
                 </li>
