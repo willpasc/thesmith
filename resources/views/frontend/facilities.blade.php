@@ -311,7 +311,7 @@
                             <div class="row">
                                 <div class="col-md-2 col-1"></div>
                                 <div class="col-md-8 col-10 pt-5">
-                                    <p class="txt-subheader let-spa font-metropolis-bold">F FLOOR | MULTIPURPOSE</p>
+                                    <p class="txt-subheader let-spa font-metropolis-bold">M FLOOR | MULTIPURPOSE</p>
                                 </div>
                                 <div class="col-md-2 col-1"></div>
                             </div>
