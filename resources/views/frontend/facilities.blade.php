@@ -52,27 +52,27 @@
                 {{--            </div>--}}
                 <div class="swiper-slide">
                     {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-02.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-02.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                     <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-01.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                 </div>
                 <div class="swiper-slide">
                     {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-03.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-03.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                     <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-02.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                 </div>
                 <div class="swiper-slide" >
                     {{--                <img src="{{ asset('images/thesmith/facilities/facilities-grand-lobby_2.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-04.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-04.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                     <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-03.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                 </div>
                 <div class="swiper-slide">
                     {{--                <img src="{{ asset('images/thesmith/facilities/facilities-apartment-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-05.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-05.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                     <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-04.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                 </div>
                 <div class="swiper-slide">
                     {{--                <img src="{{ asset('images/thesmith/facilities/facilities-office-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-06.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-06.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                     <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-05.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                 </div>
                 {{--            <div class="swiper-slide">--}}
@@ -80,12 +80,12 @@
                 {{--            </div>--}}
                 <div class="swiper-slide">
                     {{--                <img src="{{ asset('images/thesmith/facilities/facilities-business-lounge_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-07.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-07.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                     <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-06.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                 </div>
                 <div class="swiper-slide">
                     {{--                <img src="{{ asset('images/thesmith/facilities/facilities-coworking-space-lobby_1.jpg') }}" alt="img" class="d-none d-md-block">--}}
-                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-08.jpg') }}" alt="img" class="d-none d-md-block">
+                    <img src="{{ asset('images/thesmith/facilities/thesmith-web-facilities_2.0-08.jpg') }}" alt="img" class="w-100 d-none d-md-block">
                     <img src="{{ asset('images/thesmith/facilities/thesmith-mweb-facilities_2.0-07.jpg') }}" alt="img" class="w-100 d-block d-md-none">
                 </div>
 {{--                <div class="swiper-slide">--}}

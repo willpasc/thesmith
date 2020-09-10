@@ -28,36 +28,64 @@
                         <div class="col-12 fac-slide bg-white text-center text-dark">
                             <div class="row">
                                 <div class="col-md-2 col-1"></div>
-                                <div class="col-md-8 col-10 py-5">
+                                <div class="col-md-8 col-10 pt-5 pb-2">
                                     <p class="txt-header-body font-metropolis-medium let-spa-5 pb-3">VIRTUAL TOUR</p>
                                     <div class="txt-body font-lato pb-4">
                                         <p>Simulate the living experiences of the units from Home Runner.</p>
                                         <p>Pick the perfect residence for you.</p>
                                     </div>
-                                    <div class="row no-gutters font-lato txt-body text-center ">
-                                        <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/share/collection/7lt5P?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
-                                                <img src="{{ asset('images/thesmith/virtual/studio.png') }}" alt="img" class="w-100 pb-3">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/share/collection/7PYY5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
-                                                <img src="{{ asset('images/thesmith/virtual/1 bedroom.png') }}" alt="img" class="w-100 pb-3">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/share/collection/7ltF5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
-                                                <img src="{{ asset('images/thesmith/virtual/2 bedroom optional.png') }}" alt="img" class="w-100 pb-3">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <a href="https://kuula.co/share/collection/7ltND?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">
-                                                <img src="{{ asset('images/thesmith/virtual/2 bedroom optional corner.png') }}" alt="img" class="w-100 pb-3">
-                                            </a>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="col-md-2 col-1"></div>
+                                <div class="col-12 pb-5 txt-body text-center ">
+
+                                    <ul class="nav nav-tabs3 pt-3 fs-12 lh-12">
+                                        <li class="nav-item col-md-2 p-0 tab-nav">
+                                        </li>
+                                        <li class="nav-item col-md-2 col-12 p-0 tab-nav" >
+                                            <a class="nav-link font-lato  "  style="padding: 16px 5px;"
+                                               href="https://kuula.co/share/collection/7lt5P?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" target="_blank"><span>Studio</span></a>
+                                        </li>
+
+                                        <li class="nav-item col-md-2 p-0 tab-nav">
+                                            <a class="nav-link  font-lato  " style="padding: 16px 5px;"
+                                               href="https://kuula.co/share/collection/7PYY5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" target="_blank"><span>1 Bedroom</span></a>
+                                        </li>
+
+                                        <li class="nav-item col-md-2 p-0 tab-nav">
+                                            <a class="nav-link font-lato " style="padding: 10px 5px;"
+                                               href="https://kuula.co/share/collection/7ltF5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" target="_blank"><span>1 Bedroom +<br/>Home Office</span></a>
+                                        </li>
+                                        <li class="nav-item col-md-2 p-0 tab-nav">
+                                            <a class="nav-link font-lato " style="padding: 10px 5px;"
+                                               href="https://kuula.co/share/collection/7ltND?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" target="_blank">1 Bedroom +<br/>Home Office Corner</a>
+                                        </li>
+                                        {{--                            <li class="nav-item col-md-2 p-0 tab-nav">--}}
+                                        {{--                                <a class="nav-link font-lato let-spa-2" data-toggle="tab" href="#sohoe" role="tab" id="tabSohoe" onclick="changeDetailTower(5)">SOHO E</a>--}}
+                                        {{--                            </li>--}}
+                                        <li class="nav-item col-md-2 p-0 tab-nav">
+                                        </li>
+                                    </ul>
+                                    {{--                                        <div class="col-md-3 col-6">--}}
+                                    {{--                                            <a href="https://kuula.co/share/collection/7lt5P?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">--}}
+                                    {{--                                                <img src="{{ asset('images/thesmith/virtual/studio.png') }}" alt="img" class="w-100 pb-3">--}}
+                                    {{--                                            </a>--}}
+                                    {{--                                        </div>--}}
+                                    {{--                                        <div class="col-md-3 col-6">--}}
+                                    {{--                                            <a href="https://kuula.co/share/collection/7PYY5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">--}}
+                                    {{--                                                <img src="{{ asset('images/thesmith/virtual/1 bedroom.png') }}" alt="img" class="w-100 pb-3">--}}
+                                    {{--                                            </a>--}}
+                                    {{--                                        </div>--}}
+                                    {{--                                        <div class="col-md-3 col-6">--}}
+                                    {{--                                            <a href="https://kuula.co/share/collection/7ltF5?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">--}}
+                                    {{--                                                <img src="{{ asset('images/thesmith/virtual/2 bedroom optional.png') }}" alt="img" class="w-100 pb-3">--}}
+                                    {{--                                            </a>--}}
+                                    {{--                                        </div>--}}
+                                    {{--                                        <div class="col-md-3 col-6">--}}
+                                    {{--                                            <a href="https://kuula.co/share/collection/7ltND?fs=1&vr=1&sd=1&initload=0&thumbs=1&chromeless=0&logo=-1" class="py-3 text-dark" target="_blank">--}}
+                                    {{--                                                <img src="{{ asset('images/thesmith/virtual/2 bedroom optional corner.png') }}" alt="img" class="w-100 pb-3">--}}
+                                    {{--                                            </a>--}}
+                                    {{--                                        </div>--}}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -74,6 +102,24 @@
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
 
+        .nav-tabs3 .nav-link {
+            color: Black;
+            background-color: white;
+            border: 1px solid red;
+            border-radius:0;
+            margin:3px;
+        }
+        .nav-tabs3 .nav-link.active {
+            color: white;
+            /*background-color: #dc2d19;*/
+            background-image: url('{{ asset('images/thesmith/home/thesmith-web-home_2.1-15.png') }}');
+            background-size: cover;
+            border-color: #fff #fff #fff;
+            border-radius:0;
+        }
+        .tab-nav {
+            border: 1px solid #fff;
+        }
         .border-bot-black{
             border-bottom: 1px solid #333333;
             width: 100%;
@@ -118,16 +164,16 @@
             width: auto;
             height: 155px;
         }
-        .nav-tabs .nav-link.active {
-            color: #495057;
-            background-color: #414042;
-            border-color: #fff #fff #fff;
-            border-radius: 0;
-        }
-        .tab-nav{
-            border: 1px solid #E6E6E6;
-            border-radius: 0;
-        }
+        /*.nav-tabs .nav-link.active {*/
+        /*    color: #495057;*/
+        /*    background-color: #414042;*/
+        /*    border-color: #fff #fff #fff;*/
+        /*    border-radius: 0;*/
+        /*}*/
+        /*.tab-nav{*/
+        /*    border: 1px solid #E6E6E6;*/
+        /*    border-radius: 0;*/
+        /*}*/
         .border-location-custom{
             border-bottom: 1px solid white;
             width: 100%;
