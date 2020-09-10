@@ -149,15 +149,15 @@
                                                         <a href="#" class="txt-body font-lato-light text-dark text-center" style="border: 1px solid black;padding:5px 20px;margin:10px">Book a Unit</a>
                                                     </div>
                                                 </div>
-                                                <div class="border-swiper-custom"></div>
-                                                <div class="row">
-                                                    <div class="col-12 text-dark text-center pt-5">
-                                                        <p class="txt-header-body font-metropolis-bold let-spa-5">TOWER PLANS</p>
-                                                        <div class="text-center">
-                                                            <img src="{{ asset('images/thesmith/tower/TheSmith-Web_2.0-38.png') }}" alt="img" class="img-soho">
-                                                        </div>
-                                                    </div>
-                                                </div>
+{{--                                                <div class="border-swiper-custom"></div>--}}
+{{--                                                <div class="row">--}}
+{{--                                                    <div class="col-12 text-dark text-center pt-5">--}}
+{{--                                                        <p class="txt-header-body font-metropolis-bold let-spa-5">TOWER PLANS</p>--}}
+{{--                                                        <div class="text-center">--}}
+{{--                                                            <img src="{{ asset('images/thesmith/tower/TheSmith-Web_2.0-38.png') }}" alt="img" class="img-soho">--}}
+{{--                                                        </div>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
                                                 <div class="border-swiper-custom"></div>
                                                 <div class="row">
                                                     <div class="col-12 text-dark text-center pt-5">
@@ -374,15 +374,15 @@
                                                         <a href="#" class="txt-body font-lato-light text-dark text-center" style="border: 1px solid black;padding:5px 20px;margin:10px">Book a Unit</a>
                                                     </div>
                                                 </div>
-                                                <div class="border-swiper-custom"></div>
-                                                <div class="row">
-                                                    <div class="col-12 text-dark text-center pt-5">
-                                                        <p class="txt-header-body font-metropolis-bold let-spa-5">TOWER PLANS</p>
-                                                        <div class="text-center">
-                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-offices.png') }}" alt="img" class="img-soho">
-                                                        </div>
-                                                    </div>
-                                                </div>
+{{--                                                <div class="border-swiper-custom"></div>--}}
+{{--                                                <div class="row">--}}
+{{--                                                    <div class="col-12 text-dark text-center pt-5">--}}
+{{--                                                        <p class="txt-header-body font-metropolis-bold let-spa-5">TOWER PLANS</p>--}}
+{{--                                                        <div class="text-center">--}}
+{{--                                                            <img src="{{ asset('images/thesmith/tower/thesmith-web-plans_2-offices.png') }}" alt="img" class="img-soho">--}}
+{{--                                                        </div>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
                                                 <div class="border-swiper-custom"></div>
                                                 <div class="row">
                                                     <div class="col-12 text-dark text-center pt-5">
