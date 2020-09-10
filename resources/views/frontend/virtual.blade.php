@@ -105,7 +105,7 @@
         .nav-tabs3 .nav-link {
             color: Black;
             background-color: white;
-            border: 1px solid red;
+            border: 1px solid black;
             border-radius:0;
             margin:3px;
         }
