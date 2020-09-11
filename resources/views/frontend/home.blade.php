@@ -73,9 +73,10 @@
                 <p class="let-spa txt-header-body font-metropolis font-weight-bold">3D OVERVIEW</p>
                 <p class="txt-subheader-2 font-lato pb-md-5 pb-3 let-spa-2">Bird’s Eye View of The Smith</p>
 {{--                <img src="{{ asset('images/thesmith/home/overview-dummy.png') }}" alt="overview" class="w-100">--}}
-
+            <div class="iframe-container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/hk6jhMKjLSg?autoplay=1&mute=1"
                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 {{--                <video class="w-100" autoplay muted loop>--}}
 {{--                    <source src="{{ asset('videos/prev03 the smith.mp4') }}" type="video/mp4">--}}
 {{--                </video>--}}
@@ -1353,6 +1354,20 @@
 @section('styles')
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/swiper.css')}}"/>--}}
     <style>
+
+        .iframe-container{
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+        .iframe-container iframe{
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
         .transform-button{
             width:150px;
