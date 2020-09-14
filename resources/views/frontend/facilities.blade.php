@@ -169,7 +169,7 @@
                                         <div class="row px-md-0">
                                             <div class="col-md-1"></div>
                                             <div class="col-md-10 col-12 text-white text-center py-5 px-md-5">
-                                                <p class="font-metropolis-bold">Outdoor Plaza</p>
+                                                <p class="font-metropolis-bold">Commercials</p>
                                                 <p class="font-lato txt-body py-3 px-5">Greeted with lavishness, then take delight in strolls, or get your fresh cups of coffee on the
                                                     outdoor plaza of The Smith.</p>
                                             </div>

@@ -717,7 +717,7 @@
                                             </div>
                                             <div class="pagi-pos">
                                                 <!-- Add Pagination -->
-                                                <div class="swiper-pagination black"></div>
+                                                <div class="swiper-pagination swiper-pagination-unit black"></div>
                                                 <!-- Add Arrows -->
                                                 <div class="swiper-button-next swiper-button-black"></div>
                                                 <div class="swiper-button-prev swiper-button-black"></div>
@@ -757,7 +757,7 @@
                                             </div>
                                             <div class="pagi-pos">
                                                 <!-- Add Pagination -->
-                                                <div class="swiper-pagination black"></div>
+                                                <div class="swiper-pagination swiper-pagination-unit black"></div>
                                                 <!-- Add Arrows -->
                                                 <div class="swiper-button-next swiper-button-black"></div>
                                                 <div class="swiper-button-prev swiper-button-black"></div>
@@ -809,7 +809,7 @@
                                             </div>
                                             <div class="pagi-pos">
                                                 <!-- Add Pagination -->
-                                                <div class="swiper-pagination black"></div>
+                                                <div class="swiper-pagination swiper-pagination-unit black"></div>
                                                 <!-- Add Arrows -->
                                                 <div class="swiper-button-next swiper-button-black"></div>
                                                 <div class="swiper-button-prev swiper-button-black"></div>
@@ -857,7 +857,7 @@
                                             </div>
                                             <div class="pagi-pos">
                                                 <!-- Add Pagination -->
-                                                <div class="swiper-pagination black"></div>
+                                                <div class="swiper-pagination swiper-pagination-unit black"></div>
                                                 <!-- Add Arrows -->
                                                 <div class="swiper-button-next swiper-button-black"></div>
                                                 <div class="swiper-button-prev swiper-button-black"></div>
@@ -1065,7 +1065,7 @@
                                     <div class="row px-md-0">
                                         <div class="col-md-1"></div>
                                         <div class="col-md-10 col-12 text-dark text-center py-5 px-md-5">
-                                            <p class="font-metropolis-bold">Outdoor Plaza</p>
+                                            <p class="font-metropolis-bold">Commercials</p>
                                             <p class="font-lato txt-body py-3 px-5">Greeted with lavishness, then take delight in strolls, or get your fresh cups of coffee on the
                                                 outdoor plaza of The Smith.</p>
                                             <div class="row">
@@ -1113,7 +1113,7 @@
 
                             </div>
                             <!-- Add Pagination -->
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination swiper-pagination-fac"></div>
                             <!-- Add Arrows -->
                             <div class="swiper-button-next swiper-button-black"></div>
                             <div class="swiper-button-prev swiper-button-black"></div>
@@ -1965,7 +1965,7 @@ pop up css
             var unitSwiper = new Swiper('.units-slider1', {
                 loop: true,
                 pagination: {
-                    el: '.swiper-pagination',
+                    el: '.swiper-pagination-unit',
                     type: 'fraction',
                 },
                 navigation: {
@@ -1979,7 +1979,7 @@ pop up css
             var imageSwiper = new Swiper('.image-slider', {
                 loop: true,
                 // pagination: {
-                //     el: '.swiper-pagination',
+                //     el: '.swiper-pagination-fac',
                 //     type: 'fraction',
                 // },
                 slidesPerView: 1,
@@ -1988,7 +1988,7 @@ pop up css
             var contentSwiper = new Swiper('.content-slider', {
                 loop: true,
                 pagination: {
-                    el: '.swiper-pagination',
+                    el: '.swiper-pagination-fac',
                     type: 'fraction',
                 },
                 navigation: {
@@ -2038,7 +2038,7 @@ pop up css
             var swiper2 = new Swiper('.units-slider1', {
                 loop: true,
                 pagination: {
-                    el: '.swiper-pagination',
+                    el: '.swiper-pagination-unit',
                     type: 'fraction',
                 },
                 navigation: {
@@ -2084,7 +2084,7 @@ pop up css
             var swiper = new Swiper('.units-slider1', {
                 loop: true,
                 pagination: {
-                    el: '.swiper-pagination',
+                    el: '.swiper-pagination-unit',
                     type: 'fraction',
                 },
                 navigation: {
@@ -2099,7 +2099,7 @@ pop up css
             var swiper = new Swiper('.units-slider2', {
                 loop: true,
                 pagination: {
-                    el: '.swiper-pagination',
+                    el: '.swiper-pagination-unit',
                     type: 'fraction',
                 },
                 navigation: {
@@ -2114,7 +2114,7 @@ pop up css
             var swiper = new Swiper('.units-slider3', {
                 loop: true,
                 pagination: {
-                    el: '.swiper-pagination',
+                    el: '.swiper-pagination-unit',
                     type: 'fraction',
                 },
                 navigation: {
@@ -2129,7 +2129,7 @@ pop up css
             var swiper = new Swiper('.units-slider4', {
                 loop: true,
                 pagination: {
-                    el: '.swiper-pagination',
+                    el: '.swiper-pagination-unit',
                     type: 'fraction',
                 },
                 navigation: {
