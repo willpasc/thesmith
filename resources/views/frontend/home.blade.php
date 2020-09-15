@@ -702,16 +702,16 @@
                                             <div class="swiper-container units-slider1">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-06.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-06.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-07.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-07.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-08.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-08.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-09.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-09.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                 </div>
                                             </div>
@@ -741,16 +741,19 @@
                                             <div class="swiper-container units-slider2">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-10.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-10.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-11.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-11.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-12.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-12.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-13.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-13.jpg') }}" alt="img" class="w-100">
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-14.jpg') }}" alt="img" class="w-100">
                                                     </div>
 
                                                 </div>
@@ -784,25 +787,25 @@
                                             <div class="swiper-container units-slider3">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-14.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-15.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-15.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-16.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-16.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-17.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-17.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-18.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-18.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-19.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-19.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-20.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-20.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-21.jpg') }}" alt="img" class="w-100">
                                                     </div>
 
                                                 </div>
@@ -836,22 +839,22 @@
                                             <div class="swiper-container units-slider4">
                                                 <div class="swiper-wrapper ">
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-21.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-22.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-22.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-23.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-23.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-24.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-24.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-25.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-25.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-26.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                     <div class="swiper-slide" >
-                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr_2.0-26.jpg') }}" alt="img" class="w-100">
+                                                        <img src="{{ asset('images/thesmith/tower/thesmith-web-hr-galleries_1-27.jpg') }}" alt="img" class="w-100">
                                                     </div>
                                                 </div>
                                             </div>
