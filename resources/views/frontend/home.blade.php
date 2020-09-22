@@ -74,7 +74,7 @@
                 <p class="txt-subheader-2 font-lato pb-md-5 pb-3 let-spa-2">Bird’s Eye View of The Smith</p>
 {{--                <img src="{{ asset('images/thesmith/home/overview-dummy.png') }}" alt="overview" class="w-100">--}}
             <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/hk6jhMKjLSg?autoplay=1&mute=1"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kISyr0c-xZI?autoplay=1&mute=1"
                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 {{--                <video class="w-100" autoplay muted loop>--}}
